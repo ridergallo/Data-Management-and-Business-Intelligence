@@ -1,22 +1,134 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
-.vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-file
-*.flf
-#Test results file
-TestResults.xml
+# ============================================
+# Visual Studio general
+# ============================================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ============================================
+# Archivos de compilación
+# ============================================
+bin/
+obj/
+[Bb]uild/
+[Ll]ogs/
+*.log
+
+# ============================================
+# Archivos temporales y de caché
+# ============================================
+*.tmp
+*.temp
+*.bak
+*.old
+*.cache
+*.dbmdl
+*.mdf
+*.ldf
+*.rdl.data
+*.rdl.designer
+*.rdl.reports
+*.dbproj.user
+*.sqlproj.user
+
+# ============================================
+# Carpetas de publicación e implementación
+# ============================================
+PublishProfiles/
+sql/
+packages/
+TestResults/
+*.publish.xml
+*.publish.xml.user
+*.publishsettings
+*.publish.xml
+*.dacpac
+*.bacpac
+*.pdb
+
+# ============================================
+# Configuración local y de entorno
+# ============================================
+*.config.user
+appsettings.Development.json
+local.settings.json
+.env
+*.local.json
+
+# ============================================
+# SSIS (Integration Services)
+# ============================================
+*.dtsx~
+*.dtproj.user
+*.ispac
+*.manifest
+*.dtproj.local
+*.dtsconfig
+
+# ============================================
+# SSRS (Reporting Services)
+# ============================================
+*.rdl.data
+*.rdl.rdl.data
+*.rdl.rdl~
+*.rptproj.user
+*.rptproj.local
+Reports/Temp/
+Reports/.vspscc
+*.rdlc.data
+*.rdlc.rdl.data
+
+# ============================================
+# SSDT (SQL Server Data Tools)
+# ============================================
+*.sqlproj.user
+*.dbmdl
+*.sqlce
+*.sqlsettings
+*.sqlcmdvars
+*.refactorlog
+*.bacpac
+*.dacpac
+*.sqlps
+Schema Compare/
+Data Compare/
+
+# ============================================
+# Power BI Report Server / Power BI Embedded
+# ============================================
+*.pbix
+*.pbit
+*.rdl.data
+*.pbids
+*.pbi.local
+
+# ============================================
+# Paquetes NuGet
+# ============================================
+*.nupkg
+packages/
+.nuget/
+project.lock.json
+
+# ============================================
+# Archivos de backup de Visual Studio
+# ============================================
+_Backup/
+Backup*/
+
+# ============================================
+# Archivos de control de versiones antiguos
+# ============================================
+*.vssscc
+*.vspscc
+*.scc
+
+# ============================================
+# Otros
+# ============================================
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.DS_Store
