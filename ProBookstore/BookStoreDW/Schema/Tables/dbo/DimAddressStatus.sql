@@ -3,4 +3,4 @@
     [status_id]      INT          NOT NULL,
     [address_status] VARCHAR (30) NULL
 );
-
+GO

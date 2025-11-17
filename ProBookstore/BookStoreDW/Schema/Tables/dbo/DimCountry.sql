@@ -3,4 +3,4 @@
     [country_id]   INT           NOT NULL,
     [country_name] VARCHAR (200) NULL
 );
-
+GO

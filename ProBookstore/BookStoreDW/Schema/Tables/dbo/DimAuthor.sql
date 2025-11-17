@@ -3,4 +3,4 @@
     [author_id]   INT           NOT NULL,
     [author_name] VARCHAR (400) NULL
 );
-
+GO

@@ -87,5 +87,16 @@
     <Build Include="Scripts\Script.PostDeployment.sql" />
     <Build Include="Schema\Tables\dbo\FactCustOrder.sql" />
     <Build Include="Schema\Tables\dbo\DimDate.sql" />
+    <Build Include="Schema\Tables\staging\staging.address.sql" />
+    <Build Include="Schema\Tables\staging\staging.addressStatus.sql" />
+    <Build Include="Schema\Tables\staging\staging.author.sql" />
+    <Build Include="Schema\Tables\staging\staging.bookLanguage.sql" />
+    <Build Include="Schema\Tables\staging\staging.country.sql" />
+    <Build Include="Schema\Tables\staging\staging.customer.sql" />
+    <Build Include="Schema\Tables\staging\staging.orderStatus.sql" />
+    <Build Include="Schema\Tables\staging\staging.publisher.sql" />
+    <Build Include="Schema\Tables\staging\staging.shippingMethod.sql" />
+    <Build Include="Schema\Tables\staging\staging.book.sql" />
+    <Build Include="Schema\Tables\staging\staging.custOrder.sql" />
   </ItemGroup>
 </Project>

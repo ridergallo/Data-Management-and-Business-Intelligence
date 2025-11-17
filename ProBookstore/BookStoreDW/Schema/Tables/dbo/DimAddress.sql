@@ -6,4 +6,4 @@
     [city]          VARCHAR (100) NULL,
     [country_sk]    INT           NULL
 );
-
+GO

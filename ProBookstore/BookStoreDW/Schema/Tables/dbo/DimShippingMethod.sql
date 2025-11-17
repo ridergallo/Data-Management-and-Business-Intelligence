@@ -4,4 +4,4 @@
     [method_name] VARCHAR (100)  NULL,
     [cost]        DECIMAL (6, 2) NULL
 );
-
+GO

@@ -3,4 +3,4 @@
     [publisher_id]   INT           NOT NULL,
     [publisher_name] VARCHAR (400) NULL
 );
-
+GO

@@ -4,4 +4,4 @@
     [language_code] VARCHAR (8)  NULL,
     [language_name] VARCHAR (50) NULL
 );
-
+GO
