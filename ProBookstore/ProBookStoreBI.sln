@@ -1,13 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36623.8 d17.14
+VisualStudioVersion = 17.14.36623.8
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Bookstore", "ProBookstore\Bookstore.sqlproj", "{DD95625B-E03E-46C8-917A-9C69499679E3}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BookStoreOLTP", "ProBookstore\BookStoreOLTP.sqlproj", "{DD95625B-E03E-46C8-917A-9C69499679E3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Databases", "Databases", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OLTP", "OLTP", "{D23BB70A-682D-46FE-A1C9-60368A677F51}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BookStoreDW", "BookStoreDW\BookStoreDW.sqlproj", "{5F60EF91-4820-44CB-B8ED-FDAD1771D8D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataWarehouse", "DataWarehouse", "{5259271E-8352-4DEF-95DE-E6D9B913F519}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ETL", "ETL", "{68872B9E-41B8-45AA-AB1B-40476AC4E521}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,12 @@ Global
 		{DD95625B-E03E-46C8-917A-9C69499679E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD95625B-E03E-46C8-917A-9C69499679E3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DD95625B-E03E-46C8-917A-9C69499679E3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5F60EF91-4820-44CB-B8ED-FDAD1771D8D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F60EF91-4820-44CB-B8ED-FDAD1771D8D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F60EF91-4820-44CB-B8ED-FDAD1771D8D9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5F60EF91-4820-44CB-B8ED-FDAD1771D8D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F60EF91-4820-44CB-B8ED-FDAD1771D8D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F60EF91-4820-44CB-B8ED-FDAD1771D8D9}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -28,6 +40,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{DD95625B-E03E-46C8-917A-9C69499679E3} = {D23BB70A-682D-46FE-A1C9-60368A677F51}
 		{D23BB70A-682D-46FE-A1C9-60368A677F51} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{5F60EF91-4820-44CB-B8ED-FDAD1771D8D9} = {5259271E-8352-4DEF-95DE-E6D9B913F519}
+		{5259271E-8352-4DEF-95DE-E6D9B913F519} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{68872B9E-41B8-45AA-AB1B-40476AC4E521} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F20B0BED-3CE2-4952-B46E-0E3A73B40F2D}
