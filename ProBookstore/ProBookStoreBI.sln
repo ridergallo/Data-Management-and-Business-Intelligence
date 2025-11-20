@@ -15,24 +15,39 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataWarehouse", "DataWareho
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ETL", "ETL", "{68872B9E-41B8-45AA-AB1B-40476AC4E521}"
 EndProject
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "BookStoreETL", "BookStoreETL\BookStoreETL.dtproj", "{CA3F6B63-39F7-119B-E664-F1ECBFB710BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{DD95625B-E03E-46C8-917A-9C69499679E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DD95625B-E03E-46C8-917A-9C69499679E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD95625B-E03E-46C8-917A-9C69499679E3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DD95625B-E03E-46C8-917A-9C69499679E3}.Development|Any CPU.ActiveCfg = Release|Any CPU
+		{DD95625B-E03E-46C8-917A-9C69499679E3}.Development|Any CPU.Build.0 = Release|Any CPU
+		{DD95625B-E03E-46C8-917A-9C69499679E3}.Development|Any CPU.Deploy.0 = Release|Any CPU
 		{DD95625B-E03E-46C8-917A-9C69499679E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD95625B-E03E-46C8-917A-9C69499679E3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DD95625B-E03E-46C8-917A-9C69499679E3}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{5F60EF91-4820-44CB-B8ED-FDAD1771D8D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5F60EF91-4820-44CB-B8ED-FDAD1771D8D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F60EF91-4820-44CB-B8ED-FDAD1771D8D9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5F60EF91-4820-44CB-B8ED-FDAD1771D8D9}.Development|Any CPU.ActiveCfg = Release|Any CPU
+		{5F60EF91-4820-44CB-B8ED-FDAD1771D8D9}.Development|Any CPU.Build.0 = Release|Any CPU
+		{5F60EF91-4820-44CB-B8ED-FDAD1771D8D9}.Development|Any CPU.Deploy.0 = Release|Any CPU
 		{5F60EF91-4820-44CB-B8ED-FDAD1771D8D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F60EF91-4820-44CB-B8ED-FDAD1771D8D9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5F60EF91-4820-44CB-B8ED-FDAD1771D8D9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CA3F6B63-39F7-119B-E664-F1ECBFB710BF}.Debug|Any CPU.ActiveCfg = Development
+		{CA3F6B63-39F7-119B-E664-F1ECBFB710BF}.Debug|Any CPU.Build.0 = Development
+		{CA3F6B63-39F7-119B-E664-F1ECBFB710BF}.Development|Any CPU.ActiveCfg = Development
+		{CA3F6B63-39F7-119B-E664-F1ECBFB710BF}.Development|Any CPU.Build.0 = Development
+		{CA3F6B63-39F7-119B-E664-F1ECBFB710BF}.Release|Any CPU.ActiveCfg = Development
+		{CA3F6B63-39F7-119B-E664-F1ECBFB710BF}.Release|Any CPU.Build.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +58,7 @@ Global
 		{5F60EF91-4820-44CB-B8ED-FDAD1771D8D9} = {5259271E-8352-4DEF-95DE-E6D9B913F519}
 		{5259271E-8352-4DEF-95DE-E6D9B913F519} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{68872B9E-41B8-45AA-AB1B-40476AC4E521} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{CA3F6B63-39F7-119B-E664-F1ECBFB710BF} = {68872B9E-41B8-45AA-AB1B-40476AC4E521}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F20B0BED-3CE2-4952-B46E-0E3A73B40F2D}
