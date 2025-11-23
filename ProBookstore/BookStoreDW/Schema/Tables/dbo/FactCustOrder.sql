@@ -18,3 +18,13 @@ ALTER TABLE [dbo].[FactCustOrder] ADD CONSTRAINT [FK_DimCustomer] FOREIGN KEY ([
 GO
 ALTER TABLE [dbo].[FactCustOrder] ADD CONSTRAINT [FK_DimShippingMethod] FOREIGN KEY ([shipping_method_sk]) REFERENCES [dbo].[DimShippingMethod] ([method_sk])
 GO
+
+
+ALTER TABLE [dbo].[DimBook] ADD CONSTRAINT [PK_FactBook] PRIMARY KEY ([book_id] ASC);
+GO
+ALTER TABLE [dbo].[DimBook] ADD CONSTRAINT [FK_DimBookLanguage] FOREIGN KEY ([language_sk]) REFERENCES [dbo].[DimBookLanguage] ([language_sk]);
+GO
+ALTER TABLE [dbo].[DimBook] ADD CONSTRAINT [fk_DimPublisher] FOREIGN KEY ([publisher_sk]) REFERENCES [dbo].[DimPublisher] ([publisher_sk]);
+GO
+ALTER TABLE [dbo].[DimBook] ADD CONSTRAINT [FK_DimDate_PublicationDate] FOREIGN KEY([publication_date_sk]) REFERENCES [dbo].[DimDate] ([DateKey]);
+GO

@@ -69,7 +69,7 @@
   <ItemGroup>
     <Build Include="Schema\Tables\dbo\DimAddress.sql" />
     <Build Include="Schema\Tables\dbo\DimAddressStatus.sql" />
-    <Build Include="Schema\Tables\dbo\FactBook.sql" />
+    <Build Include="Schema\Tables\dbo\DimBook.sql" />
     <Build Include="Schema\Tables\dbo\DimPublisher.sql" />
     <Build Include="Schema\Tables\dbo\DimShippingMethod.sql" />
     <Build Include="Schema\Tables\dbo\DimCountry.sql" />
