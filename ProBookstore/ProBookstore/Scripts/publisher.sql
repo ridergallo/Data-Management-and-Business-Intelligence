@@ -1,4 +1,4 @@
-﻿GO
+﻿/*GO
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1, N'10/18')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (2, N'1st Book Library')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (3, N'1st World Library')
@@ -2285,3 +2285,4 @@ INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (2261, N'????
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (2262, N'???? (Kadokawa Shoten)')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (2263, N'???')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (2264, N'???')
+*/

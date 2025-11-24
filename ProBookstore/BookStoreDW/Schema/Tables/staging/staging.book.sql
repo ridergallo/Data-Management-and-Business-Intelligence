@@ -1,4 +1,5 @@
 ﻿CREATE TABLE [staging].[book] (
+    [book_sk]               INT NOT NULL,
     [book_id]               INT NOT NULL,
     [title]                 VARCHAR (400) NULL,
     [isbn13]                VARCHAR (13)  NULL,

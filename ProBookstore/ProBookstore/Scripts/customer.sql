@@ -1,4 +1,4 @@
-﻿
+﻿/*
 --GO
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1, N'Ursola', N'Purdy', N'upurdy0@cdbaby.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (2, N'Ruthanne', N'Vatini', N'rvatini1@fema.gov')
@@ -2019,3 +2019,4 @@ INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALU
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1998, N'Georgeanna', N'Garman', N'ggarmanrp@surveymonkey.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1999, N'Ardeen', N'Caret', N'acaretrq@wsj.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (2000, N'Delora', N'Bigglestone', N'dbigglestonerr@usatoday.com')
+*/

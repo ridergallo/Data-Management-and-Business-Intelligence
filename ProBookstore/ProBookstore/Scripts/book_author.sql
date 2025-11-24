@@ -1,4 +1,4 @@
-﻿GO
+﻿/*GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1, 2778)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2, 5049)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3, 4902)
@@ -17817,3 +17817,4 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (11125, 1406)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (11125, 3889)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (11126, 7153)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (11127, 1020)
+*/

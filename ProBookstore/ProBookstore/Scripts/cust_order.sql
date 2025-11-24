@@ -1,4 +1,4 @@
-﻿GO
+﻿/*GO
 SET IDENTITY_INSERT [dbo].[cust_order] ON 
 
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1, CAST(N'2020-04-09T09:06:21.190' AS DateTime), 10, 2, 568)
@@ -7628,3 +7628,4 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7550, CAST(N'2021-03-15T14:35:10.483' AS DateTime), 700, 3, 320)
 
 SET IDENTITY_INSERT [dbo].[cust_order] OFF
+*/

@@ -1,4 +1,4 @@
-﻿delete from order_history;
+﻿/*delete from order_history;
 go 
 delete from dbo.order_status;
 go 
@@ -27,4 +27,4 @@ go
 delete from dbo.publisher;
 go 
 delete from dbo.author;
-go
+go*/

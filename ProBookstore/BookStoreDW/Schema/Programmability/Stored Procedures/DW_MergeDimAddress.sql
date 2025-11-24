@@ -1,4 +1,4 @@
-﻿CREATE PROCEDURE [dbo].[DW_MergeDimCustomer]
+﻿CREATE PROCEDURE [dbo].[DW_MergeDimAddress]
 AS
 BEGIN
 

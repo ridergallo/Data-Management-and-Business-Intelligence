@@ -1,4 +1,5 @@
-﻿--GO
+﻿/*
+--GO
 SET IDENTITY_INSERT [dbo].[order_history] ON 
 
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1, 1, 1, CAST(N'2020-04-09T18:19:05.190' AS DateTime))
@@ -22573,3 +22574,4 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (22347, 2122, 6, CAST(N'2021-09-30T13:15:52.190' AS DateTime))
 
 SET IDENTITY_INSERT [dbo].[order_history] OFF
+*/

@@ -1,4 +1,4 @@
-﻿--GO
+﻿/*--GO
 INSERT [dbo].[country] ([country_id], [country_name]) VALUES (1, N'Afghanistan')
 INSERT [dbo].[country] ([country_id], [country_name]) VALUES (2, N'Netherlands Antilles')
 INSERT [dbo].[country] ([country_id], [country_name]) VALUES (3, N'Albania')
@@ -233,3 +233,4 @@ INSERT [dbo].[country] ([country_id], [country_name]) VALUES (229, N'Zambia')
 INSERT [dbo].[country] ([country_id], [country_name]) VALUES (230, N'Zimbabwe')
 INSERT [dbo].[country] ([country_id], [country_name]) VALUES (231, N'Singapore')
 INSERT [dbo].[country] ([country_id], [country_name]) VALUES (232, N'French Polynesia')
+*/

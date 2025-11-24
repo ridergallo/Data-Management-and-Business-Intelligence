@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Source Bookstore"
+  DTS:DTSID="{F8E06FB2-51F8-4CBE-92B4-9D6E1F474FA3}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=192.168.0.15;User ID=sa;Initial Catalog=Bookstore;Provider=SQLOLEDB.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-BookStoreETL-{F8E06FB2-51F8-4CBE-92B4-9D6E1F474FA3}192.168.0.15.Bookstore.sa1;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAKFrKVbpi9EqFhUBAc2ufbwAAAAACAAAAAAADZgAAwAAAABAAAADMl3iBHwjbBqB63l73/LAmAAAAAASAAACgAAAAEAAAAG5crOM63xs1/JuOExnmIbN4AAAAATWB8zrx1IJC/GHvEkiVnHKOIBr3hGy7d3eV51rgd34n9bySu23sQqb1O4nPk2W6Y7T+KF1Afs2lt/vLgWO0sGIhFv/pP7DUYGoQYvhd3dc4FJPngxyv6TI0wKBhFs1eZ0D1KR/lpbyRBeQDyczjTCMAfmIsbv55FAAAADLOsu8vcZk4bmYLQUqlrP13ZOXM</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

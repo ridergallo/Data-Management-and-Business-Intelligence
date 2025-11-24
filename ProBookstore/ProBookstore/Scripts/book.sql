@@ -1,4 +1,4 @@
-﻿--GO
+﻿/*--GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1, N'The World''s First Love: Mary  Mother of God', N'8987059752', 2, 276, CAST(N'1996-09-01' AS Date), 1010)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2, N'The Illuminati', N'20049130001', 1, 352, CAST(N'2004-10-04' AS Date), 1967)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3, N'The Servant Leader', N'23755004321', 1, 128, CAST(N'2003-03-11' AS Date), 1967)
@@ -11237,3 +11237,4 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (11125, N'Fantasmas', N'9789879397503', 4, 442, CAST(N'2006-08-28' AS Date), 1284)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (11126, N'Stand by Me', N'9789998691568', 1, 96, CAST(N'1986-06-01' AS Date), 430)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (11127, N'The Great Divorce', N'9790007672386', 1, 160, CAST(N'2002-02-01' AS Date), 882)
+*/

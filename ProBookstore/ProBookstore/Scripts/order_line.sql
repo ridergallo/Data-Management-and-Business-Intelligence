@@ -1,4 +1,4 @@
-﻿GO
+﻿/*GO
 SET IDENTITY_INSERT [dbo].[order_line] ON 
 
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1, 2219, 9097, CAST(13.08 AS Decimal(5, 2)))
@@ -15557,3 +15557,4 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (15
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (15400, 3663, 3150, CAST(15.54 AS Decimal(5, 2)))
 
 SET IDENTITY_INSERT [dbo].[order_line] OFF
+*/

@@ -1,4 +1,4 @@
-﻿--GO
+﻿/*GO
 INSERT [dbo].[customer_address] ([customer_id], [address_id], [status_id]) VALUES (1, 401, 1)
 INSERT [dbo].[customer_address] ([customer_id], [address_id], [status_id]) VALUES (2, 134, 1)
 INSERT [dbo].[customer_address] ([customer_id], [address_id], [status_id]) VALUES (2, 304, 1)
@@ -3129,7 +3129,7 @@ INSERT [dbo].[customer_address] ([customer_id], [address_id], [status_id]) VALUE
 INSERT [dbo].[customer_address] ([customer_id], [address_id], [status_id]) VALUES (1848, 371, 1)
 INSERT [dbo].[customer_address] ([customer_id], [address_id], [status_id]) VALUES (1849, 63, 1)
 INSERT [dbo].[customer_address] ([customer_id], [address_id], [status_id]) VALUES (1850, 487, 1)
---GO
+GO
 INSERT [dbo].[customer_address] ([customer_id], [address_id], [status_id]) VALUES (1851, 625, 1)
 INSERT [dbo].[customer_address] ([customer_id], [address_id], [status_id]) VALUES (1852, 982, 1)
 INSERT [dbo].[customer_address] ([customer_id], [address_id], [status_id]) VALUES (1853, 116, 1)
@@ -3382,3 +3382,4 @@ INSERT [dbo].[customer_address] ([customer_id], [address_id], [status_id]) VALUE
 INSERT [dbo].[customer_address] ([customer_id], [address_id], [status_id]) VALUES (1999, 651, 1)
 INSERT [dbo].[customer_address] ([customer_id], [address_id], [status_id]) VALUES (1999, 980, 1)
 INSERT [dbo].[customer_address] ([customer_id], [address_id], [status_id]) VALUES (2000, 736, 1)
+*/

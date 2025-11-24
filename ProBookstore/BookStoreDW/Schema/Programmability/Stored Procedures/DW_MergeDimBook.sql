@@ -1,8 +1,7 @@
-﻿CREATE PROCEDURE [dbo].[DW_MergeDimCustomer]
+﻿CREATE PROCEDURE [dbo].[DW_MergeDimBook]
 AS
 BEGIN
-               VARCHAR (400) NULL,
-             VARCHAR (8)  NULL,
+
 	UPDATE dc
 	SET [title] = sc.[title]
 	   ,[isbn13] = sc.[isbn13]

@@ -1,4 +1,4 @@
-﻿GO
+﻿/*GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1, N'A. Bartlett Giamatti');
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2, N'A. Elizabeth Delany');
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3, N'A. Merritt')
@@ -9326,3 +9326,4 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (9232, N'?????')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (9233, N'????')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (9234, N'???')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (9235, N'???')
+*/

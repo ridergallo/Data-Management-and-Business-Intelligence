@@ -1,4 +1,4 @@
-﻿GO
+﻿/*GO
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (1, N'57', N'Glacier Hill Avenue', N'Torbat-e Jam', 95)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (2, N'86', N'Dottie Junction', N'Beaumont', 37)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (3, N'292', N'Ramsey Avenue', N'Cayambe', 60)
@@ -1008,3 +1008,4 @@ INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [c
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (998, N'429', N'Autumn Leaf Parkway', N'Changxingbao', 42)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (999, N'2', N'Moose Crossing', N'Pasararba', 92)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (1000, N'503', N'Canary Crossing', N'Jiangfeng', 42)
+*/
