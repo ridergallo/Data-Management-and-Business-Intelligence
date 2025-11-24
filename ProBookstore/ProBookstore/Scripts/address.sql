@@ -1,4 +1,4 @@
-﻿----GO
+﻿GO
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (1, N'57', N'Glacier Hill Avenue', N'Torbat-e Jam', 95)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (2, N'86', N'Dottie Junction', N'Beaumont', 37)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (3, N'292', N'Ramsey Avenue', N'Cayambe', 60)

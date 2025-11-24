@@ -1,6 +1,6 @@
-﻿----GO
-INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1, N'A. Bartlett Giamatti')
-INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2, N'A. Elizabeth Delany')
+﻿GO
+INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1, N'A. Bartlett Giamatti');
+INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2, N'A. Elizabeth Delany');
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3, N'A. Merritt')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4, N'A. Roger Merrill')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5, N'A. Walton Litz')

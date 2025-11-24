@@ -6,12 +6,10 @@
 AS
 BEGIN
 	SELECT [method_id]
-      ,[method_name]
-      ,[cost]
+		  ,[method_name]
+		  ,[cost]
 	  FROM [dbo].[shipping_method]
 	  WHERE [rowversion] > CONVERT(ROWVERSION,@startRow) 
 	  AND [rowversion] <= CONVERT(ROWVERSION,@endRow)
 END
-
---CUSTOMER
-SET ANSI_NULLS ON
+GO

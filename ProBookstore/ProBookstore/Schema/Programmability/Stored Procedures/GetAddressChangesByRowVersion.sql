@@ -5,10 +5,11 @@
 )
 AS
 BEGIN
+
 	select 
 	a.[address_id]
-	,a.[street_name]
 	,a.[street_number]
+	,a.[street_name]
 	,a.[city]
 	,co.[country_name]
   FROM [dbo].[address] a
@@ -16,3 +17,4 @@ BEGIN
   WHERE (a.[rowversion] > CONVERT(ROWVERSION,@startRow) AND a.[rowversion] <= CONVERT(ROWVERSION,@endRow))
   OR (co.[rowversion] > CONVERT(ROWVERSION,@startRow) AND co.[rowversion] <= CONVERT(ROWVERSION,@endRow))
 END
+GO

@@ -68,15 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="Schema\Tables\dbo\DimAddress.sql" />
-    <Build Include="Schema\Tables\dbo\DimAddressStatus.sql" />
     <Build Include="Schema\Tables\dbo\DimBook.sql" />
-    <Build Include="Schema\Tables\dbo\DimPublisher.sql" />
     <Build Include="Schema\Tables\dbo\DimShippingMethod.sql" />
-    <Build Include="Schema\Tables\dbo\DimCountry.sql" />
-    <Build Include="Schema\Tables\dbo\DimBookLanguage.sql" />
     <Build Include="Schema\Tables\dbo\DimCustomer.sql" />
     <Build Include="Schema\Tables\dbo\DimAuthor.sql" />
-    <Build Include="Schema\Tables\dbo\DimOrderStatus.sql" />
     <Build Include="Schema\Tables\dbo\PackageConfig.sql" />
     <Build Include="Schema\Programmability\Stored Procedures\GetLastPackageRowVersion.sql" />
     <Build Include="Schema\Programmability\Stored Procedures\UpdateLastPackageRowVersion.sql" />
@@ -88,15 +83,18 @@
     <Build Include="Schema\Tables\dbo\FactCustOrder.sql" />
     <Build Include="Schema\Tables\dbo\DimDate.sql" />
     <Build Include="Schema\Tables\staging\staging.address.sql" />
-    <Build Include="Schema\Tables\staging\staging.addressStatus.sql" />
     <Build Include="Schema\Tables\staging\staging.author.sql" />
-    <Build Include="Schema\Tables\staging\staging.bookLanguage.sql" />
-    <Build Include="Schema\Tables\staging\staging.country.sql" />
     <Build Include="Schema\Tables\staging\staging.customer.sql" />
-    <Build Include="Schema\Tables\staging\staging.orderStatus.sql" />
-    <Build Include="Schema\Tables\staging\staging.publisher.sql" />
     <Build Include="Schema\Tables\staging\staging.shippingMethod.sql" />
     <Build Include="Schema\Tables\staging\staging.book.sql" />
     <Build Include="Schema\Tables\staging\staging.custOrder.sql" />
+    <None Include="Schema\Programmability\Stored Procedures\DW_MergeDimAddress.sql" />
+    <None Include="Schema\Programmability\Stored Procedures\DW_MergeDimAuthor.sql" />
+    <None Include="Schema\Programmability\Stored Procedures\DW_MergeDimBook.sql" />
+    <None Include="Schema\Programmability\Stored Procedures\DW_MergeDimShippingMethod.sql" />
+    <None Include="Schema\Programmability\Stored Procedures\DW_MergeFactCustOrder.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Schema\Programmability\Stored Procedures\DW_MergeDimCustomer.sql" />
   </ItemGroup>
 </Project>

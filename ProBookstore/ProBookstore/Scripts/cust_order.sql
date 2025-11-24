@@ -1,4 +1,4 @@
-﻿--GO
+﻿GO
 SET IDENTITY_INSERT [dbo].[cust_order] ON 
 
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1, CAST(N'2020-04-09T09:06:21.190' AS DateTime), 10, 2, 568)

@@ -5,16 +5,17 @@
 )
 AS
 BEGIN
+
 	select c.[customer_id]
-      ,c.[first_name]
-      ,c.[last_name]
-      ,c.[email]
-	  ,a.[street_name]
-	  ,a.[street_number]
-	  ,a.city
-	  ,adds.address_status
-	  ,co.country_name
-  FROM [Bookstore].[dbo].[customer] c
+		  ,c.[first_name]
+		  ,c.[last_name]
+		  ,c.[email]
+		  ,a.[street_name]
+		  ,a.[street_number]
+		  ,a.city
+		  ,co.country_name
+		  ,adds.address_status
+  FROM [dbo].[customer] c
   JOIN [dbo].[customer_address] ca ON (c.customer_id = ca.customer_id)
   JOIN [dbo].[address_status] adds ON (ca.status_id = adds.status_id)
   JOIN [dbo].[address] a ON (ca.address_id = a.address_id)
@@ -25,8 +26,4 @@ BEGIN
   OR (a.[rowversion] > CONVERT(ROWVERSION,@startRow) AND a.[rowversion] <= CONVERT(ROWVERSION,@endRow))
   OR (co.[rowversion] > CONVERT(ROWVERSION,@startRow) AND co.[rowversion] <= CONVERT(ROWVERSION,@endRow))
 END
-
-
-
--- BOOK
-SET ANSI_NULLS ON
+GO

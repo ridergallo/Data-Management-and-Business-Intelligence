@@ -4,6 +4,6 @@
     [street_number] VARCHAR (10)  NULL,
     [street_name]   VARCHAR (200) NULL,
     [city]          VARCHAR (100) NULL,
-    [country_sk]    INT           NULL
+    [country_name]    INT           NULL
 );
 GO
