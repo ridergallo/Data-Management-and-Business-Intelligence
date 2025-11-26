@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="FactCustOrder"
   DTS:PackageType="5"
-  DTS:VersionBuild="76"
-  DTS:VersionGUID="{BD134735-2F4D-4CE7-A04D-D33BB17111AC}">
+  DTS:VersionBuild="95"
+  DTS:VersionGUID="{7E6AD564-83CC-44F7-92B7-882CD731811A}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables>
@@ -111,193 +111,6 @@
         <pipeline
           version="1">
           <components>
-            <component
-              refId="Package\Load Add New\Add New"
-              componentClassID="Microsoft.OLEDBDestination"
-              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
-              description="OLE DB Destination"
-              name="Add New"
-              usesDispositions="true"
-              version="4">
-              <properties>
-                <property
-                  dataType="System.Int32"
-                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
-                  name="CommandTimeout">0</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[dbo].[FactCustOrder]</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies the variable that contains the name of the database object used to open a rowset."
-                  name="OpenRowsetVariable"></property>
-                <property
-                  dataType="System.String"
-                  description="The SQL command to be executed."
-                  name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the column code page to use when code page information is unavailable from the data source."
-                  name="DefaultCodePage">1252</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Forces the use of the DefaultCodePage property value when describing character data."
-                  name="AlwaysUseDefaultCodePage">false</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the mode used to access the database."
-                  name="AccessMode"
-                  typeConverter="AccessMode">3</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
-                  name="FastLoadKeepIdentity">false</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
-                  name="FastLoadKeepNulls">false</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
-                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
-                  name="FastLoadMaxInsertCommitSize">2147483647</property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\Load Add New\Add New.Connections[OleDbConnection]"
-                  connectionManagerID="{952E621D-DF61-48A9-80C4-3D7FA69FC07C}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[Destination BookstoreDW]"
-                  description="The OLE DB runtime connection used to access the database."
-                  name="OleDbConnection" />
-              </connections>
-              <inputs>
-                <input
-                  refId="Package\Load Add New\Add New.Inputs[OLE DB Destination Input]"
-                  errorOrTruncationOperation="Insert"
-                  errorRowDisposition="FailComponent"
-                  hasSideEffects="true"
-                  name="OLE DB Destination Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Load Add New\Add New.Inputs[OLE DB Destination Input].Columns[order_id]"
-                      cachedDataType="i4"
-                      cachedName="order_id"
-                      externalMetadataColumnId="Package\Load Add New\Add New.Inputs[OLE DB Destination Input].ExternalColumns[order_id]"
-                      lineageId="Package\Load Add New\Get Row Changes.Outputs[OLE DB Source Output].Columns[order_id]" />
-                    <inputColumn
-                      refId="Package\Load Add New\Add New.Inputs[OLE DB Destination Input].Columns[line_id]"
-                      cachedDataType="i4"
-                      cachedName="line_id"
-                      externalMetadataColumnId="Package\Load Add New\Add New.Inputs[OLE DB Destination Input].ExternalColumns[line_id]"
-                      lineageId="Package\Load Add New\Get Row Changes.Outputs[OLE DB Source Output].Columns[line_id]" />
-                    <inputColumn
-                      refId="Package\Load Add New\Add New.Inputs[OLE DB Destination Input].Columns[price]"
-                      cachedDataType="numeric"
-                      cachedName="price"
-                      cachedPrecision="5"
-                      cachedScale="2"
-                      externalMetadataColumnId="Package\Load Add New\Add New.Inputs[OLE DB Destination Input].ExternalColumns[price]"
-                      lineageId="Package\Load Add New\Get Row Changes.Outputs[OLE DB Source Output].Columns[price]" />
-                    <inputColumn
-                      refId="Package\Load Add New\Add New.Inputs[OLE DB Destination Input].Columns[book_sk]"
-                      cachedDataType="i4"
-                      cachedName="book_sk"
-                      externalMetadataColumnId="Package\Load Add New\Add New.Inputs[OLE DB Destination Input].ExternalColumns[book_sk]"
-                      lineageId="Package\Load Add New\Búsqueda Book.Outputs[Salida de entradas coincidentes de búsqueda].Columns[book_sk]" />
-                    <inputColumn
-                      refId="Package\Load Add New\Add New.Inputs[OLE DB Destination Input].Columns[customer_sk]"
-                      cachedDataType="i4"
-                      cachedName="customer_sk"
-                      externalMetadataColumnId="Package\Load Add New\Add New.Inputs[OLE DB Destination Input].ExternalColumns[customer_sk]"
-                      lineageId="Package\Load Add New\Búsqueda Customer.Outputs[Salida de entradas coincidentes de búsqueda].Columns[customer_sk]" />
-                    <inputColumn
-                      refId="Package\Load Add New\Add New.Inputs[OLE DB Destination Input].Columns[address_sk]"
-                      cachedDataType="i4"
-                      cachedName="address_sk"
-                      externalMetadataColumnId="Package\Load Add New\Add New.Inputs[OLE DB Destination Input].ExternalColumns[address_sk]"
-                      lineageId="Package\Load Add New\Búsqueda Address.Outputs[Salida de entradas coincidentes de búsqueda].Columns[address_sk]" />
-                    <inputColumn
-                      refId="Package\Load Add New\Add New.Inputs[OLE DB Destination Input].Columns[OrderDateKey]"
-                      cachedDataType="i4"
-                      cachedName="OrderDateKey"
-                      externalMetadataColumnId="Package\Load Add New\Add New.Inputs[OLE DB Destination Input].ExternalColumns[order_date_sk]"
-                      lineageId="Package\Load Add New\Get Row Changes.Outputs[OLE DB Source Output].Columns[OrderDateKey]" />
-                    <inputColumn
-                      refId="Package\Load Add New\Add New.Inputs[OLE DB Destination Input].Columns[method_sk]"
-                      cachedDataType="i4"
-                      cachedName="method_sk"
-                      externalMetadataColumnId="Package\Load Add New\Add New.Inputs[OLE DB Destination Input].ExternalColumns[shipping_method_sk]"
-                      lineageId="Package\Load Add New\Búsqueda ShippingMethod.Outputs[Salida de entradas coincidentes de búsqueda].Columns[method_sk]" />
-                  </inputColumns>
-                  <externalMetadataColumns
-                    isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\Load Add New\Add New.Inputs[OLE DB Destination Input].ExternalColumns[line_id]"
-                      dataType="i4"
-                      name="line_id" />
-                    <externalMetadataColumn
-                      refId="Package\Load Add New\Add New.Inputs[OLE DB Destination Input].ExternalColumns[order_id]"
-                      dataType="i4"
-                      name="order_id" />
-                    <externalMetadataColumn
-                      refId="Package\Load Add New\Add New.Inputs[OLE DB Destination Input].ExternalColumns[book_sk]"
-                      dataType="i4"
-                      name="book_sk" />
-                    <externalMetadataColumn
-                      refId="Package\Load Add New\Add New.Inputs[OLE DB Destination Input].ExternalColumns[customer_sk]"
-                      dataType="i4"
-                      name="customer_sk" />
-                    <externalMetadataColumn
-                      refId="Package\Load Add New\Add New.Inputs[OLE DB Destination Input].ExternalColumns[address_sk]"
-                      dataType="i4"
-                      name="address_sk" />
-                    <externalMetadataColumn
-                      refId="Package\Load Add New\Add New.Inputs[OLE DB Destination Input].ExternalColumns[shipping_method_sk]"
-                      dataType="i4"
-                      name="shipping_method_sk" />
-                    <externalMetadataColumn
-                      refId="Package\Load Add New\Add New.Inputs[OLE DB Destination Input].ExternalColumns[order_date_sk]"
-                      dataType="i4"
-                      name="order_date_sk" />
-                    <externalMetadataColumn
-                      refId="Package\Load Add New\Add New.Inputs[OLE DB Destination Input].ExternalColumns[price]"
-                      dataType="numeric"
-                      name="price"
-                      precision="5"
-                      scale="2" />
-                  </externalMetadataColumns>
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Load Add New\Add New.Outputs[OLE DB Destination Error Output]"
-                  exclusionGroup="1"
-                  isErrorOut="true"
-                  name="OLE DB Destination Error Output"
-                  synchronousInputId="Package\Load Add New\Add New.Inputs[OLE DB Destination Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Load Add New\Add New.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Load Add New\Add New.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Load Add New\Add New.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Load Add New\Add New.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
             <component
               refId="Package\Load Add New\Búsqueda Address"
               componentClassID="Microsoft.Lookup"
@@ -986,7 +799,7 @@ where [refTable].[method_id] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Especifica la lista de identificadores de linaje que están asignados a los parámetros que usa la instrucción SQL de la propiedad SQLCommand. Las entradas de la lista están separadas por puntos y comas."
-                  name="ParameterMap">#{Package\Load Add New\63:invalid};</property>
+                  name="ParameterMap">#{Package\Load Add New\Get Row Changes.Outputs[OLE DB Source Output].Columns[shipping_method_id]};</property>
                 <property
                   dataType="System.Int32"
                   description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
@@ -1010,11 +823,10 @@ where [refTable].[method_id] = ?</property>
                   name="Entrada de búsqueda">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Load Add New\Búsqueda ShippingMethod.Inputs[Entrada de búsqueda].Columns[method_id]"
-                      cachedComparisonFlags="2"
+                      refId="Package\Load Add New\Búsqueda ShippingMethod.Inputs[Entrada de búsqueda].Columns[shipping_method_id]"
                       cachedDataType="i4"
-                      cachedName="method_id"
-                      lineageId="Package\Load Add New\63:invalid">
+                      cachedName="shipping_method_id"
+                      lineageId="Package\Load Add New\Get Row Changes.Outputs[OLE DB Source Output].Columns[shipping_method_id]">
                       <properties>
                         <property
                           dataType="System.String"
@@ -1089,6 +901,193 @@ where [refTable].[method_id] = ?</property>
               </outputs>
             </component>
             <component
+              refId="Package\Load Add New\Destino de OLE DB"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="Destino de OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;4"
+              description="Destino de OLE DB"
+              name="Destino de OLE DB"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowset">[dbo].[FactCustOrder]</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica la variable que contiene el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Comando SQL para ejecutar."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Fuerza el uso del valor de la propiedad DefaultCodePage al describir datos de caracteres."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el modo utilizado para obtener acceso a la base de datos."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si los valores proporcionados para columnas de identidad se van a copiar al destino. Si es False, los valores de las columnas de identidad se generan automáticamente en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si las columnas que contienen NULL tendrán NULL insertado en el destino. Si es False, las columnas que contienen NULL tendrán sus valores predeterminados insertados en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica opciones para usar con la carga rápida. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica cuándo se emiten confirmaciones durante la inserción de datos. El valor 0 especifica que se emitirá una confirmación al final de la inserción de datos. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load Add New\Destino de OLE DB.Connections[OleDbConnection]"
+                  connectionManagerID="{952E621D-DF61-48A9-80C4-3D7FA69FC07C}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[Destination BookstoreDW]"
+                  description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Load Add New\Destino de OLE DB.Inputs[Entrada de destino de OLE DB]"
+                  errorOrTruncationOperation="Insertar"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrada de destino de OLE DB">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Add New\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[order_id]"
+                      cachedDataType="i4"
+                      cachedName="order_id"
+                      externalMetadataColumnId="Package\Load Add New\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[order_id]"
+                      lineageId="Package\Load Add New\Get Row Changes.Outputs[OLE DB Source Output].Columns[order_id]" />
+                    <inputColumn
+                      refId="Package\Load Add New\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[line_id]"
+                      cachedDataType="i4"
+                      cachedName="line_id"
+                      externalMetadataColumnId="Package\Load Add New\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[line_id]"
+                      lineageId="Package\Load Add New\Get Row Changes.Outputs[OLE DB Source Output].Columns[line_id]" />
+                    <inputColumn
+                      refId="Package\Load Add New\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[price]"
+                      cachedDataType="numeric"
+                      cachedName="price"
+                      cachedPrecision="5"
+                      cachedScale="2"
+                      externalMetadataColumnId="Package\Load Add New\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[price]"
+                      lineageId="Package\Load Add New\Get Row Changes.Outputs[OLE DB Source Output].Columns[price]" />
+                    <inputColumn
+                      refId="Package\Load Add New\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[customer_sk]"
+                      cachedDataType="i4"
+                      cachedName="customer_sk"
+                      externalMetadataColumnId="Package\Load Add New\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[customer_sk]"
+                      lineageId="Package\Load Add New\Búsqueda Customer.Outputs[Salida de entradas coincidentes de búsqueda].Columns[customer_sk]" />
+                    <inputColumn
+                      refId="Package\Load Add New\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[address_sk]"
+                      cachedDataType="i4"
+                      cachedName="address_sk"
+                      externalMetadataColumnId="Package\Load Add New\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[address_sk]"
+                      lineageId="Package\Load Add New\Búsqueda Address.Outputs[Salida de entradas coincidentes de búsqueda].Columns[address_sk]" />
+                    <inputColumn
+                      refId="Package\Load Add New\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[OrderDateKey]"
+                      cachedDataType="i4"
+                      cachedName="OrderDateKey"
+                      externalMetadataColumnId="Package\Load Add New\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[order_date_sk]"
+                      lineageId="Package\Load Add New\Get Row Changes.Outputs[OLE DB Source Output].Columns[OrderDateKey]" />
+                    <inputColumn
+                      refId="Package\Load Add New\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[method_sk]"
+                      cachedDataType="i4"
+                      cachedName="method_sk"
+                      externalMetadataColumnId="Package\Load Add New\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[shipping_method_sk]"
+                      lineageId="Package\Load Add New\Búsqueda ShippingMethod.Outputs[Salida de entradas coincidentes de búsqueda].Columns[method_sk]" />
+                    <inputColumn
+                      refId="Package\Load Add New\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[book_sk]"
+                      cachedDataType="i4"
+                      cachedName="book_sk"
+                      externalMetadataColumnId="Package\Load Add New\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[book_sk]"
+                      lineageId="Package\Load Add New\Búsqueda Book.Outputs[Salida de entradas coincidentes de búsqueda].Columns[book_sk]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Load Add New\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[line_id]"
+                      dataType="i4"
+                      name="line_id" />
+                    <externalMetadataColumn
+                      refId="Package\Load Add New\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[order_id]"
+                      dataType="i4"
+                      name="order_id" />
+                    <externalMetadataColumn
+                      refId="Package\Load Add New\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[book_sk]"
+                      dataType="i4"
+                      name="book_sk" />
+                    <externalMetadataColumn
+                      refId="Package\Load Add New\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[customer_sk]"
+                      dataType="i4"
+                      name="customer_sk" />
+                    <externalMetadataColumn
+                      refId="Package\Load Add New\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[address_sk]"
+                      dataType="i4"
+                      name="address_sk" />
+                    <externalMetadataColumn
+                      refId="Package\Load Add New\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[shipping_method_sk]"
+                      dataType="i4"
+                      name="shipping_method_sk" />
+                    <externalMetadataColumn
+                      refId="Package\Load Add New\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[order_date_sk]"
+                      dataType="i4"
+                      name="order_date_sk" />
+                    <externalMetadataColumn
+                      refId="Package\Load Add New\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[price]"
+                      dataType="numeric"
+                      name="price"
+                      precision="5"
+                      scale="2" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load Add New\Destino de OLE DB.Outputs[Salida de error de destino de OLE DB]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de destino de OLE DB"
+                  synchronousInputId="Package\Load Add New\Destino de OLE DB.Inputs[Entrada de destino de OLE DB]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Add New\Destino de OLE DB.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load Add New\Destino de OLE DB.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load Add New\Destino de OLE DB.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load Add New\Destino de OLE DB.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
               refId="Package\Load Add New\Get Row Changes"
               componentClassID="Microsoft.OLEDBSource"
               contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
@@ -1113,7 +1112,7 @@ where [refTable].[method_id] = ?</property>
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">EXECUTE [dbo].[GetcustOrderChangesByRowVersion]  ?, ?</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=17.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">EXECUTE [dbo].[GetCustOrderChangesByRowVersion]  ?, ?</property>
                 <property
                   dataType="System.String"
                   description="The variable that contains the SQL command to be executed."
@@ -1540,32 +1539,32 @@ where [refTable].[method_id] = ?</property>
               startId="Package\Load Add New\Get Row Changes.Outputs[OLE DB Source Output]" />
             <path
               refId="Package\Load Add New.Paths[Salida de entradas coincidentes de búsqueda]"
-              endId="Package\Load Add New\Búsqueda Customer.Inputs[Entrada de búsqueda]"
-              name="Salida de entradas coincidentes de búsqueda"
-              startId="Package\Load Add New\Búsqueda Book.Outputs[Salida de entradas coincidentes de búsqueda]" />
-            <path
-              refId="Package\Load Add New.Paths[Salida de entradas coincidentes de búsqueda1]"
               endId="Package\Load Add New\Búsqueda Address.Inputs[Entrada de búsqueda]"
               name="Salida de entradas coincidentes de búsqueda"
               startId="Package\Load Add New\Búsqueda Customer.Outputs[Salida de entradas coincidentes de búsqueda]" />
             <path
-              refId="Package\Load Add New.Paths[Salida de entradas coincidentes de búsqueda2]"
-              endId="Package\Load Add New\Búsqueda CustOrder.Inputs[Entrada de búsqueda]"
+              refId="Package\Load Add New.Paths[Salida de entradas coincidentes de búsqueda1]"
+              endId="Package\Load Add New\Búsqueda Customer.Inputs[Entrada de búsqueda]"
               name="Salida de entradas coincidentes de búsqueda"
               startId="Package\Load Add New\Búsqueda ShippingMethod.Outputs[Salida de entradas coincidentes de búsqueda]" />
             <path
-              refId="Package\Load Add New.Paths[Salida de entradas coincidentes de búsqueda3]"
+              refId="Package\Load Add New.Paths[Salida de entradas coincidentes de búsqueda2]"
               endId="Package\Load Add New\Load staging.Inputs[OLE DB Destination Input]"
               name="Salida de entradas coincidentes de búsqueda"
               startId="Package\Load Add New\Búsqueda CustOrder.Outputs[Salida de entradas coincidentes de búsqueda]" />
             <path
-              refId="Package\Load Add New.Paths[Salida de entradas coincidentes de búsqueda4]"
-              endId="Package\Load Add New\Búsqueda ShippingMethod.Inputs[Entrada de búsqueda]"
+              refId="Package\Load Add New.Paths[Salida de entradas coincidentes de búsqueda3]"
+              endId="Package\Load Add New\Búsqueda CustOrder.Inputs[Entrada de búsqueda]"
               name="Salida de entradas coincidentes de búsqueda"
               startId="Package\Load Add New\Búsqueda Address.Outputs[Salida de entradas coincidentes de búsqueda]" />
             <path
+              refId="Package\Load Add New.Paths[Salida de entradas coincidentes de búsqueda4]"
+              endId="Package\Load Add New\Búsqueda ShippingMethod.Inputs[Entrada de búsqueda]"
+              name="Salida de entradas coincidentes de búsqueda"
+              startId="Package\Load Add New\Búsqueda Book.Outputs[Salida de entradas coincidentes de búsqueda]" />
+            <path
               refId="Package\Load Add New.Paths[Salida de entradas no coincidentes de búsqueda]"
-              endId="Package\Load Add New\Add New.Inputs[OLE DB Destination Input]"
+              endId="Package\Load Add New\Destino de OLE DB.Inputs[Entrada de destino de OLE DB]"
               name="Salida de entradas no coincidentes de búsqueda"
               startId="Package\Load Add New\Búsqueda CustOrder.Outputs[Salida de entradas no coincidentes de búsqueda]" />
           </paths>
@@ -1811,82 +1810,40 @@ where [refTable].[method_id] = ?</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="162,42"
-          Id="Package\Load Add New\Get Row Changes"
-          TopLeft="425,38" />
-        <NodeLayout
-          Size="204,42"
-          Id="Package\Load Add New\Búsqueda ShippingMethod"
-          TopLeft="392,379" />
-        <NodeLayout
           Size="139,42"
           Id="Package\Load Add New\Load staging"
-          TopLeft="293,579" />
+          TopLeft="286,556" />
         <NodeLayout
-          Size="121,42"
-          Id="Package\Load Add New\Add New"
-          TopLeft="606,586" />
+          Size="168,42"
+          Id="Package\Load Add New\Destino de OLE DB"
+          TopLeft="554,557" />
         <NodeLayout
           Size="151,42"
           Id="Package\Load Add New\Búsqueda Book"
-          TopLeft="424,109" />
+          TopLeft="434,116" />
         <NodeLayout
-          Size="173,42"
-          Id="Package\Load Add New\Búsqueda Customer"
-          TopLeft="413,199" />
-        <EdgeLayout
-          Id="Package\Load Add New.Paths[OLE DB Source Output]"
-          TopLeft="502.75,80">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,29"
-              Start="0,0"
-              End="0,21.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,21.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          Size="176,42"
+          Id="Package\Load Add New\Búsqueda CustOrder"
+          TopLeft="414,461" />
+        <NodeLayout
+          Size="162,42"
+          Id="Package\Load Add New\Get Row Changes"
+          TopLeft="432,26" />
+        <NodeLayout
+          Size="204,42"
+          Id="Package\Load Add New\Búsqueda ShippingMethod"
+          TopLeft="406,205" />
         <NodeLayout
           Size="165,42"
           Id="Package\Load Add New\Búsqueda Address"
-          TopLeft="414,286" />
+          TopLeft="421,379" />
+        <NodeLayout
+          Size="173,42"
+          Id="Package\Load Add New\Búsqueda Customer"
+          TopLeft="420,292" />
         <EdgeLayout
           Id="Package\Load Add New.Paths[Salida de entradas coincidentes de búsqueda]"
-          TopLeft="499.5,151">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,48"
-              Start="0,0"
-              End="0,40.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,40.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-99.8190234375,14.15234375,199.638046875,12.1953125"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Load Add New.Paths[Salida de entradas coincidentes de búsqueda1]"
-          TopLeft="498,241">
+          TopLeft="505,334">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -1908,164 +1865,175 @@ where [refTable].[method_id] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="176,42"
-          Id="Package\Load Add New\Búsqueda CustOrder"
-          TopLeft="407,459" />
         <EdgeLayout
-          Id="Package\Load Add New.Paths[Salida de entradas coincidentes de búsqueda2]"
-          TopLeft="494.5,421">
+          Id="Package\Load Add New.Paths[Salida de entradas no coincidentes de búsqueda]"
+          TopLeft="530,503">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,38"
+              EndConnector="108,54"
               Start="0,0"
-              End="0,30.5">
+              End="108,46.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,30.5" />
+                    End="0,17.8918918918919" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,17.8918918918919"
+                    Point2="0,21.8918918918919"
+                    Point3="4,21.8918918918919" />
+                  <mssgle:LineSegment
+                    End="104,21.8918918918919" />
+                  <mssgle:CubicBezierSegment
+                    Point1="104,21.8918918918919"
+                    Point2="108,21.8918918918919"
+                    Point3="108,25.8918918918919" />
+                  <mssgle:LineSegment
+                    End="108,46.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-99.8190234375,9.15234375,199.638046875,12.1953125"
+              BoundingBox="-52.8890234375,26.8918918918919,213.778046875,12.1953125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Add New.Paths[Salida de entradas coincidentes de búsqueda2]"
+          TopLeft="502,503">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-146.5,53"
+              Start="0,0"
+              End="-146.5,45.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,22.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,22.5"
+                    Point2="0,26.5"
+                    Point3="-4,26.5" />
+                  <mssgle:LineSegment
+                    End="-142.5,26.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-142.5,26.5"
+                    Point2="-146.5,26.5"
+                    Point3="-146.5,30.5" />
+                  <mssgle:LineSegment
+                    End="-146.5,45.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-173.0690234375,31.5,199.638046875,12.1953125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Add New.Paths[Salida de entradas coincidentes de búsqueda1]"
+          TopLeft="507.25,247">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,45"
+              Start="0,0"
+              End="0,37.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,37.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-99.8190234375,12.65234375,199.638046875,12.1953125"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load Add New.Paths[Salida de entradas coincidentes de búsqueda3]"
-          TopLeft="467,501">
+          TopLeft="502.75,421">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-104.5,78"
+              EndConnector="0,40"
               Start="0,0"
-              End="-104.5,70.5">
+              End="0,32.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,27.6216216216216" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,27.6216216216216"
-                    Point2="0,31.6216216216216"
-                    Point3="-4,31.6216216216216" />
-                  <mssgle:LineSegment
-                    End="-100.5,31.6216216216216" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-100.5,31.6216216216216"
-                    Point2="-104.5,31.6216216216216"
-                    Point3="-104.5,35.6216216216216" />
-                  <mssgle:LineSegment
-                    End="-104.5,70.5" />
+                    End="0,32.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-152.0690234375,36.6216216216216,199.638046875,12.1953125"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Load Add New.Paths[Salida de entradas no coincidentes de búsqueda]"
-          TopLeft="523,501">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="143.5,85"
-              Start="0,0"
-              End="143.5,77.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,30.4594594594595" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,30.4594594594595"
-                    Point2="0,34.4594594594595"
-                    Point3="4,34.4594594594595" />
-                  <mssgle:LineSegment
-                    End="139.5,34.4594594594595" />
-                  <mssgle:CubicBezierSegment
-                    Point1="139.5,34.4594594594595"
-                    Point2="143.5,34.4594594594595"
-                    Point3="143.5,38.4594594594595" />
-                  <mssgle:LineSegment
-                    End="143.5,77.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-35.1390234375,39.4594594594595,213.778046875,12.1953125"
+              BoundingBox="-99.8190234375,10.15234375,199.638046875,12.1953125"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load Add New.Paths[Salida de entradas coincidentes de búsqueda4]"
-          TopLeft="495.25,328">
+          TopLeft="508.75,158">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,51"
+              EndConnector="0,47"
               Start="0,0"
-              End="0,43.5">
+              End="0,39.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,43.5" />
+                    End="0,39.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-108.50701171875,13.75,217.0140234375,16"
+              BoundingBox="-99.8190234375,13.65234375,199.638046875,12.1953125"
               RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Add New.Paths[OLE DB Source Output]"
+          TopLeft="511.25,68">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,48"
+              Start="0,0"
+              End="0,40.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,40.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load Add New\Get Row Changes">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load Add New\Búsqueda ShippingMethod">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[DimShippingMethod]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Load Add New\Load staging">
     <Properties>
@@ -2080,7 +2048,7 @@ where [refTable].[method_id] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Load Add New\Add New">
+    design-time-name="Package\Load Add New\Destino de OLE DB">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -2098,7 +2066,7 @@ where [refTable].[method_id] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -2108,53 +2076,7 @@ where [refTable].[method_id] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load Add New\Búsqueda Customer">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[DimCustomer]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load Add New\Búsqueda Address">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[DimAddress]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -2167,7 +2089,7 @@ where [refTable].[method_id] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -2177,7 +2099,84 @@ where [refTable].[method_id] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load Add New\Get Row Changes">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load Add New\Búsqueda ShippingMethod">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[DimShippingMethod]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load Add New\Búsqueda Address">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[DimAddress]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load Add New\Búsqueda Customer">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[DimCustomer]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
