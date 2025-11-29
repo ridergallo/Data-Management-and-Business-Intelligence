@@ -1,4 +1,4 @@
-﻿/*GO
+﻿GO
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1, N'10/18')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (2, N'1st Book Library')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (3, N'1st World Library')
@@ -99,7 +99,7 @@ INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (97, N'Apple'
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (98, N'Apple Paperbacks (Scholastic)')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (99, N'Applewood Books')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (100, N'Apress')
---GO
+GO
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (101, N'Arbordale Publishing')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (102, N'Arcade Publishing')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (103, N'Arcadia Publishing')
@@ -200,7 +200,7 @@ INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (197, N'Banta
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (198, N'Bantam Starfire')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (199, N'BantamSpectra')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (200, N'Bantem Press')
---GO
+GO
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (201, N'Barbour Books')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (202, N'Barefoot Books')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (203, N'Barn Owl Books')
@@ -301,7 +301,7 @@ INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (297, N'Bolch
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (298, N'Bold Strokes Books')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (299, N'Bollingen/Princeton University Press (NJ)')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (300, N'Book of the Month Club')
---GO
+GO
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (301, N'Book Publishing Company')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (302, N'Book Publishing Company (TN)')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (303, N'Bookclub-In-A-Box')
@@ -402,7 +402,7 @@ INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (397, N'Churc
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (398, N'Circlet Press')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (399, N'Círculo de Lectores')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (400, N'Cisne')
---GO
+GO
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (401, N'Cistercian Publications')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (402, N'Citadel')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (403, N'Citadel Press')
@@ -503,7 +503,7 @@ INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (497, N'David
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (498, N'David R. Godine Publisher')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (499, N'DAW')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (500, N'Daw Books')
---GO
+GO
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (501, N'DAW Books (NY)')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (502, N'DAW Books Inc')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (503, N'DAW Fantasy')
@@ -604,7 +604,7 @@ INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (597, N'Dutto
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (598, N'Dutton Adult')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (599, N'Dutton Books')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (600, N'Dutton Books for Young Readers')
---GO
+GO
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (601, N'Dutton Children''s Books')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (602, N'Dutton Juvenile')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (603, N'Earthlight')
@@ -705,7 +705,7 @@ INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (697, N'Filiq
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (698, N'Findakly')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (699, N'Firebird')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (700, N'Firebird Books')
---GO
+GO
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (701, N'Firebrand Books')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (702, N'Firelight Press')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (703, N'Fireside')
@@ -806,7 +806,7 @@ INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (797, N'Graph
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (798, N'Grasset')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (799, N'Graywolf Press')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (800, N'Green Integer')
---GO
+GO
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (801, N'Green Ronin Publishing')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (802, N'Greenery Press (CA)')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (803, N'Greenwillow Books')
@@ -907,7 +907,7 @@ INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (897, N'Harpe
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (898, N'HarperOne')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (899, N'HarperPaperbacks')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (900, N'HarperPerennial')
---GO
+GO
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (901, N'HarperPerennial / Perennial Classics')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (902, N'HarperPrism')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (903, N'HarperResource')
@@ -1008,7 +1008,7 @@ INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (997, N'HQN B
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (998, N'Hub City Press')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (999, N'Hungry Minds')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1000, N'Huntington House Publishers')
---GO
+GO
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1001, N'Hyperio')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1002, N'Hyperion')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1003, N'Hyperion Books')
@@ -1109,7 +1109,7 @@ INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1097, N'Kupe
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1098, N'Kyle Books')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1099, N'L.A. Weekly Books')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1100, N'l''ecole des loisirs')
---GO
+GO
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1101, N'La factoría de ideas')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1102, N'Laffont')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1103, N'Lama Foundation (San Cristobal NM)')
@@ -1210,7 +1210,7 @@ INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1197, N'Macm
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1198, N'MacMillan Audio')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1199, N'MacMillan Children''s Books')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1200, N'MacMillan General Books')
---GO
+GO
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1201, N'Macmillan Publ. Co.')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1202, N'MacMillan Publishing Company')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1203, N'Macmillan Publishing Company/Collier Books')
@@ -1311,7 +1311,7 @@ INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1297, N'Moto
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1298, N'Motorbooks International')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1299, N'Mountaineers Books')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1300, N'Moyer Bell and its subsidiaries')
---GO
+GO
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1301, N'MTV Books')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1302, N'Multnomah')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1303, N'Multnomah Books')
@@ -1412,7 +1412,7 @@ INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1397, N'Onyx
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1398, N'Open Court')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1399, N'Open Court Publishing Company')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1400, N'Open Heaven Publications')
---GO
+GO
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1401, N'Orb Books')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1402, N'Orbis Books')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1403, N'Orbit')
@@ -1513,7 +1513,7 @@ INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1497, N'Peng
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1498, N'Penguin Group')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1499, N'Penguin Group (USA)')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1500, N'Penguin Group(CA)')
-----GO
+--GO
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1501, N'Penguin Press')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1502, N'Penguin Press HC The')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1503, N'Penguin Putnam')
@@ -1614,7 +1614,7 @@ INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1597, N'Pres
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1598, N'Presses de La Cite')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1599, N'Prestel Publishing')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1600, N'Prestwick House')
---GO
+GO
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1601, N'Prestwick House - (Literary Touchstone Classic)')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1602, N'Price Stern Sloan')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1603, N'Prima Games')
@@ -1715,7 +1715,7 @@ INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1697, N'Rive
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1698, N'Riverhead Books')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1699, N'Riverhead Hardcover')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1700, N'Riverrun Press (New York NY)')
---GO
+GO
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1701, N'Rizzoli')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1702, N'Rizzoli International Publications')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1703, N'Roaring Brook Press')
@@ -1816,7 +1816,7 @@ INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1797, N'Seve
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1798, N'Shadow Mountain')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1799, N'Shambhala')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1800, N'Shambhala Publications')
---GO
+GO
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1801, N'Shaw')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1802, N'Shaw Books')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1803, N'Shaye Areheart Books')
@@ -1917,7 +1917,7 @@ INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1897, N'Sten
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1898, N'Sterling')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1899, N'Sterling Children''s Books')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1900, N'Sterling Publishing Co. Inc.')
-----GO
+--GO
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1901, N'Stewart Tabori and Chang')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1902, N'Sticker Design (DC Comics)')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1903, N'Stone Bridge Press')
@@ -2018,7 +2018,7 @@ INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1997, N'Top 
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1998, N'Topaz')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (1999, N'Tor')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (2000, N'Tor Books')
---GO
+GO
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (2001, N'Tor Classics')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (2002, N'Tor Fantasy')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (2003, N'Tor Science Fiction')
@@ -2119,7 +2119,7 @@ INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (2097, N'Vert
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (2098, N'Victor Gollancz')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (2099, N'Vida')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (2100, N'Viking')
-----GO
+--GO
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (2101, N'Viking Adult')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (2102, N'Viking Books')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (2103, N'Viking Books for Young Readers')
@@ -2220,7 +2220,7 @@ INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (2197, N'Wile
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (2198, N'Wiley Publishing Inc.')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (2199, N'Wiley-Blackwell')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (2200, N'Wilhelm Goldmann Verlag GmbH')
-----GO
+--GO
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (2201, N'William B. Eerdmans Publishing Company')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (2202, N'William Heinemann')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (2203, N'William Heinemann Ltd.')
@@ -2285,4 +2285,3 @@ INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (2261, N'????
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (2262, N'???? (Kadokawa Shoten)')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (2263, N'???')
 INSERT [dbo].[publisher] ([publisher_id], [publisher_name]) VALUES (2264, N'???')
-*/

@@ -1,9 +1,8 @@
 ﻿IF NOT EXISTS(SELECT TOP(1) 1
               FROM [dbo].[DimDate]
 			  WHERE [DateKey] = 0)
-BEGIN
-
-    INSERT INTO [dbo].[DimDate]
+   BEGIN
+        INSERT INTO dbo.DimDate
                ([DateKey]
                ,[FullDate]
                ,[DayNumberOfWeek]
@@ -16,7 +15,7 @@ BEGIN
                ,[CalendarQuarter]
                ,[CalendarYear]
                ,[CalendarSemester])
-         VALUES
+            VALUES
                (0
                ,GETDATE()
                ,0
@@ -28,6 +27,6 @@ BEGIN
                ,0
                ,0
                ,0
-               ,0);
+               ,0)
 END
 GO

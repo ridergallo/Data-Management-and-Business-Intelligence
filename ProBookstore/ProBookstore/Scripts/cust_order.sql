@@ -1,4 +1,4 @@
-﻿/*GO
+﻿GO
 SET IDENTITY_INSERT [dbo].[cust_order] ON 
 
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1, CAST(N'2020-04-09T09:06:21.190' AS DateTime), 10, 2, 568)
@@ -100,7 +100,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (97, CAST(N'2021-11-14T21:12:46.190' AS DateTime), 1236, 2, 997)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (98, CAST(N'2020-08-22T19:20:51.190' AS DateTime), 887, 2, 613)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (99, CAST(N'2022-04-13T02:16:12.190' AS DateTime), 63, 2, 717)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (100, CAST(N'2020-06-26T00:29:24.190' AS DateTime), 1483, 2, 938)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (101, CAST(N'2023-01-05T12:53:42.190' AS DateTime), 233, 2, 114)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (102, CAST(N'2022-08-07T21:04:14.190' AS DateTime), 322, 2, 915)
@@ -201,7 +201,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (197, CAST(N'2022-10-06T21:09:26.190' AS DateTime), 646, 2, 992)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (198, CAST(N'2022-07-22T07:06:17.190' AS DateTime), 615, 2, 282)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (199, CAST(N'2021-11-09T21:50:53.190' AS DateTime), 1691, 2, 880)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (200, CAST(N'2021-07-26T09:03:17.190' AS DateTime), 1066, 2, 49)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (201, CAST(N'2020-06-12T17:56:52.190' AS DateTime), 950, 2, 121)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (202, CAST(N'2020-07-24T01:29:09.190' AS DateTime), 1911, 2, 505)
@@ -302,7 +302,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (297, CAST(N'2021-08-15T10:16:17.190' AS DateTime), 1332, 2, 726)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (298, CAST(N'2021-05-26T04:12:24.190' AS DateTime), 1132, 2, 807)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (299, CAST(N'2021-12-11T14:50:55.190' AS DateTime), 931, 2, 917)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (300, CAST(N'2022-12-22T10:42:14.190' AS DateTime), 906, 2, 657)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (301, CAST(N'2021-12-05T17:51:07.190' AS DateTime), 329, 2, 187)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (302, CAST(N'2021-04-21T06:01:35.190' AS DateTime), 1289, 2, 382)
@@ -403,7 +403,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (397, CAST(N'2021-09-13T15:25:10.190' AS DateTime), 837, 2, 973)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (398, CAST(N'2020-07-29T06:37:34.190' AS DateTime), 1205, 2, 669)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (399, CAST(N'2022-04-03T18:12:02.190' AS DateTime), 837, 2, 953)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (400, CAST(N'2021-03-24T22:43:52.190' AS DateTime), 868, 2, 181)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (401, CAST(N'2021-10-03T21:22:31.190' AS DateTime), 960, 2, 254)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (402, CAST(N'2022-02-10T13:17:40.190' AS DateTime), 1458, 2, 932)
@@ -504,7 +504,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (497, CAST(N'2022-10-15T15:22:43.190' AS DateTime), 527, 2, 105)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (498, CAST(N'2022-10-28T00:58:31.190' AS DateTime), 1743, 2, 500)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (499, CAST(N'2021-06-02T09:35:32.190' AS DateTime), 666, 2, 348)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (500, CAST(N'2021-07-09T19:05:40.190' AS DateTime), 266, 2, 920)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (501, CAST(N'2022-04-20T02:30:32.190' AS DateTime), 340, 2, 891)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (502, CAST(N'2022-06-18T21:32:46.190' AS DateTime), 621, 2, 594)
@@ -605,7 +605,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (597, CAST(N'2021-01-24T00:33:20.190' AS DateTime), 749, 2, 185)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (598, CAST(N'2020-05-09T20:05:59.190' AS DateTime), 464, 2, 505)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (599, CAST(N'2022-04-28T09:57:04.190' AS DateTime), 13, 2, 269)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (600, CAST(N'2022-12-02T01:42:58.190' AS DateTime), 1039, 2, 23)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (601, CAST(N'2020-06-23T04:33:56.190' AS DateTime), 1577, 2, 758)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (602, CAST(N'2022-09-01T12:47:02.190' AS DateTime), 1093, 2, 466)
@@ -706,7 +706,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (697, CAST(N'2022-09-07T06:54:11.190' AS DateTime), 1812, 2, 927)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (698, CAST(N'2021-05-08T19:54:00.190' AS DateTime), 1526, 2, 632)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (699, CAST(N'2020-10-11T02:26:59.190' AS DateTime), 1050, 2, 203)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (700, CAST(N'2022-01-05T06:17:44.190' AS DateTime), 1485, 2, 239)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (701, CAST(N'2021-07-02T01:16:45.190' AS DateTime), 916, 2, 749)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (702, CAST(N'2022-07-27T05:26:26.190' AS DateTime), 80, 2, 797)
@@ -807,7 +807,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (797, CAST(N'2023-02-18T04:08:21.190' AS DateTime), 1410, 2, 601)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (798, CAST(N'2023-01-06T12:03:30.190' AS DateTime), 1655, 2, 357)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (799, CAST(N'2020-05-29T17:25:06.190' AS DateTime), 1767, 2, 845)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (800, CAST(N'2020-04-24T00:53:15.190' AS DateTime), 727, 2, 193)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (801, CAST(N'2020-08-18T16:05:38.190' AS DateTime), 1633, 2, 142)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (802, CAST(N'2020-05-12T03:10:56.190' AS DateTime), 723, 2, 194)
@@ -908,7 +908,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (897, CAST(N'2020-08-17T00:34:10.190' AS DateTime), 1583, 2, 598)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (898, CAST(N'2021-11-20T10:07:10.190' AS DateTime), 1909, 2, 795)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (899, CAST(N'2023-03-31T17:13:01.190' AS DateTime), 835, 2, 572)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (900, CAST(N'2022-04-04T21:03:44.190' AS DateTime), 1231, 2, 363)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (901, CAST(N'2022-05-11T10:04:10.190' AS DateTime), 1796, 2, 703)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (902, CAST(N'2022-08-01T04:57:56.190' AS DateTime), 664, 2, 924)
@@ -1009,7 +1009,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (997, CAST(N'2020-05-11T08:00:00.190' AS DateTime), 1211, 2, 756)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (998, CAST(N'2020-10-23T05:01:39.190' AS DateTime), 956, 2, 120)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (999, CAST(N'2022-03-14T06:00:51.190' AS DateTime), 1185, 2, 1000)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1000, CAST(N'2020-05-26T18:33:35.190' AS DateTime), 743, 2, 162)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1001, CAST(N'2022-05-14T19:08:21.190' AS DateTime), 1776, 2, 753)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1002, CAST(N'2021-07-17T03:27:37.190' AS DateTime), 102, 2, 808)
@@ -1110,7 +1110,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1097, CAST(N'2020-08-23T04:35:22.190' AS DateTime), 39, 2, 351)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1098, CAST(N'2020-08-20T13:18:26.190' AS DateTime), 57, 2, 253)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1099, CAST(N'2021-06-06T03:52:09.190' AS DateTime), 1507, 2, 793)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1100, CAST(N'2022-11-11T04:46:10.190' AS DateTime), 1005, 2, 913)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1101, CAST(N'2022-01-09T03:38:51.190' AS DateTime), 926, 2, 58)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1102, CAST(N'2021-05-08T08:44:37.190' AS DateTime), 623, 2, 600)
@@ -1211,7 +1211,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1197, CAST(N'2022-10-23T15:37:35.190' AS DateTime), 71, 2, 9)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1198, CAST(N'2022-12-09T17:06:57.190' AS DateTime), 1366, 2, 859)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1199, CAST(N'2021-08-09T00:01:56.190' AS DateTime), 1975, 2, 612)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1200, CAST(N'2020-12-26T12:20:05.190' AS DateTime), 327, 2, 343)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1201, CAST(N'2021-03-15T07:28:04.190' AS DateTime), 928, 2, 805)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1202, CAST(N'2021-11-12T04:44:00.190' AS DateTime), 377, 2, 576)
@@ -1312,7 +1312,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1297, CAST(N'2021-11-07T03:44:49.190' AS DateTime), 423, 2, 775)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1298, CAST(N'2023-01-05T22:18:14.190' AS DateTime), 1405, 2, 557)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1299, CAST(N'2022-11-16T00:31:39.190' AS DateTime), 1833, 2, 494)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1300, CAST(N'2020-05-24T13:10:16.190' AS DateTime), 373, 2, 955)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1301, CAST(N'2022-08-09T16:21:27.190' AS DateTime), 1941, 2, 248)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1302, CAST(N'2020-11-09T15:15:45.190' AS DateTime), 1676, 2, 792)
@@ -1413,7 +1413,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1397, CAST(N'2021-09-02T01:44:51.190' AS DateTime), 1939, 2, 114)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1398, CAST(N'2022-07-07T15:30:13.190' AS DateTime), 1105, 2, 129)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1399, CAST(N'2021-07-13T23:39:29.190' AS DateTime), 791, 2, 103)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1400, CAST(N'2021-11-25T20:51:15.190' AS DateTime), 1784, 2, 217)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1401, CAST(N'2021-08-30T12:23:34.190' AS DateTime), 480, 2, 444)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1402, CAST(N'2020-06-13T14:56:10.190' AS DateTime), 872, 2, 860)
@@ -1514,7 +1514,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1497, CAST(N'2021-06-07T15:59:44.190' AS DateTime), 142, 2, 791)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1498, CAST(N'2022-07-28T22:29:05.190' AS DateTime), 905, 2, 619)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1499, CAST(N'2021-12-23T04:18:35.190' AS DateTime), 1268, 2, 550)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1500, CAST(N'2020-08-03T07:18:38.190' AS DateTime), 1426, 2, 666)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1501, CAST(N'2022-10-11T10:25:45.190' AS DateTime), 1235, 2, 621)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1502, CAST(N'2020-09-03T21:08:35.190' AS DateTime), 1266, 2, 399)
@@ -1615,7 +1615,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1597, CAST(N'2021-06-19T15:10:29.190' AS DateTime), 296, 2, 762)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1598, CAST(N'2022-05-16T19:03:08.190' AS DateTime), 1502, 2, 991)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1599, CAST(N'2021-11-10T22:44:31.190' AS DateTime), 1456, 2, 722)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1600, CAST(N'2020-08-25T04:03:46.190' AS DateTime), 278, 2, 587)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1601, CAST(N'2021-09-19T16:01:56.190' AS DateTime), 1281, 2, 770)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1602, CAST(N'2022-02-15T15:41:00.190' AS DateTime), 1741, 2, 367)
@@ -1716,7 +1716,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1697, CAST(N'2020-05-07T06:46:36.190' AS DateTime), 1556, 2, 238)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1698, CAST(N'2023-02-15T10:38:06.190' AS DateTime), 962, 2, 716)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1699, CAST(N'2023-02-20T10:37:39.190' AS DateTime), 1380, 2, 422)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1700, CAST(N'2021-01-18T08:25:33.190' AS DateTime), 134, 2, 49)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1701, CAST(N'2022-01-26T12:29:22.190' AS DateTime), 1014, 2, 428)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1702, CAST(N'2022-08-10T10:10:52.190' AS DateTime), 1304, 2, 695)
@@ -1817,7 +1817,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1797, CAST(N'2021-12-02T02:35:53.190' AS DateTime), 1396, 2, 602)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1798, CAST(N'2020-08-06T08:47:09.190' AS DateTime), 1181, 2, 846)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1799, CAST(N'2020-05-01T22:17:42.190' AS DateTime), 200, 2, 450)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1800, CAST(N'2021-07-08T22:53:24.190' AS DateTime), 1043, 2, 858)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1801, CAST(N'2022-11-27T17:27:59.190' AS DateTime), 1626, 2, 504)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1802, CAST(N'2021-01-23T06:41:20.190' AS DateTime), 1203, 2, 13)
@@ -1918,7 +1918,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1897, CAST(N'2022-02-21T21:06:00.190' AS DateTime), 1952, 2, 202)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1898, CAST(N'2021-09-11T07:50:13.190' AS DateTime), 1291, 2, 285)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1899, CAST(N'2023-02-05T03:09:35.190' AS DateTime), 185, 2, 619)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1900, CAST(N'2020-11-26T00:11:47.190' AS DateTime), 94, 2, 940)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1901, CAST(N'2022-08-03T15:26:19.190' AS DateTime), 860, 2, 470)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1902, CAST(N'2022-12-04T17:00:10.190' AS DateTime), 1190, 2, 803)
@@ -2019,7 +2019,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1997, CAST(N'2022-11-25T01:03:11.190' AS DateTime), 503, 2, 231)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1998, CAST(N'2020-07-19T07:21:46.190' AS DateTime), 1617, 2, 986)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (1999, CAST(N'2022-02-08T11:33:31.190' AS DateTime), 1395, 2, 674)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2000, CAST(N'2022-11-29T03:29:27.190' AS DateTime), 708, 2, 298)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2001, CAST(N'2022-08-17T17:39:34.190' AS DateTime), 1065, 2, 504)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2002, CAST(N'2023-01-21T14:16:38.190' AS DateTime), 247, 2, 556)
@@ -2120,7 +2120,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2097, CAST(N'2022-10-11T06:25:11.190' AS DateTime), 1268, 2, 251)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2098, CAST(N'2023-01-22T02:43:30.190' AS DateTime), 1029, 2, 145)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2099, CAST(N'2021-05-31T10:32:45.190' AS DateTime), 403, 2, 865)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2100, CAST(N'2021-01-20T08:36:05.190' AS DateTime), 940, 2, 349)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2101, CAST(N'2021-10-13T02:08:02.190' AS DateTime), 1753, 2, 852)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2102, CAST(N'2022-11-20T06:14:51.190' AS DateTime), 1554, 2, 192)
@@ -2221,7 +2221,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2197, CAST(N'2021-03-23T18:35:52.190' AS DateTime), 874, 2, 664)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2198, CAST(N'2023-01-21T16:32:16.190' AS DateTime), 1952, 2, 431)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2199, CAST(N'2022-10-23T08:58:45.190' AS DateTime), 1155, 2, 488)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2200, CAST(N'2021-10-01T01:45:35.190' AS DateTime), 892, 2, 810)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2201, CAST(N'2022-01-11T16:07:33.190' AS DateTime), 889, 2, 866)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2202, CAST(N'2022-04-14T16:29:39.190' AS DateTime), 212, 2, 382)
@@ -2322,7 +2322,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2297, CAST(N'2021-02-13T04:14:18.190' AS DateTime), 1616, 2, 48)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2298, CAST(N'2021-11-08T18:31:26.190' AS DateTime), 622, 2, 523)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2299, CAST(N'2021-11-25T10:06:04.190' AS DateTime), 419, 2, 175)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2300, CAST(N'2021-12-18T05:28:51.190' AS DateTime), 1981, 2, 388)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2301, CAST(N'2020-08-11T14:52:34.190' AS DateTime), 46, 2, 777)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2302, CAST(N'2020-06-12T13:21:35.190' AS DateTime), 430, 2, 595)
@@ -2423,7 +2423,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2397, CAST(N'2021-01-19T19:37:25.190' AS DateTime), 104, 2, 754)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2398, CAST(N'2022-06-26T02:03:12.190' AS DateTime), 1057, 2, 300)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2399, CAST(N'2021-03-24T00:36:01.190' AS DateTime), 1742, 2, 837)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2400, CAST(N'2021-11-24T15:43:34.190' AS DateTime), 644, 2, 940)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2401, CAST(N'2021-07-31T02:07:54.190' AS DateTime), 918, 2, 628)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2402, CAST(N'2022-07-25T10:10:51.190' AS DateTime), 1736, 2, 532)
@@ -2524,7 +2524,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2497, CAST(N'2020-07-21T07:53:14.190' AS DateTime), 472, 2, 914)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2498, CAST(N'2020-06-04T01:45:27.190' AS DateTime), 1076, 2, 652)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2499, CAST(N'2022-06-22T09:01:18.190' AS DateTime), 998, 2, 8)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2500, CAST(N'2022-12-06T10:13:08.190' AS DateTime), 821, 2, 538)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2501, CAST(N'2023-02-28T15:03:17.280' AS DateTime), 1076, 4, 992)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2502, CAST(N'2023-03-14T20:48:19.280' AS DateTime), 403, 4, 865)
@@ -2625,7 +2625,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2597, CAST(N'2022-04-21T10:12:43.280' AS DateTime), 1794, 4, 269)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2598, CAST(N'2023-02-12T07:54:49.280' AS DateTime), 471, 4, 405)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2599, CAST(N'2022-06-01T06:46:51.280' AS DateTime), 1887, 4, 583)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2600, CAST(N'2022-01-04T13:09:58.280' AS DateTime), 1197, 4, 487)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2601, CAST(N'2022-05-10T15:43:05.280' AS DateTime), 602, 4, 309)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2602, CAST(N'2020-08-25T12:58:18.280' AS DateTime), 434, 4, 832)
@@ -2726,7 +2726,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2697, CAST(N'2022-03-28T22:32:11.280' AS DateTime), 166, 4, 603)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2698, CAST(N'2022-12-12T09:45:06.280' AS DateTime), 309, 4, 838)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2699, CAST(N'2022-10-24T21:27:36.280' AS DateTime), 1593, 4, 700)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2700, CAST(N'2023-01-23T12:38:30.280' AS DateTime), 1833, 4, 344)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2701, CAST(N'2021-01-08T16:11:52.280' AS DateTime), 1460, 4, 459)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2702, CAST(N'2022-04-03T22:48:50.280' AS DateTime), 1741, 4, 367)
@@ -2827,7 +2827,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2797, CAST(N'2022-06-03T00:35:47.280' AS DateTime), 77, 4, 719)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2798, CAST(N'2020-05-31T08:50:06.280' AS DateTime), 1588, 4, 424)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2799, CAST(N'2021-07-28T21:48:27.280' AS DateTime), 211, 4, 619)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2800, CAST(N'2020-04-04T08:28:31.280' AS DateTime), 148, 4, 669)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2801, CAST(N'2021-04-26T09:31:10.280' AS DateTime), 621, 4, 876)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2802, CAST(N'2021-09-07T13:37:16.280' AS DateTime), 134, 4, 179)
@@ -2928,7 +2928,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2897, CAST(N'2022-06-07T05:28:23.280' AS DateTime), 1673, 4, 560)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2898, CAST(N'2021-08-22T00:22:40.280' AS DateTime), 1861, 4, 686)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2899, CAST(N'2021-04-19T01:59:48.280' AS DateTime), 181, 4, 55)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2900, CAST(N'2023-03-03T05:55:34.280' AS DateTime), 634, 4, 535)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2901, CAST(N'2022-05-01T22:41:17.280' AS DateTime), 291, 4, 256)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2902, CAST(N'2023-02-28T14:09:42.280' AS DateTime), 43, 4, 528)
@@ -3029,7 +3029,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2997, CAST(N'2022-03-09T01:40:28.280' AS DateTime), 20, 4, 209)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2998, CAST(N'2021-05-14T16:50:17.280' AS DateTime), 138, 4, 79)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (2999, CAST(N'2020-04-12T20:16:27.280' AS DateTime), 1591, 4, 179)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3000, CAST(N'2023-01-18T05:35:31.280' AS DateTime), 1808, 4, 853)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3001, CAST(N'2020-11-29T15:54:13.280' AS DateTime), 970, 4, 716)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3002, CAST(N'2021-05-24T13:10:30.280' AS DateTime), 364, 4, 451)
@@ -3130,7 +3130,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3097, CAST(N'2022-05-20T21:53:16.280' AS DateTime), 867, 4, 69)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3098, CAST(N'2022-12-26T00:09:35.280' AS DateTime), 787, 4, 390)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3099, CAST(N'2021-12-31T18:12:39.280' AS DateTime), 1200, 4, 467)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3100, CAST(N'2022-09-21T08:18:27.280' AS DateTime), 349, 4, 129)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3101, CAST(N'2022-11-10T11:19:46.280' AS DateTime), 1209, 4, 761)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3102, CAST(N'2020-06-09T18:15:32.280' AS DateTime), 253, 4, 122)
@@ -3231,7 +3231,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3197, CAST(N'2021-08-15T12:14:41.280' AS DateTime), 1254, 4, 983)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3198, CAST(N'2022-07-24T00:25:25.280' AS DateTime), 1359, 4, 600)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3199, CAST(N'2022-10-17T11:22:29.280' AS DateTime), 820, 4, 661)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3200, CAST(N'2020-12-08T08:35:14.280' AS DateTime), 1343, 4, 773)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3201, CAST(N'2022-03-07T02:07:34.280' AS DateTime), 1732, 4, 551)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3202, CAST(N'2023-01-27T03:59:15.280' AS DateTime), 1739, 4, 821)
@@ -3332,7 +3332,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3297, CAST(N'2022-07-17T22:27:34.280' AS DateTime), 912, 4, 232)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3298, CAST(N'2020-09-03T13:37:05.280' AS DateTime), 1507, 4, 793)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3299, CAST(N'2021-04-20T07:50:48.280' AS DateTime), 464, 4, 505)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3300, CAST(N'2021-04-28T12:52:47.280' AS DateTime), 1176, 4, 19)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3301, CAST(N'2022-08-17T01:29:03.280' AS DateTime), 852, 4, 54)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3302, CAST(N'2023-03-19T08:02:02.280' AS DateTime), 1501, 4, 367)
@@ -3433,7 +3433,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3397, CAST(N'2022-04-25T00:30:23.280' AS DateTime), 582, 4, 690)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3398, CAST(N'2021-03-21T13:07:36.280' AS DateTime), 1398, 4, 17)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3399, CAST(N'2020-09-05T11:55:40.280' AS DateTime), 1299, 4, 494)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3400, CAST(N'2020-04-08T15:31:37.280' AS DateTime), 743, 4, 162)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3401, CAST(N'2022-01-30T13:54:27.280' AS DateTime), 113, 4, 758)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3402, CAST(N'2020-09-16T14:54:44.280' AS DateTime), 342, 4, 562)
@@ -3534,7 +3534,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3497, CAST(N'2023-01-12T00:08:11.280' AS DateTime), 452, 4, 337)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3498, CAST(N'2020-07-15T02:00:11.280' AS DateTime), 292, 4, 265)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3499, CAST(N'2022-08-05T05:50:15.280' AS DateTime), 1325, 4, 137)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3500, CAST(N'2022-06-28T00:01:44.280' AS DateTime), 791, 4, 103)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3501, CAST(N'2022-05-20T09:49:31.280' AS DateTime), 1854, 4, 689)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3502, CAST(N'2020-07-31T06:43:58.280' AS DateTime), 668, 4, 214)
@@ -3635,7 +3635,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3597, CAST(N'2021-03-23T03:42:01.280' AS DateTime), 1723, 4, 766)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3598, CAST(N'2020-09-11T11:41:14.280' AS DateTime), 291, 4, 24)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3599, CAST(N'2022-03-25T13:30:09.280' AS DateTime), 133, 4, 211)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3600, CAST(N'2022-11-01T07:56:42.280' AS DateTime), 836, 4, 635)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3601, CAST(N'2021-10-12T14:42:52.280' AS DateTime), 1239, 4, 317)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3602, CAST(N'2023-02-10T02:20:25.280' AS DateTime), 232, 4, 478)
@@ -3736,7 +3736,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3697, CAST(N'2021-01-15T22:55:26.280' AS DateTime), 431, 4, 219)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3698, CAST(N'2022-10-14T19:00:37.280' AS DateTime), 655, 4, 139)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3699, CAST(N'2022-05-04T04:34:02.280' AS DateTime), 1702, 4, 257)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3700, CAST(N'2020-12-16T17:41:12.280' AS DateTime), 217, 4, 527)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3701, CAST(N'2022-10-06T11:19:19.280' AS DateTime), 1484, 4, 402)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3702, CAST(N'2021-05-23T17:21:13.280' AS DateTime), 1073, 4, 197)
@@ -3837,7 +3837,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3797, CAST(N'2022-11-07T05:45:39.280' AS DateTime), 1400, 4, 293)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3798, CAST(N'2022-04-26T02:52:32.280' AS DateTime), 1819, 4, 628)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3799, CAST(N'2022-10-28T15:30:51.280' AS DateTime), 626, 4, 258)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3800, CAST(N'2023-03-04T15:54:51.280' AS DateTime), 638, 4, 327)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3801, CAST(N'2021-11-08T17:31:33.280' AS DateTime), 1764, 4, 520)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3802, CAST(N'2022-11-06T06:19:13.280' AS DateTime), 480, 4, 778)
@@ -3938,7 +3938,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3897, CAST(N'2022-08-08T21:02:34.280' AS DateTime), 734, 4, 72)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3898, CAST(N'2021-03-01T09:59:14.280' AS DateTime), 803, 4, 290)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3899, CAST(N'2022-01-04T13:58:09.280' AS DateTime), 550, 4, 188)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3900, CAST(N'2022-12-21T01:08:02.280' AS DateTime), 115, 4, 440)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3901, CAST(N'2022-11-06T17:42:16.280' AS DateTime), 66, 4, 855)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3902, CAST(N'2022-04-17T03:47:11.280' AS DateTime), 1066, 4, 128)
@@ -4039,7 +4039,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3997, CAST(N'2022-12-16T09:09:33.280' AS DateTime), 1224, 4, 735)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3998, CAST(N'2022-03-14T00:00:59.280' AS DateTime), 706, 4, 544)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (3999, CAST(N'2023-01-19T23:00:51.280' AS DateTime), 133, 4, 241)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4000, CAST(N'2021-08-08T04:14:22.280' AS DateTime), 901, 4, 984)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4001, CAST(N'2020-07-25T19:28:59.327' AS DateTime), 1941, 3, 175)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4002, CAST(N'2022-12-08T06:56:03.327' AS DateTime), 1524, 3, 5)
@@ -4140,7 +4140,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4097, CAST(N'2021-02-22T08:28:46.327' AS DateTime), 1679, 3, 707)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4098, CAST(N'2020-11-21T19:54:10.327' AS DateTime), 1409, 3, 747)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4099, CAST(N'2023-02-24T12:10:37.327' AS DateTime), 739, 3, 740)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4100, CAST(N'2022-10-30T08:24:42.327' AS DateTime), 14, 3, 807)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4101, CAST(N'2020-06-15T02:44:47.327' AS DateTime), 230, 3, 144)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4102, CAST(N'2021-07-13T03:15:41.327' AS DateTime), 1213, 3, 276)
@@ -4241,7 +4241,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4197, CAST(N'2021-07-14T12:25:51.327' AS DateTime), 849, 3, 284)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4198, CAST(N'2020-11-01T12:15:36.327' AS DateTime), 429, 3, 709)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4199, CAST(N'2020-05-21T02:37:04.327' AS DateTime), 958, 3, 646)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4200, CAST(N'2023-02-05T04:16:53.327' AS DateTime), 1380, 3, 365)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4201, CAST(N'2021-08-18T14:36:29.327' AS DateTime), 103, 3, 912)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4202, CAST(N'2020-06-24T12:03:49.327' AS DateTime), 83, 3, 897)
@@ -4342,7 +4342,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4297, CAST(N'2020-09-29T19:44:04.327' AS DateTime), 1422, 3, 417)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4298, CAST(N'2022-07-27T19:35:17.327' AS DateTime), 1394, 3, 497)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4299, CAST(N'2020-08-26T02:19:38.327' AS DateTime), 233, 3, 725)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4300, CAST(N'2022-08-15T20:52:56.327' AS DateTime), 668, 3, 612)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4301, CAST(N'2021-06-20T11:41:59.327' AS DateTime), 677, 3, 619)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4302, CAST(N'2022-10-19T22:30:58.327' AS DateTime), 239, 3, 21)
@@ -4443,7 +4443,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4397, CAST(N'2022-05-22T16:54:52.327' AS DateTime), 514, 3, 770)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4398, CAST(N'2022-05-26T07:38:55.327' AS DateTime), 1145, 3, 570)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4399, CAST(N'2020-05-27T08:30:26.327' AS DateTime), 580, 3, 610)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4400, CAST(N'2021-02-08T09:37:45.327' AS DateTime), 550, 3, 636)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4401, CAST(N'2020-12-16T14:05:13.327' AS DateTime), 1409, 3, 449)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4402, CAST(N'2021-12-19T07:41:51.327' AS DateTime), 486, 3, 254)
@@ -4544,7 +4544,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4497, CAST(N'2021-07-10T16:07:31.327' AS DateTime), 817, 3, 284)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4498, CAST(N'2020-05-22T02:45:01.327' AS DateTime), 1032, 3, 7)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4499, CAST(N'2021-08-03T11:42:44.327' AS DateTime), 604, 3, 199)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4500, CAST(N'2022-02-09T15:38:37.327' AS DateTime), 1364, 3, 956)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4501, CAST(N'2022-06-15T18:58:00.327' AS DateTime), 1665, 3, 779)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4502, CAST(N'2022-01-06T05:36:27.327' AS DateTime), 1403, 3, 997)
@@ -4645,7 +4645,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4597, CAST(N'2020-08-05T09:35:41.327' AS DateTime), 1591, 3, 179)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4598, CAST(N'2021-09-27T04:36:27.327' AS DateTime), 570, 3, 309)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4599, CAST(N'2021-08-27T11:59:50.327' AS DateTime), 710, 3, 205)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4600, CAST(N'2022-04-29T11:22:31.327' AS DateTime), 248, 3, 280)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4601, CAST(N'2020-05-23T06:20:31.327' AS DateTime), 1601, 3, 399)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4602, CAST(N'2021-03-07T02:50:00.327' AS DateTime), 887, 3, 837)
@@ -4746,7 +4746,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4697, CAST(N'2023-02-08T16:28:24.327' AS DateTime), 174, 3, 590)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4698, CAST(N'2020-12-25T11:17:46.327' AS DateTime), 350, 3, 457)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4699, CAST(N'2023-02-25T17:49:27.327' AS DateTime), 1618, 3, 247)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4700, CAST(N'2021-01-08T17:38:43.327' AS DateTime), 264, 3, 625)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4701, CAST(N'2020-12-03T20:19:47.327' AS DateTime), 1, 3, 401)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4702, CAST(N'2020-12-08T04:22:09.327' AS DateTime), 363, 3, 162)
@@ -4847,7 +4847,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4797, CAST(N'2023-02-27T00:22:05.327' AS DateTime), 1967, 3, 462)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4798, CAST(N'2020-10-17T21:32:11.327' AS DateTime), 1098, 3, 279)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4799, CAST(N'2021-01-27T19:58:33.327' AS DateTime), 667, 3, 938)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4800, CAST(N'2022-07-09T13:38:07.327' AS DateTime), 1541, 3, 395)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4801, CAST(N'2021-05-12T08:17:41.327' AS DateTime), 1235, 3, 607)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4802, CAST(N'2022-09-05T23:38:00.327' AS DateTime), 1198, 3, 358)
@@ -4948,7 +4948,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4897, CAST(N'2021-10-26T18:29:55.327' AS DateTime), 1087, 3, 745)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4898, CAST(N'2022-12-21T21:23:40.327' AS DateTime), 1903, 3, 790)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4899, CAST(N'2022-10-14T14:38:25.327' AS DateTime), 761, 3, 436)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4900, CAST(N'2020-08-29T02:36:18.327' AS DateTime), 1149, 3, 50)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4901, CAST(N'2022-04-19T07:15:59.327' AS DateTime), 113, 3, 687)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4902, CAST(N'2021-06-23T23:37:03.327' AS DateTime), 1641, 3, 314)
@@ -5049,7 +5049,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4997, CAST(N'2022-09-17T07:15:41.327' AS DateTime), 1210, 3, 172)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4998, CAST(N'2021-03-29T10:19:29.327' AS DateTime), 754, 3, 476)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (4999, CAST(N'2020-04-20T00:28:50.327' AS DateTime), 1464, 3, 633)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5000, CAST(N'2022-07-03T02:16:30.327' AS DateTime), 294, 3, 801)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5001, CAST(N'2023-01-14T18:34:45.327' AS DateTime), 1765, 3, 831)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5002, CAST(N'2021-12-04T02:23:01.327' AS DateTime), 925, 3, 26)
@@ -5150,7 +5150,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5097, CAST(N'2021-08-15T12:50:11.327' AS DateTime), 823, 3, 733)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5098, CAST(N'2020-05-16T12:54:55.327' AS DateTime), 878, 3, 617)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5099, CAST(N'2021-02-07T12:39:18.327' AS DateTime), 762, 3, 561)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5100, CAST(N'2021-02-17T01:07:32.327' AS DateTime), 627, 3, 948)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5101, CAST(N'2020-12-26T01:54:53.327' AS DateTime), 1092, 3, 462)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5102, CAST(N'2021-03-02T05:53:53.327' AS DateTime), 174, 3, 118)
@@ -5251,7 +5251,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5197, CAST(N'2022-02-13T21:12:35.327' AS DateTime), 1908, 3, 294)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5198, CAST(N'2022-08-09T19:16:36.327' AS DateTime), 1148, 3, 840)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5199, CAST(N'2021-04-13T14:42:57.327' AS DateTime), 1723, 3, 675)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5200, CAST(N'2022-08-07T15:39:38.327' AS DateTime), 1751, 3, 425)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5201, CAST(N'2020-07-05T00:18:57.370' AS DateTime), 8, 3, 894)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5202, CAST(N'2021-07-18T20:43:40.370' AS DateTime), 1958, 3, 106)
@@ -5352,7 +5352,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5297, CAST(N'2020-08-03T04:58:21.370' AS DateTime), 131, 3, 577)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5298, CAST(N'2021-07-01T10:06:58.370' AS DateTime), 1938, 3, 372)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5299, CAST(N'2022-06-07T05:02:24.370' AS DateTime), 1664, 3, 233)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5300, CAST(N'2023-01-30T11:09:04.370' AS DateTime), 713, 3, 673)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5301, CAST(N'2020-08-13T09:58:58.370' AS DateTime), 1020, 3, 319)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5302, CAST(N'2022-02-07T17:14:04.370' AS DateTime), 1948, 3, 273)
@@ -5453,7 +5453,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5397, CAST(N'2020-11-30T18:46:55.370' AS DateTime), 727, 3, 193)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5398, CAST(N'2020-04-12T00:52:11.370' AS DateTime), 1107, 3, 751)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5399, CAST(N'2020-04-18T04:01:32.370' AS DateTime), 812, 3, 508)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5400, CAST(N'2022-10-20T20:20:21.370' AS DateTime), 161, 3, 470)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5401, CAST(N'2022-05-13T07:04:31.370' AS DateTime), 1751, 3, 425)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5402, CAST(N'2021-04-09T01:25:45.370' AS DateTime), 336, 3, 452)
@@ -5554,7 +5554,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5497, CAST(N'2021-03-18T15:34:08.370' AS DateTime), 1189, 3, 522)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5498, CAST(N'2021-02-06T06:45:14.370' AS DateTime), 841, 3, 949)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5499, CAST(N'2022-01-18T16:46:49.370' AS DateTime), 2, 3, 304)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5500, CAST(N'2021-07-27T04:18:14.370' AS DateTime), 1477, 3, 925)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5501, CAST(N'2021-08-05T13:59:01.370' AS DateTime), 332, 3, 299)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5502, CAST(N'2023-02-11T04:02:46.370' AS DateTime), 965, 3, 13)
@@ -5655,7 +5655,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5597, CAST(N'2022-12-27T13:24:02.370' AS DateTime), 322, 3, 915)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5598, CAST(N'2022-02-27T18:22:37.370' AS DateTime), 1393, 3, 260)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5599, CAST(N'2022-01-09T07:35:23.370' AS DateTime), 1191, 3, 901)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5600, CAST(N'2020-10-02T15:51:01.370' AS DateTime), 1202, 3, 838)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5601, CAST(N'2021-01-06T07:04:39.370' AS DateTime), 1315, 3, 339)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5602, CAST(N'2021-10-24T08:51:15.370' AS DateTime), 1612, 3, 113)
@@ -5756,7 +5756,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5697, CAST(N'2020-07-07T23:53:16.370' AS DateTime), 142, 3, 791)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5698, CAST(N'2021-01-20T11:41:28.370' AS DateTime), 194, 3, 769)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5699, CAST(N'2022-02-27T06:09:23.370' AS DateTime), 1499, 3, 888)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5700, CAST(N'2021-12-20T08:55:13.370' AS DateTime), 897, 3, 870)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5701, CAST(N'2021-09-09T11:51:17.370' AS DateTime), 1695, 3, 946)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5702, CAST(N'2021-04-17T09:13:05.370' AS DateTime), 537, 3, 83)
@@ -5857,7 +5857,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5797, CAST(N'2021-08-09T14:48:17.370' AS DateTime), 879, 3, 398)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5798, CAST(N'2020-09-15T00:06:35.370' AS DateTime), 590, 3, 217)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5799, CAST(N'2020-08-26T10:48:20.370' AS DateTime), 723, 3, 93)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5800, CAST(N'2023-03-03T14:44:31.370' AS DateTime), 1397, 3, 881)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5801, CAST(N'2022-04-30T15:10:48.370' AS DateTime), 1767, 3, 845)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5802, CAST(N'2022-04-10T22:00:42.370' AS DateTime), 1813, 3, 585)
@@ -5958,7 +5958,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5897, CAST(N'2021-12-23T12:00:30.370' AS DateTime), 517, 3, 548)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5898, CAST(N'2020-08-25T12:50:05.370' AS DateTime), 698, 3, 94)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5899, CAST(N'2021-01-28T03:18:08.370' AS DateTime), 1539, 3, 637)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5900, CAST(N'2021-06-11T17:37:26.370' AS DateTime), 840, 3, 198)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5901, CAST(N'2021-05-19T04:31:48.370' AS DateTime), 1146, 3, 7)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5902, CAST(N'2022-06-30T20:30:27.370' AS DateTime), 272, 3, 40)
@@ -6059,7 +6059,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5997, CAST(N'2022-02-15T08:31:40.370' AS DateTime), 1143, 3, 981)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5998, CAST(N'2020-07-15T02:36:58.370' AS DateTime), 1661, 3, 115)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (5999, CAST(N'2023-03-04T22:02:35.370' AS DateTime), 1566, 3, 366)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6000, CAST(N'2022-07-04T03:29:21.370' AS DateTime), 4, 3, 224)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6001, CAST(N'2021-08-31T00:53:51.370' AS DateTime), 711, 3, 152)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6002, CAST(N'2020-05-12T11:37:50.370' AS DateTime), 1056, 3, 199)
@@ -6160,7 +6160,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6097, CAST(N'2022-07-23T09:09:11.370' AS DateTime), 1904, 3, 115)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6098, CAST(N'2022-02-03T08:42:57.370' AS DateTime), 971, 3, 10)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6099, CAST(N'2022-02-14T05:57:10.370' AS DateTime), 472, 3, 914)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6100, CAST(N'2020-04-14T19:55:17.370' AS DateTime), 835, 3, 213)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6101, CAST(N'2021-08-15T22:32:16.393' AS DateTime), 466, 3, 28)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6102, CAST(N'2021-03-17T12:27:39.393' AS DateTime), 1508, 3, 556)
@@ -6261,7 +6261,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6197, CAST(N'2021-05-28T07:44:54.393' AS DateTime), 730, 3, 23)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6198, CAST(N'2020-08-03T03:11:00.393' AS DateTime), 1915, 3, 637)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6199, CAST(N'2022-10-17T09:21:12.393' AS DateTime), 521, 3, 858)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6200, CAST(N'2023-01-02T10:52:10.393' AS DateTime), 186, 3, 857)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6201, CAST(N'2021-04-28T07:19:25.393' AS DateTime), 713, 3, 812)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6202, CAST(N'2021-08-09T05:44:11.393' AS DateTime), 887, 3, 837)
@@ -6362,7 +6362,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6297, CAST(N'2022-01-24T08:18:58.393' AS DateTime), 107, 3, 508)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6298, CAST(N'2021-08-04T20:50:04.393' AS DateTime), 1599, 3, 693)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6299, CAST(N'2023-01-30T00:43:07.393' AS DateTime), 892, 3, 810)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6300, CAST(N'2021-09-27T15:47:32.393' AS DateTime), 1158, 3, 690)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6301, CAST(N'2021-05-14T15:37:40.393' AS DateTime), 827, 3, 658)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6302, CAST(N'2022-08-01T17:16:57.393' AS DateTime), 1281, 3, 770)
@@ -6463,7 +6463,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6397, CAST(N'2020-09-21T23:44:49.393' AS DateTime), 1057, 3, 798)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6398, CAST(N'2022-03-30T08:42:52.393' AS DateTime), 616, 3, 212)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6399, CAST(N'2021-06-19T00:52:15.393' AS DateTime), 64, 3, 595)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6400, CAST(N'2021-06-18T21:22:08.393' AS DateTime), 1635, 3, 747)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6401, CAST(N'2021-01-26T07:09:35.393' AS DateTime), 508, 3, 453)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6402, CAST(N'2020-06-15T18:44:17.393' AS DateTime), 38, 3, 644)
@@ -6564,7 +6564,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6497, CAST(N'2021-07-21T04:13:41.393' AS DateTime), 1877, 3, 90)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6498, CAST(N'2020-12-01T10:52:04.393' AS DateTime), 233, 3, 725)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6499, CAST(N'2021-10-06T00:04:58.393' AS DateTime), 430, 3, 558)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6500, CAST(N'2021-03-02T07:15:44.393' AS DateTime), 971, 3, 455)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6501, CAST(N'2021-05-31T04:39:15.393' AS DateTime), 808, 3, 125)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6502, CAST(N'2021-11-09T10:40:45.393' AS DateTime), 748, 3, 357)
@@ -6665,7 +6665,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6597, CAST(N'2020-06-01T06:37:56.393' AS DateTime), 1295, 3, 333)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6598, CAST(N'2022-12-02T16:04:41.393' AS DateTime), 237, 3, 96)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6599, CAST(N'2021-10-11T11:22:53.393' AS DateTime), 284, 3, 814)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6600, CAST(N'2022-12-24T14:59:14.393' AS DateTime), 1837, 3, 534)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6601, CAST(N'2022-09-22T09:45:08.393' AS DateTime), 1518, 3, 473)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6602, CAST(N'2022-08-30T02:54:26.393' AS DateTime), 1931, 3, 575)
@@ -6766,7 +6766,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6697, CAST(N'2020-10-18T09:09:58.393' AS DateTime), 649, 3, 493)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6698, CAST(N'2022-10-03T13:05:25.393' AS DateTime), 1962, 3, 237)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6699, CAST(N'2021-07-17T17:54:33.393' AS DateTime), 142, 3, 355)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6700, CAST(N'2022-07-12T23:44:29.393' AS DateTime), 1527, 3, 294)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6701, CAST(N'2022-11-23T09:48:08.420' AS DateTime), 1386, 4, 507)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6702, CAST(N'2022-05-13T14:55:10.420' AS DateTime), 1702, 4, 444)
@@ -6867,7 +6867,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6797, CAST(N'2021-05-05T20:24:13.420' AS DateTime), 1656, 4, 404)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6798, CAST(N'2020-05-01T10:21:00.420' AS DateTime), 1956, 4, 222)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6799, CAST(N'2022-01-08T19:20:39.420' AS DateTime), 530, 4, 451)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6800, CAST(N'2020-11-12T17:07:58.420' AS DateTime), 1464, 4, 633)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6801, CAST(N'2021-11-29T21:21:55.420' AS DateTime), 523, 4, 179)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6802, CAST(N'2022-03-12T02:56:22.420' AS DateTime), 55, 4, 387)
@@ -6968,7 +6968,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6897, CAST(N'2021-02-26T01:19:03.420' AS DateTime), 870, 4, 39)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6898, CAST(N'2022-02-20T01:41:39.420' AS DateTime), 1418, 4, 381)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6899, CAST(N'2021-01-13T09:36:33.420' AS DateTime), 1077, 4, 378)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6900, CAST(N'2022-07-27T23:37:01.420' AS DateTime), 237, 4, 96)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6901, CAST(N'2021-07-06T21:18:11.420' AS DateTime), 1391, 4, 39)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6902, CAST(N'2021-05-02T05:18:26.420' AS DateTime), 1707, 4, 388)
@@ -7069,7 +7069,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6997, CAST(N'2022-08-13T10:59:52.420' AS DateTime), 708, 4, 298)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6998, CAST(N'2021-03-11T17:08:30.420' AS DateTime), 1822, 4, 862)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (6999, CAST(N'2020-09-29T06:55:23.420' AS DateTime), 844, 4, 353)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7000, CAST(N'2022-04-24T22:05:20.420' AS DateTime), 1972, 4, 851)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7001, CAST(N'2021-06-17T12:15:08.420' AS DateTime), 69, 4, 321)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7002, CAST(N'2022-05-24T08:34:22.420' AS DateTime), 1798, 4, 15)
@@ -7170,7 +7170,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7097, CAST(N'2020-12-31T15:56:37.420' AS DateTime), 1732, 4, 551)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7098, CAST(N'2023-02-22T16:33:13.420' AS DateTime), 1949, 4, 451)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7099, CAST(N'2020-08-16T02:50:44.420' AS DateTime), 1467, 4, 709)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7100, CAST(N'2022-04-21T00:11:22.420' AS DateTime), 638, 4, 994)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7101, CAST(N'2021-11-04T08:12:56.440' AS DateTime), 1039, 4, 23)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7102, CAST(N'2021-02-09T06:10:24.440' AS DateTime), 791, 4, 103)
@@ -7271,7 +7271,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7197, CAST(N'2020-12-16T00:33:15.440' AS DateTime), 1362, 4, 661)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7198, CAST(N'2020-06-18T08:11:47.440' AS DateTime), 1507, 4, 793)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7199, CAST(N'2020-11-05T08:53:53.440' AS DateTime), 857, 4, 816)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7200, CAST(N'2022-05-27T07:10:31.440' AS DateTime), 253, 4, 646)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7201, CAST(N'2023-01-21T01:13:35.440' AS DateTime), 525, 4, 840)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7202, CAST(N'2022-10-26T16:21:12.440' AS DateTime), 190, 4, 210)
@@ -7372,7 +7372,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7297, CAST(N'2023-02-17T09:00:04.440' AS DateTime), 1679, 4, 707)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7298, CAST(N'2022-10-04T07:36:16.440' AS DateTime), 111, 4, 336)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7299, CAST(N'2020-11-18T18:29:50.440' AS DateTime), 698, 4, 94)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7300, CAST(N'2022-09-01T11:07:52.440' AS DateTime), 1478, 4, 420)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7301, CAST(N'2020-09-19T20:30:33.440' AS DateTime), 290, 4, 111)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7302, CAST(N'2020-12-23T00:33:15.440' AS DateTime), 1235, 4, 621)
@@ -7473,7 +7473,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7397, CAST(N'2022-07-16T15:23:40.440' AS DateTime), 1765, 4, 65)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7398, CAST(N'2022-08-21T18:53:03.440' AS DateTime), 675, 4, 767)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7399, CAST(N'2022-06-21T11:09:52.440' AS DateTime), 4, 4, 118)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7400, CAST(N'2022-05-11T11:18:36.440' AS DateTime), 503, 4, 220)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7401, CAST(N'2020-04-23T06:54:00.467' AS DateTime), 1384, 3, 727)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7402, CAST(N'2021-12-11T19:46:14.467' AS DateTime), 1295, 3, 951)
@@ -7574,7 +7574,7 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7497, CAST(N'2022-07-06T19:50:48.467' AS DateTime), 918, 3, 628)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7498, CAST(N'2020-12-17T22:21:20.467' AS DateTime), 1128, 3, 68)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7499, CAST(N'2020-10-01T10:11:26.467' AS DateTime), 521, 3, 858)
---GO
+GO
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7500, CAST(N'2022-06-05T18:30:30.467' AS DateTime), 835, 3, 572)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7501, CAST(N'2021-06-20T18:34:49.483' AS DateTime), 298, 3, 174)
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7502, CAST(N'2023-03-28T08:35:56.483' AS DateTime), 130, 3, 325)
@@ -7628,4 +7628,3 @@ INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_me
 INSERT [dbo].[cust_order] ([order_id], [order_date], [customer_id], [shipping_method_id], [dest_address_id]) VALUES (7550, CAST(N'2021-03-15T14:35:10.483' AS DateTime), 700, 3, 320)
 
 SET IDENTITY_INSERT [dbo].[cust_order] OFF
-*/

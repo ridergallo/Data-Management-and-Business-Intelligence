@@ -1,5 +1,4 @@
-﻿/*
---GO
+﻿GO
 SET IDENTITY_INSERT [dbo].[order_history] ON 
 
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1, 1, 1, CAST(N'2020-04-09T18:19:05.190' AS DateTime))
@@ -101,7 +100,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (97, 97, 1, CAST(N'2021-11-15T04:38:55.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (98, 98, 1, CAST(N'2020-08-23T00:39:12.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (99, 99, 1, CAST(N'2022-04-13T11:33:38.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (100, 100, 1, CAST(N'2020-06-26T07:57:47.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (101, 101, 1, CAST(N'2023-01-05T22:11:05.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (102, 102, 1, CAST(N'2022-08-08T07:56:34.190' AS DateTime))
@@ -202,7 +201,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (197, 197, 1, CAST(N'2022-10-07T07:18:57.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (198, 198, 1, CAST(N'2022-07-22T07:16:39.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (199, 199, 1, CAST(N'2021-11-10T06:51:31.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (200, 200, 1, CAST(N'2021-07-26T16:33:36.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (201, 201, 1, CAST(N'2020-06-12T23:32:45.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (202, 202, 1, CAST(N'2020-07-24T03:22:31.190' AS DateTime))
@@ -303,7 +302,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (297, 297, 1, CAST(N'2021-08-15T16:03:49.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (298, 298, 1, CAST(N'2021-05-26T13:35:37.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (299, 299, 1, CAST(N'2021-12-11T21:34:55.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (300, 300, 1, CAST(N'2022-12-22T19:59:46.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (301, 301, 1, CAST(N'2021-12-05T19:47:34.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (302, 302, 1, CAST(N'2021-04-21T17:53:35.190' AS DateTime))
@@ -404,7 +403,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (397, 397, 1, CAST(N'2021-09-13T20:16:09.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (398, 398, 1, CAST(N'2020-07-29T06:56:06.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (399, 399, 1, CAST(N'2022-04-04T05:37:12.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (400, 400, 1, CAST(N'2021-03-25T09:22:17.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (401, 401, 1, CAST(N'2021-10-03T22:18:01.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (402, 402, 1, CAST(N'2022-02-10T21:32:46.190' AS DateTime))
@@ -505,7 +504,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (497, 497, 1, CAST(N'2022-10-15T17:17:05.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (498, 498, 1, CAST(N'2022-10-28T03:02:00.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (499, 499, 1, CAST(N'2021-06-02T21:16:32.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (500, 500, 1, CAST(N'2021-07-10T01:53:23.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (501, 501, 1, CAST(N'2022-04-20T08:05:33.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (502, 502, 1, CAST(N'2022-06-19T02:31:24.190' AS DateTime))
@@ -606,7 +605,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (597, 597, 1, CAST(N'2021-01-24T07:21:30.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (598, 598, 1, CAST(N'2020-05-10T02:04:01.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (599, 599, 1, CAST(N'2022-04-28T18:51:22.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (600, 600, 1, CAST(N'2022-12-02T11:20:04.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (601, 601, 1, CAST(N'2020-06-23T14:01:59.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (602, 602, 1, CAST(N'2022-09-01T13:45:43.190' AS DateTime))
@@ -707,7 +706,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (697, 697, 1, CAST(N'2022-09-07T13:37:45.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (698, 698, 1, CAST(N'2021-05-09T00:02:59.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (699, 699, 1, CAST(N'2020-10-11T04:23:02.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (700, 700, 1, CAST(N'2022-01-05T15:11:14.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (701, 701, 1, CAST(N'2021-07-02T09:37:19.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (702, 702, 1, CAST(N'2022-07-27T08:20:19.190' AS DateTime))
@@ -808,7 +807,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (797, 797, 1, CAST(N'2023-02-18T15:55:23.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (798, 798, 1, CAST(N'2023-01-06T12:32:09.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (799, 799, 1, CAST(N'2020-05-29T23:23:38.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (800, 800, 1, CAST(N'2020-04-24T07:18:46.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (801, 801, 1, CAST(N'2020-08-18T21:54:06.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (802, 802, 1, CAST(N'2020-05-12T05:39:20.190' AS DateTime))
@@ -909,7 +908,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (897, 897, 1, CAST(N'2020-08-17T06:11:33.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (898, 898, 1, CAST(N'2021-11-20T19:26:43.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (899, 899, 1, CAST(N'2023-03-31T18:46:31.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (900, 900, 1, CAST(N'2022-04-05T00:20:11.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (901, 901, 1, CAST(N'2022-05-11T17:21:58.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (902, 902, 1, CAST(N'2022-08-01T15:17:22.190' AS DateTime))
@@ -1010,7 +1009,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (997, 997, 1, CAST(N'2020-05-11T18:09:05.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (998, 998, 1, CAST(N'2020-10-23T07:27:19.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (999, 999, 1, CAST(N'2022-03-14T10:15:16.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1000, 1000, 1, CAST(N'2020-05-26T22:21:35.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1001, 1001, 1, CAST(N'2022-05-14T21:10:26.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1002, 1002, 1, CAST(N'2021-07-17T09:34:48.190' AS DateTime))
@@ -1111,7 +1110,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1097, 1097, 1, CAST(N'2020-08-23T12:47:49.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1098, 1098, 1, CAST(N'2020-08-20T16:33:17.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1099, 1099, 1, CAST(N'2021-06-06T10:53:20.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1100, 1100, 1, CAST(N'2022-11-11T08:29:11.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1101, 1101, 1, CAST(N'2022-01-09T08:30:11.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1102, 1102, 1, CAST(N'2021-05-08T11:54:47.190' AS DateTime))
@@ -1212,7 +1211,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1197, 1197, 1, CAST(N'2022-10-24T01:57:17.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1198, 1198, 1, CAST(N'2022-12-09T20:49:58.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1199, 1199, 1, CAST(N'2021-08-09T10:16:24.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1200, 1200, 1, CAST(N'2020-12-26T16:36:53.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1201, 1201, 1, CAST(N'2021-03-15T14:21:01.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1202, 1202, 1, CAST(N'2021-11-12T06:42:02.190' AS DateTime))
@@ -1313,7 +1312,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1297, 1297, 1, CAST(N'2021-11-07T13:11:37.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1298, 1298, 1, CAST(N'2023-01-05T23:00:31.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1299, 1299, 1, CAST(N'2022-11-16T10:52:10.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1300, 1300, 1, CAST(N'2020-05-24T22:56:57.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1301, 1301, 1, CAST(N'2022-08-09T19:29:58.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1302, 1302, 1, CAST(N'2020-11-09T18:59:09.190' AS DateTime))
@@ -1414,7 +1413,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1397, 1397, 1, CAST(N'2021-09-02T13:43:31.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1398, 1398, 1, CAST(N'2022-07-07T18:30:35.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1399, 1399, 1, CAST(N'2021-07-14T01:50:54.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1400, 1400, 1, CAST(N'2021-11-26T03:39:14.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1401, 1401, 1, CAST(N'2021-08-30T15:48:24.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1402, 1402, 1, CAST(N'2020-06-14T02:21:15.190' AS DateTime))
@@ -1515,7 +1514,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1497, 1497, 1, CAST(N'2021-06-07T23:53:05.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1498, 1498, 1, CAST(N'2022-07-28T22:31:20.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1499, 1499, 1, CAST(N'2021-12-23T14:59:43.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1500, 1500, 1, CAST(N'2020-08-03T07:37:11.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1501, 1501, 1, CAST(N'2022-10-11T12:36:42.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1502, 1502, 1, CAST(N'2020-09-04T02:11:42.190' AS DateTime))
@@ -1616,7 +1615,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1597, 1597, 1, CAST(N'2021-06-20T02:25:00.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1598, 1598, 1, CAST(N'2022-05-17T01:47:51.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1599, 1599, 1, CAST(N'2021-11-11T01:05:12.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1600, 1600, 1, CAST(N'2020-08-25T09:44:01.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1601, 1601, 1, CAST(N'2021-09-20T01:07:10.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1602, 1602, 1, CAST(N'2022-02-16T01:26:07.190' AS DateTime))
@@ -1717,7 +1716,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1697, 1697, 1, CAST(N'2020-05-07T12:39:38.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1698, 1698, 1, CAST(N'2023-02-15T18:29:36.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1699, 1699, 1, CAST(N'2023-02-20T10:41:55.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1700, 1700, 1, CAST(N'2021-01-18T10:16:19.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1701, 1701, 1, CAST(N'2022-01-26T14:54:58.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1702, 1702, 1, CAST(N'2022-08-10T15:56:04.190' AS DateTime))
@@ -1818,7 +1817,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1797, 1797, 1, CAST(N'2021-12-02T13:00:13.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1798, 1798, 1, CAST(N'2020-08-06T15:56:15.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1799, 1799, 1, CAST(N'2020-05-02T05:56:49.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1800, 1800, 1, CAST(N'2021-07-08T23:33:03.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1801, 1801, 1, CAST(N'2022-11-28T00:32:14.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1802, 1802, 1, CAST(N'2021-01-23T07:37:27.190' AS DateTime))
@@ -1919,7 +1918,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1897, 1897, 1, CAST(N'2022-02-22T01:28:56.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1898, 1898, 1, CAST(N'2021-09-11T08:48:33.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1899, 1899, 1, CAST(N'2023-02-05T13:56:51.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1900, 1900, 1, CAST(N'2020-11-26T09:08:07.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1901, 1901, 1, CAST(N'2022-08-04T03:10:39.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1902, 1902, 1, CAST(N'2022-12-04T23:52:57.190' AS DateTime))
@@ -2020,7 +2019,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1997, 1997, 1, CAST(N'2022-11-25T10:58:39.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1998, 1998, 1, CAST(N'2020-07-19T12:06:11.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (1999, 1999, 1, CAST(N'2022-02-08T13:50:42.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2000, 2000, 1, CAST(N'2022-11-29T12:27:51.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2001, 2001, 1, CAST(N'2022-08-18T03:54:37.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2002, 2002, 1, CAST(N'2023-01-21T17:10:19.190' AS DateTime))
@@ -2121,7 +2120,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2097, 2097, 1, CAST(N'2022-10-11T07:37:52.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2098, 2098, 1, CAST(N'2023-01-22T06:30:49.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2099, 2099, 1, CAST(N'2021-05-31T14:25:35.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2100, 2100, 1, CAST(N'2021-01-20T08:38:45.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2101, 2101, 1, CAST(N'2021-10-13T02:25:05.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2102, 2102, 1, CAST(N'2022-11-20T16:46:57.190' AS DateTime))
@@ -2222,7 +2221,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2197, 2197, 1, CAST(N'2021-03-24T03:42:26.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2198, 2198, 1, CAST(N'2023-01-21T17:23:38.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2199, 2199, 1, CAST(N'2022-10-23T16:04:03.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2200, 2200, 1, CAST(N'2021-10-01T06:31:25.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2201, 2201, 1, CAST(N'2022-01-12T02:56:17.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2202, 2202, 1, CAST(N'2022-04-14T18:32:39.190' AS DateTime))
@@ -2323,7 +2322,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2297, 2297, 1, CAST(N'2021-02-13T13:33:36.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2298, 2298, 1, CAST(N'2021-11-09T02:51:30.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2299, 2299, 1, CAST(N'2021-11-25T17:34:26.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2300, 2300, 1, CAST(N'2021-12-18T05:45:45.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2301, 2301, 1, CAST(N'2020-08-11T17:22:51.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2302, 2302, 1, CAST(N'2020-06-12T14:25:17.190' AS DateTime))
@@ -2424,7 +2423,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2397, 2397, 1, CAST(N'2021-01-19T22:27:23.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2398, 2398, 1, CAST(N'2022-06-26T10:28:20.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2399, 2399, 1, CAST(N'2021-03-24T09:05:55.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2400, 2400, 1, CAST(N'2021-11-25T02:12:35.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2401, 2401, 1, CAST(N'2021-07-31T11:49:33.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2402, 2402, 1, CAST(N'2022-07-25T18:27:57.190' AS DateTime))
@@ -2525,7 +2524,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2497, 2497, 1, CAST(N'2020-07-21T13:04:42.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2498, 2498, 1, CAST(N'2020-06-04T02:42:31.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2499, 2499, 1, CAST(N'2022-06-22T15:56:30.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2500, 2500, 1, CAST(N'2022-12-06T21:24:40.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2501, 2501, 1, CAST(N'2023-02-28T21:05:57.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2502, 2502, 1, CAST(N'2023-03-14T22:38:55.280' AS DateTime))
@@ -2626,7 +2625,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2597, 2597, 1, CAST(N'2022-04-21T15:30:30.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2598, 2598, 1, CAST(N'2023-02-12T12:38:26.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2599, 2599, 1, CAST(N'2022-06-01T18:36:32.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2600, 2600, 1, CAST(N'2022-01-04T20:45:30.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2601, 2601, 1, CAST(N'2022-05-10T19:43:17.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2602, 2602, 1, CAST(N'2020-08-25T14:37:59.280' AS DateTime))
@@ -2727,7 +2726,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2697, 2697, 1, CAST(N'2022-03-29T07:59:19.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2698, 2698, 1, CAST(N'2022-12-12T16:39:44.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2699, 2699, 1, CAST(N'2022-10-25T02:34:17.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2700, 2700, 1, CAST(N'2023-01-24T00:15:35.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2701, 2701, 1, CAST(N'2021-01-08T23:14:51.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2702, 2702, 1, CAST(N'2022-04-04T01:52:54.280' AS DateTime))
@@ -2828,7 +2827,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2797, 2797, 1, CAST(N'2022-06-03T12:23:56.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2798, 2798, 1, CAST(N'2020-05-31T20:24:58.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2799, 2799, 1, CAST(N'2021-07-29T02:19:26.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2800, 2800, 1, CAST(N'2020-04-04T09:35:24.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2801, 2801, 1, CAST(N'2021-04-26T11:18:59.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2802, 2802, 1, CAST(N'2021-09-07T21:06:06.280' AS DateTime))
@@ -2929,7 +2928,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2897, 2897, 1, CAST(N'2022-06-07T07:15:54.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2898, 2898, 1, CAST(N'2021-08-22T08:48:51.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2899, 2899, 1, CAST(N'2021-04-19T05:55:12.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2900, 2900, 1, CAST(N'2023-03-03T08:26:38.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2901, 2901, 1, CAST(N'2022-05-01T23:08:30.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2902, 2902, 1, CAST(N'2023-02-28T19:11:11.280' AS DateTime))
@@ -3030,7 +3029,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2997, 2997, 1, CAST(N'2022-03-09T11:20:32.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2998, 2998, 1, CAST(N'2021-05-14T20:13:47.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (2999, 2999, 1, CAST(N'2020-04-12T23:19:14.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3000, 3000, 1, CAST(N'2023-01-18T06:51:21.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3001, 3001, 1, CAST(N'2020-11-29T23:01:24.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3002, 3002, 1, CAST(N'2021-05-24T18:05:08.280' AS DateTime))
@@ -3131,7 +3130,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3097, 3097, 1, CAST(N'2022-05-20T23:22:30.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3098, 3098, 1, CAST(N'2022-12-26T07:04:26.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3099, 3099, 1, CAST(N'2021-12-31T21:27:01.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3100, 3100, 1, CAST(N'2022-09-21T15:12:27.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3101, 3101, 1, CAST(N'2022-11-10T21:37:35.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3102, 3102, 1, CAST(N'2020-06-10T02:27:10.280' AS DateTime))
@@ -3232,7 +3231,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3197, 3197, 1, CAST(N'2021-08-15T23:19:42.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3198, 3198, 1, CAST(N'2022-07-24T07:10:30.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3199, 3199, 1, CAST(N'2022-10-17T21:38:44.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3200, 3200, 1, CAST(N'2020-12-08T17:24:03.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3201, 3201, 1, CAST(N'2022-03-07T09:15:12.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3202, 3202, 1, CAST(N'2023-01-27T13:16:53.280' AS DateTime))
@@ -3333,7 +3332,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3297, 3297, 1, CAST(N'2022-07-18T00:54:27.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3298, 3298, 1, CAST(N'2020-09-04T00:38:38.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3299, 3299, 1, CAST(N'2021-04-20T09:57:27.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3300, 3300, 1, CAST(N'2021-04-28T16:06:16.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3301, 3301, 1, CAST(N'2022-08-17T02:40:59.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3302, 3302, 1, CAST(N'2023-03-19T11:01:15.280' AS DateTime))
@@ -3434,7 +3433,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3397, 3397, 1, CAST(N'2022-04-25T00:40:56.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3398, 3398, 1, CAST(N'2021-03-21T14:21:13.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3399, 3399, 1, CAST(N'2020-09-05T21:29:21.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3400, 3400, 1, CAST(N'2020-04-08T22:17:03.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3401, 3401, 1, CAST(N'2022-01-30T15:01:41.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3402, 3402, 1, CAST(N'2020-09-16T17:10:40.280' AS DateTime))
@@ -3535,7 +3534,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3497, 3497, 1, CAST(N'2023-01-12T07:27:50.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3498, 3498, 1, CAST(N'2020-07-15T08:00:52.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3499, 3499, 1, CAST(N'2022-08-05T17:05:13.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3500, 3500, 1, CAST(N'2022-06-28T01:19:53.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3501, 3501, 1, CAST(N'2022-05-20T18:55:35.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3502, 3502, 1, CAST(N'2020-07-31T16:53:36.280' AS DateTime))
@@ -3636,7 +3635,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3597, 3597, 1, CAST(N'2021-03-23T06:20:37.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3598, 3598, 1, CAST(N'2020-09-11T14:33:45.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3599, 3599, 1, CAST(N'2022-03-25T19:49:26.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3600, 3600, 1, CAST(N'2022-11-01T13:07:19.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3601, 3601, 1, CAST(N'2021-10-12T23:17:26.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3602, 3602, 1, CAST(N'2023-02-10T05:48:29.280' AS DateTime))
@@ -3737,7 +3736,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3697, 3697, 1, CAST(N'2021-01-15T23:08:18.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3698, 3698, 1, CAST(N'2022-10-15T01:23:09.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3699, 3699, 1, CAST(N'2022-05-04T07:47:46.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3700, 3700, 1, CAST(N'2020-12-17T03:38:44.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3701, 3701, 1, CAST(N'2022-10-06T21:32:07.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3702, 3702, 1, CAST(N'2021-05-24T04:14:07.280' AS DateTime))
@@ -3838,7 +3837,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3797, 3797, 1, CAST(N'2022-11-07T13:50:51.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3798, 3798, 1, CAST(N'2022-04-26T10:48:06.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3799, 3799, 1, CAST(N'2022-10-29T00:22:58.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3800, 3800, 1, CAST(N'2023-03-04T16:32:45.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3801, 3801, 1, CAST(N'2021-11-09T02:35:45.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3802, 3802, 1, CAST(N'2022-11-06T14:06:04.280' AS DateTime))
@@ -3939,7 +3938,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3897, 3897, 1, CAST(N'2022-08-09T07:02:41.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3898, 3898, 1, CAST(N'2021-03-01T14:45:17.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3899, 3899, 1, CAST(N'2022-01-04T14:54:35.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3900, 3900, 1, CAST(N'2022-12-21T01:43:26.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3901, 3901, 1, CAST(N'2022-11-07T02:18:38.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3902, 3902, 1, CAST(N'2022-04-17T04:07:42.280' AS DateTime))
@@ -4040,7 +4039,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3997, 3997, 1, CAST(N'2022-12-16T11:20:43.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3998, 3998, 1, CAST(N'2022-03-14T11:38:50.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (3999, 3999, 1, CAST(N'2023-01-19T23:56:29.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4000, 4000, 1, CAST(N'2021-08-08T05:24:53.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4001, 4001, 1, CAST(N'2020-07-26T07:17:00.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4002, 4002, 1, CAST(N'2022-12-08T12:54:45.327' AS DateTime))
@@ -4141,7 +4140,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4097, 4097, 1, CAST(N'2021-02-22T12:54:08.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4098, 4098, 1, CAST(N'2020-11-22T02:36:48.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4099, 4099, 1, CAST(N'2023-02-24T16:34:00.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4100, 4100, 1, CAST(N'2022-10-30T17:39:00.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4101, 4101, 1, CAST(N'2020-06-15T11:23:34.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4102, 4102, 1, CAST(N'2021-07-13T03:57:39.327' AS DateTime))
@@ -4242,7 +4241,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4197, 4197, 1, CAST(N'2021-07-14T19:12:57.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4198, 4198, 1, CAST(N'2020-11-01T16:07:05.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4199, 4199, 1, CAST(N'2020-05-21T12:40:48.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4200, 4200, 1, CAST(N'2023-02-05T08:17:14.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4201, 4201, 1, CAST(N'2021-08-18T19:58:56.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4202, 4202, 1, CAST(N'2020-06-24T19:06:12.327' AS DateTime))
@@ -4343,7 +4342,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4297, 4297, 1, CAST(N'2020-09-30T01:31:46.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4298, 4298, 1, CAST(N'2022-07-27T22:03:00.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4299, 4299, 1, CAST(N'2020-08-26T09:14:22.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4300, 4300, 1, CAST(N'2022-08-16T03:47:00.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4301, 4301, 1, CAST(N'2021-06-20T12:02:41.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4302, 4302, 1, CAST(N'2022-10-20T00:26:45.327' AS DateTime))
@@ -4444,7 +4443,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4397, 4397, 1, CAST(N'2022-05-23T03:01:54.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4398, 4398, 1, CAST(N'2022-05-26T17:21:14.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4399, 4399, 1, CAST(N'2020-05-27T09:15:00.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4400, 4400, 1, CAST(N'2021-02-08T15:09:06.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4401, 4401, 1, CAST(N'2020-12-16T23:34:12.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4402, 4402, 1, CAST(N'2021-12-19T11:48:43.327' AS DateTime))
@@ -4545,7 +4544,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4497, 4497, 1, CAST(N'2021-07-10T19:54:26.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4498, 4498, 1, CAST(N'2020-05-22T09:36:13.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4499, 4499, 1, CAST(N'2021-08-03T15:04:32.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4500, 4500, 1, CAST(N'2022-02-09T18:47:07.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4501, 4501, 1, CAST(N'2022-06-16T01:09:56.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4502, 4502, 1, CAST(N'2022-01-06T07:02:56.327' AS DateTime))
@@ -4646,7 +4645,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4597, 4598, 1, CAST(N'2021-09-27T09:47:36.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4598, 4599, 1, CAST(N'2021-08-27T12:12:59.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4599, 4600, 1, CAST(N'2022-04-29T12:19:25.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4600, 4601, 1, CAST(N'2020-05-23T14:41:44.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4601, 4602, 1, CAST(N'2021-03-07T12:56:36.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4602, 4603, 1, CAST(N'2022-07-01T07:20:15.327' AS DateTime))
@@ -4747,7 +4746,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4697, 4698, 1, CAST(N'2020-12-25T12:14:05.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4698, 4699, 1, CAST(N'2023-02-25T20:27:13.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4699, 4700, 1, CAST(N'2021-01-09T03:43:33.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4700, 4701, 1, CAST(N'2020-12-04T01:57:26.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4701, 4702, 1, CAST(N'2020-12-08T06:13:27.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4702, 4703, 1, CAST(N'2021-12-29T03:20:43.327' AS DateTime))
@@ -4848,7 +4847,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4797, 4799, 1, CAST(N'2021-01-27T20:26:36.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4798, 4800, 1, CAST(N'2022-07-09T20:16:31.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4799, 4801, 1, CAST(N'2021-05-12T13:58:04.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4800, 4802, 1, CAST(N'2022-09-06T01:44:38.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4801, 4803, 1, CAST(N'2021-11-15T03:30:55.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4802, 4804, 1, CAST(N'2021-12-16T11:40:31.327' AS DateTime))
@@ -4949,7 +4948,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4897, 4899, 1, CAST(N'2022-10-15T01:33:02.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4898, 4900, 1, CAST(N'2020-08-29T03:24:23.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4899, 4901, 1, CAST(N'2022-04-19T16:46:37.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4900, 4902, 1, CAST(N'2021-06-24T03:05:50.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4901, 4903, 1, CAST(N'2022-09-13T08:43:39.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4902, 4904, 1, CAST(N'2021-01-12T22:27:33.327' AS DateTime))
@@ -5050,7 +5049,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4997, 4999, 1, CAST(N'2020-04-20T06:16:07.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4998, 5000, 1, CAST(N'2022-07-03T05:45:45.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (4999, 5001, 1, CAST(N'2023-01-15T01:26:16.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5000, 5002, 1, CAST(N'2021-12-04T08:01:41.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5001, 5003, 1, CAST(N'2020-10-12T20:02:06.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5002, 5004, 1, CAST(N'2021-06-24T23:45:28.327' AS DateTime))
@@ -5151,7 +5150,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5097, 5099, 1, CAST(N'2021-02-07T16:17:35.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5098, 5100, 1, CAST(N'2021-02-17T07:42:25.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5099, 5101, 1, CAST(N'2020-12-26T13:51:29.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5100, 5102, 1, CAST(N'2021-03-02T07:42:43.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5101, 5103, 1, CAST(N'2021-01-02T03:16:20.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5102, 5104, 1, CAST(N'2023-01-15T02:17:08.327' AS DateTime))
@@ -5252,7 +5251,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5197, 5199, 1, CAST(N'2021-04-13T19:49:17.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5198, 5200, 1, CAST(N'2022-08-08T03:23:14.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5199, 5201, 1, CAST(N'2020-07-05T07:54:59.370' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5200, 5202, 1, CAST(N'2021-07-19T06:15:37.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5201, 5203, 1, CAST(N'2021-10-19T21:46:50.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5202, 5204, 1, CAST(N'2020-09-12T17:00:07.370' AS DateTime))
@@ -5353,7 +5352,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5297, 5299, 1, CAST(N'2022-06-07T10:28:00.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5298, 5300, 1, CAST(N'2023-01-30T11:15:58.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5299, 5301, 1, CAST(N'2020-08-13T15:17:09.370' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5300, 5302, 1, CAST(N'2022-02-08T04:17:22.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5301, 5303, 1, CAST(N'2021-05-11T00:50:56.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5302, 5304, 1, CAST(N'2020-09-21T00:25:35.370' AS DateTime))
@@ -5454,7 +5453,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5397, 5400, 1, CAST(N'2022-10-21T00:21:29.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5398, 5401, 1, CAST(N'2022-05-13T15:13:38.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5399, 5402, 1, CAST(N'2021-04-09T12:49:06.370' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5400, 5403, 1, CAST(N'2021-05-21T10:08:08.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5401, 5404, 1, CAST(N'2022-04-30T06:53:39.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5402, 5405, 1, CAST(N'2022-06-19T14:56:15.370' AS DateTime))
@@ -5555,7 +5554,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5497, 5500, 1, CAST(N'2021-07-27T15:11:08.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5498, 5501, 1, CAST(N'2021-08-05T21:54:28.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5499, 5502, 1, CAST(N'2023-02-11T07:06:39.370' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5500, 5503, 1, CAST(N'2022-02-05T04:22:38.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5501, 5504, 1, CAST(N'2020-07-11T16:53:25.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5502, 5505, 1, CAST(N'2022-06-07T19:23:20.370' AS DateTime))
@@ -5656,7 +5655,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5597, 5600, 1, CAST(N'2020-10-02T17:38:33.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5598, 5601, 1, CAST(N'2021-01-06T15:31:07.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5599, 5602, 1, CAST(N'2021-10-24T14:44:44.370' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5600, 5603, 1, CAST(N'2020-06-21T22:33:01.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5601, 5604, 1, CAST(N'2020-12-24T23:38:08.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5602, 5605, 1, CAST(N'2020-11-01T08:22:23.370' AS DateTime))
@@ -5757,7 +5756,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5697, 5700, 1, CAST(N'2021-12-20T17:10:19.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5698, 5701, 1, CAST(N'2021-09-09T12:32:34.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5699, 5702, 1, CAST(N'2021-04-17T20:52:20.370' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5700, 5703, 1, CAST(N'2020-09-14T07:23:56.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5701, 5704, 1, CAST(N'2021-01-08T09:01:23.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5702, 5705, 1, CAST(N'2022-11-11T21:35:05.370' AS DateTime))
@@ -5858,7 +5857,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5797, 5800, 1, CAST(N'2023-03-03T18:43:55.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5798, 5801, 1, CAST(N'2022-04-30T19:23:59.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5799, 5802, 1, CAST(N'2022-04-11T09:43:27.370' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5800, 5803, 1, CAST(N'2022-04-20T04:35:55.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5801, 5804, 1, CAST(N'2021-08-07T10:01:55.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5802, 5805, 1, CAST(N'2022-07-07T13:45:57.370' AS DateTime))
@@ -5959,7 +5958,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5897, 5900, 1, CAST(N'2021-06-12T03:04:35.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5898, 5901, 1, CAST(N'2021-05-19T11:20:30.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5899, 5902, 1, CAST(N'2022-07-01T05:09:37.370' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5900, 5903, 1, CAST(N'2020-05-25T21:36:06.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5901, 5904, 1, CAST(N'2022-02-23T12:03:18.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5902, 5905, 1, CAST(N'2021-02-27T19:15:33.370' AS DateTime))
@@ -6060,7 +6059,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5997, 6000, 1, CAST(N'2022-07-04T09:17:11.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5998, 6001, 1, CAST(N'2021-08-31T02:39:36.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (5999, 6002, 1, CAST(N'2020-05-12T18:19:25.370' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6000, 6003, 1, CAST(N'2022-03-08T08:13:07.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6001, 6004, 1, CAST(N'2022-09-06T12:44:41.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6002, 6005, 1, CAST(N'2020-09-18T15:37:00.370' AS DateTime))
@@ -6161,7 +6160,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6097, 6100, 1, CAST(N'2020-04-15T06:56:10.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6098, 6101, 1, CAST(N'2021-08-16T02:56:06.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6099, 6102, 1, CAST(N'2021-03-17T15:32:15.393' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6100, 6103, 1, CAST(N'2022-10-07T22:27:55.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6101, 6104, 1, CAST(N'2021-02-21T14:05:20.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6102, 6105, 1, CAST(N'2021-03-25T19:44:22.393' AS DateTime))
@@ -6262,7 +6261,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6197, 6200, 1, CAST(N'2023-01-02T13:40:26.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6198, 6201, 1, CAST(N'2021-04-28T18:57:32.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6199, 6202, 1, CAST(N'2021-08-09T16:41:33.393' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6200, 6203, 1, CAST(N'2022-06-26T21:46:06.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6201, 6204, 1, CAST(N'2021-05-13T03:55:35.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6202, 6205, 1, CAST(N'2022-07-28T04:38:22.393' AS DateTime))
@@ -6363,7 +6362,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6297, 6300, 1, CAST(N'2021-09-27T19:46:15.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6298, 6301, 1, CAST(N'2021-05-15T02:11:26.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6299, 6302, 1, CAST(N'2022-08-02T04:39:50.393' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6300, 6303, 1, CAST(N'2021-06-09T10:27:42.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6301, 6304, 1, CAST(N'2021-11-19T23:32:01.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6302, 6305, 1, CAST(N'2020-12-11T01:33:05.393' AS DateTime))
@@ -6464,7 +6463,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6397, 6400, 1, CAST(N'2021-06-19T05:57:58.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6398, 6401, 1, CAST(N'2021-01-26T17:52:05.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6399, 6402, 1, CAST(N'2020-06-16T02:49:05.393' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6400, 6403, 1, CAST(N'2023-01-24T12:13:12.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6401, 6404, 1, CAST(N'2022-11-02T15:27:54.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6402, 6405, 1, CAST(N'2022-09-25T05:22:49.393' AS DateTime))
@@ -6565,7 +6564,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6497, 6500, 1, CAST(N'2021-03-02T08:52:30.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6498, 6501, 1, CAST(N'2021-05-31T16:32:50.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6499, 6502, 1, CAST(N'2021-11-09T15:34:38.393' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6500, 6503, 1, CAST(N'2021-02-23T11:39:56.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6501, 6504, 1, CAST(N'2023-04-01T17:01:19.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6502, 6505, 1, CAST(N'2022-01-15T14:59:19.393' AS DateTime))
@@ -6666,7 +6665,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6597, 6600, 1, CAST(N'2022-12-24T18:43:25.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6598, 6601, 1, CAST(N'2022-09-22T14:16:16.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6599, 6602, 1, CAST(N'2022-08-30T07:03:08.393' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6600, 6603, 1, CAST(N'2022-01-19T07:54:37.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6601, 6604, 1, CAST(N'2021-10-11T03:10:22.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6602, 6605, 1, CAST(N'2023-03-02T01:56:02.393' AS DateTime))
@@ -6767,7 +6766,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6697, 6700, 1, CAST(N'2022-07-13T01:24:52.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6698, 6701, 1, CAST(N'2022-11-23T15:54:28.420' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6699, 6702, 1, CAST(N'2022-05-13T21:08:16.420' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6700, 6703, 1, CAST(N'2021-02-18T08:49:43.420' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6701, 6704, 1, CAST(N'2021-01-07T14:59:08.420' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6702, 6705, 1, CAST(N'2021-12-05T00:36:01.420' AS DateTime))
@@ -6868,7 +6867,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6797, 6800, 1, CAST(N'2020-11-12T22:03:12.420' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6798, 6801, 1, CAST(N'2021-11-29T21:26:03.420' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6799, 6802, 1, CAST(N'2022-03-12T07:10:49.420' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6800, 6803, 1, CAST(N'2023-01-19T20:11:17.420' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6801, 6804, 1, CAST(N'2020-06-20T16:49:17.420' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6802, 6805, 1, CAST(N'2020-12-08T15:12:24.420' AS DateTime))
@@ -6969,7 +6968,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6897, 6900, 1, CAST(N'2022-07-28T09:13:33.420' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6898, 6901, 1, CAST(N'2021-07-07T07:32:50.420' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6899, 6902, 1, CAST(N'2021-05-02T15:59:41.420' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6900, 6903, 1, CAST(N'2020-11-24T04:11:19.420' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6901, 6904, 1, CAST(N'2022-06-24T18:35:00.420' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6902, 6905, 1, CAST(N'2021-03-29T00:52:10.420' AS DateTime))
@@ -7070,7 +7069,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6997, 7000, 1, CAST(N'2022-04-25T03:51:06.420' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6998, 7001, 1, CAST(N'2021-06-17T23:49:16.420' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (6999, 7002, 1, CAST(N'2022-05-24T17:50:37.420' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7000, 7003, 1, CAST(N'2022-05-29T03:49:30.420' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7001, 7004, 1, CAST(N'2021-01-25T14:31:53.420' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7002, 7005, 1, CAST(N'2021-10-01T18:19:57.420' AS DateTime))
@@ -7171,7 +7170,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7097, 7100, 1, CAST(N'2022-04-21T11:55:25.420' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7098, 7101, 1, CAST(N'2021-11-04T15:32:48.440' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7099, 7102, 1, CAST(N'2021-02-09T14:13:04.440' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7100, 7103, 1, CAST(N'2021-03-20T12:45:15.440' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7101, 7104, 1, CAST(N'2021-11-22T07:08:28.440' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7102, 7105, 1, CAST(N'2021-04-14T02:37:33.440' AS DateTime))
@@ -7272,7 +7271,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7197, 7200, 1, CAST(N'2022-05-27T11:39:36.440' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7198, 7201, 1, CAST(N'2023-01-21T07:49:20.440' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7199, 7202, 1, CAST(N'2022-10-26T17:01:39.440' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7200, 7203, 1, CAST(N'2022-07-10T05:47:03.440' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7201, 7204, 1, CAST(N'2022-03-14T08:31:17.440' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7202, 7205, 1, CAST(N'2022-07-12T00:00:22.440' AS DateTime))
@@ -7373,7 +7372,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7297, 7300, 1, CAST(N'2022-09-01T13:49:17.440' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7298, 7301, 1, CAST(N'2020-09-19T22:31:49.440' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7299, 7302, 1, CAST(N'2020-12-23T07:51:32.440' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7300, 7303, 1, CAST(N'2022-01-30T03:58:02.440' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7301, 7304, 1, CAST(N'2022-09-05T16:32:05.440' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7302, 7305, 1, CAST(N'2020-10-25T06:46:03.440' AS DateTime))
@@ -7474,7 +7473,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7397, 7400, 1, CAST(N'2022-05-11T14:22:36.440' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7398, 7401, 1, CAST(N'2020-04-23T14:07:15.467' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7399, 7402, 1, CAST(N'2021-12-11T23:21:09.467' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7400, 7403, 1, CAST(N'2020-08-15T21:50:40.467' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7401, 7404, 1, CAST(N'2022-03-19T20:36:12.467' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7402, 7405, 1, CAST(N'2020-07-13T06:29:38.467' AS DateTime))
@@ -7575,7 +7574,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7497, 7500, 1, CAST(N'2022-06-05T19:53:19.467' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7498, 7501, 1, CAST(N'2021-06-20T20:59:45.483' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7499, 7502, 1, CAST(N'2023-03-28T08:42:54.483' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7500, 7503, 1, CAST(N'2023-02-17T11:37:18.483' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7501, 7504, 1, CAST(N'2022-11-18T18:30:52.483' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7502, 7505, 1, CAST(N'2020-05-30T02:57:23.483' AS DateTime))
@@ -7676,7 +7675,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7597, 50, 2, CAST(N'2021-08-11T02:27:54.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7598, 51, 2, CAST(N'2022-08-17T11:17:09.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7599, 52, 2, CAST(N'2022-07-23T05:52:09.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7600, 53, 2, CAST(N'2021-08-24T12:24:28.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7601, 54, 2, CAST(N'2021-03-01T10:01:50.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7602, 55, 2, CAST(N'2021-09-03T13:47:23.190' AS DateTime))
@@ -7777,7 +7776,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7697, 150, 2, CAST(N'2021-07-27T01:00:01.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7698, 151, 2, CAST(N'2022-03-23T08:04:52.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7699, 152, 2, CAST(N'2022-06-02T05:31:42.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7700, 153, 2, CAST(N'2021-04-18T12:40:02.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7701, 154, 2, CAST(N'2020-12-09T02:20:14.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7702, 155, 2, CAST(N'2023-03-07T17:32:34.190' AS DateTime))
@@ -7878,7 +7877,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7797, 251, 2, CAST(N'2020-05-05T03:34:53.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7798, 252, 2, CAST(N'2021-11-21T13:08:44.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7799, 253, 2, CAST(N'2022-05-06T02:30:58.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7800, 254, 2, CAST(N'2023-01-25T20:15:24.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7801, 255, 2, CAST(N'2020-09-12T23:05:21.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7802, 256, 2, CAST(N'2020-04-12T10:52:37.190' AS DateTime))
@@ -7979,7 +7978,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7897, 351, 2, CAST(N'2020-08-14T19:36:50.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7898, 352, 2, CAST(N'2021-11-22T12:22:46.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7899, 353, 2, CAST(N'2020-12-12T08:06:55.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7900, 354, 2, CAST(N'2021-09-04T22:07:39.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7901, 355, 2, CAST(N'2020-12-07T10:41:16.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7902, 356, 2, CAST(N'2023-03-13T19:05:29.190' AS DateTime))
@@ -8080,7 +8079,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7997, 451, 2, CAST(N'2021-05-29T01:27:19.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7998, 452, 2, CAST(N'2023-02-16T09:04:02.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (7999, 453, 2, CAST(N'2023-02-12T20:31:52.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8000, 454, 2, CAST(N'2022-03-29T13:04:46.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8001, 455, 2, CAST(N'2020-05-29T12:21:49.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8002, 456, 2, CAST(N'2021-09-11T04:17:34.190' AS DateTime))
@@ -8181,7 +8180,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8097, 551, 2, CAST(N'2021-07-18T04:59:16.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8098, 552, 2, CAST(N'2021-01-17T20:02:15.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8099, 553, 2, CAST(N'2022-05-21T04:17:38.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8100, 554, 2, CAST(N'2022-04-23T10:29:59.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8101, 555, 2, CAST(N'2022-09-03T11:24:32.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8102, 556, 2, CAST(N'2021-09-25T02:12:11.190' AS DateTime))
@@ -8282,7 +8281,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8197, 651, 2, CAST(N'2022-02-11T16:20:02.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8198, 652, 2, CAST(N'2021-09-12T08:43:20.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8199, 653, 2, CAST(N'2022-07-09T04:11:36.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8200, 654, 2, CAST(N'2022-01-08T09:07:25.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8201, 655, 2, CAST(N'2022-10-22T20:22:23.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8202, 656, 2, CAST(N'2022-11-05T07:23:40.190' AS DateTime))
@@ -8383,7 +8382,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8297, 751, 2, CAST(N'2020-08-26T21:39:49.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8298, 752, 2, CAST(N'2023-03-16T21:50:50.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8299, 753, 2, CAST(N'2022-08-31T06:41:11.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8300, 754, 2, CAST(N'2020-05-27T09:24:42.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8301, 755, 2, CAST(N'2022-09-03T14:48:51.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8302, 756, 2, CAST(N'2021-07-26T13:40:25.190' AS DateTime))
@@ -8484,7 +8483,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8397, 851, 2, CAST(N'2023-03-10T08:31:10.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8398, 852, 2, CAST(N'2023-02-28T18:14:25.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8399, 853, 2, CAST(N'2022-06-14T23:21:23.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8400, 854, 2, CAST(N'2021-04-04T20:46:22.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8401, 855, 2, CAST(N'2021-01-09T23:22:26.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8402, 856, 2, CAST(N'2021-04-04T08:55:09.190' AS DateTime))
@@ -8585,7 +8584,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8497, 951, 2, CAST(N'2021-09-29T06:22:10.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8498, 952, 2, CAST(N'2021-04-02T09:38:13.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8499, 953, 2, CAST(N'2022-01-27T07:00:57.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8500, 954, 2, CAST(N'2022-05-07T16:12:22.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8501, 955, 2, CAST(N'2020-04-17T00:33:41.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8502, 956, 2, CAST(N'2023-01-12T13:13:18.190' AS DateTime))
@@ -8686,7 +8685,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8597, 1051, 2, CAST(N'2020-12-31T23:20:56.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8598, 1052, 2, CAST(N'2022-08-15T18:48:17.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8599, 1053, 2, CAST(N'2022-09-03T12:19:28.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8600, 1054, 2, CAST(N'2022-04-22T14:38:13.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8601, 1055, 2, CAST(N'2020-12-01T21:50:55.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8602, 1056, 2, CAST(N'2022-06-29T16:33:25.190' AS DateTime))
@@ -8787,7 +8786,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8697, 1151, 2, CAST(N'2020-09-13T13:19:43.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8698, 1152, 2, CAST(N'2020-09-29T02:08:54.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8699, 1153, 2, CAST(N'2021-06-25T08:58:37.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8700, 1154, 2, CAST(N'2022-01-27T13:43:47.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8701, 1155, 2, CAST(N'2021-05-02T03:28:43.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8702, 1156, 2, CAST(N'2022-04-24T09:38:12.190' AS DateTime))
@@ -8888,7 +8887,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8797, 1253, 2, CAST(N'2023-03-24T16:19:55.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8798, 1254, 2, CAST(N'2021-04-02T16:21:04.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8799, 1255, 2, CAST(N'2022-06-21T07:46:03.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8800, 1256, 2, CAST(N'2021-12-07T23:19:41.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8801, 1257, 2, CAST(N'2021-04-07T07:40:19.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8802, 1258, 2, CAST(N'2022-06-03T21:45:53.190' AS DateTime))
@@ -8989,7 +8988,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8897, 1353, 2, CAST(N'2020-08-29T14:11:02.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8898, 1354, 2, CAST(N'2021-09-16T15:03:04.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8899, 1355, 2, CAST(N'2022-01-09T05:05:05.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8900, 1356, 2, CAST(N'2021-05-06T12:04:44.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8901, 1357, 2, CAST(N'2021-07-06T10:29:03.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8902, 1358, 2, CAST(N'2020-11-07T09:42:11.190' AS DateTime))
@@ -9090,7 +9089,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8997, 1453, 2, CAST(N'2023-01-17T12:49:53.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8998, 1454, 2, CAST(N'2020-06-04T02:05:40.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (8999, 1455, 2, CAST(N'2022-07-28T20:33:11.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9000, 1456, 2, CAST(N'2020-10-16T13:37:50.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9001, 1457, 2, CAST(N'2020-05-23T18:00:17.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9002, 1458, 2, CAST(N'2021-01-24T13:19:14.190' AS DateTime))
@@ -9191,7 +9190,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9097, 1553, 2, CAST(N'2021-10-14T15:25:26.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9098, 1554, 2, CAST(N'2020-08-03T01:00:34.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9099, 1555, 2, CAST(N'2022-10-05T06:11:44.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9100, 1556, 2, CAST(N'2022-02-07T17:11:25.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9101, 1557, 2, CAST(N'2022-07-16T23:07:35.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9102, 1558, 2, CAST(N'2022-04-01T01:53:00.190' AS DateTime))
@@ -9292,7 +9291,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9197, 1653, 2, CAST(N'2020-12-28T06:26:02.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9198, 1654, 2, CAST(N'2020-08-01T08:05:50.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9199, 1655, 2, CAST(N'2022-03-22T17:34:34.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9200, 1656, 2, CAST(N'2020-09-14T13:31:47.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9201, 1657, 2, CAST(N'2020-08-31T21:22:01.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9202, 1658, 2, CAST(N'2021-04-24T01:25:30.190' AS DateTime))
@@ -9393,7 +9392,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9297, 1753, 2, CAST(N'2022-02-03T23:53:29.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9298, 1754, 2, CAST(N'2020-04-27T03:24:06.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9299, 1755, 2, CAST(N'2020-09-10T17:09:40.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9300, 1756, 2, CAST(N'2021-07-24T06:32:37.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9301, 1757, 2, CAST(N'2021-10-16T14:09:12.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9302, 1758, 2, CAST(N'2021-10-17T21:28:16.190' AS DateTime))
@@ -9494,7 +9493,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9397, 1853, 2, CAST(N'2021-08-29T06:22:06.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9398, 1854, 2, CAST(N'2022-02-27T00:19:23.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9399, 1855, 2, CAST(N'2021-01-03T00:42:58.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9400, 1856, 2, CAST(N'2022-10-04T00:16:14.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9401, 1857, 2, CAST(N'2021-11-27T22:26:11.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9402, 1858, 2, CAST(N'2021-06-03T13:17:02.190' AS DateTime))
@@ -9595,7 +9594,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9497, 1954, 2, CAST(N'2022-01-06T14:15:36.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9498, 1955, 2, CAST(N'2022-06-28T03:23:39.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9499, 1956, 2, CAST(N'2022-02-19T11:41:19.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9500, 1957, 2, CAST(N'2021-10-24T11:48:36.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9501, 1958, 2, CAST(N'2023-01-10T14:22:18.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9502, 1959, 2, CAST(N'2020-05-21T18:11:47.190' AS DateTime))
@@ -9696,7 +9695,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9597, 2054, 2, CAST(N'2020-11-25T07:28:03.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9598, 2055, 2, CAST(N'2020-12-28T14:19:44.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9599, 2056, 2, CAST(N'2022-03-09T18:14:23.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9600, 2057, 2, CAST(N'2022-07-04T05:08:12.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9601, 2058, 2, CAST(N'2021-04-10T19:06:48.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9602, 2059, 2, CAST(N'2022-01-24T17:03:02.190' AS DateTime))
@@ -9797,7 +9796,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9697, 2154, 2, CAST(N'2020-08-03T11:48:47.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9698, 2155, 2, CAST(N'2022-09-22T23:23:19.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9699, 2156, 2, CAST(N'2021-07-01T07:05:55.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9700, 2157, 2, CAST(N'2021-10-20T00:38:45.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9701, 2158, 2, CAST(N'2021-04-06T13:54:18.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9702, 2159, 2, CAST(N'2022-01-03T12:25:52.190' AS DateTime))
@@ -9898,7 +9897,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9797, 2254, 2, CAST(N'2020-07-04T04:31:04.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9798, 2255, 2, CAST(N'2021-03-10T22:55:05.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9799, 2256, 2, CAST(N'2023-03-05T18:05:56.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9800, 2257, 2, CAST(N'2021-03-31T01:32:32.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9801, 2258, 2, CAST(N'2021-01-30T19:29:59.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9802, 2259, 2, CAST(N'2023-01-09T14:57:46.190' AS DateTime))
@@ -9999,7 +9998,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9897, 2354, 2, CAST(N'2022-12-12T04:49:56.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9898, 2355, 2, CAST(N'2021-10-14T13:36:56.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9899, 2356, 2, CAST(N'2020-05-16T13:35:31.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9900, 2357, 2, CAST(N'2020-11-10T04:27:46.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9901, 2358, 2, CAST(N'2020-12-01T11:40:59.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9902, 2359, 2, CAST(N'2022-09-15T22:55:24.190' AS DateTime))
@@ -10100,7 +10099,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9997, 2454, 2, CAST(N'2020-05-24T23:34:50.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9998, 2455, 2, CAST(N'2022-07-10T02:54:30.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (9999, 2456, 2, CAST(N'2022-02-08T05:24:58.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10000, 2457, 2, CAST(N'2021-07-06T12:50:51.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10001, 2458, 2, CAST(N'2020-06-03T16:24:11.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10002, 2459, 2, CAST(N'2023-02-01T20:33:30.190' AS DateTime))
@@ -10201,7 +10200,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10097, 2554, 2, CAST(N'2020-11-14T07:32:34.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10098, 2555, 2, CAST(N'2022-01-18T15:56:44.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10099, 2556, 2, CAST(N'2020-12-07T02:21:19.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10100, 2557, 2, CAST(N'2022-11-20T17:02:28.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10101, 2558, 2, CAST(N'2022-04-11T10:08:58.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10102, 2559, 2, CAST(N'2021-04-01T20:51:34.280' AS DateTime))
@@ -10302,7 +10301,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10197, 2654, 2, CAST(N'2023-01-06T23:33:46.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10198, 2655, 2, CAST(N'2021-09-12T21:59:38.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10199, 2656, 2, CAST(N'2022-08-03T03:30:46.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10200, 2657, 2, CAST(N'2020-07-04T07:39:29.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10201, 2658, 2, CAST(N'2023-03-24T19:58:52.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10202, 2659, 2, CAST(N'2020-04-10T07:29:18.280' AS DateTime))
@@ -10403,7 +10402,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10297, 2754, 2, CAST(N'2022-12-22T17:45:52.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10298, 2755, 2, CAST(N'2021-09-08T12:46:47.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10299, 2756, 2, CAST(N'2020-10-25T07:08:56.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10300, 2757, 2, CAST(N'2021-04-27T20:42:28.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10301, 2758, 2, CAST(N'2021-08-26T03:05:29.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10302, 2759, 2, CAST(N'2020-06-22T22:14:44.280' AS DateTime))
@@ -10504,7 +10503,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10397, 2855, 2, CAST(N'2022-07-10T05:08:55.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10398, 2856, 2, CAST(N'2021-02-12T07:39:51.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10399, 2857, 2, CAST(N'2022-08-23T16:07:00.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10400, 2858, 2, CAST(N'2021-07-24T03:16:54.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10401, 2859, 2, CAST(N'2022-07-07T01:43:34.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10402, 2860, 2, CAST(N'2023-03-10T22:58:48.280' AS DateTime))
@@ -10605,7 +10604,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10497, 2955, 2, CAST(N'2021-05-22T07:44:02.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10498, 2956, 2, CAST(N'2022-01-01T20:49:48.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10499, 2957, 2, CAST(N'2020-07-25T21:41:09.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10500, 2958, 2, CAST(N'2022-02-26T07:33:56.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10501, 2959, 2, CAST(N'2022-10-01T23:14:25.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10502, 2960, 2, CAST(N'2021-07-08T23:01:09.280' AS DateTime))
@@ -10706,7 +10705,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10597, 3055, 2, CAST(N'2022-05-29T23:54:14.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10598, 3056, 2, CAST(N'2022-03-05T00:38:44.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10599, 3057, 2, CAST(N'2022-11-21T19:49:07.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10600, 3058, 2, CAST(N'2022-01-11T07:42:01.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10601, 3059, 2, CAST(N'2022-07-14T11:45:54.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10602, 3060, 2, CAST(N'2021-06-26T17:35:21.280' AS DateTime))
@@ -10807,7 +10806,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10697, 3156, 2, CAST(N'2021-03-14T07:22:41.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10698, 3157, 2, CAST(N'2023-01-10T00:05:33.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10699, 3158, 2, CAST(N'2021-01-07T03:02:48.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10700, 3159, 2, CAST(N'2023-03-17T14:03:01.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10701, 3160, 2, CAST(N'2020-11-19T13:04:21.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10702, 3161, 2, CAST(N'2022-03-27T15:04:34.280' AS DateTime))
@@ -10908,7 +10907,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10797, 3256, 2, CAST(N'2022-02-21T19:27:13.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10798, 3257, 2, CAST(N'2020-06-12T16:43:54.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10799, 3258, 2, CAST(N'2022-07-03T21:57:55.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10800, 3259, 2, CAST(N'2020-09-21T06:44:01.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10801, 3260, 2, CAST(N'2020-09-01T07:29:47.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10802, 3261, 2, CAST(N'2022-01-09T07:32:05.280' AS DateTime))
@@ -11009,7 +11008,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10897, 3356, 2, CAST(N'2020-08-28T14:16:43.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10898, 3357, 2, CAST(N'2022-11-24T18:55:19.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10899, 3358, 2, CAST(N'2020-06-21T19:46:08.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10900, 3359, 2, CAST(N'2021-07-24T01:52:27.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10901, 3360, 2, CAST(N'2020-11-23T18:52:59.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10902, 3361, 2, CAST(N'2022-12-12T03:47:10.280' AS DateTime))
@@ -11110,7 +11109,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10997, 3457, 2, CAST(N'2020-04-12T01:51:02.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10998, 3458, 2, CAST(N'2020-11-13T19:45:50.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (10999, 3459, 2, CAST(N'2022-05-20T07:42:00.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11000, 3460, 2, CAST(N'2020-12-31T03:24:54.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11001, 3461, 2, CAST(N'2022-06-30T12:34:33.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11002, 3462, 2, CAST(N'2021-04-23T17:22:45.280' AS DateTime))
@@ -11211,7 +11210,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11097, 3557, 2, CAST(N'2023-01-25T16:38:11.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11098, 3558, 2, CAST(N'2022-03-02T05:03:57.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11099, 3559, 2, CAST(N'2022-08-13T06:28:14.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11100, 3560, 2, CAST(N'2023-01-19T11:30:10.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11101, 3561, 2, CAST(N'2021-09-01T06:39:33.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11102, 3562, 2, CAST(N'2021-10-01T23:07:45.280' AS DateTime))
@@ -11312,7 +11311,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11197, 3657, 2, CAST(N'2021-07-02T00:19:41.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11198, 3658, 2, CAST(N'2020-08-30T00:33:28.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11199, 3659, 2, CAST(N'2021-01-12T08:24:52.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11200, 3660, 2, CAST(N'2022-10-19T02:14:13.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11201, 3661, 2, CAST(N'2020-05-15T16:16:58.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11202, 3662, 2, CAST(N'2020-05-22T14:13:29.280' AS DateTime))
@@ -11413,7 +11412,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11297, 3757, 2, CAST(N'2023-01-10T04:43:29.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11298, 3758, 2, CAST(N'2020-07-16T12:14:26.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11299, 3759, 2, CAST(N'2022-03-01T16:23:01.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11300, 3760, 2, CAST(N'2021-07-15T06:32:58.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11301, 3761, 2, CAST(N'2022-05-19T21:46:16.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11302, 3762, 2, CAST(N'2020-09-03T02:56:37.280' AS DateTime))
@@ -11514,7 +11513,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11397, 3857, 2, CAST(N'2023-02-06T20:04:48.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11398, 3858, 2, CAST(N'2021-07-19T16:28:03.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11399, 3859, 2, CAST(N'2022-12-02T02:22:54.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11400, 3860, 2, CAST(N'2020-08-12T11:01:39.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11401, 3861, 2, CAST(N'2021-05-25T02:03:45.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11402, 3862, 2, CAST(N'2021-10-02T20:56:37.280' AS DateTime))
@@ -11615,7 +11614,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11497, 3957, 2, CAST(N'2023-01-14T00:57:28.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11498, 3958, 2, CAST(N'2021-05-22T11:02:24.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11499, 3959, 2, CAST(N'2021-09-27T21:50:33.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11500, 3960, 2, CAST(N'2022-10-01T13:14:38.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11501, 3961, 2, CAST(N'2021-04-13T15:56:28.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11502, 3962, 2, CAST(N'2022-03-30T15:55:32.280' AS DateTime))
@@ -11716,7 +11715,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11597, 4057, 2, CAST(N'2021-01-08T02:15:22.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11598, 4058, 2, CAST(N'2021-05-22T06:19:29.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11599, 4059, 2, CAST(N'2020-07-03T03:21:50.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11600, 4060, 2, CAST(N'2021-07-17T20:08:03.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11601, 4061, 2, CAST(N'2021-04-03T02:20:16.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11602, 4062, 2, CAST(N'2020-11-07T14:06:28.327' AS DateTime))
@@ -11817,7 +11816,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11697, 4158, 2, CAST(N'2022-11-29T16:04:23.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11698, 4159, 2, CAST(N'2022-05-20T12:45:20.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11699, 4160, 2, CAST(N'2023-01-31T03:49:02.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11700, 4161, 2, CAST(N'2021-05-20T20:10:36.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11701, 4162, 2, CAST(N'2022-04-14T04:18:46.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11702, 4163, 2, CAST(N'2020-05-26T08:00:49.327' AS DateTime))
@@ -11918,7 +11917,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11797, 4258, 2, CAST(N'2022-07-28T13:44:40.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11798, 4259, 2, CAST(N'2023-01-18T10:57:44.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11799, 4260, 2, CAST(N'2020-06-21T11:39:38.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11800, 4261, 2, CAST(N'2023-02-05T20:40:36.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11801, 4262, 2, CAST(N'2020-10-09T23:02:01.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11802, 4263, 2, CAST(N'2020-10-20T13:03:57.327' AS DateTime))
@@ -12019,7 +12018,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11897, 4358, 2, CAST(N'2022-01-07T23:11:00.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11898, 4359, 2, CAST(N'2022-09-05T18:46:36.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11899, 4360, 2, CAST(N'2023-03-17T06:00:23.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11900, 4361, 2, CAST(N'2021-10-24T10:43:44.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11901, 4362, 2, CAST(N'2020-11-07T09:06:42.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11902, 4363, 2, CAST(N'2021-11-03T03:36:01.327' AS DateTime))
@@ -12120,7 +12119,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11997, 4458, 2, CAST(N'2021-05-12T05:26:51.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11998, 4459, 2, CAST(N'2023-03-05T10:43:36.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (11999, 4460, 2, CAST(N'2021-03-17T08:24:20.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12000, 4461, 2, CAST(N'2021-03-23T15:23:24.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12001, 4462, 2, CAST(N'2020-05-18T11:31:15.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12002, 4463, 2, CAST(N'2022-10-26T01:33:41.327' AS DateTime))
@@ -12221,7 +12220,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12097, 4559, 2, CAST(N'2021-10-02T15:57:22.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12098, 4560, 2, CAST(N'2020-05-28T10:31:41.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12099, 4561, 2, CAST(N'2022-06-30T12:36:59.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12100, 4562, 2, CAST(N'2021-01-28T21:28:40.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12101, 4563, 2, CAST(N'2022-03-20T20:51:09.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12102, 4564, 2, CAST(N'2020-12-24T14:46:02.327' AS DateTime))
@@ -12322,7 +12321,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12197, 4660, 2, CAST(N'2022-01-12T03:55:36.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12198, 4661, 2, CAST(N'2020-12-28T10:06:22.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12199, 4662, 2, CAST(N'2022-07-16T02:28:33.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12200, 4663, 2, CAST(N'2020-10-21T20:04:59.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12201, 4664, 2, CAST(N'2022-06-13T09:30:14.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12202, 4665, 2, CAST(N'2020-04-25T01:09:22.327' AS DateTime))
@@ -12423,7 +12422,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12297, 4761, 2, CAST(N'2020-11-01T16:26:21.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12298, 4762, 2, CAST(N'2022-10-01T03:21:58.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12299, 4763, 2, CAST(N'2020-06-15T14:30:37.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12300, 4764, 2, CAST(N'2021-01-10T04:23:16.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12301, 4765, 2, CAST(N'2020-08-23T03:27:26.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12302, 4766, 2, CAST(N'2020-06-24T06:50:25.327' AS DateTime))
@@ -12524,7 +12523,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12397, 4861, 2, CAST(N'2023-01-07T03:41:07.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12398, 4862, 2, CAST(N'2021-04-30T23:59:01.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12399, 4863, 2, CAST(N'2022-05-04T08:06:26.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12400, 4864, 2, CAST(N'2022-01-02T07:30:35.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12401, 4865, 2, CAST(N'2023-01-11T13:15:55.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12402, 4866, 2, CAST(N'2023-02-05T00:57:25.327' AS DateTime))
@@ -12625,7 +12624,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12497, 4961, 2, CAST(N'2020-05-20T14:12:45.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12498, 4962, 2, CAST(N'2021-06-06T23:34:33.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12499, 4963, 2, CAST(N'2022-01-25T13:32:59.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12500, 4964, 2, CAST(N'2020-04-29T13:28:35.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12501, 4965, 2, CAST(N'2020-05-05T00:15:16.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12502, 4966, 2, CAST(N'2020-09-04T16:00:24.327' AS DateTime))
@@ -12726,7 +12725,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12597, 5062, 2, CAST(N'2023-02-05T09:05:32.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12598, 5063, 2, CAST(N'2020-06-23T15:53:04.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12599, 5064, 2, CAST(N'2021-11-14T17:38:48.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12600, 5065, 2, CAST(N'2021-08-18T06:36:54.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12601, 5066, 2, CAST(N'2020-08-06T23:30:21.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12602, 5067, 2, CAST(N'2020-05-05T05:11:56.327' AS DateTime))
@@ -12827,7 +12826,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12697, 5162, 2, CAST(N'2020-12-14T00:21:28.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12698, 5163, 2, CAST(N'2021-09-25T20:19:47.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12699, 5164, 2, CAST(N'2021-12-17T06:48:46.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12700, 5165, 2, CAST(N'2022-04-16T04:14:49.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12701, 5166, 2, CAST(N'2022-04-23T17:55:14.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12702, 5167, 2, CAST(N'2021-08-11T12:39:11.327' AS DateTime))
@@ -12928,7 +12927,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12797, 5262, 2, CAST(N'2021-07-02T09:28:09.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12798, 5263, 2, CAST(N'2023-01-04T15:32:00.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12799, 5264, 2, CAST(N'2022-06-10T01:09:07.370' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12800, 5265, 2, CAST(N'2021-09-02T04:22:44.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12801, 5266, 2, CAST(N'2021-08-27T09:01:23.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12802, 5267, 2, CAST(N'2022-12-17T07:32:51.370' AS DateTime))
@@ -13029,7 +13028,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12897, 5362, 2, CAST(N'2023-02-24T20:47:37.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12898, 5363, 2, CAST(N'2022-02-18T01:17:28.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12899, 5364, 2, CAST(N'2022-12-21T14:54:05.370' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12900, 5365, 2, CAST(N'2020-08-01T02:20:57.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12901, 5366, 2, CAST(N'2022-02-26T00:15:26.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12902, 5367, 2, CAST(N'2020-12-26T00:11:49.370' AS DateTime))
@@ -13130,7 +13129,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12997, 5463, 2, CAST(N'2020-10-13T00:08:18.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12998, 5464, 2, CAST(N'2022-03-21T23:18:40.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (12999, 5465, 2, CAST(N'2023-01-09T19:14:31.370' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13000, 5466, 2, CAST(N'2021-02-03T15:12:34.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13001, 5467, 2, CAST(N'2020-12-30T13:03:39.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13002, 5468, 2, CAST(N'2021-10-28T04:21:18.370' AS DateTime))
@@ -13231,7 +13230,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13097, 5563, 2, CAST(N'2022-07-31T06:27:51.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13098, 5564, 2, CAST(N'2020-07-21T12:54:39.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13099, 5565, 2, CAST(N'2022-08-08T04:01:26.370' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13100, 5566, 2, CAST(N'2021-05-20T13:38:19.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13101, 5567, 2, CAST(N'2020-09-03T00:31:47.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13102, 5568, 2, CAST(N'2021-11-17T07:59:02.370' AS DateTime))
@@ -13332,7 +13331,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13197, 5664, 2, CAST(N'2020-07-11T10:51:13.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13198, 5665, 2, CAST(N'2022-03-11T18:18:44.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13199, 5666, 2, CAST(N'2020-08-14T22:56:31.370' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13200, 5667, 2, CAST(N'2022-03-05T03:59:33.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13201, 5668, 2, CAST(N'2022-06-08T05:02:48.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13202, 5669, 2, CAST(N'2022-10-13T00:03:47.370' AS DateTime))
@@ -13433,7 +13432,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13297, 5764, 2, CAST(N'2022-03-10T06:35:35.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13298, 5765, 2, CAST(N'2021-10-16T10:33:14.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13299, 5766, 2, CAST(N'2022-06-12T03:40:16.370' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13300, 5767, 2, CAST(N'2020-08-22T15:45:17.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13301, 5768, 2, CAST(N'2020-11-20T06:13:33.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13302, 5769, 2, CAST(N'2022-05-23T13:38:01.370' AS DateTime))
@@ -13534,7 +13533,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13397, 5864, 2, CAST(N'2020-09-14T07:40:53.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13398, 5865, 2, CAST(N'2022-04-02T17:26:26.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13399, 5866, 2, CAST(N'2022-02-06T18:34:43.370' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13400, 5867, 2, CAST(N'2021-11-21T08:10:15.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13401, 5868, 2, CAST(N'2022-11-04T16:07:48.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13402, 5869, 2, CAST(N'2022-07-15T10:21:42.370' AS DateTime))
@@ -13635,7 +13634,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13497, 5964, 2, CAST(N'2020-12-05T06:41:25.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13498, 5965, 2, CAST(N'2021-10-03T03:54:18.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13499, 5966, 2, CAST(N'2020-06-12T20:52:44.370' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13500, 5967, 2, CAST(N'2020-04-24T04:31:16.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13501, 5968, 2, CAST(N'2021-08-21T03:20:19.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13502, 5969, 2, CAST(N'2021-09-14T16:01:44.370' AS DateTime))
@@ -13736,7 +13735,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13597, 6064, 2, CAST(N'2021-05-04T11:13:34.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13598, 6065, 2, CAST(N'2022-11-07T15:00:40.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13599, 6066, 2, CAST(N'2020-08-08T00:53:52.370' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13600, 6067, 2, CAST(N'2021-10-26T20:49:01.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13601, 6068, 2, CAST(N'2021-07-20T10:02:33.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13602, 6069, 2, CAST(N'2021-05-29T23:38:18.370' AS DateTime))
@@ -13837,7 +13836,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13697, 6164, 2, CAST(N'2022-03-05T01:51:33.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13698, 6165, 2, CAST(N'2022-09-03T08:52:55.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13699, 6166, 2, CAST(N'2020-07-18T07:28:39.393' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13700, 6167, 2, CAST(N'2020-08-28T09:08:14.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13701, 6168, 2, CAST(N'2021-09-16T15:14:30.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13702, 6169, 2, CAST(N'2021-09-19T00:37:05.393' AS DateTime))
@@ -13938,7 +13937,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13797, 6264, 2, CAST(N'2021-02-15T02:30:06.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13798, 6265, 2, CAST(N'2022-08-15T16:45:47.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13799, 6266, 2, CAST(N'2022-04-14T20:41:52.393' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13800, 6267, 2, CAST(N'2020-11-24T08:47:31.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13801, 6268, 2, CAST(N'2020-10-14T16:14:07.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13802, 6269, 2, CAST(N'2020-05-19T06:26:45.393' AS DateTime))
@@ -14039,7 +14038,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13897, 6364, 2, CAST(N'2020-06-30T06:49:45.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13898, 6365, 2, CAST(N'2022-12-10T04:56:19.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13899, 6366, 2, CAST(N'2022-11-15T18:33:32.393' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13900, 6367, 2, CAST(N'2020-12-14T17:41:17.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13901, 6368, 2, CAST(N'2021-01-30T13:34:44.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13902, 6369, 2, CAST(N'2022-02-06T12:25:20.393' AS DateTime))
@@ -14140,7 +14139,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13997, 6464, 2, CAST(N'2023-01-21T17:34:07.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13998, 6465, 2, CAST(N'2023-01-20T06:57:17.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (13999, 6466, 2, CAST(N'2022-03-16T03:08:34.393' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14000, 6467, 2, CAST(N'2022-11-23T01:14:36.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14001, 6468, 2, CAST(N'2022-11-04T20:01:57.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14002, 6469, 2, CAST(N'2022-01-26T07:40:01.393' AS DateTime))
@@ -14241,7 +14240,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14097, 6565, 2, CAST(N'2021-03-03T14:50:03.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14098, 6566, 2, CAST(N'2022-04-19T00:25:13.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14099, 6567, 2, CAST(N'2020-09-29T07:31:29.393' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14100, 6568, 2, CAST(N'2020-04-05T13:02:02.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14101, 6569, 2, CAST(N'2021-06-24T07:50:50.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14102, 6570, 2, CAST(N'2021-11-21T07:40:45.393' AS DateTime))
@@ -14342,7 +14341,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14197, 6665, 2, CAST(N'2022-06-15T04:21:03.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14198, 6666, 2, CAST(N'2021-06-15T13:27:20.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14199, 6667, 2, CAST(N'2020-11-27T15:20:08.393' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14200, 6668, 2, CAST(N'2021-02-27T11:39:19.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14201, 6669, 2, CAST(N'2022-03-16T10:09:51.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14202, 6670, 2, CAST(N'2021-11-06T00:56:14.393' AS DateTime))
@@ -14443,7 +14442,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14297, 6765, 2, CAST(N'2021-12-16T14:57:51.420' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14298, 6766, 2, CAST(N'2022-03-09T09:17:16.420' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14299, 6767, 2, CAST(N'2023-02-24T08:02:27.420' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14300, 6768, 2, CAST(N'2021-06-27T04:31:08.420' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14301, 6769, 2, CAST(N'2023-01-06T03:11:06.420' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14302, 6770, 2, CAST(N'2021-12-29T08:50:39.420' AS DateTime))
@@ -14544,7 +14543,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14397, 5496, 3, CAST(N'2021-10-29T03:24:09.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14398, 5955, 3, CAST(N'2020-06-12T11:53:17.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14399, 2185, 3, CAST(N'2022-06-21T08:35:01.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14400, 4055, 3, CAST(N'2020-07-26T11:11:55.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14401, 1868, 3, CAST(N'2021-01-11T07:38:56.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14402, 1656, 3, CAST(N'2020-09-14T01:15:34.190' AS DateTime))
@@ -14645,7 +14644,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14497, 956, 3, CAST(N'2023-01-12T05:38:10.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14498, 4709, 3, CAST(N'2021-07-15T07:29:49.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14499, 6097, 3, CAST(N'2022-07-25T00:55:12.370' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14500, 6103, 3, CAST(N'2022-10-10T14:57:53.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14501, 6938, 3, CAST(N'2022-05-12T11:43:18.420' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14502, 1403, 3, CAST(N'2021-10-08T18:44:30.190' AS DateTime))
@@ -14746,7 +14745,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14597, 1597, 3, CAST(N'2021-06-22T06:44:00.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14598, 3189, 3, CAST(N'2023-03-10T09:52:25.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14599, 5186, 3, CAST(N'2020-12-30T02:00:42.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14600, 5085, 3, CAST(N'2020-07-11T21:08:44.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14601, 5478, 3, CAST(N'2020-06-23T16:52:18.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14602, 2597, 3, CAST(N'2022-04-24T00:09:45.280' AS DateTime))
@@ -14847,7 +14846,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14697, 288, 3, CAST(N'2020-04-25T06:24:57.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14698, 2997, 3, CAST(N'2022-03-10T08:24:10.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14699, 7284, 3, CAST(N'2021-04-27T20:24:31.440' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14700, 2915, 3, CAST(N'2021-01-20T05:03:26.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14701, 1903, 3, CAST(N'2020-08-11T02:10:08.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14702, 3318, 3, CAST(N'2023-01-03T01:30:53.280' AS DateTime))
@@ -14948,7 +14947,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14797, 2737, 3, CAST(N'2023-03-15T16:05:13.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14798, 1411, 3, CAST(N'2021-01-20T20:34:28.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14799, 5299, 3, CAST(N'2022-06-08T07:08:21.370' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14800, 656, 3, CAST(N'2022-11-04T17:01:54.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14801, 817, 3, CAST(N'2020-09-24T01:42:01.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14802, 5309, 3, CAST(N'2022-04-20T10:25:35.370' AS DateTime))
@@ -15049,7 +15048,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14897, 7269, 3, CAST(N'2022-04-15T15:23:32.440' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14898, 4713, 3, CAST(N'2023-02-07T23:25:06.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14899, 1178, 3, CAST(N'2021-07-25T17:27:35.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14900, 5262, 3, CAST(N'2021-07-03T21:52:14.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14901, 4830, 3, CAST(N'2021-12-02T12:51:40.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14902, 2063, 3, CAST(N'2023-01-27T10:39:08.190' AS DateTime))
@@ -15150,7 +15149,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14997, 4150, 3, CAST(N'2022-03-26T00:28:03.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14998, 7465, 3, CAST(N'2023-02-23T03:58:23.467' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (14999, 5320, 3, CAST(N'2023-02-15T18:55:18.370' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15000, 2163, 3, CAST(N'2020-06-10T21:56:34.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15001, 5799, 3, CAST(N'2020-08-28T06:11:37.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15002, 6551, 3, CAST(N'2021-12-24T14:59:28.393' AS DateTime))
@@ -15251,7 +15250,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15097, 136, 3, CAST(N'2020-11-06T07:21:18.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15098, 4144, 3, CAST(N'2021-11-09T12:26:52.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15099, 1054, 3, CAST(N'2022-04-23T15:18:54.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15100, 1208, 3, CAST(N'2020-05-16T07:44:26.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15101, 2934, 3, CAST(N'2021-02-20T04:38:53.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15102, 383, 3, CAST(N'2022-05-18T00:34:13.190' AS DateTime))
@@ -15352,7 +15351,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15197, 2985, 3, CAST(N'2022-07-11T00:15:34.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15198, 617, 3, CAST(N'2021-03-23T13:04:10.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15199, 2149, 3, CAST(N'2022-03-14T03:59:04.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15200, 1967, 3, CAST(N'2020-07-14T18:08:14.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15201, 2487, 3, CAST(N'2022-12-20T07:20:42.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15202, 6519, 3, CAST(N'2020-11-22T21:11:00.393' AS DateTime))
@@ -15453,7 +15452,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15297, 4807, 3, CAST(N'2022-04-04T08:39:29.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15298, 277, 3, CAST(N'2021-09-28T07:28:20.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15299, 6910, 3, CAST(N'2022-09-05T09:35:42.420' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15300, 4107, 3, CAST(N'2020-05-23T02:35:24.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15301, 5589, 3, CAST(N'2021-01-01T20:41:13.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15302, 3716, 3, CAST(N'2021-09-09T22:40:08.280' AS DateTime))
@@ -15554,7 +15553,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15397, 6221, 3, CAST(N'2022-09-21T06:20:28.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15398, 725, 3, CAST(N'2021-01-30T09:36:05.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15399, 705, 3, CAST(N'2021-07-27T19:08:34.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15400, 89, 3, CAST(N'2022-11-16T05:54:54.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15401, 2955, 3, CAST(N'2021-05-23T20:38:55.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15402, 2482, 3, CAST(N'2022-01-05T17:46:13.190' AS DateTime))
@@ -15655,7 +15654,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15497, 6279, 3, CAST(N'2020-09-18T04:07:16.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15498, 2439, 3, CAST(N'2022-12-03T03:55:16.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15499, 2748, 3, CAST(N'2021-08-31T01:10:42.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15500, 6030, 3, CAST(N'2021-08-17T12:00:17.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15501, 2830, 3, CAST(N'2020-07-07T17:58:26.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15502, 3758, 3, CAST(N'2020-07-15T05:06:26.280' AS DateTime))
@@ -15756,7 +15755,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15597, 4660, 3, CAST(N'2022-01-12T14:20:49.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15598, 3190, 3, CAST(N'2021-04-15T09:20:39.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15599, 1121, 3, CAST(N'2022-09-24T16:09:18.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15600, 4744, 3, CAST(N'2022-10-18T10:25:48.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15601, 2053, 3, CAST(N'2022-06-24T06:08:45.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15602, 2187, 3, CAST(N'2020-06-12T12:18:34.190' AS DateTime))
@@ -15857,7 +15856,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15697, 5749, 3, CAST(N'2023-02-28T15:35:22.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15698, 6805, 3, CAST(N'2020-12-08T15:27:38.420' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15699, 4945, 3, CAST(N'2020-10-12T15:12:40.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15700, 4354, 3, CAST(N'2021-01-02T08:20:39.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15701, 2444, 3, CAST(N'2021-03-28T07:29:08.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15702, 5207, 3, CAST(N'2021-08-01T15:17:45.370' AS DateTime))
@@ -15958,7 +15957,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15797, 5354, 3, CAST(N'2022-05-05T02:48:23.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15798, 7395, 3, CAST(N'2020-05-23T21:39:16.440' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15799, 1311, 3, CAST(N'2021-08-04T11:18:55.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15800, 5554, 3, CAST(N'2022-03-21T09:32:08.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15801, 2604, 3, CAST(N'2021-12-18T02:45:10.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15802, 2416, 3, CAST(N'2022-11-21T02:14:14.190' AS DateTime))
@@ -16059,7 +16058,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15897, 6457, 3, CAST(N'2021-05-22T21:27:22.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15898, 5113, 3, CAST(N'2020-06-01T19:38:43.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15899, 7131, 3, CAST(N'2020-07-03T18:09:02.440' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15900, 5639, 3, CAST(N'2020-05-22T02:10:01.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15901, 6601, 3, CAST(N'2022-09-25T12:19:43.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15902, 4875, 3, CAST(N'2020-04-30T16:12:13.327' AS DateTime))
@@ -16160,7 +16159,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15997, 1947, 3, CAST(N'2022-12-04T03:05:27.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15998, 1031, 3, CAST(N'2021-01-01T17:17:41.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (15999, 206, 3, CAST(N'2021-09-24T13:10:09.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16000, 4493, 3, CAST(N'2023-01-02T08:06:26.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16001, 3312, 3, CAST(N'2021-12-06T14:59:14.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16002, 5016, 3, CAST(N'2022-01-25T22:27:07.327' AS DateTime))
@@ -16261,7 +16260,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16097, 2649, 3, CAST(N'2020-04-07T03:46:27.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16098, 4780, 3, CAST(N'2021-08-26T00:49:00.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16099, 6300, 3, CAST(N'2021-09-29T06:12:10.393' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16100, 389, 3, CAST(N'2023-02-21T18:36:16.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16101, 3148, 3, CAST(N'2021-03-18T08:43:57.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16102, 3362, 3, CAST(N'2020-11-22T03:04:51.280' AS DateTime))
@@ -16362,7 +16361,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16197, 2548, 3, CAST(N'2020-05-25T04:32:20.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16198, 126, 3, CAST(N'2021-06-07T00:30:38.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16199, 7509, 3, CAST(N'2021-11-10T04:04:41.483' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16200, 760, 3, CAST(N'2020-11-01T10:32:29.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16201, 1498, 3, CAST(N'2022-07-31T15:25:59.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16202, 2100, 3, CAST(N'2021-01-21T23:40:28.190' AS DateTime))
@@ -16463,7 +16462,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16297, 1166, 3, CAST(N'2021-06-04T07:30:48.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16298, 4050, 3, CAST(N'2023-02-27T18:07:59.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16299, 5514, 3, CAST(N'2022-07-21T07:05:40.370' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16300, 2244, 3, CAST(N'2021-03-28T07:44:53.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16301, 5393, 3, CAST(N'2022-03-11T11:22:31.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16302, 6113, 3, CAST(N'2021-09-16T10:18:19.393' AS DateTime))
@@ -16564,7 +16563,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16397, 2058, 3, CAST(N'2021-04-11T05:08:54.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16398, 6804, 3, CAST(N'2020-06-23T10:39:26.420' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16399, 2781, 3, CAST(N'2021-01-15T15:23:10.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16400, 2409, 3, CAST(N'2021-08-31T20:39:51.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16401, 7504, 3, CAST(N'2022-11-19T21:53:34.483' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16402, 2363, 3, CAST(N'2022-02-05T19:28:43.190' AS DateTime))
@@ -16665,7 +16664,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16497, 4772, 3, CAST(N'2020-10-29T20:39:08.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16498, 5076, 3, CAST(N'2022-04-27T09:07:47.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16499, 1071, 3, CAST(N'2022-08-14T15:33:17.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16500, 1365, 3, CAST(N'2021-01-23T21:54:04.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16501, 3024, 3, CAST(N'2022-02-05T12:52:50.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16502, 4971, 3, CAST(N'2022-10-26T10:32:47.327' AS DateTime))
@@ -16766,7 +16765,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16597, 4469, 3, CAST(N'2020-10-29T03:48:20.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16598, 2735, 3, CAST(N'2022-04-28T07:30:10.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16599, 4696, 3, CAST(N'2021-04-27T08:06:19.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16600, 1598, 3, CAST(N'2022-05-19T16:11:39.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16601, 1357, 3, CAST(N'2021-07-06T13:30:31.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16602, 2488, 3, CAST(N'2022-04-17T10:28:17.190' AS DateTime))
@@ -16867,7 +16866,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16697, 6962, 3, CAST(N'2021-06-30T22:16:01.420' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16698, 7159, 3, CAST(N'2021-01-26T17:51:51.440' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16699, 4290, 3, CAST(N'2021-06-16T10:35:15.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16700, 2869, 3, CAST(N'2021-10-16T04:16:37.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16701, 6006, 3, CAST(N'2021-02-23T16:13:25.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16702, 66, 3, CAST(N'2022-11-12T12:50:29.190' AS DateTime))
@@ -16968,7 +16967,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16797, 3989, 3, CAST(N'2021-05-01T14:26:14.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16798, 2214, 3, CAST(N'2021-03-08T12:14:06.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16799, 4127, 3, CAST(N'2021-08-24T02:02:37.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16800, 5772, 3, CAST(N'2022-05-22T18:41:53.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16801, 3977, 3, CAST(N'2022-03-21T23:52:09.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16802, 3505, 3, CAST(N'2023-01-10T00:42:34.280' AS DateTime))
@@ -17069,7 +17068,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16897, 4773, 3, CAST(N'2022-08-12T05:21:28.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16898, 2790, 3, CAST(N'2020-12-29T18:18:05.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16899, 1194, 3, CAST(N'2023-04-01T02:31:48.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16900, 4969, 3, CAST(N'2022-11-25T06:20:14.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16901, 1412, 3, CAST(N'2021-03-01T15:46:09.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16902, 4283, 3, CAST(N'2021-02-20T10:38:24.327' AS DateTime))
@@ -17170,7 +17169,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16997, 2861, 3, CAST(N'2020-11-26T11:29:03.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16998, 4663, 3, CAST(N'2020-10-22T09:00:01.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (16999, 5557, 3, CAST(N'2022-09-13T11:04:19.370' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17000, 787, 3, CAST(N'2020-11-23T22:54:03.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17001, 5077, 3, CAST(N'2021-03-05T16:51:06.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17002, 3882, 3, CAST(N'2021-01-17T09:33:38.280' AS DateTime))
@@ -17271,7 +17270,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17097, 2241, 3, CAST(N'2022-11-27T16:44:43.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17098, 2829, 3, CAST(N'2022-09-25T00:47:03.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17099, 3299, 3, CAST(N'2021-04-21T23:16:32.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17100, 7025, 3, CAST(N'2020-10-27T13:16:59.420' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17101, 5903, 3, CAST(N'2020-05-27T16:04:35.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17102, 1515, 3, CAST(N'2022-12-10T16:00:13.190' AS DateTime))
@@ -17372,7 +17371,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17197, 3755, 3, CAST(N'2021-04-06T23:10:32.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17198, 4348, 3, CAST(N'2023-03-16T03:19:59.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17199, 3409, 3, CAST(N'2021-08-28T19:41:46.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17200, 4649, 3, CAST(N'2022-04-17T10:41:21.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17201, 6356, 3, CAST(N'2021-07-16T12:05:26.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17202, 6411, 3, CAST(N'2021-05-15T00:44:34.393' AS DateTime))
@@ -17473,7 +17472,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17297, 1148, 3, CAST(N'2021-05-25T04:34:50.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17298, 3160, 3, CAST(N'2020-11-20T03:18:16.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17299, 6627, 3, CAST(N'2020-04-30T22:55:58.393' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17300, 3622, 3, CAST(N'2022-02-16T01:29:12.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17301, 1188, 3, CAST(N'2022-07-28T21:14:59.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17302, 602, 3, CAST(N'2022-09-02T14:21:20.190' AS DateTime))
@@ -17574,7 +17573,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17397, 5680, 3, CAST(N'2021-07-07T12:15:30.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17398, 3688, 3, CAST(N'2022-12-21T20:09:24.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17399, 830, 3, CAST(N'2021-06-29T14:15:01.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17400, 5243, 3, CAST(N'2022-03-07T14:36:57.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17401, 4621, 3, CAST(N'2021-07-04T09:52:08.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17402, 1945, 3, CAST(N'2020-09-24T22:01:16.190' AS DateTime))
@@ -17675,7 +17674,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17497, 5889, 3, CAST(N'2021-03-19T01:52:56.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17498, 251, 3, CAST(N'2020-05-05T10:32:13.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17499, 1371, 3, CAST(N'2021-11-13T17:12:43.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17500, 1524, 3, CAST(N'2021-11-03T02:53:21.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17501, 5186, 3, CAST(N'2020-12-29T05:26:10.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17502, 3456, 3, CAST(N'2023-03-08T16:32:50.280' AS DateTime))
@@ -17776,7 +17775,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17597, 5182, 3, CAST(N'2020-07-19T04:56:57.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17598, 1169, 3, CAST(N'2020-04-09T15:18:14.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17599, 2036, 3, CAST(N'2020-11-03T11:04:34.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17600, 4111, 3, CAST(N'2020-09-28T00:45:26.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17601, 7296, 3, CAST(N'2020-08-23T06:44:56.440' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17602, 865, 3, CAST(N'2020-08-18T09:47:53.190' AS DateTime))
@@ -17877,7 +17876,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17697, 3917, 3, CAST(N'2022-12-14T14:42:43.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17698, 1169, 3, CAST(N'2020-04-09T17:53:35.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17699, 6549, 3, CAST(N'2022-07-22T01:27:41.393' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17700, 6580, 3, CAST(N'2023-01-14T11:22:20.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17701, 7281, 3, CAST(N'2021-11-11T14:58:40.440' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17702, 3041, 3, CAST(N'2022-03-01T23:54:34.280' AS DateTime))
@@ -17978,7 +17977,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17797, 4579, 3, CAST(N'2022-06-10T13:26:02.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17798, 6369, 3, CAST(N'2022-02-08T06:03:21.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17799, 2575, 3, CAST(N'2021-08-01T02:15:57.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17800, 851, 3, CAST(N'2023-03-11T04:57:59.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17801, 281, 3, CAST(N'2022-06-25T20:50:07.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17802, 1292, 3, CAST(N'2020-12-13T22:48:12.190' AS DateTime))
@@ -18079,7 +18078,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17897, 1410, 3, CAST(N'2021-03-16T02:46:38.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17898, 4777, 3, CAST(N'2022-05-03T14:35:29.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17899, 3346, 3, CAST(N'2022-02-28T04:43:40.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17900, 4236, 3, CAST(N'2022-03-06T11:32:27.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17901, 5895, 3, CAST(N'2021-06-12T21:30:05.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17902, 6283, 3, CAST(N'2020-10-17T21:44:07.393' AS DateTime))
@@ -18180,7 +18179,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17997, 2385, 3, CAST(N'2021-10-13T12:08:54.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17998, 5814, 3, CAST(N'2020-08-22T10:45:43.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (17999, 5457, 3, CAST(N'2022-07-19T16:19:33.370' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18000, 1688, 3, CAST(N'2020-08-18T14:13:47.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18001, 5445, 3, CAST(N'2022-04-05T12:21:25.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18002, 4638, 3, CAST(N'2022-05-31T10:14:14.327' AS DateTime))
@@ -18281,7 +18280,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18097, 1979, 3, CAST(N'2021-04-17T11:45:45.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18098, 4294, 3, CAST(N'2020-07-15T01:35:29.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18099, 1085, 3, CAST(N'2021-06-07T04:45:45.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18100, 1659, 3, CAST(N'2021-01-02T08:08:06.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18101, 4117, 3, CAST(N'2021-08-21T17:08:00.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18102, 6793, 3, CAST(N'2020-09-23T07:32:08.420' AS DateTime))
@@ -18382,7 +18381,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18197, 7041, 3, CAST(N'2021-06-19T21:27:39.420' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18198, 4079, 3, CAST(N'2022-10-18T00:49:41.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18199, 2991, 3, CAST(N'2023-03-28T03:00:53.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18200, 4691, 3, CAST(N'2020-11-05T18:17:45.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18201, 2010, 3, CAST(N'2021-10-04T14:49:59.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18202, 1713, 3, CAST(N'2022-07-31T00:07:31.190' AS DateTime))
@@ -18483,7 +18482,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18297, 7353, 3, CAST(N'2021-09-12T14:48:28.440' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18298, 4643, 3, CAST(N'2023-03-01T12:44:48.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18299, 401, 3, CAST(N'2021-10-04T05:04:55.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18300, 4348, 3, CAST(N'2023-03-15T02:51:00.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18301, 1918, 3, CAST(N'2023-03-24T15:20:39.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18302, 3565, 3, CAST(N'2022-10-18T21:58:06.280' AS DateTime))
@@ -18584,7 +18583,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18397, 5008, 4, CAST(N'2022-02-08T14:29:05.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18398, 4719, 4, CAST(N'2021-03-24T16:50:33.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18399, 957, 4, CAST(N'2022-01-03T19:19:35.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18400, 7054, 4, CAST(N'2022-10-13T07:18:27.420' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18401, 4181, 4, CAST(N'2021-12-19T20:54:28.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18402, 2256, 4, CAST(N'2023-03-07T04:02:16.190' AS DateTime))
@@ -18685,7 +18684,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18497, 4792, 4, CAST(N'2020-10-17T15:05:15.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18498, 3745, 4, CAST(N'2020-05-17T02:56:37.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18499, 4502, 4, CAST(N'2022-01-09T23:35:17.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18500, 3035, 4, CAST(N'2022-12-25T03:41:02.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18501, 6443, 4, CAST(N'2021-04-23T19:36:41.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18502, 2581, 4, CAST(N'2021-10-14T06:05:54.280' AS DateTime))
@@ -18786,7 +18785,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18597, 5183, 4, CAST(N'2022-07-09T15:03:27.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18598, 6376, 4, CAST(N'2021-01-28T11:26:04.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18599, 3478, 4, CAST(N'2020-10-03T14:20:41.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18600, 6225, 4, CAST(N'2022-07-16T17:54:37.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18601, 7254, 4, CAST(N'2021-10-27T22:40:46.440' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18602, 71, 4, CAST(N'2022-02-22T20:30:40.190' AS DateTime))
@@ -18887,7 +18886,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18697, 6146, 4, CAST(N'2022-07-29T19:19:48.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18698, 6221, 4, CAST(N'2022-09-24T02:37:08.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18699, 5816, 4, CAST(N'2020-06-30T10:21:20.370' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18700, 4320, 4, CAST(N'2020-06-19T23:28:27.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18701, 2591, 4, CAST(N'2022-10-26T22:50:24.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18702, 5292, 4, CAST(N'2022-08-17T03:27:59.370' AS DateTime))
@@ -18988,7 +18987,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18797, 1011, 4, CAST(N'2020-08-07T03:20:56.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18798, 1985, 4, CAST(N'2023-02-25T13:51:31.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18799, 6076, 4, CAST(N'2022-07-30T17:14:33.370' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18800, 2932, 4, CAST(N'2020-06-30T18:05:28.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18801, 7524, 4, CAST(N'2022-03-09T22:20:37.483' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18802, 2862, 4, CAST(N'2022-03-14T12:30:45.280' AS DateTime))
@@ -19089,7 +19088,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18897, 3864, 4, CAST(N'2021-02-19T07:08:37.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18898, 6459, 4, CAST(N'2021-03-01T18:19:05.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18899, 4922, 4, CAST(N'2020-04-07T05:59:48.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18900, 5008, 4, CAST(N'2022-02-06T20:22:08.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18901, 2529, 4, CAST(N'2021-07-01T14:28:35.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18902, 5211, 4, CAST(N'2023-02-14T00:33:25.370' AS DateTime))
@@ -19190,7 +19189,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18997, 5377, 4, CAST(N'2022-05-24T19:16:48.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18998, 1014, 4, CAST(N'2021-03-22T18:34:07.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (18999, 5496, 4, CAST(N'2021-10-29T11:28:36.370' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19000, 306, 4, CAST(N'2022-06-17T11:31:11.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19001, 4702, 4, CAST(N'2020-12-11T08:48:31.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19002, 5570, 4, CAST(N'2021-06-11T19:35:39.370' AS DateTime))
@@ -19291,7 +19290,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19097, 2254, 4, CAST(N'2020-07-03T12:47:00.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19098, 208, 4, CAST(N'2021-04-20T03:45:09.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19099, 859, 4, CAST(N'2022-11-19T23:54:29.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19100, 1133, 4, CAST(N'2023-03-11T03:56:00.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19101, 6657, 4, CAST(N'2020-06-05T15:41:56.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19102, 2782, 4, CAST(N'2021-07-21T23:05:59.280' AS DateTime))
@@ -19392,7 +19391,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19197, 511, 4, CAST(N'2020-07-11T13:13:39.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19198, 5688, 4, CAST(N'2021-05-25T08:55:04.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19199, 1583, 4, CAST(N'2021-04-02T04:25:05.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19200, 5402, 4, CAST(N'2021-04-15T11:54:59.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19201, 4343, 4, CAST(N'2022-08-14T17:55:56.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19202, 1894, 4, CAST(N'2020-08-12T10:21:27.190' AS DateTime))
@@ -19493,7 +19492,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19297, 5346, 4, CAST(N'2022-12-07T16:37:00.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19298, 6663, 4, CAST(N'2022-09-06T01:33:09.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19299, 4168, 4, CAST(N'2022-12-24T17:16:27.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19300, 5066, 4, CAST(N'2020-08-10T17:18:21.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19301, 1783, 4, CAST(N'2020-11-28T14:16:21.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19302, 104, 4, CAST(N'2021-07-07T05:10:04.190' AS DateTime))
@@ -19594,7 +19593,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19397, 4316, 4, CAST(N'2020-10-11T15:38:50.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19398, 3025, 4, CAST(N'2020-09-20T22:21:42.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19399, 4144, 4, CAST(N'2021-11-10T05:39:14.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19400, 3803, 4, CAST(N'2022-12-29T10:33:28.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19401, 1476, 4, CAST(N'2021-01-25T03:54:16.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19402, 4180, 4, CAST(N'2021-03-26T10:48:29.327' AS DateTime))
@@ -19695,7 +19694,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19497, 2046, 4, CAST(N'2022-10-09T22:47:06.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19498, 1408, 4, CAST(N'2020-05-04T17:53:39.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19499, 3494, 4, CAST(N'2021-07-31T02:48:07.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19500, 2602, 4, CAST(N'2020-09-01T02:51:53.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19501, 4011, 4, CAST(N'2022-08-14T04:03:40.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19502, 2718, 4, CAST(N'2022-02-19T17:44:58.280' AS DateTime))
@@ -19796,7 +19795,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19597, 4782, 4, CAST(N'2022-12-17T15:07:57.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19598, 270, 4, CAST(N'2021-04-10T17:35:11.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19599, 5952, 4, CAST(N'2022-02-21T23:14:09.370' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19600, 1282, 4, CAST(N'2022-02-13T22:41:34.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19601, 4689, 4, CAST(N'2022-07-27T10:20:31.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19602, 2534, 4, CAST(N'2022-05-05T15:50:42.280' AS DateTime))
@@ -19897,7 +19896,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19697, 3566, 4, CAST(N'2022-04-15T18:31:55.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19698, 2890, 4, CAST(N'2022-03-12T23:07:15.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19699, 3639, 4, CAST(N'2021-12-28T12:59:40.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19700, 5285, 4, CAST(N'2021-05-13T09:11:02.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19701, 5364, 4, CAST(N'2022-12-23T14:47:26.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19702, 5921, 4, CAST(N'2021-12-30T06:35:21.370' AS DateTime))
@@ -19998,7 +19997,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19797, 3335, 4, CAST(N'2020-11-07T22:34:05.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19798, 1099, 4, CAST(N'2021-06-12T03:06:30.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19799, 2871, 4, CAST(N'2021-01-22T06:49:53.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19800, 6295, 4, CAST(N'2022-03-23T11:06:28.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19801, 2568, 4, CAST(N'2023-02-20T04:44:02.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19802, 5396, 4, CAST(N'2022-03-22T14:48:58.370' AS DateTime))
@@ -20099,7 +20098,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19897, 1581, 4, CAST(N'2021-07-11T21:19:25.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19898, 5574, 4, CAST(N'2022-01-30T08:55:27.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19899, 101, 4, CAST(N'2023-01-06T08:25:42.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19900, 2650, 4, CAST(N'2021-07-03T15:19:59.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19901, 1199, 4, CAST(N'2021-08-14T04:36:20.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19902, 4639, 4, CAST(N'2022-04-12T08:05:43.327' AS DateTime))
@@ -20200,7 +20199,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19997, 1279, 4, CAST(N'2022-09-09T01:34:39.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19998, 4920, 4, CAST(N'2021-06-23T11:58:39.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (19999, 2942, 4, CAST(N'2020-08-04T11:18:42.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20000, 1521, 4, CAST(N'2020-12-01T07:49:18.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20001, 3228, 4, CAST(N'2022-01-28T17:19:59.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20002, 3113, 4, CAST(N'2022-08-06T20:03:21.280' AS DateTime))
@@ -20301,7 +20300,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20097, 1240, 4, CAST(N'2021-09-28T23:05:26.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20098, 2883, 4, CAST(N'2022-05-17T06:51:53.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20099, 4586, 4, CAST(N'2020-06-07T20:23:31.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20100, 5382, 4, CAST(N'2022-04-24T17:12:43.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20101, 4306, 4, CAST(N'2022-10-31T05:32:17.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20102, 1309, 4, CAST(N'2020-05-05T08:38:49.190' AS DateTime))
@@ -20402,7 +20401,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20197, 5673, 4, CAST(N'2022-04-07T07:33:08.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20198, 2045, 4, CAST(N'2020-10-23T06:10:40.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20199, 6415, 4, CAST(N'2023-02-07T21:48:29.393' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20200, 873, 4, CAST(N'2021-08-19T08:41:44.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20201, 1608, 4, CAST(N'2022-07-18T19:44:57.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20202, 5160, 4, CAST(N'2022-08-18T16:45:19.327' AS DateTime))
@@ -20503,7 +20502,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20297, 4062, 4, CAST(N'2020-11-08T06:40:16.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20298, 2245, 4, CAST(N'2020-06-27T10:41:04.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20299, 1262, 4, CAST(N'2022-06-21T00:04:39.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20300, 6340, 4, CAST(N'2020-09-17T04:32:14.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20301, 2944, 4, CAST(N'2020-08-19T17:45:25.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20302, 1499, 4, CAST(N'2021-12-28T22:15:43.190' AS DateTime))
@@ -20604,7 +20603,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20397, 380, 4, CAST(N'2020-06-08T13:34:39.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20398, 6375, 4, CAST(N'2020-09-24T13:37:52.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20399, 4034, 4, CAST(N'2022-11-18T07:13:24.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20400, 7281, 4, CAST(N'2021-11-15T19:01:49.440' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20401, 4498, 4, CAST(N'2020-05-26T11:27:21.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20402, 6424, 4, CAST(N'2022-07-05T01:08:46.393' AS DateTime))
@@ -20705,7 +20704,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20497, 6038, 4, CAST(N'2023-02-22T07:33:45.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20498, 4215, 4, CAST(N'2021-01-29T18:12:53.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20499, 4729, 4, CAST(N'2022-06-25T06:10:40.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20500, 2098, 4, CAST(N'2023-01-23T22:29:13.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20501, 1564, 4, CAST(N'2021-11-12T10:02:18.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20502, 6043, 4, CAST(N'2022-02-07T10:47:40.370' AS DateTime))
@@ -20806,7 +20805,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20597, 4454, 4, CAST(N'2022-07-13T22:29:57.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20598, 6352, 4, CAST(N'2022-08-22T20:18:35.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20599, 289, 4, CAST(N'2021-10-21T04:09:14.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20600, 2085, 4, CAST(N'2022-08-06T20:21:00.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20601, 4643, 4, CAST(N'2023-03-03T11:36:25.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20602, 755, 4, CAST(N'2022-09-07T06:43:31.190' AS DateTime))
@@ -20907,7 +20906,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20697, 3454, 4, CAST(N'2022-10-30T00:24:28.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20698, 1343, 4, CAST(N'2020-06-15T11:06:13.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20699, 1875, 4, CAST(N'2022-08-07T02:22:12.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20700, 3799, 4, CAST(N'2022-11-01T10:32:18.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20701, 4212, 4, CAST(N'2020-11-13T08:35:35.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20702, 1811, 4, CAST(N'2022-06-21T12:55:16.190' AS DateTime))
@@ -21008,7 +21007,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20797, 1908, 4, CAST(N'2021-02-13T03:47:32.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20798, 190, 4, CAST(N'2022-01-11T05:37:11.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20799, 1519, 4, CAST(N'2021-07-12T05:42:14.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20800, 4474, 4, CAST(N'2020-04-21T04:20:21.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20801, 825, 4, CAST(N'2023-03-10T14:31:18.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20802, 4690, 4, CAST(N'2020-05-01T22:41:20.327' AS DateTime))
@@ -21109,7 +21108,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20897, 6570, 4, CAST(N'2021-11-26T16:31:15.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20898, 7317, 4, CAST(N'2022-01-09T15:04:50.440' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20899, 5464, 4, CAST(N'2022-03-24T13:46:54.370' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20900, 6036, 4, CAST(N'2020-05-29T04:00:54.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20901, 2444, 4, CAST(N'2021-03-27T13:05:14.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20902, 3397, 4, CAST(N'2022-04-27T01:50:09.280' AS DateTime))
@@ -21210,7 +21209,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20997, 3477, 4, CAST(N'2021-08-09T00:41:22.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20998, 466, 4, CAST(N'2022-06-25T13:25:22.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (20999, 3080, 4, CAST(N'2022-12-07T18:02:24.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21000, 6385, 4, CAST(N'2021-11-26T01:05:34.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21001, 6474, 4, CAST(N'2021-02-13T20:39:04.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21002, 5074, 4, CAST(N'2020-06-18T07:37:53.327' AS DateTime))
@@ -21311,7 +21310,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21097, 1872, 4, CAST(N'2022-11-28T11:22:54.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21098, 317, 4, CAST(N'2020-05-28T04:57:43.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21099, 4098, 4, CAST(N'2020-11-28T15:47:09.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21100, 5123, 4, CAST(N'2020-07-28T13:50:19.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21101, 3016, 4, CAST(N'2020-04-28T11:33:30.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21102, 1479, 4, CAST(N'2020-06-23T18:02:42.190' AS DateTime))
@@ -21412,7 +21411,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21197, 2745, 4, CAST(N'2021-11-18T06:31:36.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21198, 2696, 4, CAST(N'2022-06-22T11:48:38.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21199, 4254, 4, CAST(N'2020-07-22T18:11:48.327' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21200, 5307, 4, CAST(N'2021-11-22T22:42:23.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21201, 4975, 4, CAST(N'2021-03-30T19:23:43.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21202, 4011, 4, CAST(N'2022-08-09T17:19:50.327' AS DateTime))
@@ -21513,7 +21512,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21297, 7434, 4, CAST(N'2021-01-22T05:23:30.467' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21298, 1935, 4, CAST(N'2021-12-18T11:56:53.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21299, 6374, 4, CAST(N'2021-03-29T08:05:09.393' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21300, 5390, 4, CAST(N'2022-12-17T22:41:29.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21301, 6327, 4, CAST(N'2022-08-31T10:00:22.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21302, 3483, 4, CAST(N'2021-12-27T20:44:24.280' AS DateTime))
@@ -21614,7 +21613,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21397, 6947, 4, CAST(N'2023-01-16T13:20:57.420' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21398, 154, 4, CAST(N'2020-12-14T17:52:23.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21399, 3792, 4, CAST(N'2020-06-18T18:42:32.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21400, 6587, 4, CAST(N'2021-09-07T12:10:26.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21401, 700, 4, CAST(N'2022-01-11T17:30:20.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21402, 3781, 4, CAST(N'2020-04-20T21:07:33.280' AS DateTime))
@@ -21715,7 +21714,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21497, 6578, 4, CAST(N'2021-12-22T05:31:30.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21498, 257, 4, CAST(N'2020-05-28T05:55:44.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21499, 5277, 4, CAST(N'2022-06-01T15:55:56.370' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21500, 2344, 4, CAST(N'2022-01-05T04:16:02.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21501, 5634, 4, CAST(N'2021-04-15T20:40:52.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21502, 4522, 4, CAST(N'2021-01-27T06:57:53.327' AS DateTime))
@@ -21816,7 +21815,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21597, 2650, 4, CAST(N'2021-07-05T02:43:44.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21598, 4196, 4, CAST(N'2021-12-12T16:44:35.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21599, 559, 4, CAST(N'2020-08-04T06:09:31.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21600, 4927, 4, CAST(N'2020-12-08T01:52:09.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21601, 5810, 4, CAST(N'2020-09-09T10:20:27.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21602, 5005, 4, CAST(N'2022-01-28T15:07:23.327' AS DateTime))
@@ -21917,7 +21916,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21697, 4928, 4, CAST(N'2020-06-29T11:47:29.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21698, 4573, 4, CAST(N'2022-09-15T06:03:24.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21699, 2686, 4, CAST(N'2020-10-22T04:36:45.280' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21700, 1926, 4, CAST(N'2020-06-28T18:44:32.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21701, 7224, 4, CAST(N'2022-08-06T18:56:58.440' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21702, 5651, 4, CAST(N'2020-05-01T19:57:52.370' AS DateTime))
@@ -22018,7 +22017,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21797, 107, 4, CAST(N'2023-01-04T18:01:46.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21798, 3929, 4, CAST(N'2021-03-01T09:26:01.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21799, 5879, 4, CAST(N'2023-01-25T05:18:42.370' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21800, 4808, 4, CAST(N'2022-06-04T02:03:24.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21801, 1868, 4, CAST(N'2021-01-11T20:33:45.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21802, 2756, 4, CAST(N'2020-10-27T18:01:21.280' AS DateTime))
@@ -22119,7 +22118,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21897, 7488, 5, CAST(N'2022-03-02T08:26:57.467' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21898, 7284, 5, CAST(N'2021-04-29T09:02:18.440' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21899, 7042, 5, CAST(N'2022-06-30T04:04:36.420' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21900, 6822, 5, CAST(N'2020-06-20T10:20:17.420' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21901, 7156, 5, CAST(N'2021-05-02T19:50:44.440' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21902, 7537, 5, CAST(N'2021-09-19T21:56:50.483' AS DateTime))
@@ -22220,7 +22219,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21997, 7048, 5, CAST(N'2021-10-02T11:59:58.420' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21998, 7205, 5, CAST(N'2022-07-15T13:17:43.440' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (21999, 6857, 5, CAST(N'2021-07-10T01:45:08.420' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (22000, 7459, 5, CAST(N'2022-12-29T04:12:34.467' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (22001, 7385, 5, CAST(N'2022-08-18T23:37:06.440' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (22002, 7066, 5, CAST(N'2021-11-24T11:52:05.420' AS DateTime))
@@ -22321,7 +22320,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (22097, 7293, 5, CAST(N'2021-02-13T14:27:33.440' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (22098, 7467, 5, CAST(N'2021-12-10T14:48:38.467' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (22099, 7476, 5, CAST(N'2021-05-04T15:33:33.467' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (22100, 7334, 5, CAST(N'2022-12-13T15:52:08.440' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (22101, 7179, 5, CAST(N'2020-11-19T01:02:05.440' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (22102, 7003, 5, CAST(N'2022-06-02T16:29:41.420' AS DateTime))
@@ -22422,7 +22421,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (22197, 2160, 6, CAST(N'2020-06-07T04:26:07.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (22198, 6488, 6, CAST(N'2022-12-20T16:04:37.393' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (22199, 194, 6, CAST(N'2021-11-22T22:17:21.190' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (22200, 5002, 6, CAST(N'2021-12-08T01:10:53.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (22201, 3076, 6, CAST(N'2020-12-18T10:34:46.280' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (22202, 5830, 6, CAST(N'2020-06-22T17:25:30.370' AS DateTime))
@@ -22523,7 +22522,7 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (22297, 4437, 6, CAST(N'2021-07-30T12:13:40.327' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (22298, 5864, 6, CAST(N'2020-09-22T23:02:55.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (22299, 5877, 6, CAST(N'2021-12-11T20:48:50.370' AS DateTime))
---GO
+GO
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (22300, 5251, 6, CAST(N'2021-08-22T08:51:38.370' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (22301, 391, 6, CAST(N'2021-01-18T15:23:13.190' AS DateTime))
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (22302, 1887, 6, CAST(N'2022-08-23T08:33:55.190' AS DateTime))
@@ -22574,4 +22573,3 @@ INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_dat
 INSERT [dbo].[order_history] ([history_id], [order_id], [status_id], [status_date]) VALUES (22347, 2122, 6, CAST(N'2021-09-30T13:15:52.190' AS DateTime))
 
 SET IDENTITY_INSERT [dbo].[order_history] OFF
-*/

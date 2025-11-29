@@ -1,4 +1,4 @@
-﻿/*--GO
+﻿GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1, N'The World''s First Love: Mary  Mother of God', N'8987059752', 2, 276, CAST(N'1996-09-01' AS Date), 1010)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2, N'The Illuminati', N'20049130001', 1, 352, CAST(N'2004-10-04' AS Date), 1967)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3, N'The Servant Leader', N'23755004321', 1, 128, CAST(N'2003-03-11' AS Date), 1967)
@@ -99,7 +99,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (98, N'If I Don''t Write It Nobody Else Will: An Autobiography', N'9780007177844', 1, 512, CAST(N'2006-05-01' AS Date), 733)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (99, N'Reading Lolita in Tehran', N'9780007178483', 1, 343, CAST(N'2004-01-02' AS Date), 733)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (100, N'The Monk Who Sold His Ferrari: A Fable about Fulfilling Your Dreams and Reaching Your Destiny (Revised)', N'9780007179732', 1, 241, CAST(N'2015-12-31' AS Date), 871)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (101, N'Microserfs', N'9780007179817', 1, 371, CAST(N'2008-01-01' AS Date), 873)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (102, N'Where Rainbows End', N'9780007189953', 1, 454, CAST(N'2004-11-08' AS Date), 882)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (103, N'Poirot: The Complete Ariadne Oliver  Vol. 2', N'9780007190683', 2, 727, CAST(N'2005-06-01' AS Date), 889)
@@ -200,7 +200,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (198, N'Household Saints', N'9780060507275', 2, 272, CAST(N'2003-04-01' AS Date), 873)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (199, N'The Cheese Monkeys', N'9780060507404', 2, 288, CAST(N'2002-09-03' AS Date), 873)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (200, N'The Last Hero (Discworld #27; Rincewind #7)', N'9780060507770', 1, 176, CAST(N'2002-08-20' AS Date), 880)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (201, N'Travels', N'9780060509057', 1, 400, CAST(N'2002-11-05' AS Date), 911)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (202, N'Caesar (Masters of Rome  #5)', N'9780060510855', 1, 928, CAST(N'2003-01-28' AS Date), 160)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (203, N'The Forever War (The Forever War  #1)', N'9780060510862', 1, 278, CAST(N'2003-09-02' AS Date), 2140)
@@ -301,7 +301,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (298, N'The Way the Crow Flies', N'9780060586379', 2, 848, CAST(N'2004-08-31' AS Date), 873)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (299, N'Great Short Works of Herman Melville', N'9780060586546', 1, 512, CAST(N'2004-03-02' AS Date), 877)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (300, N'Measle and the Dragodon', N'9780060586904', 1, 352, CAST(N'2006-09-01' AS Date), 909)
-----GO
+--GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (301, N'The Day I Swapped My Dad for Two Goldfish', N'9780060587031', 2, 64, CAST(N'2006-09-26' AS Date), 882)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (302, N'Zen and the Art of Motorcycle Maintenance: An Inquiry Into Values (Phaedrus  #1)', N'9780060589462', 1, 540, CAST(N'2006-04-25' AS Date), 907)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (303, N'Ulysses S. Grant: The Unlikely Hero', N'9780060590154', 1, 176, CAST(N'2004-09-28' AS Date), 642)
@@ -402,7 +402,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (398, N'How to Buy  Sell & Profit on eBay: Kick-Start Your Home-Based Business in Just Thirty Days', N'9780060762872', 1, 336, CAST(N'2005-05-03' AS Date), 2210)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (399, N'Psyche in a Dress', N'9780060763725', 1, 116, CAST(N'2006-09-01' AS Date), 1051)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (400, N'You: The Owner''s Manual: An Insider''s Guide to the Body That Will Make You Healthier and Younger', N'9780060765316', 2, 417, CAST(N'2005-01-01' AS Date), 428)
-----GO
+--GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (401, N'The Catswold Portal', N'9780060765408', 1, 432, CAST(N'2005-01-25' AS Date), 880)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (402, N'The Chronicles of Narnia (The Chronicles of Narnia  #1-7)', N'9780060765453', 1, 766, CAST(N'2005-10-15' AS Date), 895)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (403, N'The Lion  the Witch and the Wardrobe (Chronicles of Narnia #2)', N'9780060765484', 1, 189, CAST(N'2005-10-25' AS Date), 895)
@@ -503,7 +503,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (498, N'The First Four Years  (Little House  #9)', N'9780060885458', 1, 126, CAST(N'2007-01-02' AS Date), 909)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (499, N'Laura Ingalls Wilder: A Biography', N'9780060885526', 1, 256, CAST(N'2007-01-02' AS Date), 882)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (500, N'Dumpy''s Valentine', N'9780060885731', 1, 24, CAST(N'2006-12-12' AS Date), 1066)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (501, N'The Alchemist', N'9780060887964', 1, 192, CAST(N'2006-05-02' AS Date), 898)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (502, N'To Kill a Mockingbird', N'9780060888695', 1, 11, CAST(N'2006-08-22' AS Date), 340)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (503, N'Wintersmith (Discworld  #35; Tiffany Aching  #3)', N'9780060890315', 1, 325, CAST(N'2006-10-01' AS Date), 906)
@@ -604,7 +604,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (598, N'Prisoner''s Dilemma', N'9780060977085', 2, 352, CAST(N'2002-04-02' AS Date), 873)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (599, N'The Physics of Star Trek', N'9780060977108', 1, 188, CAST(N'1996-08-16' AS Date), 1686)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (600, N'The God of Small Things', N'9780060977498', 2, 321, CAST(N'1997-05-01' AS Date), 882)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (601, N'Our Kind of People: Inside America''s Black Upper Class', N'9780060984380', 2, 406, CAST(N'1999-12-22' AS Date), 873)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (602, N'Girlfriend in a Coma', N'9780060987329', 1, 288, CAST(N'1999-03-01' AS Date), 1686)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (603, N'The Long Hard Road Out of Hell', N'9780060987466', 1, 275, CAST(N'1999-03-03' AS Date), 1038)
@@ -705,7 +705,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (698, N'Freakonomics: A Rogue Economist Explores the Hidden Side of Everything', N'9780061234002', 1, 320, CAST(N'2006-10-17' AS Date), 2204)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (699, N'The Gravedigger''s Daughter', N'9780061236822', 1, 582, CAST(N'2007-05-29' AS Date), 606)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (700, N'Marley & Me: Life and Love with the World''s Worst Dog', N'9780061238222', 2, 306, CAST(N'2006-10-31' AS Date), 2204)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (701, N'The End of Days (The Earth Chronicles  #7)', N'9780061238239', 1, 336, CAST(N'2007-04-03' AS Date), 2204)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (702, N'The Maytrees', N'9780061239533', 1, 216, CAST(N'2007-06-12' AS Date), 864)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (703, N'Influence: The Psychology of Persuasion', N'9780061241895', 1, 320, CAST(N'2006-12-26' AS Date), 868)
@@ -806,7 +806,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (798, N'How to Talk to Anyone: 92 Little Tricks for Big Success in Relationships', N'9780071418584', 1, 345, CAST(N'2003-10-10' AS Date), 437)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (799, N'Goodman & Gilman''s the Pharmacological Basis of Therapeutics', N'9780071422802', 1, 2021, CAST(N'2005-09-21' AS Date), 1236)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (800, N'Easy French Reader', N'9780071428484', 1, 228, CAST(N'2003-09-17' AS Date), 1233)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (801, N'Advanced Statistics Demystified', N'9780071432429', 1, 324, CAST(N'2004-06-07' AS Date), 1233)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (802, N'Slim to None: A Journey Through the Wasteland of Anorexia Treatment', N'9780071433716', 1, 384, CAST(N'2004-02-04' AS Date), 1233)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (803, N'Practice Makes Perfect: Italian Verb Tenses', N'9780071451383', 1, 252, CAST(N'2005-11-23' AS Date), 1232)
@@ -907,7 +907,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (898, N'False Colours', N'9780099476337', 1, 303, CAST(N'2005-06-02' AS Date), 116)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (899, N'Sprig Muslin', N'9780099476351', 1, 268, CAST(N'2005-06-02' AS Date), 116)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (900, N'Catch-22', N'9780099477310', 1, 519, CAST(N'1994-10-06' AS Date), 2113)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (901, N'Grey Eminence', N'9780099477822', 2, 320, CAST(N'2005-04-07' AS Date), 2118)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (902, N'The Quiet American', N'9780099478393', 1, 198, CAST(N'2004-10-07' AS Date), 2117)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (903, N'The Heart of the Matter', N'9780099478423', 1, 272, CAST(N'2004-10-07' AS Date), 2118)
@@ -1008,7 +1008,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (998, N'The Big Rock Candy Mountain', N'9780140139396', 1, 563, CAST(N'1991-03-01' AS Date), 1470)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (999, N'The Spectator Bird', N'9780140139402', 1, 214, CAST(N'1990-11-01' AS Date), 1470)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1000, N'Sailor Song', N'9780140139976', 1, 533, CAST(N'1993-07-01' AS Date), 1476)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1001, N'Granta 7', N'9780140140828', 1, 320, CAST(N'2013-04-01' AS Date), 794)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1002, N'Liar''s Poker', N'9780140143454', 1, 256, CAST(N'1990-10-01' AS Date), 1476)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1003, N'The Anglo-Saxons', N'9780140143959', 1, 272, CAST(N'1991-03-28' AS Date), 1470)
@@ -1109,7 +1109,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1098, N'White Noise', N'9780140283303', 1, 320, CAST(N'1999-06-01' AS Date), 1476)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1099, N'Lord of the Flies', N'9780140283334', 1, 182, CAST(N'1999-10-01' AS Date), 1476)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1100, N'Waiting for the Barbarians', N'9780140283358', 1, 152, CAST(N'1999-10-01' AS Date), 1476)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1101, N'Gravity''s Rainbow', N'9780140283389', 1, 784, CAST(N'2000-01-01' AS Date), 1476)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1102, N'The Inimitable Jeeves (Jeeves  #2)', N'9780140284126', 1, 240, CAST(N'2000-06-01' AS Date), 1476)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1103, N'English Passengers', N'9780140285215', 5, 462, CAST(N'2001-04-26' AS Date), 1470)
@@ -1210,7 +1210,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1198, N'The Analects', N'9780140443486', 1, 249, CAST(N'1979-09-27' AS Date), 1487)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1199, N'Spring Torrents', N'9780140443691', 1, 240, CAST(N'1980-01-31' AS Date), 1493)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1200, N'The Earth', N'9780140443875', 1, 506, CAST(N'1980-06-26' AS Date), 1493)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1201, N'Eugene Onegin', N'9780140443943', 2, 240, CAST(N'1979-12-20' AS Date), 1493)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1202, N'Love Visions', N'9780140444087', 1, 272, CAST(N'1983-05-26' AS Date), 1493)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1203, N'The Three Theban Plays: Antigone  Oedipus the King  Oedipus at Colonus', N'9780140444254', 1, 430, CAST(N'2000-01-03' AS Date), 1476)
@@ -1311,7 +1311,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1298, N'When the Emperor Was Divine', N'9780141009056', 2, 160, CAST(N'2004-01-12' AS Date), 1470)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1299, N'Forever Amber', N'9780141009827', 1, 972, CAST(N'2002-07-25' AS Date), 1470)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1300, N'Golden Buddha (Oregon Files  #1)', N'9780141010311', 1, 527, CAST(N'2005-03-24' AS Date), 1476)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1301, N'The Fabric of the Cosmos: Space  Time and the Texture of Reality', N'9780141011110', 2, 592, CAST(N'2005-02-24' AS Date), 1470)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1302, N'Straight Talking', N'9780141011516', 5, 304, CAST(N'2002-09-05' AS Date), 1470)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1303, N'Notes on a Scandal', N'9780141012254', 1, 244, CAST(N'2004-03-04' AS Date), 1470)
@@ -1412,7 +1412,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1398, N'The Turn of the Screw and The Aspern Papers', N'9780141439907', 1, 272, CAST(N'2003-06-26' AS Date), 1476)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1399, N'Little Dorrit', N'9780141439969', 1, 1021, CAST(N'2003-09-25' AS Date), 1493)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1400, N'The Time Machine', N'9780141439976', 1, 104, CAST(N'2005-03-31' AS Date), 1487)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1401, N'The Invisible Man', N'9780141439983', 1, 161, CAST(N'2005-03-31' AS Date), 1493)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1402, N'The Shape of Things to Come', N'9780141441047', 1, 530, CAST(N'2006-05-26' AS Date), 1486)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1403, N'Tono-Bungay', N'9780141441115', 1, 414, CAST(N'2005-06-28' AS Date), 1493)
@@ -1513,7 +1513,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1498, N'A Little Princess', N'9780142437018', 1, 242, CAST(N'2002-02-26' AS Date), 1476)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1499, N'The Secret Garden', N'9780142437056', 5, 288, CAST(N'2003-01-30' AS Date), 1493)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1500, N'The Letters of John and Abigail Adams', N'9780142437117', 1, 512, CAST(N'2003-12-30' AS Date), 1493)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1501, N'The Adventures of Huckleberry Finn (Adventures of Tom and Huck  #2)', N'9780142437179', 1, 327, CAST(N'2002-12-31' AS Date), 1493)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1502, N'Siddhartha', N'9780142437186', 1, 132, CAST(N'2002-12-31' AS Date), 1476)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1503, N'Jane Eyre', N'9780142437209', 1, 532, CAST(N'2003-02-04' AS Date), 1470)
@@ -1614,7 +1614,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1598, N'The Adventures of Augie March', N'9780143039570', 1, 586, CAST(N'2006-10-03' AS Date), 1493)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1599, N'The Dharma Bums', N'9780143039600', 1, 187, CAST(N'2007-04-05' AS Date), 1493)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1600, N'Malgudi Days', N'9780143039655', 1, 264, CAST(N'2006-11-02' AS Date), 1493)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1601, N'The Custom of the Country', N'9780143039709', 1, 370, CAST(N'2006-09-28' AS Date), 1493)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1602, N'Journey Without Maps', N'9780143039723', 1, 272, CAST(N'2006-06-27' AS Date), 1493)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1603, N'Collected Stories', N'9780143039792', 1, 576, CAST(N'2006-07-25' AS Date), 1493)
@@ -1715,7 +1715,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1698, N'A Drink Before the War (Kenzie & Gennaro  #1)', N'9780156029025', 1, 282, CAST(N'2003-09-15' AS Date), 1212)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1699, N'Little Birds', N'9780156029049', 1, 148, CAST(N'2004-02-02' AS Date), 1212)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1700, N'Baudolino', N'9780156029063', 1, 527, CAST(N'2003-10-06' AS Date), 840)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1701, N'The Flanders Panel', N'9780156029582', 1, 295, CAST(N'2004-06-07' AS Date), 1212)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1702, N'The Seville Communion', N'9780156029810', 1, 400, CAST(N'2004-06-07' AS Date), 1212)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1703, N'The Liberated Bride', N'9780156030168', 2, 576, CAST(N'2004-10-04' AS Date), 1212)
@@ -1816,7 +1816,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1798, N'La Débâcle', N'9780192822895', 1, 592, CAST(N'2000-09-28' AS Date), 1431)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1799, N'The Histories', N'9780192824257', 1, 772, CAST(N'1998-11-19' AS Date), 1431)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1800, N'The First Philosophers: The Presocratics and Sophists', N'9780192824547', 1, 400, CAST(N'2000-11-30' AS Date), 1431)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1801, N'The Antiquary', N'9780192831873', 1, 528, CAST(N'2002-05-23' AS Date), 1431)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1802, N'Exemplary Stories', N'9780192832436', 1, 368, CAST(N'1998-05-07' AS Date), 1431)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1803, N'Orestes and Other Plays', N'9780192832603', 1, 282, CAST(N'2001-12-20' AS Date), 1431)
@@ -1917,7 +1917,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1898, N'Lysistrata', N'9780198144960', 1, 320, CAST(N'1990-06-21' AS Date), 1421)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1899, N'Comoediae 1: Acharenses/Equites/Nubes/Vespae/Pax/Aves', N'9780198145042', 7, 364, CAST(N'1922-02-22' AS Date), 1432)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1900, N'Septem Quae Supersunt Tragoediae', N'9780198145707', 7, 352, CAST(N'1973-01-11' AS Date), 408)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1901, N'Hegel''s Phenomenology of Spirit', N'9780198245971', 1, 640, CAST(N'1976-11-30' AS Date), 1431)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1902, N'Taxation of Mineral Rents', N'9780198284543', 1, 350, CAST(N'1983-11-17' AS Date), 1432)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1903, N'A Midsummer Night''s Dream', N'9780198320210', 1, 99, CAST(N'2002-08-15' AS Date), 1432)
@@ -2018,7 +2018,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1998, N'Democracy in America', N'9780226805368', 1, 722, CAST(N'2002-04-01' AS Date), 2051)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (1999, N'Ideas Have Consequences', N'9780226876801', 1, 198, CAST(N'1984-09-28' AS Date), 2051)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2000, N'The Science of the Hitchhiker''s Guide to the Galaxy', N'9780230008908', 1, 208, CAST(N'2006-08-08' AS Date), 1435)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2001, N'Genetics and the Origin of Species', N'9780231054751', 1, 364, CAST(N'1982-07-22' AS Date), 431)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2002, N'The Pillow Book', N'9780231073370', 1, 419, CAST(N'1991-12-30' AS Date), 431)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2003, N'Three Plays: Involuntary Homicide / The Green Stockings / The Ghost is Here', N'9780231082815', 1, 233, CAST(N'1997-03-01' AS Date), 431)
@@ -2119,7 +2119,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2098, N'Cuba: A New History', N'9780300111149', 5, 384, CAST(N'2005-11-11' AS Date), 2232)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2099, N'Writings on Art', N'9780300114409', 1, 192, CAST(N'2006-04-28' AS Date), 2232)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2100, N'Saul Steinberg: Illuminations', N'9780300115864', 1, 288, CAST(N'2006-11-01' AS Date), 2232)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2101, N'Eva Hesse Drawing', N'9780300116182', 1, 344, CAST(N'2006-12-28' AS Date), 2232)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2102, N'The Annotated Waste Land with Eliot''s Contemporary Prose', N'9780300119947', 1, 304, CAST(N'2006-08-28' AS Date), 2232)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2103, N'Chicago Blues: The City and the Music', N'9780306801457', 1, 226, CAST(N'1981-08-22' AS Date), 482)
@@ -2220,7 +2220,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2198, N'Trial by Fire (Newpointe 911 #4)', N'9780310217602', 1, 347, CAST(N'2000-10-18' AS Date), 2249)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2199, N'A Is for Abductive : The Language of the Emerging Church', N'9780310243564', 2, 338, CAST(N'2002-12-24' AS Date), 2249)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2200, N'Breach of Promise', N'9780310243878', 1, 345, CAST(N'2004-02-15' AS Date), 2249)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2201, N'Deadlock', N'9780310243885', 1, 319, CAST(N'2002-10-06' AS Date), 2249)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2202, N'Ever After (Lost Love  #2)', N'9780310247562', 1, 337, CAST(N'2007-01-01' AS Date), 2249)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2203, N'Fanning the Flame: Bible  Cross  and Mission', N'9780310249870', 1, 336, CAST(N'2003-06-17' AS Date), 2249)
@@ -2321,7 +2321,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2298, N'Sideways', N'9780312342517', 1, 368, CAST(N'2004-10-01' AS Date), 1878)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2299, N'On the Night You Were Born', N'9780312346065', 2, 32, CAST(N'2006-10-17' AS Date), 690)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2300, N'Baby Proof', N'9780312348649', 1, 340, CAST(N'2006-06-13' AS Date), 1882)
-----GO
+--GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2301, N'Love at First Bite (Dark-Hunter #6.5; Wild Wulfs of London #2.5; Companion #3.5)', N'9780312349295', 1, 373, CAST(N'2006-10-03' AS Date), 1882)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2302, N'Twelve Sharp (Stephanie Plum  #12)', N'9780312349486', 1, 310, CAST(N'2006-06-20' AS Date), 1882)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2303, N'The Last Wife of Henry VIII', N'9780312352189', 2, 326, CAST(N'2006-10-03' AS Date), 1882)
@@ -2422,7 +2422,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2398, N'The Damned (Vampire Huntress  #6)', N'9780312934439', 1, 492, CAST(N'2007-01-02' AS Date), 1881)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2399, N'The Dark One (Wild Wulfs of London  #1)', N'9780312935733', 1, 341, CAST(N'2005-11-01' AS Date), 1882)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2400, N'The Untamed One (Wild Wulfs of London  #2)', N'9780312935740', 1, 320, CAST(N'2006-05-02' AS Date), 1881)
-----GO
+--GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2401, N'The Cursed One (Wild Wulfs of London  #3)', N'9780312935757', 1, 305, CAST(N'2006-11-28' AS Date), 1881)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2402, N'Sorrow''s Anthem (Lincoln Perry  #2)', N'9780312936600', 1, 330, CAST(N'2007-01-02' AS Date), 1881)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2403, N'The Last Temptation (Tony Hill & Carol Jordan  #3)', N'9780312936914', 1, 496, CAST(N'2005-03-01' AS Date), 1881)
@@ -2523,7 +2523,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2498, N'The Magus', N'9780316296199', 1, 656, CAST(N'2001-01-04' AS Date), 173)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2499, N'Mythology', N'9780316341516', 1, 497, CAST(N'1998-09-14' AS Date), 1149)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2500, N'The Tipping Point: How Little Things Can Make a Big Difference', N'9780316346627', 1, 301, CAST(N'2002-01-07' AS Date), 173)
-----GO
+--GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2501, N'Saint George and the Dragon', N'9780316367950', 1, 32, CAST(N'1990-09-04' AS Date), 1151)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2502, N'The Soul of a New Machine', N'9780316491976', 1, 293, CAST(N'2000-06-01' AS Date), 173)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2503, N'Goodbye  Darkness: A Memoir of the Pacific War', N'9780316501118', 1, 401, CAST(N'2002-04-12' AS Date), 173)
@@ -2624,7 +2624,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2598, N'Foxmask (Saga of the Light Isles  #2)', N'9780330411844', 1, 670, CAST(N'2005-03-18' AS Date), 2000)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2599, N'Bosnia: A Short History', N'9780330412445', 1, 384, CAST(N'2002-08-01' AS Date), 1440)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2600, N'Marching Powder', N'9780330419581', 1, 371, CAST(N'2004-07-01' AS Date), 1440)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2601, N'Total Control', N'9780330419659', 1, 613, CAST(N'2003-08-01' AS Date), 1442)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2602, N'Last Man Standing', N'9780330419703', 5, 556, CAST(N'2003-11-01' AS Date), 1442)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2603, N'Valparaiso', N'9780330426947', 1, 107, CAST(N'2004-04-01' AS Date), 1440)
@@ -2725,7 +2725,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2698, N'The Waterborn (Children of the Changeling  #1)', N'9780345396709', 2, 384, CAST(N'1997-03-02' AS Date), 516)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2699, N'Cry to Heaven', N'9780345396938', 1, 566, CAST(N'1995-04-01' AS Date), 180)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2700, N'The Vampire Companion', N'9780345397393', 2, 608, CAST(N'1995-08-01' AS Date), 180)
-----GO
+--GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2701, N'Starshield: Sentinels', N'9780345397607', 1, 421, CAST(N'1998-11-17' AS Date), 514)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2702, N'The Mantle of Kendis-Dai (Starshield  #1)', N'9780345397614', 1, 353, CAST(N'1997-08-30' AS Date), 518)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2703, N'Mid-Flinx (Pip & Flinx #7)', N'9780345406446', 2, 352, CAST(N'1996-09-01' AS Date), 516)
@@ -2826,7 +2826,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2798, N'The Rising Tide (World War II: 1939-1945  #1)', N'9780345461414', 1, 576, CAST(N'2006-11-07' AS Date), 180)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2799, N'The Druids'' Keep (The Sword of Shannara  #2)', N'9780345461452', 1, 240, CAST(N'2003-06-03' AS Date), 514)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2800, N'In the Shadow of the Warlock Lord (The Sword of Shannara  #1)', N'9780345461469', 1, 240, CAST(N'2009-08-05' AS Date), 514)
-----GO
+--GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2801, N'The Bloody Crown of Conan (Conan the Cimmerian  #2)', N'9780345461520', 1, 366, CAST(N'2004-11-23' AS Date), 515)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2802, N'The Conquering Sword of Conan (Conan the Cimmerian  #3)', N'9780345461537', 1, 416, CAST(N'2005-11-29' AS Date), 514)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2803, N'Sliding Scales (Pip & Flinx #10)', N'9780345461582', 1, 257, CAST(N'2005-09-27' AS Date), 516)
@@ -2927,7 +2927,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2898, N'The Plague Dogs', N'9780345494023', 1, 390, CAST(N'2006-11-28' AS Date), 180)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2899, N'The Making of Star Wars (Star Wars:  The Making of  #1)', N'9780345494764', 1, 362, CAST(N'2007-04-24' AS Date), 514)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2900, N'Star Trek: Logs One and Two (Star Trek: Log  #1-2)', N'9780345495815', 1, 370, CAST(N'2006-09-05' AS Date), 516)
-----GO
+--GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2901, N'Star Trek: Logs Five and Six (Star Trek: Log  #5-6)', N'9780345495839', 1, 388, CAST(N'2006-09-05' AS Date), 516)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2902, N'Star Trek: Logs Seven and Eight (Star Trek: Log  #7-8)', N'9780345495846', 1, 358, CAST(N'2006-09-05' AS Date), 516)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2903, N'J.R.R. Tolkien 4-Book Boxed Set: The Hobbit and The Lord of the Rings', N'9780345538376', 1, 1728, CAST(N'2012-09-25' AS Date), 180)
@@ -3028,7 +3028,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2998, N'Me vs. Me', N'9780373895885', 1, 311, CAST(N'2006-07-25' AS Date), 1680)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (2999, N'A Long Way Gone: Memoirs of a Boy Soldier', N'9780374105235', 1, 229, CAST(N'2007-02-13' AS Date), 1754)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3000, N'Cross-X', N'9780374131944', 1, 480, CAST(N'2006-10-03' AS Date), 682)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3001, N'The Echo Maker', N'9780374146351', 1, 451, CAST(N'2006-10-17' AS Date), 682)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3002, N'On a Dark Night I Left My Silent House', N'9780374175474', 1, 186, CAST(N'2000-11-08' AS Date), 682)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3003, N'That Same Flower: Floria Aemilia''s Letter to St. Augustine', N'9780374253844', 1, 167, CAST(N'1998-02-28' AS Date), 681)
@@ -3129,7 +3129,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3098, N'The Executioner''s Song', N'9780375700811', 1, 1056, CAST(N'1998-04-28' AS Date), 2116)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3099, N'Julius Knipl  Real Estate Photographer: The Beauty Supply District', N'9780375700989', 1, 120, CAST(N'2003-08-12' AS Date), 1444)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3100, N'Heavy Water and Other Stories', N'9780375701153', 1, 208, CAST(N'2000-03-14' AS Date), 2113)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3101, N'Doctor Faustus', N'9780375701160', 1, 535, CAST(N'1999-07-27' AS Date), 2113)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3102, N'Virginia Woolf', N'9780375701368', 1, 893, CAST(N'1999-10-05' AS Date), 2113)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3103, N'Night Falls Fast: Understanding Suicide', N'9780375701474', 1, 432, CAST(N'2000-10-10' AS Date), 2113)
@@ -3230,7 +3230,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3198, N'Sodom and Gomorrah (In Search of Lost Time  #4)', N'9780375753107', 1, 784, CAST(N'1999-02-16' AS Date), 1281)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3199, N'The Captive & The Fugitive (In Search of Lost Time  #5-6)', N'9780375753114', 1, 957, CAST(N'1999-02-16' AS Date), 1279)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3200, N'Main Street', N'9780375753145', 1, 454, CAST(N'2000-11-01' AS Date), 1279)
-----GO
+--GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3201, N'Sons and Lovers', N'9780375753732', 1, 654, CAST(N'1999-08-17' AS Date), 1281)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3202, N'Sailing Alone Around the Room: New and Selected Poems', N'9780375755194', 1, 192, CAST(N'2002-09-17' AS Date), 1655)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3203, N'Nine Horses', N'9780375755200', 1, 144, CAST(N'2003-10-14' AS Date), 1654)
@@ -3331,7 +3331,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3298, N'The Grass Crown (Masters of Rome  #2)', N'9780380710829', 1, 1104, CAST(N'1992-07-01' AS Date), 160)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3299, N'Caesar''s Women (Masters of Rome  #4)', N'9780380710843', 1, 943, CAST(N'1997-02-01' AS Date), 160)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3300, N'Tim', N'9780380711963', 1, 288, CAST(N'1990-11-01' AS Date), 160)
-----GO
+--GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3301, N'Neither Here nor There: Travels in Europe', N'9780380713806', 1, 254, CAST(N'1993-03-28' AS Date), 2210)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3302, N'Made in America: An Informal History of the English Language in the United States', N'9780380713813', 1, 364, CAST(N'2001-10-23' AS Date), 161)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3303, N'The Mother Tongue: English and How It Got That Way', N'9780380715435', 1, 270, CAST(N'1991-09-28' AS Date), 2210)
@@ -3432,7 +3432,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3398, N'Black and Blue', N'9780385333139', 1, 288, CAST(N'2010-08-25' AS Date), 531)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3399, N'God Bless You  Mr. Rosewater', N'9780385333474', 1, 288, CAST(N'1998-09-08' AS Date), 547)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3400, N'King Rat (Asian Saga  #4)', N'9780385333764', 1, 368, CAST(N'2009-05-19' AS Date), 530)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3401, N'Wampeters  Foma and Granfalloons', N'9780385333818', 2, 318, CAST(N'1999-01-12' AS Date), 548)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3402, N'Slaughterhouse-Five', N'9780385333849', 1, 275, CAST(N'1999-01-12' AS Date), 547)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3403, N'Galápagos', N'9780385333870', 1, 324, CAST(N'1999-01-12' AS Date), 547)
@@ -3533,7 +3533,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3498, N'The Afghan Campaign', N'9780385516419', 1, 354, CAST(N'2006-07-01' AS Date), 576)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3499, N'Salem''s Lot', N'9780385516488', 1, 594, CAST(N'2005-11-01' AS Date), 574)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3500, N'The Tent', N'9780385516686', 1, 159, CAST(N'2006-01-01' AS Date), 1312)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3501, N'Point to Point Navigation', N'9780385517218', 1, 277, CAST(N'2006-11-07' AS Date), 576)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3502, N'The Innocent Man: Murder and Injustice in a Small Town', N'9780385517232', 1, 360, CAST(N'2006-10-10' AS Date), 576)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3503, N'Rant', N'9780385517874', 1, 320, CAST(N'2007-05-01' AS Date), 576)
@@ -3634,7 +3634,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3598, N'Black Holes & Time Warps: Einstein''s Outrageous Legacy', N'9780393312768', 1, 624, CAST(N'1995-01-17' AS Date), 2143)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3599, N'Excellence', N'9780393312874', 1, 176, CAST(N'1995-04-17' AS Date), 2143)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3600, N'The Coming of Age', N'9780393314434', 5, 592, CAST(N'1996-06-17' AS Date), 2143)
-----GO
+--GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3601, N'The Wanting Seed', N'9780393315080', 2, 288, CAST(N'1996-12-17' AS Date), 2143)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3602, N'Uncommon Ground: Rethinking the Human Place in Nature', N'9780393315110', 1, 560, CAST(N'1996-10-17' AS Date), 2143)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3603, N'Marabou Stork Nightmares', N'9780393315639', 1, 288, CAST(N'1997-01-17' AS Date), 2143)
@@ -3735,7 +3735,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3698, N'Essentials of Classic Italian Cooking', N'9780394584041', 1, 704, CAST(N'1992-10-27' AS Date), 1088)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3699, N'Saint Joan/Major Barbara/Androcles and the Lion', N'9780394604800', 1, 479, CAST(N'1979-11-12' AS Date), 1282)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3700, N'The Stranger', N'9780394700021', 2, 154, CAST(N'1954-09-12' AS Date), 2113)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3701, N'James Joyce''s Ulysses', N'9780394700137', 1, 405, CAST(N'1955-01-12' AS Date), 2113)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3702, N'Three Famous Short Novels: Spotted Horses Old Man the Bear', N'9780394701493', 1, 320, CAST(N'1958-02-12' AS Date), 2114)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3703, N'The Town', N'9780394701844', 1, 371, CAST(N'1961-02-12' AS Date), 2114)
@@ -3836,7 +3836,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3798, N'The Friday Night Knitting Club (Friday Night Knitting Club  #1)', N'9780399154096', 1, 352, CAST(N'2007-01-18' AS Date), 749)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3799, N'The Navigator (NUMA Files  #7)', N'9780399154195', 2, 437, CAST(N'2007-06-05' AS Date), 1625)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3800, N'Double Take (FBI Thriller  #11)', N'9780399154249', 1, 420, CAST(N'2007-06-12' AS Date), 1624)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3801, N'Spook Country (Blue Ant  #2)', N'9780399154300', 1, 371, CAST(N'2007-08-07' AS Date), 1624)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3802, N'The Very Hungry Caterpillar', N'9780399226908', 1, 13, CAST(N'1994-03-23' AS Date), 1525)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3803, N'The Cod''s Tale', N'9780399234767', 1, 48, CAST(N'2001-09-10' AS Date), 750)
@@ -3937,7 +3937,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3898, N'Danse Macabre', N'9780425181607', 1, 400, CAST(N'2001-09-01' AS Date), 242)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3899, N'E=mc²: A Biography of the World''s Most Famous Equation', N'9780425181645', 1, 337, CAST(N'2000-10-01' AS Date), 252)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3900, N'Stardust of Yesterday (de Piaget  #9; de Paiget/MacLeod  #1)', N'9780425182383', 1, 368, CAST(N'2001-04-01' AS Date), 249)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3901, N'Cybernation (Tom Clancy''s Net Force  #6)', N'9780425182673', 1, 368, CAST(N'2001-11-01' AS Date), 242)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3902, N'Chosen Prey (Lucas Davenport  #12)', N'9780425182871', 2, 383, CAST(N'2002-05-01' AS Date), 242)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3903, N'Cloak and Dagger (Tom Clancy''s Net Force Explorers  #17)', N'9780425183038', 1, 208, CAST(N'2003-03-04' AS Date), 242)
@@ -4038,7 +4038,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3998, N'Boys that Bite (Blood Coven Vampire  #1)', N'9780425209424', 2, 272, CAST(N'2006-04-04' AS Date), 242)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (3999, N'Shadow of the Moon (Moon #5)', N'9780425209615', 1, 336, CAST(N'2006-06-06' AS Date), 251)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4000, N'Predator (Kay Scarpetta  #14)', N'9780425210277', 1, 453, CAST(N'2006-10-01' AS Date), 250)
-----GO
+--GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4001, N'Steamed (A Gourmet Girl Mystery  #1)', N'9780425210383', 1, 320, CAST(N'2007-02-06' AS Date), 242)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4002, N'Mr. Murder', N'9780425210758', 1, 493, CAST(N'2006-07-05' AS Date), 242)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4003, N'Rat Race', N'9780425210765', 1, 304, CAST(N'2006-07-05' AS Date), 749)
@@ -4139,7 +4139,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4098, N'Jane on Her Own (Catwings  #4)', N'9780439551922', 1, 48, CAST(N'2006-10-01' AS Date), 1406)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4099, N'Inkspell (Inkworld  #2)', N'9780439554008', 1, 635, CAST(N'2005-10-01' AS Date), 1950)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4100, N'Harry Potter and the Chamber of Secrets (Harry Potter  #2)', N'9780439554893', 1, 352, CAST(N'2003-11-01' AS Date), 1763)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4101, N'Historia de una Gaviota y del Gato Que le Enseñó a Volar', N'9780439560269', 4, 128, CAST(N'2003-09-01' AS Date), 122)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4102, N'Scholastic Success with 4th Grade Workbook', N'9780439569729', 2, 416, CAST(N'2003-06-01' AS Date), 1938)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4103, N'The Eternity Code (Artemis Fowl  #3)', N'9780439573887', 1, 309, CAST(N'2003-10-01' AS Date), 1768)
@@ -4240,7 +4240,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4198, N'The Rule of Four', N'9780440241355', 1, 450, CAST(N'2005-06-28' AS Date), 527)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4199, N'Confessions of a Shopaholic (Shopaholic  #1)', N'9780440241416', 1, 368, CAST(N'2003-11-04' AS Date), 527)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4200, N'Shopaholic Takes Manhattan (Shopaholic  #2)', N'9780440241812', 1, 387, CAST(N'2004-12-27' AS Date), 527)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4201, N'Shopaholic Ties the Knot (Shopaholic  #3)', N'9780440241898', 1, 407, CAST(N'2004-08-31' AS Date), 527)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4202, N'Can You Keep a Secret?', N'9780440241904', 1, 374, CAST(N'2005-12-27' AS Date), 527)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4203, N'Shopaholic and Sister (Shopaholic  #4)', N'9780440241911', 1, 388, CAST(N'2006-11-28' AS Date), 527)
@@ -4341,7 +4341,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4298, N'God of Tarot (Tarot  #1)', N'9780441294701', 2, 288, CAST(N'1987-03-01' AS Date), 21)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4299, N'The Green Pearl (Lyonesse  #2)', N'9780441303168', 1, 407, CAST(N'1987-06-15' AS Date), 21)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4300, N'Hard Sell', N'9780441317486', 1, 268, CAST(N'1993-05-01' AS Date), 21)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4301, N'Heretics of Dune (Dune Chronicles #5)', N'9780441328000', 1, 471, CAST(N'1987-08-15' AS Date), 23)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4302, N'Killobyte', N'9780441444250', 2, 312, CAST(N'1994-01-01' AS Date), 21)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4303, N'Madouc (Lyonesse  #3)', N'9780441505326', 1, 426, CAST(N'1991-08-01' AS Date), 23)
@@ -4442,7 +4442,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4398, N'The Wedding (The Notebook  #2)', N'9780446615860', 1, 276, CAST(N'2005-08-01' AS Date), 2133)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4399, N'Kitty and the Midnight Hour (Kitty Norville #1)', N'9780446616416', 1, 259, CAST(N'2005-11-01' AS Date), 791)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4400, N'Kitty Goes to Washington (Kitty Norville  #2)', N'9780446616423', 1, 342, CAST(N'2006-07-01' AS Date), 791)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4401, N'Tempest in Eden', N'9780446616812', 1, 229, CAST(N'2005-04-01' AS Date), 2166)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4402, N'Love Beyond Reason', N'9780446616836', 1, 272, CAST(N'2005-04-01' AS Date), 791)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4403, N'The White Wolf''s Son: The Albino Underground (Elric & Oona Von Bek  #3)', N'9780446617451', 2, 432, CAST(N'2006-09-01' AS Date), 791)
@@ -4543,7 +4543,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4498, N'Lost Boy Lost Girl', N'9780449149911', 1, 368, CAST(N'2004-09-28' AS Date), 180)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4499, N'Too Far to Go: The Maples Stories', N'9780449200162', 1, 256, CAST(N'1982-06-12' AS Date), 686)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4500, N'Curse Of The Kings', N'9780449200681', 1, 304, CAST(N'1985-06-12' AS Date), 689)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4501, N'The Capricorn Stone', N'9780449201497', 1, 346, CAST(N'1983-05-12' AS Date), 685)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4502, N'Sayonara', N'9780449204146', 1, 208, CAST(N'1983-09-12' AS Date), 685)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4503, N'Iberia', N'9780449207338', 1, 960, CAST(N'1984-10-12' AS Date), 689)
@@ -4644,7 +4644,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4598, N'Night Over Water', N'9780451211477', 1, 448, CAST(N'2004-04-06' AS Date), 1308)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4599, N'Monkeewrench (Monkeewrench  #1)', N'9780451211576', 1, 421, CAST(N'2004-04-06' AS Date), 749)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4600, N'Mayada  Daughter of Iraq: One Woman''s Survival Under Saddam Hussein', N'9780451212924', 1, 368, CAST(N'2004-09-07' AS Date), 243)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4601, N'The Agony and the Ecstasy: A Biographical Novel of Michelangelo', N'9780451213235', 2, 776, CAST(N'2004-09-07' AS Date), 1308)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4602, N'Four Past Midnight', N'9780451213594', 1, 768, CAST(N'2004-03-02' AS Date), 1811)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4603, N'The Innocent', N'9780451215772', 1, 503, CAST(N'2006-04-25' AS Date), 597)
@@ -4745,7 +4745,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4698, N'Lysistrata', N'9780451616227', 1, 98, CAST(N'1970-02-01' AS Date), 1811)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4699, N'The Oedipus Plays of Sophocles', N'9780451621603', 1, 390, CAST(N'1958-09-01' AS Date), 1813)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4700, N'Silver Bullet', N'9780451821287', 2, 255, CAST(N'1985-11-12' AS Date), 1811)
-----GO
+--GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4701, N'The Green Mile', N'9780451933027', 1, 592, CAST(N'1996-09-01' AS Date), 1504)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4702, N'Four Plays: The Clouds/The Birds/Lysistrata/The Frogs', N'9780452007178', 1, 624, CAST(N'1984-11-01' AS Date), 1559)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4703, N'Existentialism from Dostoevsky to Sartre', N'9780452009301', 2, 384, CAST(N'1975-03-01' AS Date), 1559)
@@ -4846,7 +4846,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4798, N'The Republic of Plato', N'9780465069347', 1, 487, CAST(N'1991-10-03' AS Date), 214)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4799, N'River Out of Eden: A Darwinian View of Life', N'9780465069903', 2, 172, CAST(N'1996-08-23' AS Date), 894)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4800, N'Shattered Bonds: The Color of Child Welfare', N'9780465070596', 1, 352, CAST(N'2002-12-25' AS Date), 406)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4801, N'Kinds of Minds: Towards an Understanding of Consciousness', N'9780465073511', 1, 192, CAST(N'1997-06-12' AS Date), 214)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4802, N'A Conflict of Visions: Ideological Origins of Political Struggles', N'9780465081424', 1, 304, CAST(N'2002-01-03' AS Date), 214)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4803, N'Applied Economics: Thinking Beyond Stage One', N'9780465081431', 1, 256, CAST(N'2003-11-13' AS Date), 214)
@@ -4947,7 +4947,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4898, N'The Trojan Women and Hippolytus', N'9780486424620', 1, 64, CAST(N'2002-07-17' AS Date), 582)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4899, N'The Communist Manifesto and Other Revolutionary Writings: Marx  Marat  Paine  Mao  Gandhi  and Others', N'9780486424651', 1, 284, CAST(N'2003-01-15' AS Date), 582)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4900, N'Life Is A Dream = La Vida Es Sueño', N'9780486424736', 1, 208, CAST(N'2002-12-06' AS Date), 582)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4901, N'The Pilgrim''s Progress', N'9780486426754', 1, 324, CAST(N'2003-02-10' AS Date), 582)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4902, N'Gorgias/Timaeus', N'9780486427591', 1, 256, CAST(N'2003-07-15' AS Date), 582)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4903, N'The Burgess Bird Book for Children', N'9780486428406', 1, 260, CAST(N'2003-04-23' AS Date), 582)
@@ -5048,7 +5048,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4998, N'The Complete Science Fiction Treasury of H.G. Wells', N'9780517052259', 1, 0, CAST(N'1987-06-24' AS Date), 1658)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (4999, N'Mark Twain: Selected Works', N'9780517053577', 1, 690, CAST(N'1990-10-02' AS Date), 787)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5000, N'The Servants of Twilight / Darkfall / Phantoms', N'9780517064870', 1, 752, CAST(N'1991-07-27' AS Date), 2213)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5001, N'Sandra Brown: Three Complete Novels (Best Kept Secrets  Mirror Image  and Slow Heat in Heaven)', N'9780517077740', 1, 784, CAST(N'1992-04-14' AS Date), 2213)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5002, N'Complete Poems (Library of Classic Poets)', N'9780517082454', 2, 128, CAST(N'2001-03-20' AS Date), 787)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5003, N'Three Complete Novels: The Andromeda Strain / The Terminal Man / The Great Train Robbery', N'9780517084793', 1, 688, CAST(N'1993-03-01' AS Date), 2213)
@@ -5149,7 +5149,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5098, N'The Woman Who Rode Away and Other Stories', N'9780521294300', 1, 556, CAST(N'2002-08-08' AS Date), 341)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5099, N'King Richard II', N'9780521297653', 1, 240, CAST(N'1984-11-30' AS Date), 341)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5100, N'Tolstoy: Anna Karenina', N'9780521313254', 1, 128, CAST(N'1987-11-26' AS Date), 341)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5101, N'Reading Greek Tragedy', N'9780521315791', 1, 302, CAST(N'1986-08-05' AS Date), 341)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5102, N'Gabriel García Márquez: One Hundred Years of Solitude', N'9780521316927', 1, 132, CAST(N'1990-05-31' AS Date), 341)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5103, N'Philosophical Papers: Volume 1  Human Agency and Language', N'9780521317504', 1, 304, CAST(N'1985-03-28' AS Date), 341)
@@ -5250,7 +5250,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5198, N'Reaper Man (Discworld  #11; Death  #2)', N'9780552152952', 1, 352, CAST(N'2005-04-01' AS Date), 445)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5199, N'Witches Abroad (Discworld  #12)', N'9780552152969', 5, 368, CAST(N'2005-08-01' AS Date), 445)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5200, N'Small Gods (Discworld  #13)', N'9780552152976', 1, 400, CAST(N'2005-08-01' AS Date), 445)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5201, N'Lords and Ladies (Discworld  #14; Witches #4)', N'9780552153157', 1, 400, CAST(N'2005-08-01' AS Date), 445)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5202, N'Bravo Two Zero', N'9780552153577', 1, 416, CAST(N'2005-11-01' AS Date), 445)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5203, N'Hogfather (Discworld  #20; Death  #4)', N'9780552154284', 1, 432, CAST(N'2006-10-02' AS Date), 445)
@@ -5351,7 +5351,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5298, N'The Wedding (Sweet Valley High  #98)', N'9780553298550', 1, 217, CAST(N'1994-04-28' AS Date), 186)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5299, N'Exile''s Children (Exiles  #1)', N'9780553299038', 1, 688, CAST(N'1996-10-01' AS Date), 1869)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5300, N'The Robots of Dawn (Robot #3)', N'9780553299496', 1, 435, CAST(N'1994-03-01' AS Date), 1869)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5301, N'Lila: An Inquiry Into Morals (Phaedrus  #2)', N'9780553299618', 1, 480, CAST(N'1992-11-01' AS Date), 183)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5302, N'Hands of Light: A Guide to Healing Through the Human Energy Field', N'9780553345391', 1, 320, CAST(N'1990-02-01' AS Date), 183)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5303, N'The Mind’s I: Fantasies and Reflections on Self and Soul', N'9780553345841', 1, 512, CAST(N'1985-04-01' AS Date), 186)
@@ -5452,7 +5452,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5398, N'Excession (Culture  #5)', N'9780553575378', 1, 499, CAST(N'1998-02-02' AS Date), 197)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5399, N'Ship of Destiny (Liveship Traders  #3)', N'9780553575651', 1, 789, CAST(N'2001-11-27' AS Date), 1870)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5400, N'Floaters', N'9780553575958', 1, 291, CAST(N'1997-03-03' AS Date), 183)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5401, N'Tidings of Great Joy', N'9780553576009', 1, 231, CAST(N'1999-11-02' AS Date), 183)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5402, N'Send No Flowers (Bed & Breakfast #2)', N'9780553576016', 1, 225, CAST(N'2000-02-29' AS Date), 183)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5403, N'The Rana Look', N'9780553576054', 1, 256, CAST(N'2003-12-02' AS Date), 183)
@@ -5553,7 +5553,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5498, N'Immortality', N'9780571144563', 1, 400, CAST(N'1998-01-03' AS Date), 668)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5499, N'Self-Help', N'9780571145348', 1, 176, CAST(N'1998-01-10' AS Date), 665)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5500, N'Sid and Nancy: Love Kills', N'9780571145454', 1, 143, CAST(N'1986-12-31' AS Date), 665)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5501, N'The Basketball Diaries and the Book of Nods', N'9780571148431', 1, 320, CAST(N'1987-05-26' AS Date), 667)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5502, N'The Complete Herbal Handbook for the Dog and Cat', N'9780571161157', 1, 368, CAST(N'1991-04-08' AS Date), 664)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5503, N'The White Castle', N'9780571164660', 1, 161, CAST(N'2000-07-26' AS Date), 668)
@@ -5654,7 +5654,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5598, N'Ella Enchanted (Ella Enchanted #1)', N'9780590920681', 1, 232, CAST(N'1998-09-01' AS Date), 1766)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5599, N'The Meanest Thing To Say', N'9780590956161', 1, 40, CAST(N'1997-09-01' AS Date), 358)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5600, N'The Best Way to Play: A Little Bill Book', N'9780590956178', 1, 40, CAST(N'1997-09-01' AS Date), 358)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5601, N'The Treasure Hunt: A Little Bill Book', N'9780590956185', 1, 40, CAST(N'1997-09-01' AS Date), 358)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5602, N'Amanda''s Unlucky Day (Junior Gymnasts  #6)', N'9780590959889', 1, 78, CAST(N'1997-12-31' AS Date), 97)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5603, N'Wanted!', N'9780590988490', 2, 230, CAST(N'1997-07-01' AS Date), 1770)
@@ -5755,7 +5755,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5698, N'The Lord of the Rings (The Lord of the Rings  #1-3)', N'9780618260584', 2, 1216, CAST(N'2002-10-01' AS Date), 987)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5699, N'Fourth of July Mice!', N'9780618313662', 2, 32, CAST(N'2004-05-24' AS Date), 409)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5700, N'The Best American Mystery Stories 2004', N'9780618329670', 1, 448, CAST(N'2004-10-14' AS Date), 1212)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5701, N'The Journey That Saved Curious George: The True Wartime Escape of Margret and H.A. Rey', N'9780618339242', 1, 80, CAST(N'2005-09-26' AS Date), 968)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5702, N'Fergus and the Night-Demon', N'9780618339556', 2, 32, CAST(N'2006-09-18' AS Date), 409)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5703, N'The Best American Nonrequired Reading 2004', N'9780618341238', 2, 407, CAST(N'2004-10-14' AS Date), 984)
@@ -5856,7 +5856,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5798, N'The Aeneid', N'9780670038039', 1, 486, CAST(N'2006-11-02' AS Date), 2100)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5799, N'Paula Spencer', N'9780670038169', 2, 281, CAST(N'2007-01-01' AS Date), 2102)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5800, N'The Mistress''s Daughter', N'9780670038381', 2, 256, CAST(N'2007-04-05' AS Date), 2100)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5801, N'First Among Sequels (Thursday Next  #5)', N'9780670038718', 1, 363, CAST(N'2007-07-24' AS Date), 2101)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5802, N'Vinyl Cafe Diaries (Vinyl Cafe  #4)', N'9780670044368', 1, 302, CAST(N'2003-11-28' AS Date), 1484)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5803, N'Make Way for McCloskey', N'9780670059348', 1, 144, CAST(N'2004-10-21' AS Date), 2103)
@@ -5957,7 +5957,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5898, N'Second Ring of Power', N'9780671732479', 2, 328, CAST(N'1991-04-01' AS Date), 2171)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5899, N'Power of Silence', N'9780671732486', 1, 288, CAST(N'1991-06-01' AS Date), 2171)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5900, N'Fire from Within', N'9780671732509', 2, 304, CAST(N'1991-01-01' AS Date), 2171)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5901, N'Tales of Power', N'9780671732523', 2, 304, CAST(N'1991-01-01' AS Date), 2171)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5902, N'Memory''s Embrace (Corbins  #3)', N'9780671737696', 1, 320, CAST(N'1991-06-01' AS Date), 1564)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5903, N'Stinger', N'9780671737764', 2, 538, CAST(N'1988-04-01' AS Date), 1564)
@@ -6058,7 +6058,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5998, N'Angels & Insects', N'9780676503180', 1, 292, CAST(N'1994-03-29' AS Date), 2114)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (5999, N'Never Let Me Go', N'9780676977110', 1, 288, CAST(N'2006-01-31' AS Date), 2114)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6000, N'Gift from the Sea', N'9780679406839', 2, 132, CAST(N'1991-10-08' AS Date), 1445)
-----GO
+--GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6001, N'Doctor Faustus', N'9780679409960', 1, 580, CAST(N'1992-06-02' AS Date), 655)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6002, N'Lolita', N'9780679410430', 1, 335, CAST(N'1993-03-09' AS Date), 655)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6003, N'Vampire Chronicles: Interview with the Vampire  The Vampire Lestat  The Queen of the Damned (Anne Rice)', N'9780679410508', 1, 9, CAST(N'1992-11-17' AS Date), 1642)
@@ -6159,7 +6159,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6098, N'Dispatches', N'9780679735250', 1, 260, CAST(N'1991-08-06' AS Date), 2113)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6099, N'Touching the Rock: An Experience of Blindness', N'9780679735472', 1, 248, CAST(N'1992-06-02' AS Date), 2113)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6100, N'The Unconsoled', N'9780679735878', 1, 535, CAST(N'1996-10-01' AS Date), 2123)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6101, N'Possession', N'9780679735908', 1, 555, CAST(N'1991-10-01' AS Date), 2113)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6102, N'Toujours Provence', N'9780679736042', 1, 241, CAST(N'1992-06-02' AS Date), 2113)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6103, N'Last Tales', N'9780679736400', 1, 352, CAST(N'1991-12-03' AS Date), 2113)
@@ -6260,7 +6260,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6198, N'Horton Hears a Who!', N'9780679800033', 1, 64, CAST(N'1990-10-10' AS Date), 1644)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6199, N'Bill Buzz', N'9780679801153', 1, 32, CAST(N'1989-10-14' AS Date), 1646)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6200, N'Grandma Baa (Easy Peasy People)', N'9780679801245', 1, 32, CAST(N'1989-10-14' AS Date), 1646)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6201, N'Gary Grizzle', N'9780679801252', 1, 32, CAST(N'1989-10-14' AS Date), 1646)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6202, N'Charlie Oink', N'9780679801269', 1, 32, CAST(N'1989-10-14' AS Date), 1637)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6203, N'The Black Stallion and Satan (The Black Stallion  #5)', N'9780679813460', 1, 224, CAST(N'1992-04-14' AS Date), 2235)
@@ -6361,7 +6361,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6298, N'Silent Night: The Remarkable Christmas Truce of 1914', N'9780684866222', 1, 256, CAST(N'2001-10-30' AS Date), 1564)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6299, N'Yesterday  I Cried', N'9780684867489', 2, 304, CAST(N'2000-03-02' AS Date), 144)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6300, N'Of Time and the River: A Legend of Man''s Hunger in His Youth', N'9780684867854', 1, 896, CAST(N'1999-09-08' AS Date), 1777)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6301, N'Picture This', N'9780684868196', 2, 352, CAST(N'2000-03-24' AS Date), 1823)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6302, N'Emergence: The Connected Lives of Ants  Brains  Cities  and Software', N'9780684868769', 2, 288, CAST(N'2002-09-10' AS Date), 1777)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6303, N'Lonesome Dove', N'9780684871226', 1, 864, CAST(N'2000-11-10' AS Date), 1827)
@@ -6462,7 +6462,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6398, N'I Love Saturdays y domingos', N'9780689874093', 2, 32, CAST(N'2004-09-01' AS Date), 135)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6399, N'The Steps (Steps  #1)', N'9780689874147', 1, 144, CAST(N'2004-09-01' AS Date), 1825)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6400, N'A Great and Terrible Beauty (Gemma Doyle #1)', N'9780689875342', 1, 403, CAST(N'2003-12-09' AS Date), 1839)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6401, N'Star Bright (Star Power  #8)', N'9780689876707', 1, 160, CAST(N'2005-04-26' AS Date), 46)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6402, N'If: A Father''s Advice to His Son', N'9780689877995', 1, 40, CAST(N'2007-03-27' AS Date), 135)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6403, N'Alanna: The First Adventure (Song of the Lioness  #1)', N'9780689878558', 1, 274, CAST(N'2005-01-01' AS Date), 1841)
@@ -6563,7 +6563,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6498, N'The Savage Wars Of Peace: Soldiers'' Voices 1945-1989', N'9780718128821', 1, 290, CAST(N'1990-10-01' AS Date), 1254)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6499, N'Banker', N'9780718132385', 1, 288, CAST(N'2000-10-03' AS Date), 1253)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6500, N'A Farewell to Arms?: Beyond the Good Friday Agreement', N'9780719071157', 1, 624, CAST(N'2006-04-18' AS Date), 1208)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6501, N'Narcissus and Goldmund', N'9780720608724', 1, 288, CAST(N'1993-06-01' AS Date), 1517)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6502, N'Pope Joan: Translated & Adapted from the Greek', N'9780720610659', 1, 200, CAST(N'2000-03-01' AS Date), 1518)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6503, N'Robbins and Cotran Review of Pathology', N'9780721601946', 2, 432, CAST(N'2004-11-12' AS Date), 1756)
@@ -6664,7 +6664,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6598, N'Marley and Me: Life and Love With the World''s Worst Dog', N'9780739461198', 1, 291, CAST(N'2005-10-18' AS Date), 2211)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6599, N'Enchantment: The Life of Audrey Hepburn', N'9780739474792', 1, 352, CAST(N'2007-04-02' AS Date), 863)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6600, N'Bill Gates: Computer Legend (Famous Lives)', N'9780739844328', 1, 48, CAST(N'2001-11-01' AS Date), 1635)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6601, N'Another Day in Paradise: The Fourth Sherman''s Lagoon Collection', N'9780740720123', 1, 130, CAST(N'2001-09-06' AS Date), 92)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6602, N'Calvin and Hobbes: Sunday Pages 1985-1995: An Exhibition Catalogue', N'9780740721359', 1, 96, CAST(N'2001-09-17' AS Date), 92)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6603, N'Another Day in Cubicle Paradise', N'9780740721946', 1, 128, CAST(N'2002-03-01' AS Date), 92)
@@ -6765,7 +6765,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6698, N'Brokeback Mountain', N'9780743271325', 1, 55, CAST(N'2005-12-02' AS Date), 1777)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6699, N'The Secret Life of Houdini: The Making of America''s First Superhero', N'9780743272070', 2, 592, CAST(N'2006-10-31' AS Date), 144)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6700, N'Love Smart: Find the One You Want--Fix the One You Got', N'9780743272094', 2, 284, CAST(N'2005-12-06' AS Date), 740)
-----GO
+--GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6701, N'The Constant Princess (The Plantagenet and Tudor Novels  #6)', N'9780743272490', 1, 390, CAST(N'2006-09-06' AS Date), 2171)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6702, N'The Boleyn Inheritance (The Plantagenet and Tudor Novels  #10)', N'9780743272506', 1, 518, CAST(N'2006-12-05' AS Date), 144)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6703, N'Virgin Earth  (Tradescant  #2)', N'9780743272537', 2, 661, CAST(N'2006-04-05' AS Date), 2171)
@@ -6866,7 +6866,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6798, N'From Sawdust to Stardust: The Biography of DeForest Kelley', N'9780743457620', 1, 362, CAST(N'2005-02-01' AS Date), 755)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6799, N'Hidden Leaves (De Beers  #5)', N'9780743457873', 2, 288, CAST(N'2003-03-01' AS Date), 1569)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6800, N'The Honourable Schoolboy', N'9780743457910', 1, 589, CAST(N'2002-10-29' AS Date), 1778)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6801, N'Changeling', N'9780743458191', 1, 244, CAST(N'2003-01-28' AS Date), 1006)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6802, N'The Dungeon 2 (Philip José Farmer''s The Dungeon  Omnibus Volume 2: Valley of Thunder/Lake of Fire)', N'9780743458535', 1, 608, CAST(N'2003-05-01' AS Date), 1006)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6803, N'Click  Clack  Moo: Cows That Type', N'9780743461511', 1, 30, CAST(N'2003-06-01' AS Date), 1564)
@@ -6967,7 +6967,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6898, N'Sir Gawain And The Green Knight', N'9780744586466', 1, 120, CAST(N'2004-11-01' AS Date), 2156)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6899, N'Dracula', N'9780744586534', 1, 336, CAST(N'2004-10-04' AS Date), 2159)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6900, N'The Philosophy of Antonio Negri  Volume One: Resistance in Practice', N'9780745323374', 1, 265, CAST(N'2005-07-20' AS Date), 1562)
-----GO
+--GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6901, N'Zizek: A Critical Introduction', N'9780745622088', 1, 195, CAST(N'2003-04-29' AS Date), 1574)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6902, N'Political Philosophy: A Beginner''s Guide for Students and Politicians', N'9780745628479', 1, 194, CAST(N'2001-10-15' AS Date), 1574)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6903, N'Conversations with Žižek', N'9780745628974', 1, 171, CAST(N'2003-12-30' AS Date), 1574)
@@ -7068,7 +7068,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6998, N'Lay Down My Sword And Shield (Hackberry Holland  #1)', N'9780752842691', 1, 320, CAST(N'2003-09-04' AS Date), 1409)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (6999, N'The Road to Jerusalem (The Knight Templar  #1)', N'9780752848372', 1, 320, CAST(N'2002-12-05' AS Date), 1409)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7000, N'The Final Detail (Myron Bolitar  #6)', N'9780752849188', 1, 344, CAST(N'2005-05-01' AS Date), 1409)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7001, N'Darkest Fear (Myron Bolitar  #7)', N'9780752849195', 1, 354, CAST(N'2008-11-08' AS Date), 524)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7002, N'The Choirboys', N'9780752851310', 1, 368, CAST(N'2002-04-18' AS Date), 1409)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7003, N'The Dain Curse', N'9780752851808', 1, 256, CAST(N'2002-12-05' AS Date), 1409)
@@ -7169,7 +7169,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7098, N'The Sling and the Stone: On War in the 21st Century', N'9780760324073', 1, 336, CAST(N'2006-02-17' AS Date), 2247)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7099, N'Jimmy Stewart: Bomber Pilot', N'9780760328248', 1, 320, CAST(N'2006-11-15' AS Date), 2247)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7100, N'The John Deere Two-Cylinder Tractor Encyclopedia: The Complete Model-by-Model History', N'9780760329634', 1, 256, CAST(N'2007-05-15' AS Date), 2141)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7101, N'Twenty Thousand Leagues Under the Sea (Extraordinary Voyages  #6)', N'9780760728505', 1, 394, CAST(N'2002-04-01' AS Date), 206)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7102, N'The Conquest of Gaul', N'9780760768952', 1, 288, CAST(N'2005-07-16' AS Date), 204)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7103, N'Hannibal', N'9780760768969', 1, 592, CAST(N'2005-07-16' AS Date), 204)
@@ -7270,7 +7270,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7198, N'Kesey''s One Flew Over the Cuckoo''s Nest (Cliffs Notes)', N'9780764586620', 1, 112, CAST(N'2000-12-11' AS Date), 416)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7199, N'O''Brien''s the Things They Carried', N'9780764586682', 1, 128, CAST(N'2000-12-14' AS Date), 416)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7200, N'CliffsNotes on Remarque''s All Quiet on the Western Front', N'9780764586712', 1, 112, CAST(N'2000-12-20' AS Date), 416)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7201, N'Nathaniel Hawthorne''s The Scarlet Letter', N'9780764587245', 1, 240, CAST(N'2001-04-29' AS Date), 416)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7202, N'William Shakespeare''s A Midsummer Night''s Dream (Cliffs Complete)', N'9780764587252', 1, 192, CAST(N'2001-04-29' AS Date), 416)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7203, N'Mary Shelley‘s Frankenstein', N'9780764587269', 1, 240, CAST(N'2001-04-15' AS Date), 416)
@@ -7371,7 +7371,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7298, N'Breaking Open the Head: A Psychedelic Journey Into the Heart of Contemporary Shamanism', N'9780767907439', 2, 336, CAST(N'2003-08-12' AS Date), 1974)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7299, N'Bookends', N'9780767907804', 1, 358, CAST(N'2002-06-11' AS Date), 325)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7300, N'Bookends', N'9780767907811', 1, 368, CAST(N'2003-05-27' AS Date), 325)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7301, N'A Short History of Nearly Everything', N'9780767908184', 1, 544, CAST(N'2004-09-14' AS Date), 325)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7302, N'Inconceivable: A Woman''s Triumph Over Despair and Statistics', N'9780767908207', 1, 224, CAST(N'2001-10-09' AS Date), 863)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7303, N'The Minimalist Cooks at Home: Recipes That Give You More Flavor from Fewer Ingredients in Less Time', N'9780767909266', 1, 240, CAST(N'2002-09-10' AS Date), 325)
@@ -7472,7 +7472,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7398, N'Only the River Runs Free (The Galway Chronicles  #1)', N'9780785263784', 1, 271, CAST(N'1997-01-14' AS Date), 1967)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7399, N'Captivating: Unveiling the Mystery of a Woman''s Soul', N'9780785264699', 2, 243, CAST(N'2005-04-05' AS Date), 1323)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7400, N'The Blood of the Moon: Understanding the Historic Struggle Between Islam and Western Civilization', N'9780785265436', 1, 224, CAST(N'2001-12-16' AS Date), 1967)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7401, N'Wild at Heart: Discovering the Secret of a Man''s Soul', N'9780785268833', 1, 256, CAST(N'2001-04-01' AS Date), 1967)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7402, N'The Guardian', N'9780785282099', 1, 239, CAST(N'1994-12-31' AS Date), 1968)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7403, N'Como agua para chocolate', N'9780785731238', 4, 248, CAST(N'1994-06-01' AS Date), 2024)
@@ -7573,7 +7573,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7498, N'The Art of the Hunchback of Notre Dame', N'9780786863341', 1, 192, CAST(N'1997-11-21' AS Date), 558)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7499, N'The Making Of Disney''s Animal Kingdom Theme Park', N'9780786864027', 1, 192, CAST(N'1998-05-01' AS Date), 559)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7500, N'Shopgirl', N'9780786866588', 1, 130, CAST(N'2000-09-11' AS Date), 1001)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7501, N'How to Be a Domestic Goddess: Baking and the Art of Comfort Cooking', N'9780786867974', 2, 374, CAST(N'2001-11-14' AS Date), 1003)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7502, N'Nigella Bites: From Family Meals to Elegant Dinners--Easy  Delectable Recipes for Any Occasion', N'9780786868698', 1, 254, CAST(N'2002-11-13' AS Date), 824)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7503, N'A History of Britain: The Fate Of Empire 1776-2000 (A History of Britain  #3)', N'9780786868995', 2, 576, CAST(N'2002-12-18' AS Date), 1272)
@@ -7674,7 +7674,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7598, N'Silence', N'9780800871864', 1, 201, CAST(N'1999-01-01' AS Date), 1926)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7599, N'The J.R.R. Tolkien Handbook: A Comprehensive Guide to His Life  Writings  and World of Middle-Earth', N'9780801030147', 2, 316, CAST(N'2002-11-01' AS Date), 178)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7600, N'Gorgias/Phaedrus (Agora)', N'9780801435300', 1, 233, CAST(N'1998-09-01' AS Date), 449)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7601, N'The River Runs Black: The Environmental Challenge to China''s Future', N'9780801489785', 1, 337, CAST(N'2005-02-24' AS Date), 449)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7602, N'Crusade in Europe', N'9780801856686', 1, 559, CAST(N'1997-06-06' AS Date), 1056)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7603, N'ADHD in Adulthood: A Guide to Current Theory  Diagnosis  and Treatment', N'9780801868221', 1, 376, CAST(N'2001-11-06' AS Date), 1056)
@@ -7775,7 +7775,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7698, N'Code of the Samurai: A Modern Translation of the Bushido Shoshinshu of Taira Shigesuke', N'9780804831901', 1, 128, CAST(N'1999-09-15' AS Date), 2027)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7699, N'The Golden Country', N'9780804833370', 1, 128, CAST(N'2003-08-15' AS Date), 2027)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7700, N'The Anatomy of Human Destructiveness', N'9780805016048', 1, 576, CAST(N'1992-02-15' AS Date), 982)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7701, N'Escape from Freedom', N'9780805031492', 1, 301, CAST(N'1994-09-15' AS Date), 981)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7702, N'Killing Rage: Ending Racism', N'9780805050271', 1, 288, CAST(N'1996-10-15' AS Date), 982)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7703, N'Clown', N'9780805059335', 2, 32, CAST(N'1998-09-15' AS Date), 952)
@@ -7876,7 +7876,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7798, N'Man''s Search for Meaning', N'9780807014271', 1, 165, CAST(N'2006-06-01' AS Date), 229)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7799, N'Man''s Search for Meaning', N'9780807014295', 1, 165, CAST(N'2006-06-01' AS Date), 229)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7800, N'Everybody Was Kung Fu Fighting: Afro-Asian Connections and the Myth of Cultural Purity', N'9780807050118', 2, 232, CAST(N'2002-11-18' AS Date), 229)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7801, N'Social Origins of Dictatorship and Democracy: Lord and Peasant in the Making of the Modern World', N'9780807050736', 1, 592, CAST(N'1993-09-01' AS Date), 229)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7802, N'Lorca & Jimenez: Selected Poems', N'9780807062135', 1, 208, CAST(N'1997-04-30' AS Date), 229)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7803, N'Art and Culture: Critical Essays', N'9780807066812', 1, 288, CAST(N'1971-06-01' AS Date), 229)
@@ -7977,7 +7977,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7898, N'The Star Wars Poster Book', N'9780811848831', 1, 320, CAST(N'2005-09-29' AS Date), 395)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7899, N'Vincent''s Colors', N'9780811850995', 1, 48, CAST(N'2005-09-29' AS Date), 395)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7900, N'i am 8-bit: Art Inspired by Classic Videogames of the ''80s', N'9780811853194', 2, 156, CAST(N'2006-03-30' AS Date), 395)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7901, N'Edie: Girl on Fire', N'9780811855266', 1, 192, CAST(N'2006-11-02' AS Date), 395)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7902, N'San Francisco Ballet at Seventy-Five', N'9780811856980', 2, 188, CAST(N'2007-11-12' AS Date), 395)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7903, N'Chaucer''s Canterbury Tales (Selected): An Interlinear Translation', N'9780812000399', 1, 530, CAST(N'1977-12-31' AS Date), 213)
@@ -8078,7 +8078,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7998, N'A Tramp Abroad', N'9780812970036', 1, 400, CAST(N'2003-10-14' AS Date), 1279)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (7999, N'An Evening of Long Goodbyes', N'9780812970401', 1, 448, CAST(N'2005-09-13' AS Date), 1655)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8000, N'Chesapeake', N'9780812970432', 1, 1024, CAST(N'2003-09-09' AS Date), 547)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8001, N'Selected Stories', N'9780812970753', 2, 432, CAST(N'2004-07-13' AS Date), 1279)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8002, N'Absolute Trust in the Goodness of the Earth: New Poems', N'9780812971057', 2, 229, CAST(N'2004-03-09' AS Date), 1655)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8003, N'Reading Lolita in Tehran: A Memoir in Books', N'9780812971064', 1, 356, CAST(N'2003-12-30' AS Date), 1655)
@@ -8179,7 +8179,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8098, N'CliffNotes on Williams'' Glass Menagerie & Streetcar Named Desire (Cliffs Notes)', N'9780822005339', 5, 88, CAST(N'1965-01-05' AS Date), 416)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8099, N'Cliffs Notes on Hugo''s Les Miserables', N'9780822007357', 5, 120, CAST(N'1968-11-01' AS Date), 416)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8100, N'Cliffsnotes on Eliot''s Middlemarch', N'9780822008255', 1, 109, CAST(N'1967-07-06' AS Date), 416)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8101, N'Cliffs Notes on Wiesel''s Night', N'9780822008934', 1, 80, CAST(N'1996-08-22' AS Date), 416)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8102, N'Cliffs Notes on Hansberry''s A Raisin in the Sun', N'9780822011088', 5, 80, CAST(N'1992-08-15' AS Date), 416)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8103, N'CliffsNotes on Faulkner''s The Sound and the Fury (Cliffs Notes)', N'9780822012191', 5, 72, CAST(N'1963-10-03' AS Date), 416)
@@ -8280,7 +8280,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8198, N'Rejoice (Redemption  #4)', N'9780842386876', 1, 344, CAST(N'2004-03-22' AS Date), 2033)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8199, N'Reunion (Redemption  #5)', N'9780842386883', 2, 400, CAST(N'2004-07-01' AS Date), 2033)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8200, N'Forgiven (Firstborn  #2)', N'9780842387446', 1, 358, CAST(N'2005-09-23' AS Date), 2033)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8201, N'Found (Firstborn  #3)', N'9780842387453', 1, 342, CAST(N'2006-08-01' AS Date), 2033)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8202, N'Family (Firstborn  #4)', N'9780842387460', 1, 345, CAST(N'2006-10-01' AS Date), 2033)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8203, N'Magical Creatures (Easy To Read! Easy To Draw!)', N'9780843104363', 1, 48, CAST(N'2003-10-27' AS Date), 1602)
@@ -8381,7 +8381,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8298, N'On Vital Reserves', N'9780870611513', 1, 58, CAST(N'1988-04-01' AS Date), 394)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8299, N'Crime Partners', N'9780870678813', 1, 159, CAST(N'2000-11-01' AS Date), 979)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8300, N'Whoreson', N'9780870679940', 2, 320, CAST(N'2000-01-01' AS Date), 979)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8301, N'Andreas Gursky', N'9780870700163', 1, 196, CAST(N'2002-07-02' AS Date), 1304)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8302, N'The Grail: A Year Ambling & Shambling Through an Oregon Vineyard in Pursuit of the Best Pinot Noir Wine in the Whole Wild World', N'9780870710933', 1, 208, CAST(N'2006-04-01' AS Date), 1408)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8303, N'From a Limestone Ledge: Some Essays and Other Ruminations about Country Life in Texas', N'9780870744853', 1, 256, CAST(N'2004-05-19' AS Date), 1862)
@@ -8482,7 +8482,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8398, N'Manshape', N'9780879977641', 1, 159, CAST(N'1982-09-28' AS Date), 505)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8399, N'Polymath (Zarathustra Refugee Planets  #2)', N'9780879977665', 2, 156, CAST(N'1982-08-28' AS Date), 501)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8400, N'Total Eclipse', N'9780879979119', 1, 206, CAST(N'1984-02-07' AS Date), 499)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8401, N'The Assignation: Stories', N'9780880014403', 1, 208, CAST(N'1996-08-01' AS Date), 1512)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8402, N'First Love: A Gothic Tale', N'9780880015080', 1, 86, CAST(N'1997-08-21' AS Date), 606)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8403, N'Follow Your Heart''s Vegetarian Soup Cookbook', N'9780880071314', 1, 127, CAST(N'1983-12-31' AS Date), 2220)
@@ -8583,7 +8583,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8498, N'C.S. Lewis and the Catholic Church', N'9780898709797', 1, 175, CAST(N'2004-03-17' AS Date), 1010)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8499, N'Writing the Novel: From Plot to Print', N'9780898792089', 1, 197, CAST(N'2002-10-28' AS Date), 2227)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8500, N'How to Write Science Fiction and Fantasy', N'9780898794168', 1, 140, CAST(N'1990-07-15' AS Date), 661)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8501, N'The Avalanche Handbook', N'9780898868098', 1, 342, CAST(N'2006-10-12' AS Date), 1299)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8502, N'Confessions of Saint Augustine (Paraclete Living Library)', N'9780899421698', 1, 448, CAST(N'1997-01-01' AS Date), 362)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8503, N'Adventures of the Scarlet Pimpernel', N'9780899664590', 1, 256, CAST(N'1983-12-01' AS Date), 333)
@@ -8684,7 +8684,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8598, N'Cook''s Illustrated 1995 (Cook''s Illustrated Annuals)', N'9780964017931', 1, 232, CAST(N'1995-12-01' AS Date), 440)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8599, N'The Eye of the I: From Which Nothing is Hidden', N'9780964326194', 1, 432, CAST(N'2001-06-23' AS Date), 2091)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8600, N'Lo único que no podrás hacer en el cielo', N'9780964366565', 4, 255, CAST(N'2007-03-01' AS Date), 1216)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8601, N'The Quest for Longitude: The Proceedings of the Longitude Symposium  Harvard University  Cambridge  Massachusetts  November 4-6  1993', N'9780964432901', 1, 437, CAST(N'1996-10-01' AS Date), 421)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8602, N'When the World Was Steady', N'9780964561106', 1, 270, CAST(N'1995-09-01' AS Date), 793)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8603, N'The Sawtooth Wolves', N'9780964991507', 1, 191, CAST(N'1996-01-01' AS Date), 1730)
@@ -8785,7 +8785,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8698, N'Under the Banner of Heaven: A Story of Violent Faith', N'9781400032808', 1, 399, CAST(N'2003-07-10' AS Date), 88)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8699, N'Diary', N'9781400032815', 1, 262, CAST(N'2004-09-14' AS Date), 86)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8700, N'Haunted', N'9781400032822', 1, 419, CAST(N'2006-04-11' AS Date), 86)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8701, N'The Complete Short Novels', N'9781400032921', 1, 548, CAST(N'2005-08-18' AS Date), 2118)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8702, N'Isaac Newton', N'9781400032952', 1, 288, CAST(N'2004-06-08' AS Date), 2113)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8703, N'A Year at the Races: Reflections on Horses  Humans  Love  Money  and Luck', N'9781400033171', 1, 304, CAST(N'2005-04-19' AS Date), 86)
@@ -8886,7 +8886,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8798, N'Maps for Lost Lovers', N'9781400076970', 1, 400, CAST(N'2006-05-09' AS Date), 2113)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8799, N'The Sunday Philosophy Club (Isabel Dalhousie  #1)', N'9781400077090', 1, 272, CAST(N'2005-07-12' AS Date), 86)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8800, N'Yellow Dog', N'9781400077274', 1, 352, CAST(N'2005-01-04' AS Date), 2113)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8801, N'Titan: The Life of John D. Rockefeller  Sr.', N'9781400077304', 1, 832, CAST(N'2004-03-30' AS Date), 2113)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8802, N'Einstein''s Dreams', N'9781400077809', 1, 144, CAST(N'2004-11-09' AS Date), 2113)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8803, N'For Her Own Good: Two Centuries of the Experts'' Advice to Women', N'9781400078004', 2, 410, CAST(N'2005-01-04' AS Date), 86)
@@ -8987,7 +8987,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8898, N'Doom Patrol  Vol. 5: Magic Bus', N'9781401212025', 1, 203, CAST(N'2007-04-01' AS Date), 2096)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8899, N'Jack of Fables  Vol. 1: The (Nearly) Great Escape', N'9781401212223', 1, 128, CAST(N'2007-02-28' AS Date), 2096)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8900, N'American Splendor: Another Day', N'9781401212353', 2, 136, CAST(N'2007-04-07' AS Date), 2096)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8901, N'Sgt. Rock: The Prophecy', N'9781401212483', 2, 144, CAST(N'2007-04-07' AS Date), 506)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8902, N'Superman: Back in Action', N'9781401212636', 2, 144, CAST(N'2007-01-31' AS Date), 506)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8903, N'Pledged: The Secret Life of Sororities', N'9781401300463', 2, 384, CAST(N'2004-04-14' AS Date), 1002)
@@ -9088,7 +9088,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8998, N'Never Let Me Go', N'9781415916292', 1, 10, CAST(N'2005-04-12' AS Date), 306)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (8999, N'Undaunted Courage', N'9781415918098', 1, 22, CAST(N'2005-03-08' AS Date), 306)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9000, N'Eat  Pray  Love: One Woman''s Search for Everything Across Italy  India and Indonesia', N'9781415926697', 1, 13, CAST(N'2006-09-01' AS Date), 306)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9001, N'The Historian', N'9781415929018', 1, 26, CAST(N'2005-12-13' AS Date), 306)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9002, N'Can''t Wait to Get to Heaven', N'9781415930687', 1, 384, CAST(N'2006-07-18' AS Date), 306)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9003, N'The Good Earth (House of Earth  #1)', N'9781416500186', 1, 418, CAST(N'2009-03-04' AS Date), 994)
@@ -9189,7 +9189,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9098, N'The Art of Controversy (The Essays of Arthur Schopenhauer)', N'9781419161308', 1, 76, CAST(N'2004-06-17' AS Date), 1077)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9099, N'The Girl With The Golden Eyes', N'9781419163869', 1, 72, CAST(N'2004-06-17' AS Date), 1077)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9100, N'The Metamorphosis', N'9781419172694', 2, 48, CAST(N'2004-06-17' AS Date), 1077)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9101, N'The Works and Days/Theogony', N'9781419188510', 1, 48, CAST(N'2004-06-17' AS Date), 1077)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9102, N'In the Company of Cheerful Ladies (No. 1 Ladies'' Detective Agency  #6)', N'9781419311741', 1, 10, CAST(N'2005-03-02' AS Date), 1679)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9103, N'The Curious Incident of the Dog in the Night-Time', N'9781419317262', 1, 6, CAST(N'2006-12-01' AS Date), 1678)
@@ -9290,7 +9290,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9198, N'Ghost in the Shell 2: Innocence: After The Long Goodbye', N'9781421513942', 1, 196, CAST(N'2007-07-17' AS Date), 2137)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9199, N'Nineteen Eighty-Four', N'9781421808321', 1, 387, CAST(N'2005-07-01' AS Date), 3)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9200, N'The Coming Storm (Pirates of the Caribbean: Jack Sparrow  #1)', N'9781423100188', 2, 135, CAST(N'2006-06-01' AS Date), 561)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9201, N'The Siren Song (Pirates of the Caribbean: Jack Sparrow  #2)', N'9781423100195', 1, 123, CAST(N'2006-06-01' AS Date), 561)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9202, N'The Pirate Chase (Pirates of the Caribbean: Jack Sparrow  #3)', N'9781423100201', 1, 119, CAST(N'2006-08-01' AS Date), 561)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9203, N'The Sword of Corte´s (Pirates of the Caribbean: Jack Sparrow  #4)', N'9781423100614', 2, 122, CAST(N'2006-10-01' AS Date), 561)
@@ -9391,7 +9391,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9298, N'Betty Friedan and the Making of "The Feminine Mystique": The American Left  the Cold War  and Modern Feminism', N'9781558492769', 1, 384, CAST(N'2000-09-27' AS Date), 2054)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9299, N'Brown Girl  Brownstones', N'9781558614987', 1, 324, CAST(N'2006-08-01' AS Date), 693)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9300, N'Intimate Communion: Awakening Your Sexual Essence', N'9781558743748', 1, 270, CAST(N'1995-11-01' AS Date), 939)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9301, N'The Lost Boy (Dave Pelzer #2)', N'9781558745155', 1, 331, CAST(N'1997-08-01' AS Date), 940)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9302, N'The Complete ACOA Sourcebook: Adult Children of Alcoholics at Home  at Work and in Love', N'9781558749603', 2, 500, CAST(N'2002-03-08' AS Date), 940)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9303, N'True Harvest: Readings From Henry David Thoreau For Every Day Of The Year', N'9781558964907', 1, 304, CAST(N'2005-10-07' AS Date), 1845)
@@ -9492,7 +9492,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9398, N'Dodge Caravan/Plymouth Voyager/Chrysler Town & Country 96-02 (Haynes Manuals)', N'9781563924699', 1, 336, CAST(N'2002-12-02' AS Date), 930)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9399, N'Exploring the Northern Tradition: A Guide to the Gods  Lore  Rites  and Celebrations From the Norse  German  and Anglo-Saxon Traditions', N'9781564147912', 1, 224, CAST(N'2005-05-15' AS Date), 1338)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9400, N'Laguna  I Love You: The Best of "Our Town"', N'9781564741578', 1, 285, CAST(N'1996-03-01' AS Date), 709)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9401, N'Happy Endings: Finishing the Edges of Your Quilts', N'9781564775009', 2, 80, CAST(N'2013-06-04' AS Date), 1946)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9402, N'Letters', N'9781564780614', 1, 772, CAST(N'1994-10-01' AS Date), 487)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9403, N'Point Counter Point', N'9781564781314', 1, 432, CAST(N'1996-10-01' AS Date), 487)
@@ -9593,7 +9593,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9498, N'The Return of Lum  Volume 5: Feudal Furor (Urusei Yatsura  #6)', N'9781569312100', 2, 200, CAST(N'1997-12-06' AS Date), 2136)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9499, N'Uzumaki: Spiral into Horror  Vol. 1', N'9781569317143', 1, 208, CAST(N'2001-10-06' AS Date), 2136)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9500, N'X/1999  Volume 01: Prelude', N'9781569319499', 1, 200, CAST(N'2003-04-30' AS Date), 2137)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9501, N'X/1999  Volume 02: Overture', N'9781569319505', 2, 192, CAST(N'2003-04-30' AS Date), 2137)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9502, N'Ranma ½  Vol. 1 (Ranma ½ (US 2nd)  #1)', N'9781569319628', 1, 304, CAST(N'2003-05-07' AS Date), 2137)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9503, N'The Rattle-Rat', N'9781569471036', 1, 293, CAST(N'2003-07-01' AS Date), 1855)
@@ -9694,7 +9694,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9598, N'Thus Spake the Corpse: An Exquisite Corpse Reader 1988-98 Vol 1 Poetry & Essays', N'9781574231007', 2, 417, CAST(N'1999-07-01' AS Date), 269)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9599, N'The John Adams Reader: Eseential Writings on an American Composer', N'9781574671322', 1, 455, CAST(N'2006-06-01' AS Date), 73)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9600, N'The Perfect Wrong Note: Learning to Trust Your Musical Self', N'9781574671452', 1, 239, CAST(N'2006-06-01' AS Date), 834)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9601, N'Insurgency and Terrorism: From Revolution to Apocalypse', N'9781574881721', 1, 240, CAST(N'2005-06-01' AS Date), 1586)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9602, N'Shattered Sword: The Untold Story of the Battle of Midway', N'9781574889239', 1, 612, CAST(N'2005-11-01' AS Date), 1586)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9603, N'Hands Are Not for Hitting (Ages 4-7)', N'9781575420776', 1, 35, CAST(N'2001-02-01' AS Date), 741)
@@ -9795,7 +9795,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9698, N'Supermob: How Sidney Korshak and His Criminal Associates Became America''s Hidden Power Brokers', N'9781582343891', 2, 640, CAST(N'2006-09-05' AS Date), 280)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9699, N'Soldiers of Salamis', N'9781582344720', 1, 213, CAST(N'2005-01-10' AS Date), 292)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9700, N'A Year in the Merde', N'9781582346175', 2, 276, CAST(N'2006-05-02' AS Date), 289)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9701, N'Eleanor Rigby', N'9781582346434', 1, 272, CAST(N'2006-05-30' AS Date), 292)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9702, N'Harry Potter and the Philosopher''s Stone (Harry Potter  #1)', N'9781582346816', 26, 250, CAST(N'2010-07-01' AS Date), 294)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9703, N'Harrius Potter et Philosophi Lapis', N'9781582348254', 15, 249, CAST(N'2003-07-07' AS Date), 279)
@@ -9896,7 +9896,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9798, N'A Tale of Two Cities: Charles Dickens', N'9781586633523', 1, 96, CAST(N'2002-01-10' AS Date), 1865)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9799, N'Frankenstein (SparkNotes Literature Guide)', N'9781586633578', 1, 72, CAST(N'2002-01-10' AS Date), 1866)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9800, N'Romeo and Juliet (SparkNotes Literature Guide)', N'9781586633585', 1, 88, CAST(N'2002-01-10' AS Date), 1866)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9801, N'The Iliad (SparkNotes Literature Guides)', N'9781586633714', 1, 88, CAST(N'2002-01-10' AS Date), 1866)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9802, N'One Flew Over the Cuckoo''s Nest (SparkNotes Literature Guide)', N'9781586633790', 1, 72, CAST(N'2002-07-15' AS Date), 1866)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9803, N'A Midsummer Night''s Dream (SparkNotes Literature Guide)', N'9781586634049', 1, 64, CAST(N'2002-01-10' AS Date), 1866)
@@ -9997,7 +9997,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9898, N'Ranma 1/2  Vol. 8 (Ranma ½ (US 2nd)  #8)', N'9781591161301', 1, 196, CAST(N'2004-01-07' AS Date), 2136)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9899, N'Revolutionary Girl Utena  Vol. 5: To Blossom', N'9781591161455', 1, 168, CAST(N'2004-03-03' AS Date), 2137)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9900, N'InuYasha Ani-Manga  Vol. 1 (Inuyasha Ani-Manga  #1)', N'9781591162025', 1, 206, CAST(N'2004-01-14' AS Date), 2137)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9901, N'Revolutionary Girl Utena  Vol. 2: To Plant', N'9781591162063', 1, 200, CAST(N'2004-03-10' AS Date), 2137)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9902, N'Revolutionary Girl Utena  Vol. 3: To Sprout', N'9781591162070', 1, 200, CAST(N'2004-02-04' AS Date), 2137)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9903, N'Hikaru no Go  Vol. 1: Descent of the Go Master (Hikaru no Go  #1)', N'9781591162223', 1, 187, CAST(N'2004-05-19' AS Date), 2137)
@@ -10098,7 +10098,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9998, N'Essential Tales and Poems', N'9781593080648', 2, 688, CAST(N'2004-10-25' AS Date), 205)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (9999, N'The Death of Ivan Ilych & Other Stories', N'9781593080693', 1, 400, CAST(N'2003-12-15' AS Date), 205)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10000, N'Vanity Fair', N'9781593080716', 1, 696, CAST(N'2003-11-01' AS Date), 205)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10001, N'The Portrait of a Lady', N'9781593080969', 1, 635, CAST(N'2004-01-16' AS Date), 205)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10002, N'Republic', N'9781593080976', 1, 496, CAST(N'2005-08-01' AS Date), 205)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10003, N'The House of Mirth', N'9781593081041', 1, 359, CAST(N'2003-10-01' AS Date), 205)
@@ -10199,7 +10199,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10098, N'The Oath', N'9781595540454', 1, 576, CAST(N'2005-08-28' AS Date), 1967)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10099, N'A Time to Embrace (Timeless Love  #2)', N'9781595542328', 1, 400, CAST(N'2006-10-29' AS Date), 1967)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10100, N'The Shadow Party: How George Soros  Hillary Clinton  and Sixties Radicals Seized Control of the Democratic Party', N'9781595550446', 2, 304, CAST(N'2006-08-06' AS Date), 1967)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10101, N'From the Age of Discovery to a World at War (America: The Last Best Hope #1)', N'9781595550552', 1, 573, CAST(N'2006-05-23' AS Date), 1324)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10102, N'Hatchet Jobs: Writings on Contemporary Fiction', N'9781595580276', 2, 228, CAST(N'2005-11-01' AS Date), 1960)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10103, N'The Chomsky-Foucault Debate: On Human Nature', N'9781595581341', 1, 213, CAST(N'2006-09-01' AS Date), 1960)
@@ -10300,7 +10300,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10198, N'Introducing Sartre (Introducing... S.)', N'9781840466720', 1, 176, CAST(N'2002-04-24' AS Date), 1007)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10199, N'Fucked By Rock + Cd', N'9781840680737', 1, 205, CAST(N'2001-10-01' AS Date), 464)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10200, N'Divine Filth: Lost Writings (Modern Classics)', N'9781840681123', 1, 160, CAST(N'2004-09-15' AS Date), 464)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10201, N'The Patron Saint of Liars', N'9781841150505', 1, 352, CAST(N'2003-04-01' AS Date), 889)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10202, N'When Genius Failed: The Rise And Fall Of Long Term Capital Management', N'9781841155043', 1, 275, CAST(N'2009-06-01' AS Date), 733)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10203, N'The Corrections', N'9781841156736', 1, 653, CAST(N'2002-09-02' AS Date), 736)
@@ -10401,7 +10401,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10298, N'The Blonde on the Street Corner', N'9781852424473', 2, 155, CAST(N'1998-01-15' AS Date), 1791)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10299, N'The Moon in the Gutter', N'9781852424497', 2, 183, CAST(N'1998-12-08' AS Date), 1791)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10300, N'Of Tender Sin', N'9781852426743', 2, 181, CAST(N'2001-02-16' AS Date), 1791)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10301, N'Before Night Falls', N'9781852428082', 1, 317, CAST(N'2001-06-15' AS Date), 1792)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10302, N'The Deming Management Method', N'9781852521417', 1, 254, CAST(N'1992-10-01' AS Date), 1207)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10303, N'Death: The High Cost of Living', N'9781852864989', 1, 104, CAST(N'1994-06-09' AS Date), 1990)
@@ -10502,7 +10502,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10398, N'Almond Cookies & Dragon Well Tea', N'9781879965034', 1, 37, CAST(N'1993-05-01' AS Date), 1575)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10399, N'Speaks the Nightbird (Matthew Corbett  #1)', N'9781880216620', 2, 726, CAST(N'2002-09-01' AS Date), 1697)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10400, N'On Rhetoric and Language: Four Key Dialogues', N'9781880393338', 1, 232, CAST(N'1999-07-01' AS Date), 1717)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10401, N'Hayao Miyazaki: Master of Japanese Animation', N'9781880656419', 2, 240, CAST(N'1999-09-01' AS Date), 1903)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10402, N'Harrington on Hold ''em: Expert Strategy for No-Limit Tournaments  Volume I: Strategic Play', N'9781880685334', 1, 381, CAST(N'2004-12-01' AS Date), 2032)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10403, N'Harrington on Hold ''em: Expert Strategy for No-Limit Tournaments  Volume II: The Endgame', N'9781880685358', 1, 450, CAST(N'2005-06-01' AS Date), 2032)
@@ -10603,7 +10603,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10498, N'The Arden Shakespeare Complete Works', N'9781903436615', 1, 1347, CAST(N'2001-07-05' AS Date), 108)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10499, N'Romeo and Juliet', N'9781903436912', 1, 350, CAST(N'2012-07-15' AS Date), 283)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10500, N'Eugene Onegin', N'9781903517284', 1, 262, CAST(N'2006-03-01' AS Date), 512)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10501, N'The Modern Prince: Charles J. Haughey and the Quest for Power', N'9781903582411', 1, 212, CAST(N'2003-04-28' AS Date), 1245)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10502, N'The Sot-Weed Factor', N'9781903809501', 1, 756, CAST(N'2005-03-01' AS Date), 140)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10503, N'Flatland', N'9781903985175', 1, 272, CAST(N'2002-03-06' AS Date), 214)
@@ -10704,7 +10704,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10598, N'Zero Debt: The Ultimate Guide to Financial Freedom', N'9781932450750', 1, 204, CAST(N'2004-08-01' AS Date), 36)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10599, N'Scott Pilgrim  Volume 1: Scott Pilgrim''s Precious Little Life', N'9781932664089', 1, 168, CAST(N'2004-08-18' AS Date), 1395)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10600, N'Love As A Foreign Language #5', N'9781932664393', 1, 58, CAST(N'2006-02-01' AS Date), 1395)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10601, N'Cities in Dust (Wasteland #1)', N'9781932664591', 1, 160, CAST(N'2010-04-20' AS Date), 1395)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10602, N'Dragons of Winter Night (Dragonlance: Chronicles  #2)', N'9781932796780', 1, 358, CAST(N'2007-04-10' AS Date), 541)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10603, N'Fortress of Solitude / The Devil Genghis', N'9781932806496', 1, 128, CAST(N'2006-12-01' AS Date), 1374)
@@ -10805,7 +10805,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10698, N'Un train d''or pour la Crimée', N'9782266070072', 3, 342, CAST(N'1999-01-13' AS Date), 1563)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10699, N'Minuit dans le jardin du bien et du mal', N'9782266075183', 3, 388, CAST(N'1998-06-06' AS Date), 1563)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10700, N'Le Portrait de Dorian Gray', N'9782266082655', 3, 345, CAST(N'1998-06-04' AS Date), 1563)
-----GO
+--GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10701, N'Faërie', N'9782266102711', 3, 217, CAST(N'2003-11-20' AS Date), 1563)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10702, N'Mon épouse américaine', N'9782266104463', 3, 445, CAST(N'2001-04-19' AS Date), 1563)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10703, N'L''Éveil d''Endymion II', N'9782266106344', 3, 410, CAST(N'2000-07-06' AS Date), 1563)
@@ -10906,7 +10906,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10798, N'Dornen des Glücks (Das Erbe von Foxworth Hall  #3)', N'9783442552962', 10, 412, CAST(N'2002-09-01' AS Date), 780)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10799, N'Die Geisha', N'9783442726325', 10, 573, CAST(N'2000-02-01' AS Date), 2200)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10800, N'Naokos Lächeln', N'9783442730506', 10, 416, CAST(N'2003-02-01' AS Date), 332)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10801, N'Hitler''s Willinge Vollstrecker: Ganz gewöhlnliche Deutsche und der Holocaust', N'9783442755004', 10, 728, CAST(N'1999-07-01' AS Date), 2200)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10802, N'Operation Shylock. Ein Bekenntnis', N'9783446176935', 10, 464, CAST(N'1994-01-01' AS Date), 351)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10803, N'Norden', N'9783446187498', 10, 127, CAST(N'1996-08-01' AS Date), 351)
@@ -11007,7 +11007,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10898, N'Death Note  Vol. 4: ?? (Death Note  #4)', N'9784088736716', 11, 204, CAST(N'2004-11-11' AS Date), 1806)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10899, N'??? 1', N'9784091252012', 11, 192, CAST(N'1997-04-18' AS Date), 2255)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10900, N'??? 4', N'9784091252043', 11, 192, CAST(N'1997-12-10' AS Date), 2255)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10901, N'??? 7', N'9784091252074', 11, 192, CAST(N'1998-08-08' AS Date), 2255)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10902, N'??? 8', N'9784091252081', 11, 192, CAST(N'1998-11-18' AS Date), 2255)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10903, N'??? 10', N'9784091252104', 11, 192, CAST(N'1999-04-17' AS Date), 2255)
@@ -11108,7 +11108,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10998, N'Hyperion (Los Cantos de Hyperion  #1)', N'9788466617352', 4, 618, CAST(N'2005-06-01' AS Date), 613)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (10999, N'El rey de Les Halles', N'9788466619455', 4, 448, CAST(N'2007-01-01' AS Date), 613)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (11000, N'Cántico de sangre (Crónicas Vampíricas  #10)', N'9788466620260', 4, 416, CAST(N'2006-07-01' AS Date), 613)
-----GO
+--GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (11001, N'Freakonomics: Un economista políticamente incorrecto explora el lado oculto de lo que nos afecta', N'9788466625128', 4, 250, CAST(N'2006-08-01' AS Date), 613)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (11002, N'El Mesías: El niño judío', N'9788466630030', 4, 352, CAST(N'2007-05-28' AS Date), 613)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (11003, N'El amor en los tiempos del cólera', N'9788467204360', 4, 430, CAST(N'1985-01-01' AS Date), 399)
@@ -11209,7 +11209,7 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (11098, N'Estado De Miedo', N'9789685959759', 4, 685, CAST(N'2005-06-30' AS Date), 1554)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (11099, N'El librero de Kabul', N'9789706519245', 4, 285, CAST(N'2004-11-01' AS Date), 818)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (11100, N'El Reino Animal', N'9789707705739', 4, 256, CAST(N'2006-07-01' AS Date), 55)
---GO
+GO
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (11101, N'La Vida Nueva', N'9789707707764', 4, 282, CAST(N'2006-10-01' AS Date), 55)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (11102, N'O Sobrinho do Mágico (As Crónicas de Nárnia  #1)', N'9789722329989', 16, 147, CAST(N'2003-04-08' AS Date), 628)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (11103, N'O Cavalo e o Seu Rapaz (As Crónicas de Nárnia  #3)', N'9789722330558', 16, 160, CAST(N'2003-08-15' AS Date), 628)
@@ -11237,4 +11237,3 @@ INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (11125, N'Fantasmas', N'9789879397503', 4, 442, CAST(N'2006-08-28' AS Date), 1284)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (11126, N'Stand by Me', N'9789998691568', 1, 96, CAST(N'1986-06-01' AS Date), 430)
 INSERT [dbo].[book] ([book_id], [title], [isbn13], [language_id], [num_pages], [publication_date], [publisher_id]) VALUES (11127, N'The Great Divorce', N'9790007672386', 1, 160, CAST(N'2002-02-01' AS Date), 882)
-*/

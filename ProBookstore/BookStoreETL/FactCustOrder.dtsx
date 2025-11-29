@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="FactCustOrder"
   DTS:PackageType="5"
-  DTS:VersionBuild="95"
-  DTS:VersionGUID="{7E6AD564-83CC-44F7-92B7-882CD731811A}">
+  DTS:VersionBuild="96"
+  DTS:VersionGUID="{1A1AD84B-40EA-4648-AF4A-215E67D0802F}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables>
@@ -1670,30 +1670,30 @@ where [refTable].[method_id] = ?</property>
         <NodeLayout
           Size="201,42"
           Id="Package\Get Database RowVersion"
-          TopLeft="370,61" />
+          TopLeft="171,9" />
         <NodeLayout
           Size="218,42"
           Id="Package\Get Last Package RowVersion"
-          TopLeft="355,136" />
+          TopLeft="156,84" />
         <NodeLayout
           Size="182,42"
           Id="Package\Initialize staging table"
-          TopLeft="375,217" />
+          TopLeft="176,165" />
         <NodeLayout
           Size="147,42"
           Id="Package\Load Add New"
-          TopLeft="393,305" />
+          TopLeft="194,253" />
         <NodeLayout
           Size="165,42"
           Id="Package\Sync Staging Data"
-          TopLeft="387,389" />
+          TopLeft="188,337" />
         <NodeLayout
           Size="190,42"
           Id="Package\Update LastRowVersion"
-          TopLeft="373,467" />
+          TopLeft="174,415" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="467.25,103">
+          TopLeft="268.25,51">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -1715,7 +1715,7 @@ where [refTable].[method_id] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="465,178">
+          TopLeft="266,126">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -1737,7 +1737,7 @@ where [refTable].[method_id] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="466.25,259">
+          TopLeft="267.25,207">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -1759,7 +1759,7 @@ where [refTable].[method_id] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 3]"
-          TopLeft="468,347">
+          TopLeft="269,295">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -1781,7 +1781,7 @@ where [refTable].[method_id] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 4]"
-          TopLeft="468.75,431">
+          TopLeft="269.75,379">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -1812,38 +1812,38 @@ where [refTable].[method_id] = ?</property>
         <NodeLayout
           Size="139,42"
           Id="Package\Load Add New\Load staging"
-          TopLeft="286,556" />
+          TopLeft="100,543" />
         <NodeLayout
           Size="168,42"
           Id="Package\Load Add New\Destino de OLE DB"
-          TopLeft="554,557" />
+          TopLeft="368,544" />
         <NodeLayout
           Size="151,42"
           Id="Package\Load Add New\Búsqueda Book"
-          TopLeft="434,116" />
+          TopLeft="248,103" />
         <NodeLayout
           Size="176,42"
           Id="Package\Load Add New\Búsqueda CustOrder"
-          TopLeft="414,461" />
+          TopLeft="228,448" />
         <NodeLayout
           Size="162,42"
           Id="Package\Load Add New\Get Row Changes"
-          TopLeft="432,26" />
+          TopLeft="246,13" />
         <NodeLayout
           Size="204,42"
           Id="Package\Load Add New\Búsqueda ShippingMethod"
-          TopLeft="406,205" />
+          TopLeft="220,192" />
         <NodeLayout
           Size="165,42"
           Id="Package\Load Add New\Búsqueda Address"
-          TopLeft="421,379" />
+          TopLeft="235,366" />
         <NodeLayout
           Size="173,42"
           Id="Package\Load Add New\Búsqueda Customer"
-          TopLeft="420,292" />
+          TopLeft="234,279" />
         <EdgeLayout
           Id="Package\Load Add New.Paths[Salida de entradas coincidentes de búsqueda]"
-          TopLeft="505,334">
+          TopLeft="319,321">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -1866,8 +1866,30 @@ where [refTable].[method_id] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
+          Id="Package\Load Add New.Paths[OLE DB Source Output]"
+          TopLeft="325.25,55">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,48"
+              Start="0,0"
+              End="0,40.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,40.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
           Id="Package\Load Add New.Paths[Salida de entradas no coincidentes de búsqueda]"
-          TopLeft="530,503">
+          TopLeft="344,490">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -1902,8 +1924,56 @@ where [refTable].[method_id] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
+          Id="Package\Load Add New.Paths[Salida de entradas coincidentes de búsqueda4]"
+          TopLeft="322.75,145">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,47"
+              Start="0,0"
+              End="0,39.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,39.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-99.8190234375,13.65234375,199.638046875,12.1953125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Add New.Paths[Salida de entradas coincidentes de búsqueda3]"
+          TopLeft="316.75,408">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,40"
+              Start="0,0"
+              End="0,32.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,32.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-99.8190234375,10.15234375,199.638046875,12.1953125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
           Id="Package\Load Add New.Paths[Salida de entradas coincidentes de búsqueda2]"
-          TopLeft="502,503">
+          TopLeft="316,490">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -1939,7 +2009,7 @@ where [refTable].[method_id] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load Add New.Paths[Salida de entradas coincidentes de búsqueda1]"
-          TopLeft="507.25,247">
+          TopLeft="321.25,234">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -1959,76 +2029,6 @@ where [refTable].[method_id] = ?</property>
             <mssgm:EdgeLabel
               BoundingBox="-99.8190234375,12.65234375,199.638046875,12.1953125"
               RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Load Add New.Paths[Salida de entradas coincidentes de búsqueda3]"
-          TopLeft="502.75,421">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,40"
-              Start="0,0"
-              End="0,32.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,32.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-99.8190234375,10.15234375,199.638046875,12.1953125"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Load Add New.Paths[Salida de entradas coincidentes de búsqueda4]"
-          TopLeft="508.75,158">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,47"
-              Start="0,0"
-              End="0,39.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,39.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-99.8190234375,13.65234375,199.638046875,12.1953125"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Load Add New.Paths[OLE DB Source Output]"
-          TopLeft="511.25,68">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,48"
-              Start="0,0"
-              End="0,40.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,40.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>

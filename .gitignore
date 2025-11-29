@@ -32,6 +32,7 @@ obj/
 *.rdl.reports
 *.dbproj.user
 *.sqlproj.user
+*.jfm
 
 # ============================================
 # Carpetas de publicación e implementación

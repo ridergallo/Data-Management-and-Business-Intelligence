@@ -67,22 +67,22 @@
     <Folder Include="Schema\Tables" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Scripts\author.sql" />
-    <Build Include="Scripts\address.sql" />
-    <Build Include="Scripts\publisher.sql" />
-    <Build Include="Scripts\book_language.sql" />
-    <Build Include="Scripts\book.sql" />
-    <Build Include="Scripts\book_author.sql" />
-    <Build Include="Scripts\country.sql" />
-    <Build Include="Scripts\customer.sql" />
-    <Build Include="Scripts\shipping_method.sql" />
-    <Build Include="Scripts\cust_order.sql" />
-    <Build Include="Scripts\order_line.sql" />
-    <Build Include="Scripts\address_status.sql" />
-    <Build Include="Scripts\customer_address.sql" />
-    <Build Include="Scripts\order_status.sql" />
-    <Build Include="Scripts\order_history.sql" />
-    <Build Include="Scripts\clean.sql" />
+    <None Include="Scripts\author.sql" />
+    <None Include="Scripts\address.sql" />
+    <None Include="Scripts\publisher.sql" />
+    <None Include="Scripts\book_language.sql" />
+    <None Include="Scripts\book.sql" />
+    <None Include="Scripts\book_author.sql" />
+    <None Include="Scripts\country.sql" />
+    <None Include="Scripts\customer.sql" />
+    <None Include="Scripts\shipping_method.sql" />
+    <None Include="Scripts\cust_order.sql" />
+    <None Include="Scripts\order_line.sql" />
+    <None Include="Scripts\address_status.sql" />
+    <None Include="Scripts\customer_address.sql" />
+    <None Include="Scripts\order_status.sql" />
+    <None Include="Scripts\order_history.sql" />
+    <None Include="Scripts\clean.sql" />
     <Build Include="Schema\Programmability\Stored Procedures\GetAddressChangesByRowVersion.sql" />
     <Build Include="Schema\Programmability\Stored Procedures\GetBookChangesByRowVersion.sql" />
     <Build Include="Schema\Programmability\Stored Procedures\GetCustomerChangesByRowVersion.sql" />
@@ -106,6 +106,6 @@
     <Build Include="Schema\Tables\shipping_method.sql" />
   </ItemGroup>
   <ItemGroup>
-    <PostDeploy Include="Scripts\Script.PostDeployment.sql" />
+    <None Include="Scripts\Script.PostDeployment.sql" />
   </ItemGroup>
 </Project>

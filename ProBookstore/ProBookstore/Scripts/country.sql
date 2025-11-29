@@ -1,4 +1,4 @@
-﻿/*--GO
+﻿GO
 INSERT [dbo].[country] ([country_id], [country_name]) VALUES (1, N'Afghanistan')
 INSERT [dbo].[country] ([country_id], [country_name]) VALUES (2, N'Netherlands Antilles')
 INSERT [dbo].[country] ([country_id], [country_name]) VALUES (3, N'Albania')
@@ -99,7 +99,7 @@ INSERT [dbo].[country] ([country_id], [country_name]) VALUES (97, N'Iraq')
 INSERT [dbo].[country] ([country_id], [country_name]) VALUES (98, N'Iceland')
 INSERT [dbo].[country] ([country_id], [country_name]) VALUES (99, N'Israel')
 INSERT [dbo].[country] ([country_id], [country_name]) VALUES (100, N'Virgin Islands')
---GO
+GO
 INSERT [dbo].[country] ([country_id], [country_name]) VALUES (101, N'Italy')
 INSERT [dbo].[country] ([country_id], [country_name]) VALUES (102, N'Virgin Islands, British')
 INSERT [dbo].[country] ([country_id], [country_name]) VALUES (103, N'Jamaica')
@@ -200,7 +200,7 @@ INSERT [dbo].[country] ([country_id], [country_name]) VALUES (197, N'Tanzania')
 INSERT [dbo].[country] ([country_id], [country_name]) VALUES (198, N'Czechoslovakia')
 INSERT [dbo].[country] ([country_id], [country_name]) VALUES (199, N'Tonga')
 INSERT [dbo].[country] ([country_id], [country_name]) VALUES (200, N'Thailand')
---GO
+GO
 INSERT [dbo].[country] ([country_id], [country_name]) VALUES (201, N'Tajikistan')
 INSERT [dbo].[country] ([country_id], [country_name]) VALUES (202, N'Turkmenistan')
 INSERT [dbo].[country] ([country_id], [country_name]) VALUES (203, N'Timor-Leste')
@@ -233,4 +233,3 @@ INSERT [dbo].[country] ([country_id], [country_name]) VALUES (229, N'Zambia')
 INSERT [dbo].[country] ([country_id], [country_name]) VALUES (230, N'Zimbabwe')
 INSERT [dbo].[country] ([country_id], [country_name]) VALUES (231, N'Singapore')
 INSERT [dbo].[country] ([country_id], [country_name]) VALUES (232, N'French Polynesia')
-*/

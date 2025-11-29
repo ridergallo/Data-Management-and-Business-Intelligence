@@ -1,4 +1,4 @@
-﻿/*----GO
+﻿GO
 INSERT [dbo].[book_language] ([language_id], [language_code], [language_name]) VALUES (1, N'eng', N'English')
 INSERT [dbo].[book_language] ([language_id], [language_code], [language_name]) VALUES (2, N'en-US', N'United States English')
 INSERT [dbo].[book_language] ([language_id], [language_code], [language_name]) VALUES (3, N'fre', N'French')
@@ -26,4 +26,3 @@ INSERT [dbo].[book_language] ([language_id], [language_code], [language_name]) V
 INSERT [dbo].[book_language] ([language_id], [language_code], [language_name]) VALUES (25, N'tur', N'Turkish')
 INSERT [dbo].[book_language] ([language_id], [language_code], [language_name]) VALUES (26, N'gla', N'Gaelic')
 INSERT [dbo].[book_language] ([language_id], [language_code], [language_name]) VALUES (27, N'ale', N'Aleut')
-*/

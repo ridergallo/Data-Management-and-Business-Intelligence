@@ -1,5 +1,4 @@
-﻿/*
---GO
+﻿GO
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1, N'Ursola', N'Purdy', N'upurdy0@cdbaby.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (2, N'Ruthanne', N'Vatini', N'rvatini1@fema.gov')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (3, N'Reidar', N'Turbitt', N'rturbitt2@geocities.jp')
@@ -100,7 +99,7 @@ INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALU
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (98, N'Coretta', N'Dublin', N'cdublin2p@time.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (99, N'Lianne', N'Gorry', N'lgorry2q@chronoengine.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (100, N'Dud', N'Pusill', N'dpusill2r@digg.com')
---GO
+GO
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (101, N'Nicolette', N'Sadler', N'nsadler2s@salon.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (102, N'Didi', N'Bette', N'dbette2t@skype.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (103, N'Cinda', N'Abrahim', N'cabrahim2u@washingtonpost.com')
@@ -201,7 +200,7 @@ INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALU
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (198, N'Lynette', N'Davidofski', N'ldavidofski5h@nbcnews.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (199, N'Bjorn', N'McCloud', N'bmccloud5i@aboutads.info')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (200, N'Benedict', N'Kehir', N'bkehir5j@4shared.com')
---GO
+GO
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (201, N'Sherline', N'Sivell', N'ssivell5k@weibo.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (202, N'Dolf', N'Theurer', N'dtheurer5l@fda.gov')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (203, N'Dud', N'Full', N'dfull5m@privacy.gov.au')
@@ -302,7 +301,7 @@ INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALU
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (298, N'Rafaelia', N'Mitroshinov', N'rmitroshinov89@1688.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (299, N'Yvonne', N'Maccree', N'ymaccree8a@mac.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (300, N'Fernande', N'L''Episcopio', N'flepiscopio8b@smugmug.com')
---GO
+GO
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (301, N'Mignon', N'Ranger', N'mranger8c@accuweather.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (302, N'Delmore', N'Tamplin', N'dtamplin8d@ibm.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (303, N'Burke', N'Strute', N'bstrute8e@utexas.edu')
@@ -403,7 +402,7 @@ INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALU
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (398, N'Tommy', N'Badsworth', N'tbadsworthb1@thetimes.co.uk')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (399, N'Vince', N'Nesbit', N'vnesbitb2@shinystat.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (400, N'Mil', N'Lindley', N'mlindleyb3@cisco.com')
---GO
+GO
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (401, N'Gil', N'Perfili', N'gperfilib4@apple.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (402, N'Charlean', N'Palphramand', N'cpalphramandb5@amazonaws.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (403, N'Westley', N'Gammie', N'wgammieb6@youtube.com')
@@ -504,7 +503,7 @@ INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALU
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (498, N'Loleta', N'Mitchall', N'lmitchalldt@creativecommons.org')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (499, N'Herculie', N'Fruin', N'hfruindu@liveinternet.ru')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (500, N'Aurelia', N'MacGowan', N'amacgowandv@opera.com')
---GO
+GO
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (501, N'Salome', N'Elliman', N'sellimandw@1688.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (502, N'Dodi', N'Gotobed', N'dgotobeddx@epa.gov')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (503, N'Ricki', N'Woollons', N'rwoollonsdy@cisco.com')
@@ -605,7 +604,7 @@ INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALU
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (598, N'Paxton', N'Baroux', N'pbarouxgl@free.fr')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (599, N'Jamesy', N'Scandred', N'jscandredgm@imdb.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (600, N'Sallee', N'Heaviside', N'sheavisidegn@oakley.com')
---GO
+GO
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (601, N'Kerry', N'Pepis', N'kpepisgo@163.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (602, N'Wat', N'Probart', N'wprobartgp@prlog.org')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (603, N'Craig', N'Graine', N'cgrainegq@altervista.org')
@@ -706,7 +705,7 @@ INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALU
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (698, N'Hymie', N'Kulis', N'hkulisjd@gizmodo.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (699, N'Franky', N'Downie', N'fdownieje@weebly.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (700, N'Shamus', N'Othick', N'sothickjf@apache.org')
---GO
+GO
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (701, N'Burlie', N'Richmond', N'brichmondjg@shareasale.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (702, N'Mag', N'Dring', N'mdringjh@cbc.ca')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (703, N'Oralee', N'Melesk', N'omeleskji@bizjournals.com')
@@ -807,7 +806,7 @@ INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALU
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (798, N'Ursula', N'Peniman', N'upenimanm5@prweb.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (799, N'Meara', N'Lindroos', N'mlindroosm6@mashable.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (800, N'Henrietta', N'Humbie', N'hhumbiem7@google.co.jp')
---GO
+GO
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (801, N'Nester', N'Klaessen', N'nklaessenm8@bloglines.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (802, N'Ethelyn', N'Shambrook', N'eshambrookm9@salon.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (803, N'Fifine', N'Kinworthy', N'fkinworthyma@studiopress.com')
@@ -908,7 +907,7 @@ INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALU
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (898, N'Nixie', N'Musk', N'nmuskox@mapquest.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (899, N'Austen', N'Alyutin', N'aalyutinoy@scribd.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (900, N'Bernete', N'Purle', N'bpurleoz@sciencedirect.com')
---GO
+GO
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (901, N'Jemie', N'Redmille', N'jredmillep0@cnet.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (902, N'Corby', N'Mattsson', N'cmattssonp1@elegantthemes.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (903, N'Tessi', N'Carbin', N'tcarbinp2@oaic.gov.au')
@@ -1009,7 +1008,7 @@ INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALU
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (998, N'Forbes', N'Rattrie', N'frattrierp@foxnews.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (999, N'Gus', N'Willavoys', N'gwillavoysrq@deliciousdays.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1000, N'Fanechka', N'Bartomeu', N'fbartomeurr@washington.edu')
---GO
+GO
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1001, N'Ricky', N'Lafranconi', N'rlafranconi0@rakuten.co.jp')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1002, N'Elva', N'Shearme', N'eshearme1@unblog.fr')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1003, N'Dorothy', N'Agutter', N'dagutter2@irs.gov')
@@ -1110,7 +1109,7 @@ INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALU
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1098, N'Anallise', N'Menat', N'amenat2p@simplemachines.org')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1099, N'Julee', N'Barenskie', N'jbarenskie2q@unc.edu')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1100, N'Sybilla', N'Lamble', N'slamble2r@sogou.com')
---GO
+GO
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1101, N'Laurice', N'Causon', N'lcauson2s@cnbc.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1102, N'Flora', N'Cyseley', N'fcyseley2t@youku.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1103, N'Trudie', N'Clash', N'tclash2u@mac.com')
@@ -1211,7 +1210,7 @@ INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALU
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1198, N'Myrle', N'Magill', N'mmagill5h@about.me')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1199, N'Livvyy', N'Rising', N'lrising5i@pbs.org')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1200, N'Robinet', N'MacGee', N'rmacgee5j@nbcnews.com')
---GO
+GO
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1201, N'Natka', N'Casarili', N'ncasarili5k@webnode.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1202, N'Dallas', N'Gouldsmith', N'dgouldsmith5l@wordpress.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1203, N'Noreen', N'Stanluck', N'nstanluck5m@independent.co.uk')
@@ -1312,7 +1311,7 @@ INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALU
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1298, N'Suzette', N'Maskelyne', N'smaskelyne89@tinypic.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1299, N'Ermin', N'Cristobal', N'ecristobal8a@census.gov')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1300, N'Elyse', N'Mechell', N'emechell8b@upenn.edu')
---GO
+GO
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1301, N'Eleanora', N'Clemon', N'eclemon8c@reverbnation.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1302, N'Gui', N'Vint', N'gvint8d@berkeley.edu')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1303, N'Lizzy', N'Donneely', N'ldonneely8e@xing.com')
@@ -1413,7 +1412,7 @@ INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALU
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1398, N'Johnny', N'Hanlin', N'jhanlinb1@hexun.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1399, N'Cynthia', N'Kunat', N'ckunatb2@hubpages.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1400, N'Dedie', N'Dodding', N'ddoddingb3@vk.com')
---GO
+GO
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1401, N'Angele', N'Churchman', N'achurchmanb4@dmoz.org')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1402, N'Angel', N'Quenby', N'aquenbyb5@dailymail.co.uk')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1403, N'Ivar', N'Osinin', N'iosininb6@cisco.com')
@@ -1514,7 +1513,7 @@ INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALU
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1498, N'Dorella', N'Bulpitt', N'dbulpittdt@mit.edu')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1499, N'Ransom', N'Clive', N'rclivedu@icio.us')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1500, N'Conan', N'Safell', N'csafelldv@uol.com.br')
---GO
+GO
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1501, N'Natka', N'Howells', N'nhowellsdw@squarespace.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1502, N'Reinold', N'Fransman', N'rfransmandx@google.com.br')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1503, N'Arlen', N'Plum', N'aplumdy@newsvine.com')
@@ -1615,7 +1614,7 @@ INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALU
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1598, N'Patrizio', N'Di Franceschi', N'pdifranceschigl@printfriendly.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1599, N'Jeffry', N'Blasl', N'jblaslgm@va.gov')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1600, N'Tiffany', N'Luno', N'tlunogn@patch.com')
---GO
+GO
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1601, N'Theo', N'Hebron', N'thebrongo@simplemachines.org')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1602, N'Kora', N'Bamber', N'kbambergp@shareasale.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1603, N'Edan', N'Martygin', N'emartygingq@biglobe.ne.jp')
@@ -1716,7 +1715,7 @@ INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALU
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1698, N'Hort', N'Wilber', N'hwilberjd@deviantart.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1699, N'Gideon', N'Bartkowiak', N'gbartkowiakje@bbb.org')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1700, N'Eugen', N'Nevet', N'enevetjf@is.gd')
---GO
+GO
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1701, N'Burnard', N'Cotte', N'bcottejg@tamu.edu')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1702, N'Lindsay', N'Alennikov', N'lalennikovjh@studiopress.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1703, N'Nancey', N'Bales', N'nbalesji@ox.ac.uk')
@@ -1817,7 +1816,7 @@ INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALU
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1798, N'Falkner', N'Kenryd', N'fkenrydm5@cbc.ca')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1799, N'Kienan', N'Mauser', N'kmauserm6@nationalgeographic.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1800, N'Emelia', N'Foulkes', N'efoulkesm7@virginia.edu')
---GO
+GO
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1801, N'Cristina', N'Quinnelly', N'cquinnellym8@nps.gov')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1802, N'Ulrike', N'Sabie', N'usabiem9@hc360.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1803, N'Mikey', N'Pol', N'mpolma@mayoclinic.com')
@@ -1918,7 +1917,7 @@ INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALU
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1898, N'Rheta', N'Sparrowe', N'rsparroweox@jimdo.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1899, N'Johnathan', N'Gothrup', N'jgothrupoy@home.pl')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1900, N'Vivie', N'McVie', N'vmcvieoz@oracle.com')
---GO
+GO
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1901, N'Thedrick', N'Henrichs', N'thenrichsp0@businesswire.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1902, N'Odille', N'Caldecourt', N'ocaldecourtp1@google.it')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1903, N'Hilary', N'Vispo', N'hvispop2@printfriendly.com')
@@ -2019,4 +2018,3 @@ INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALU
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1998, N'Georgeanna', N'Garman', N'ggarmanrp@surveymonkey.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (1999, N'Ardeen', N'Caret', N'acaretrq@wsj.com')
 INSERT [dbo].[customer] ([customer_id], [first_name], [last_name], [email]) VALUES (2000, N'Delora', N'Bigglestone', N'dbigglestonerr@usatoday.com')
-*/

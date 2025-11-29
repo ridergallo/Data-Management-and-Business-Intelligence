@@ -1,4 +1,4 @@
-﻿/*GO
+﻿GO
 SET IDENTITY_INSERT [dbo].[order_line] ON 
 
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1, 2219, 9097, CAST(13.08 AS Decimal(5, 2)))
@@ -100,7 +100,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (96
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (97, 5314, 1800, CAST(12.46 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (98, 5840, 7480, CAST(7.86 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (99, 7386, 1686, CAST(9.26 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (100, 7157, 4455, CAST(16.61 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (101, 1401, 11127, CAST(0.99 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (102, 4210, 2524, CAST(17.57 AS Decimal(5, 2)))
@@ -201,7 +201,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (19
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (197, 3506, 10833, CAST(14.60 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (198, 6540, 6229, CAST(18.79 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (199, 7128, 7590, CAST(9.12 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (200, 4595, 5945, CAST(13.59 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (201, 118, 4541, CAST(3.11 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (202, 5235, 10122, CAST(14.84 AS Decimal(5, 2)))
@@ -302,7 +302,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (29
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (297, 872, 481, CAST(19.49 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (298, 3787, 5975, CAST(19.98 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (299, 4622, 2379, CAST(7.45 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (300, 4782, 1965, CAST(4.50 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (301, 1396, 1754, CAST(15.90 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (302, 2050, 10761, CAST(6.92 AS Decimal(5, 2)))
@@ -403,7 +403,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (39
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (397, 4873, 2275, CAST(12.88 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (398, 4938, 1261, CAST(4.47 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (399, 964, 8732, CAST(17.33 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (400, 413, 2909, CAST(10.34 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (401, 581, 3891, CAST(7.76 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (402, 132, 4741, CAST(9.54 AS Decimal(5, 2)))
@@ -504,7 +504,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (49
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (497, 5618, 3334, CAST(5.53 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (498, 6521, 8493, CAST(11.97 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (499, 4178, 10661, CAST(18.14 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (500, 6237, 10908, CAST(16.26 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (501, 2510, 8586, CAST(13.62 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (502, 6388, 8790, CAST(19.13 AS Decimal(5, 2)))
@@ -605,7 +605,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (59
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (597, 2836, 1329, CAST(13.45 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (598, 4606, 8554, CAST(0.31 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (599, 5701, 4321, CAST(6.43 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (600, 910, 8643, CAST(9.44 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (601, 165, 5533, CAST(11.78 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (602, 6663, 1048, CAST(8.55 AS Decimal(5, 2)))
@@ -706,7 +706,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (69
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (697, 4133, 5254, CAST(5.37 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (698, 1599, 8100, CAST(0.37 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (699, 1023, 1793, CAST(1.54 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (700, 1362, 7831, CAST(10.56 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (701, 2661, 2125, CAST(2.02 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (702, 1120, 5171, CAST(19.18 AS Decimal(5, 2)))
@@ -807,7 +807,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (79
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (797, 6953, 6742, CAST(19.26 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (798, 4077, 593, CAST(5.71 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (799, 331, 7837, CAST(2.50 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (800, 5139, 5822, CAST(1.89 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (801, 4770, 472, CAST(5.10 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (802, 1996, 3241, CAST(2.42 AS Decimal(5, 2)))
@@ -908,7 +908,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (89
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (897, 3462, 7616, CAST(12.62 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (898, 2404, 93, CAST(13.08 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (899, 4370, 8589, CAST(7.52 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (900, 4302, 591, CAST(0.60 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (901, 4392, 10552, CAST(4.68 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (902, 4254, 4760, CAST(18.50 AS Decimal(5, 2)))
@@ -1009,7 +1009,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (99
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (997, 6849, 9962, CAST(10.40 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (998, 4066, 1743, CAST(17.16 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (999, 2914, 6900, CAST(12.96 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1000, 6776, 4096, CAST(7.52 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1001, 2159, 327, CAST(7.72 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1002, 5317, 5622, CAST(12.48 AS Decimal(5, 2)))
@@ -1110,7 +1110,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1097, 5685, 10871, CAST(14.15 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1098, 1686, 6960, CAST(13.65 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1099, 3947, 9658, CAST(3.79 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1100, 885, 7978, CAST(4.00 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1101, 6380, 10268, CAST(0.43 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1102, 3415, 10702, CAST(13.44 AS Decimal(5, 2)))
@@ -1211,7 +1211,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1197, 3272, 6857, CAST(18.61 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1198, 2465, 4916, CAST(19.37 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1199, 6887, 1619, CAST(18.91 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1200, 3385, 447, CAST(10.05 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1201, 4266, 6107, CAST(13.71 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1202, 4201, 10823, CAST(12.46 AS Decimal(5, 2)))
@@ -1312,7 +1312,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1297, 780, 6937, CAST(16.61 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1298, 5160, 9088, CAST(1.09 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1299, 3714, 7857, CAST(11.40 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1300, 5903, 7756, CAST(3.40 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1301, 3508, 9015, CAST(18.83 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1302, 3653, 1161, CAST(6.79 AS Decimal(5, 2)))
@@ -1413,7 +1413,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1397, 2846, 6784, CAST(14.89 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1398, 2603, 2791, CAST(4.50 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1399, 5267, 10441, CAST(1.94 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1400, 2383, 443, CAST(1.41 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1401, 1407, 3963, CAST(16.61 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1402, 3811, 7378, CAST(4.34 AS Decimal(5, 2)))
@@ -1514,7 +1514,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1497, 1641, 6366, CAST(1.53 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1498, 7067, 2570, CAST(8.15 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1499, 6690, 6893, CAST(16.99 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1500, 6479, 2015, CAST(18.61 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1501, 6886, 7239, CAST(18.88 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1502, 657, 1266, CAST(1.48 AS Decimal(5, 2)))
@@ -1615,7 +1615,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (15
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1597, 3520, 175, CAST(17.04 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1598, 1690, 7704, CAST(9.77 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1599, 7398, 8478, CAST(6.44 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1600, 1051, 9522, CAST(9.41 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1601, 2379, 7023, CAST(1.27 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1602, 6307, 10583, CAST(5.36 AS Decimal(5, 2)))
@@ -1716,7 +1716,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (16
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1697, 1187, 3007, CAST(13.70 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1698, 843, 356, CAST(4.83 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1699, 7409, 10755, CAST(15.35 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1700, 344, 1849, CAST(0.07 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1701, 6494, 2775, CAST(0.35 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1702, 1980, 1159, CAST(1.46 AS Decimal(5, 2)))
@@ -1817,7 +1817,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (17
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1797, 500, 8810, CAST(9.44 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1798, 993, 5258, CAST(10.71 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1799, 6969, 4589, CAST(10.66 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1800, 3441, 2681, CAST(14.37 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1801, 7383, 1602, CAST(9.92 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1802, 6881, 132, CAST(3.12 AS Decimal(5, 2)))
@@ -1918,7 +1918,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (18
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1897, 6217, 9589, CAST(0.82 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1898, 2629, 3180, CAST(18.15 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1899, 2728, 1574, CAST(14.78 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1900, 3593, 4860, CAST(0.36 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1901, 6407, 10973, CAST(8.54 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1902, 6165, 3298, CAST(1.11 AS Decimal(5, 2)))
@@ -2019,7 +2019,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (19
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1997, 6959, 9225, CAST(3.72 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1998, 3731, 4106, CAST(19.57 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (1999, 2421, 5687, CAST(3.08 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2000, 5241, 10205, CAST(6.82 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2001, 3352, 10836, CAST(2.38 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2002, 6270, 1578, CAST(1.33 AS Decimal(5, 2)))
@@ -2120,7 +2120,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (20
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2097, 5443, 8649, CAST(6.88 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2098, 5020, 386, CAST(18.85 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2099, 7289, 2277, CAST(0.30 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2100, 5758, 10844, CAST(13.98 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2101, 110, 10691, CAST(8.02 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2102, 1668, 4389, CAST(4.89 AS Decimal(5, 2)))
@@ -2221,7 +2221,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (21
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2197, 3308, 6370, CAST(3.39 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2198, 4380, 10458, CAST(18.11 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2199, 2212, 6510, CAST(14.66 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2200, 7007, 10709, CAST(17.38 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2201, 6917, 186, CAST(11.38 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2202, 7427, 5003, CAST(3.37 AS Decimal(5, 2)))
@@ -2322,7 +2322,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (22
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2297, 4706, 6985, CAST(16.06 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2298, 93, 6179, CAST(5.52 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2299, 2486, 3226, CAST(19.74 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2300, 4069, 9415, CAST(1.00 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2301, 4582, 7089, CAST(17.36 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2302, 903, 9954, CAST(7.30 AS Decimal(5, 2)))
@@ -2423,7 +2423,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (23
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2397, 4948, 6149, CAST(2.44 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2398, 6595, 5976, CAST(18.88 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2399, 5746, 9091, CAST(12.83 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2400, 5654, 7323, CAST(7.91 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2401, 4008, 1657, CAST(6.48 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2402, 1358, 1668, CAST(19.22 AS Decimal(5, 2)))
@@ -2524,7 +2524,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (24
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2497, 7388, 9631, CAST(18.17 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2498, 1679, 6160, CAST(18.19 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2499, 6693, 4212, CAST(1.79 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2500, 3151, 1898, CAST(6.87 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2501, 2063, 3722, CAST(1.09 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2502, 1598, 7253, CAST(1.65 AS Decimal(5, 2)))
@@ -2625,7 +2625,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (25
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2597, 7527, 6183, CAST(8.79 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2598, 3602, 5531, CAST(5.57 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2599, 4824, 9857, CAST(5.69 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2600, 3772, 4131, CAST(1.51 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2601, 2293, 6355, CAST(15.52 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2602, 3310, 3748, CAST(6.56 AS Decimal(5, 2)))
@@ -2726,7 +2726,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (26
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2697, 382, 10597, CAST(15.81 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2698, 6142, 8424, CAST(6.35 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2699, 3824, 8725, CAST(12.44 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2700, 4296, 7204, CAST(12.87 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2701, 5976, 496, CAST(0.68 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2702, 6284, 8908, CAST(9.17 AS Decimal(5, 2)))
@@ -2827,7 +2827,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (27
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2797, 1174, 5502, CAST(9.98 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2798, 2873, 1727, CAST(3.05 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2799, 7158, 2774, CAST(17.94 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2800, 5737, 4544, CAST(13.87 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2801, 1444, 9851, CAST(6.09 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2802, 6783, 9500, CAST(3.80 AS Decimal(5, 2)))
@@ -2928,7 +2928,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (28
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2897, 1159, 1066, CAST(8.87 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2898, 745, 9366, CAST(13.91 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2899, 6170, 10839, CAST(7.32 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2900, 6605, 6755, CAST(5.56 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2901, 7423, 8533, CAST(0.05 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2902, 1336, 7561, CAST(7.82 AS Decimal(5, 2)))
@@ -3029,7 +3029,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (29
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2997, 6561, 3708, CAST(11.69 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2998, 3963, 10208, CAST(9.07 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (2999, 1662, 10914, CAST(1.47 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3000, 2539, 9374, CAST(14.47 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3001, 1680, 9781, CAST(14.05 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3002, 2983, 9627, CAST(10.67 AS Decimal(5, 2)))
@@ -3130,7 +3130,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (30
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3097, 596, 3962, CAST(4.30 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3098, 3250, 6905, CAST(3.42 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3099, 1591, 6998, CAST(7.73 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3100, 1470, 10226, CAST(15.74 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3101, 3077, 5727, CAST(12.01 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3102, 477, 1822, CAST(17.66 AS Decimal(5, 2)))
@@ -3231,7 +3231,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (31
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3197, 3389, 1297, CAST(17.14 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3198, 2508, 733, CAST(4.55 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3199, 1081, 10151, CAST(14.17 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3200, 4838, 9457, CAST(7.93 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3201, 3345, 1750, CAST(5.37 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3202, 3198, 712, CAST(1.73 AS Decimal(5, 2)))
@@ -3332,7 +3332,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (32
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3297, 3913, 5394, CAST(17.69 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3298, 1840, 4635, CAST(15.19 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3299, 2526, 3663, CAST(16.43 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3300, 6898, 3201, CAST(0.67 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3301, 4108, 9298, CAST(17.61 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3302, 3018, 500, CAST(18.09 AS Decimal(5, 2)))
@@ -3433,7 +3433,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (33
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3397, 945, 9900, CAST(1.39 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3398, 5759, 3904, CAST(4.25 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3399, 5112, 6138, CAST(2.65 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3400, 5862, 9304, CAST(14.81 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3401, 6152, 7920, CAST(12.84 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3402, 6391, 7308, CAST(0.03 AS Decimal(5, 2)))
@@ -3534,7 +3534,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (34
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3497, 2455, 7924, CAST(6.86 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3498, 3807, 396, CAST(16.80 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3499, 466, 10682, CAST(9.51 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3500, 4495, 8796, CAST(3.65 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3501, 1128, 8628, CAST(11.52 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3502, 3590, 1363, CAST(14.54 AS Decimal(5, 2)))
@@ -3635,7 +3635,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (35
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3597, 3780, 2998, CAST(2.56 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3598, 1930, 1691, CAST(3.64 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3599, 380, 9532, CAST(2.71 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3600, 5217, 5542, CAST(13.11 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3601, 850, 10074, CAST(6.97 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3602, 4626, 3240, CAST(7.23 AS Decimal(5, 2)))
@@ -3736,7 +3736,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (36
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3697, 1695, 5721, CAST(17.09 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3698, 1279, 8949, CAST(5.29 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3699, 6731, 7284, CAST(17.84 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3700, 3715, 5422, CAST(9.08 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3701, 4576, 6839, CAST(4.09 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3702, 412, 10678, CAST(3.72 AS Decimal(5, 2)))
@@ -3837,7 +3837,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (37
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3797, 6986, 10033, CAST(8.00 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3798, 5640, 5719, CAST(15.08 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3799, 1319, 5266, CAST(19.65 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3800, 5264, 9741, CAST(2.46 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3801, 1013, 3857, CAST(18.30 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3802, 2161, 489, CAST(7.98 AS Decimal(5, 2)))
@@ -3938,7 +3938,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (38
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3897, 3307, 6803, CAST(13.28 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3898, 6640, 5007, CAST(12.21 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3899, 2884, 6236, CAST(7.87 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3900, 5983, 10363, CAST(12.73 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3901, 3364, 6926, CAST(10.68 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3902, 7522, 7879, CAST(6.33 AS Decimal(5, 2)))
@@ -4039,7 +4039,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (39
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3997, 2720, 10160, CAST(4.65 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3998, 808, 3993, CAST(8.41 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (3999, 3315, 10733, CAST(3.61 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4000, 3209, 6085, CAST(8.72 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4001, 2562, 7859, CAST(13.33 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4002, 5527, 5360, CAST(13.79 AS Decimal(5, 2)))
@@ -4140,7 +4140,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (40
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4097, 2757, 9521, CAST(3.21 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4098, 6916, 3349, CAST(12.93 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4099, 2365, 1653, CAST(2.29 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4100, 4600, 5386, CAST(18.63 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4101, 2155, 5550, CAST(9.82 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4102, 3796, 5992, CAST(1.84 AS Decimal(5, 2)))
@@ -4241,7 +4241,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (41
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4197, 4404, 784, CAST(1.21 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4198, 2207, 10251, CAST(12.32 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4199, 5671, 6420, CAST(7.35 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4200, 3285, 53, CAST(3.17 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4201, 3199, 4178, CAST(14.35 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4202, 2653, 8360, CAST(3.75 AS Decimal(5, 2)))
@@ -4342,7 +4342,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (42
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4297, 2456, 10279, CAST(9.92 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4298, 7065, 9609, CAST(15.42 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4299, 7506, 7226, CAST(9.65 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4300, 2345, 3781, CAST(14.71 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4301, 2509, 10169, CAST(10.14 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4302, 3118, 10049, CAST(4.00 AS Decimal(5, 2)))
@@ -4443,7 +4443,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (43
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4397, 1156, 8193, CAST(13.66 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4398, 6348, 1232, CAST(0.94 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4399, 6755, 8195, CAST(9.22 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4400, 4523, 3436, CAST(17.14 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4401, 5352, 494, CAST(16.34 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4402, 7329, 2016, CAST(15.56 AS Decimal(5, 2)))
@@ -4544,7 +4544,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (44
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4497, 5032, 4465, CAST(0.90 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4498, 373, 8531, CAST(19.87 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4499, 7498, 5568, CAST(10.01 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4500, 3938, 2326, CAST(13.86 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4501, 12, 4055, CAST(6.50 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4502, 2248, 6218, CAST(12.79 AS Decimal(5, 2)))
@@ -4645,7 +4645,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (45
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4597, 4567, 4103, CAST(4.94 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4598, 3569, 7568, CAST(6.30 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4599, 3923, 1902, CAST(19.24 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4600, 5851, 9314, CAST(18.18 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4601, 6934, 7932, CAST(19.67 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4602, 1998, 2948, CAST(12.76 AS Decimal(5, 2)))
@@ -4746,7 +4746,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (46
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4697, 1992, 8120, CAST(13.95 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4698, 7242, 4930, CAST(18.00 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4699, 5770, 162, CAST(17.95 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4700, 3885, 4263, CAST(4.58 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4701, 5482, 6712, CAST(18.99 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4702, 2028, 735, CAST(15.85 AS Decimal(5, 2)))
@@ -4847,7 +4847,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (47
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4797, 3532, 6309, CAST(3.43 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4798, 3069, 9347, CAST(13.01 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4799, 414, 1870, CAST(14.68 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4800, 6611, 9744, CAST(4.96 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4801, 4092, 3650, CAST(12.15 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4802, 6975, 2395, CAST(4.88 AS Decimal(5, 2)))
@@ -4948,7 +4948,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (48
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4897, 6839, 8021, CAST(16.33 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4898, 3578, 8119, CAST(12.73 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4899, 3626, 6109, CAST(1.90 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4900, 4072, 6268, CAST(15.87 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4901, 3447, 2846, CAST(19.07 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4902, 4638, 10097, CAST(18.33 AS Decimal(5, 2)))
@@ -5049,7 +5049,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (49
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4997, 5505, 4955, CAST(9.06 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4998, 7290, 4380, CAST(6.42 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (4999, 6091, 1114, CAST(5.73 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5000, 2500, 5735, CAST(3.91 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5001, 3400, 6734, CAST(15.36 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5002, 6381, 9620, CAST(2.87 AS Decimal(5, 2)))
@@ -5150,7 +5150,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (50
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5097, 5244, 10531, CAST(18.51 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5098, 6268, 5272, CAST(7.43 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5099, 4705, 788, CAST(2.52 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5100, 3936, 9487, CAST(17.58 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5101, 6440, 4229, CAST(1.45 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5102, 4878, 9218, CAST(7.52 AS Decimal(5, 2)))
@@ -5251,7 +5251,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (51
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5197, 2011, 10231, CAST(11.43 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5198, 2690, 3960, CAST(8.21 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5199, 750, 7657, CAST(7.82 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5200, 339, 6585, CAST(19.20 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5201, 1975, 3550, CAST(10.15 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5202, 2352, 2765, CAST(9.30 AS Decimal(5, 2)))
@@ -5352,7 +5352,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (52
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5297, 4599, 9978, CAST(19.60 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5298, 119, 703, CAST(9.91 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5299, 3050, 3338, CAST(17.39 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5300, 7486, 3164, CAST(16.31 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5301, 3770, 9387, CAST(11.61 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5302, 785, 9074, CAST(7.05 AS Decimal(5, 2)))
@@ -5453,7 +5453,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (53
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5397, 3377, 11121, CAST(5.90 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5398, 7239, 8912, CAST(11.43 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5399, 1379, 5954, CAST(5.93 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5400, 1925, 3126, CAST(1.96 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5401, 6184, 10335, CAST(11.19 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5402, 113, 7596, CAST(5.75 AS Decimal(5, 2)))
@@ -5554,7 +5554,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (54
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5497, 1045, 9888, CAST(15.00 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5498, 5388, 3227, CAST(1.52 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5499, 3062, 8270, CAST(19.03 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5500, 3192, 5565, CAST(13.05 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5501, 5513, 914, CAST(8.33 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5502, 2567, 7030, CAST(10.59 AS Decimal(5, 2)))
@@ -5655,7 +5655,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (55
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5597, 892, 9004, CAST(6.81 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5598, 5487, 5659, CAST(14.53 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5599, 2594, 9875, CAST(4.98 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5600, 2313, 1961, CAST(2.01 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5601, 4415, 8594, CAST(6.20 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5602, 2576, 1288, CAST(10.13 AS Decimal(5, 2)))
@@ -5756,7 +5756,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (56
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5697, 854, 7181, CAST(8.14 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5698, 7331, 4046, CAST(9.57 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5699, 5637, 4277, CAST(7.20 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5700, 6734, 68, CAST(6.04 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5701, 1546, 3721, CAST(17.37 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5702, 6542, 7807, CAST(10.77 AS Decimal(5, 2)))
@@ -5857,7 +5857,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (57
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5797, 4755, 134, CAST(16.66 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5798, 1513, 5347, CAST(15.20 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5799, 4899, 7503, CAST(18.19 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5800, 881, 9561, CAST(11.57 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5801, 7530, 10142, CAST(4.90 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5802, 155, 9732, CAST(13.44 AS Decimal(5, 2)))
@@ -5958,7 +5958,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (58
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5897, 6466, 6817, CAST(15.51 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5898, 6326, 5965, CAST(2.28 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5899, 1939, 5426, CAST(6.31 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5900, 3788, 6892, CAST(17.10 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5901, 6630, 10809, CAST(18.19 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5902, 5781, 219, CAST(3.89 AS Decimal(5, 2)))
@@ -6059,7 +6059,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (59
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5997, 2650, 8813, CAST(17.75 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5998, 4157, 8472, CAST(16.04 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (5999, 4959, 2802, CAST(18.74 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6000, 4571, 4244, CAST(12.08 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6001, 3794, 3169, CAST(2.25 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6002, 7520, 5061, CAST(5.22 AS Decimal(5, 2)))
@@ -6160,7 +6160,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (60
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6097, 5103, 4449, CAST(7.04 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6098, 6318, 8948, CAST(15.24 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6099, 2542, 4109, CAST(2.73 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6100, 616, 604, CAST(9.23 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6101, 6889, 10504, CAST(19.79 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6102, 5281, 5307, CAST(12.48 AS Decimal(5, 2)))
@@ -6261,7 +6261,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (61
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6197, 3126, 7210, CAST(14.62 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6198, 2857, 1580, CAST(0.54 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6199, 1742, 2371, CAST(4.48 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6200, 5041, 1604, CAST(0.08 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6201, 5467, 104, CAST(13.05 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6202, 4515, 1371, CAST(4.34 AS Decimal(5, 2)))
@@ -6362,7 +6362,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (62
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6297, 5953, 3644, CAST(8.31 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6298, 292, 8242, CAST(12.91 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6299, 4429, 4992, CAST(11.77 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6300, 5996, 7595, CAST(13.93 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6301, 285, 10044, CAST(19.11 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6302, 4035, 6952, CAST(7.73 AS Decimal(5, 2)))
@@ -6463,7 +6463,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (63
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6397, 450, 1351, CAST(10.45 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6398, 3035, 6946, CAST(13.25 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6399, 3970, 8389, CAST(10.00 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6400, 4223, 416, CAST(3.22 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6401, 2626, 8080, CAST(1.35 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6402, 2068, 2870, CAST(13.42 AS Decimal(5, 2)))
@@ -6564,7 +6564,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (64
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6497, 4619, 4972, CAST(10.23 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6498, 3123, 10800, CAST(16.74 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6499, 5172, 2550, CAST(12.85 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6500, 7460, 5433, CAST(14.66 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6501, 3644, 9944, CAST(14.82 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6502, 640, 7669, CAST(8.37 AS Decimal(5, 2)))
@@ -6665,7 +6665,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (65
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6597, 2145, 3526, CAST(0.74 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6598, 3096, 961, CAST(11.97 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6599, 2367, 5344, CAST(8.00 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6600, 6988, 2337, CAST(2.32 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6601, 4504, 516, CAST(17.39 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6602, 5511, 6057, CAST(18.99 AS Decimal(5, 2)))
@@ -6766,7 +6766,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (66
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6697, 2144, 9796, CAST(4.17 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6698, 4787, 4858, CAST(7.07 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6699, 5901, 5785, CAST(17.49 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6700, 1343, 3874, CAST(11.66 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6701, 1434, 154, CAST(6.16 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6702, 6232, 6427, CAST(1.32 AS Decimal(5, 2)))
@@ -6867,7 +6867,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (67
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6797, 7422, 4688, CAST(5.87 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6798, 2373, 8769, CAST(6.11 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6799, 6532, 1656, CAST(19.80 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6800, 6667, 4873, CAST(17.47 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6801, 3612, 9555, CAST(6.75 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6802, 2619, 8502, CAST(10.07 AS Decimal(5, 2)))
@@ -6968,7 +6968,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (68
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6897, 5192, 1915, CAST(2.13 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6898, 5226, 10553, CAST(18.79 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6899, 4474, 3083, CAST(17.19 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6900, 6835, 1299, CAST(10.63 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6901, 1703, 8088, CAST(12.40 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6902, 7034, 375, CAST(15.54 AS Decimal(5, 2)))
@@ -7069,7 +7069,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (69
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6997, 5552, 1594, CAST(17.62 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6998, 6196, 1076, CAST(1.11 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (6999, 7107, 6267, CAST(18.86 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7000, 2226, 6651, CAST(15.66 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7001, 5533, 1937, CAST(13.01 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7002, 2583, 10228, CAST(19.49 AS Decimal(5, 2)))
@@ -7170,7 +7170,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (70
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7097, 3003, 8494, CAST(19.06 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7098, 6738, 373, CAST(0.85 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7099, 6947, 8742, CAST(19.59 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7100, 123, 5125, CAST(13.16 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7101, 2388, 8477, CAST(9.05 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7102, 2878, 3159, CAST(6.78 AS Decimal(5, 2)))
@@ -7271,7 +7271,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (71
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7197, 2162, 8960, CAST(1.43 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7198, 2298, 9992, CAST(15.72 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7199, 3850, 6215, CAST(18.24 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7200, 3002, 2590, CAST(18.76 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7201, 5507, 10923, CAST(17.70 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7202, 4654, 3696, CAST(3.84 AS Decimal(5, 2)))
@@ -7372,7 +7372,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (72
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7297, 633, 8378, CAST(15.50 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7298, 5865, 2803, CAST(12.61 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7299, 4401, 4237, CAST(1.96 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7300, 5582, 4546, CAST(8.17 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7301, 5157, 8965, CAST(15.93 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7302, 6363, 7560, CAST(3.34 AS Decimal(5, 2)))
@@ -7473,7 +7473,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (73
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7397, 663, 3871, CAST(14.58 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7398, 6423, 9079, CAST(15.45 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7399, 4019, 5167, CAST(15.07 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7400, 899, 1173, CAST(2.35 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7401, 1161, 6386, CAST(8.69 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7402, 7300, 5064, CAST(5.71 AS Decimal(5, 2)))
@@ -7574,7 +7574,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (74
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7497, 6397, 9908, CAST(0.66 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7498, 3043, 339, CAST(6.62 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7499, 4457, 1890, CAST(10.16 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7500, 6859, 641, CAST(2.85 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7501, 6290, 1985, CAST(16.85 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7502, 6063, 1484, CAST(3.30 AS Decimal(5, 2)))
@@ -7675,7 +7675,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (75
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7597, 6134, 2461, CAST(14.09 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7598, 1161, 6900, CAST(12.61 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7599, 2743, 11079, CAST(5.58 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7600, 7049, 5490, CAST(1.88 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7601, 2786, 6082, CAST(5.38 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7602, 1115, 6059, CAST(2.85 AS Decimal(5, 2)))
@@ -7776,7 +7776,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (76
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7697, 227, 5228, CAST(10.09 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7698, 73, 2366, CAST(19.56 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7699, 1955, 1929, CAST(1.80 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7700, 6848, 3571, CAST(18.61 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7701, 4992, 3912, CAST(15.36 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7702, 1256, 5187, CAST(10.18 AS Decimal(5, 2)))
@@ -7877,7 +7877,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (77
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7797, 2053, 7331, CAST(1.81 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7798, 3370, 9649, CAST(6.83 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7799, 2705, 1001, CAST(1.27 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7800, 2464, 2116, CAST(5.48 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7801, 2606, 9624, CAST(14.70 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7802, 6954, 4589, CAST(11.72 AS Decimal(5, 2)))
@@ -7978,7 +7978,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (78
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7897, 3441, 9628, CAST(6.64 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7898, 7481, 808, CAST(12.30 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7899, 2253, 10643, CAST(0.32 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7900, 5586, 7542, CAST(19.76 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7901, 825, 2829, CAST(10.61 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7902, 4170, 181, CAST(7.00 AS Decimal(5, 2)))
@@ -8079,7 +8079,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (79
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7997, 3917, 10619, CAST(9.52 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7998, 5989, 2893, CAST(19.16 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (7999, 1411, 891, CAST(17.87 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8000, 4677, 4404, CAST(17.76 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8001, 2531, 9864, CAST(15.06 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8002, 7356, 2487, CAST(5.85 AS Decimal(5, 2)))
@@ -8180,7 +8180,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (80
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8097, 3395, 6997, CAST(4.68 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8098, 4220, 2782, CAST(8.00 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8099, 209, 6307, CAST(8.60 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8100, 1623, 9219, CAST(19.63 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8101, 2012, 10728, CAST(9.64 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8102, 3588, 7690, CAST(7.96 AS Decimal(5, 2)))
@@ -8281,7 +8281,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (81
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8197, 3648, 2947, CAST(14.93 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8198, 6299, 11119, CAST(1.95 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8199, 1154, 657, CAST(11.54 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8200, 1001, 1287, CAST(13.59 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8201, 2956, 9318, CAST(0.89 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8202, 3583, 8960, CAST(17.37 AS Decimal(5, 2)))
@@ -8382,7 +8382,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (82
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8297, 2698, 8788, CAST(5.02 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8298, 2194, 727, CAST(17.04 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8299, 7449, 7594, CAST(15.46 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8300, 6567, 8667, CAST(5.89 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8301, 6281, 6836, CAST(8.83 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8302, 5682, 7677, CAST(12.58 AS Decimal(5, 2)))
@@ -8483,7 +8483,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (83
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8397, 613, 2913, CAST(19.62 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8398, 775, 660, CAST(15.11 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8399, 2018, 6727, CAST(0.69 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8400, 1507, 1619, CAST(15.63 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8401, 1543, 3514, CAST(12.85 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8402, 441, 8113, CAST(9.78 AS Decimal(5, 2)))
@@ -8584,7 +8584,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (84
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8497, 1132, 2814, CAST(15.24 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8498, 3770, 6299, CAST(5.51 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8499, 3730, 5759, CAST(0.04 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8500, 4419, 3251, CAST(6.99 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8501, 1716, 11043, CAST(16.90 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8502, 2686, 2044, CAST(15.03 AS Decimal(5, 2)))
@@ -8685,7 +8685,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (85
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8597, 5632, 5096, CAST(6.11 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8598, 1230, 2220, CAST(8.78 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8599, 5363, 6828, CAST(13.16 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8600, 1714, 10400, CAST(17.61 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8601, 1537, 7637, CAST(15.61 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8602, 4647, 7024, CAST(14.24 AS Decimal(5, 2)))
@@ -8786,7 +8786,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (86
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8697, 6944, 9098, CAST(5.90 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8698, 852, 6708, CAST(16.96 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8699, 793, 7883, CAST(11.20 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8700, 2846, 194, CAST(10.56 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8701, 4257, 9622, CAST(13.65 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8702, 6726, 9329, CAST(1.35 AS Decimal(5, 2)))
@@ -8887,7 +8887,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (87
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8797, 2992, 5028, CAST(8.30 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8798, 3243, 7488, CAST(11.41 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8799, 5461, 9371, CAST(4.88 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8800, 7261, 7992, CAST(13.85 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8801, 5449, 3346, CAST(15.21 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8802, 6038, 6226, CAST(12.07 AS Decimal(5, 2)))
@@ -8988,7 +8988,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (88
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8897, 6979, 1378, CAST(16.76 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8898, 2052, 9618, CAST(6.68 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8899, 5264, 4118, CAST(5.32 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8900, 3932, 10159, CAST(18.35 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8901, 3899, 3456, CAST(10.09 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8902, 596, 8549, CAST(16.59 AS Decimal(5, 2)))
@@ -9089,7 +9089,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (89
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8997, 6698, 1102, CAST(7.78 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8998, 1567, 1119, CAST(8.11 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (8999, 611, 5844, CAST(5.48 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9000, 7463, 7444, CAST(18.90 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9001, 2465, 9712, CAST(8.11 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9002, 4447, 7689, CAST(15.65 AS Decimal(5, 2)))
@@ -9190,7 +9190,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (90
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9097, 5699, 2622, CAST(11.74 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9098, 1305, 1642, CAST(6.28 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9099, 7076, 7604, CAST(15.02 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9100, 4411, 6567, CAST(3.39 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9101, 3442, 10592, CAST(1.10 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9102, 2095, 10243, CAST(18.24 AS Decimal(5, 2)))
@@ -9291,7 +9291,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (91
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9197, 6681, 4076, CAST(6.08 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9198, 2405, 2109, CAST(3.72 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9199, 7410, 8072, CAST(8.76 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9200, 191, 9293, CAST(6.58 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9201, 3097, 1628, CAST(9.88 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9202, 333, 8480, CAST(0.27 AS Decimal(5, 2)))
@@ -9392,7 +9392,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (92
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9297, 6176, 8643, CAST(2.69 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9298, 2243, 9032, CAST(7.49 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9299, 6774, 5553, CAST(17.89 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9300, 233, 2618, CAST(6.49 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9301, 7422, 2076, CAST(17.35 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9302, 7147, 11052, CAST(3.49 AS Decimal(5, 2)))
@@ -9493,7 +9493,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (93
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9397, 2158, 6829, CAST(13.11 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9398, 1920, 10778, CAST(6.54 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9399, 1027, 6196, CAST(11.22 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9400, 1692, 7939, CAST(1.19 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9401, 2105, 10133, CAST(1.95 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9402, 4358, 9774, CAST(5.25 AS Decimal(5, 2)))
@@ -9594,7 +9594,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (94
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9497, 1021, 7484, CAST(3.98 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9498, 5786, 9964, CAST(14.38 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9499, 990, 10867, CAST(13.26 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9500, 2701, 6589, CAST(17.74 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9501, 3221, 969, CAST(10.93 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9502, 1427, 7384, CAST(12.02 AS Decimal(5, 2)))
@@ -9695,7 +9695,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (95
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9597, 2822, 2835, CAST(5.17 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9598, 4653, 7262, CAST(12.47 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9599, 393, 4784, CAST(2.48 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9600, 4629, 1943, CAST(13.73 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9601, 5974, 5467, CAST(10.25 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9602, 4253, 2793, CAST(9.34 AS Decimal(5, 2)))
@@ -9796,7 +9796,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (96
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9697, 6701, 6834, CAST(2.86 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9698, 7077, 6038, CAST(9.08 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9699, 2148, 6265, CAST(11.00 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9700, 4787, 10442, CAST(0.14 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9701, 5024, 112, CAST(4.39 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9702, 5528, 810, CAST(19.18 AS Decimal(5, 2)))
@@ -9897,7 +9897,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (97
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9797, 2785, 2042, CAST(16.82 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9798, 4147, 3351, CAST(1.27 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9799, 7533, 6384, CAST(2.20 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9800, 6403, 6457, CAST(17.51 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9801, 1703, 7211, CAST(10.98 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9802, 3025, 8712, CAST(18.59 AS Decimal(5, 2)))
@@ -9998,7 +9998,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (98
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9897, 419, 9051, CAST(10.18 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9898, 1370, 247, CAST(3.11 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9899, 5681, 10961, CAST(12.26 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9900, 879, 7046, CAST(11.49 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9901, 1787, 922, CAST(12.57 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9902, 4105, 8366, CAST(4.47 AS Decimal(5, 2)))
@@ -10099,7 +10099,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (99
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9997, 5117, 3501, CAST(5.32 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9998, 2881, 5745, CAST(0.43 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (9999, 5735, 736, CAST(4.84 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10000, 3943, 10471, CAST(14.26 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10001, 7051, 3790, CAST(5.74 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10002, 593, 9363, CAST(12.47 AS Decimal(5, 2)))
@@ -10200,7 +10200,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10097, 4117, 7279, CAST(12.03 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10098, 6956, 10172, CAST(6.67 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10099, 5275, 10782, CAST(16.26 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10100, 187, 6301, CAST(19.22 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10101, 1296, 3917, CAST(5.80 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10102, 6020, 6609, CAST(16.25 AS Decimal(5, 2)))
@@ -10301,7 +10301,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10197, 3445, 10339, CAST(2.73 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10198, 4890, 10345, CAST(15.68 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10199, 552, 7779, CAST(10.29 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10200, 579, 1444, CAST(16.24 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10201, 299, 1076, CAST(15.14 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10202, 1465, 9462, CAST(10.13 AS Decimal(5, 2)))
@@ -10402,7 +10402,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10297, 4535, 7238, CAST(14.68 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10298, 6858, 7845, CAST(16.58 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10299, 349, 5208, CAST(9.77 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10300, 4315, 7325, CAST(0.51 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10301, 2688, 8901, CAST(15.05 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10302, 588, 3200, CAST(6.35 AS Decimal(5, 2)))
@@ -10503,7 +10503,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10397, 5889, 7301, CAST(15.10 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10398, 2451, 7854, CAST(12.58 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10399, 2905, 6751, CAST(10.27 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10400, 4554, 325, CAST(18.96 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10401, 5875, 3108, CAST(11.53 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10402, 76, 5495, CAST(1.95 AS Decimal(5, 2)))
@@ -10604,7 +10604,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10497, 1512, 2586, CAST(18.43 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10498, 1717, 3784, CAST(1.30 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10499, 1515, 4143, CAST(14.01 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10500, 7348, 5249, CAST(19.21 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10501, 4295, 7882, CAST(17.47 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10502, 201, 7122, CAST(0.68 AS Decimal(5, 2)))
@@ -10705,7 +10705,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10597, 1299, 6021, CAST(0.53 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10598, 5569, 8854, CAST(13.53 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10599, 6018, 2015, CAST(16.32 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10600, 6833, 5421, CAST(1.13 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10601, 6816, 10793, CAST(2.47 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10602, 2352, 89, CAST(4.18 AS Decimal(5, 2)))
@@ -10806,7 +10806,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10697, 6794, 2478, CAST(13.59 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10698, 2152, 2362, CAST(2.01 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10699, 4502, 8302, CAST(1.87 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10700, 6746, 11103, CAST(9.68 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10701, 5188, 8071, CAST(19.06 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10702, 3711, 10886, CAST(17.71 AS Decimal(5, 2)))
@@ -10907,7 +10907,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10797, 5543, 3386, CAST(8.21 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10798, 3719, 1202, CAST(18.60 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10799, 2096, 8961, CAST(7.55 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10800, 1246, 7522, CAST(11.39 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10801, 2458, 9947, CAST(15.87 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10802, 4539, 407, CAST(9.49 AS Decimal(5, 2)))
@@ -11008,7 +11008,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10897, 3057, 3142, CAST(13.10 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10898, 2993, 6871, CAST(15.17 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10899, 2503, 3783, CAST(0.99 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10900, 7247, 3144, CAST(9.38 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10901, 1479, 9612, CAST(5.38 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10902, 2488, 901, CAST(8.69 AS Decimal(5, 2)))
@@ -11109,7 +11109,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10997, 5391, 8556, CAST(3.68 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10998, 6642, 588, CAST(10.22 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (10999, 6352, 3788, CAST(14.83 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11000, 1344, 8322, CAST(2.37 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11001, 1621, 9455, CAST(16.41 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11002, 1241, 5982, CAST(2.46 AS Decimal(5, 2)))
@@ -11210,7 +11210,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11097, 471, 431, CAST(8.25 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11098, 3216, 2772, CAST(9.82 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11099, 4479, 2832, CAST(2.72 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11100, 222, 2187, CAST(4.65 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11101, 5883, 9561, CAST(6.48 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11102, 1010, 4059, CAST(14.09 AS Decimal(5, 2)))
@@ -11311,7 +11311,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11197, 2675, 9514, CAST(7.85 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11198, 1644, 5135, CAST(10.99 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11199, 2317, 328, CAST(1.67 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11200, 4864, 268, CAST(18.60 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11201, 5841, 6594, CAST(9.67 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11202, 2860, 2036, CAST(13.69 AS Decimal(5, 2)))
@@ -11412,7 +11412,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11297, 5893, 3068, CAST(6.34 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11298, 103, 7515, CAST(5.53 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11299, 3428, 2085, CAST(19.49 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11300, 896, 2984, CAST(2.25 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11301, 44, 2335, CAST(6.99 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11302, 4703, 8582, CAST(14.41 AS Decimal(5, 2)))
@@ -11513,7 +11513,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11397, 4287, 10761, CAST(18.20 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11398, 1777, 9108, CAST(14.31 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11399, 6036, 5933, CAST(6.56 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11400, 4639, 3255, CAST(5.15 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11401, 6760, 193, CAST(18.69 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11402, 1832, 3972, CAST(3.53 AS Decimal(5, 2)))
@@ -11614,7 +11614,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11497, 2141, 6131, CAST(2.70 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11498, 4041, 9789, CAST(14.15 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11499, 3173, 2359, CAST(10.51 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11500, 5247, 7721, CAST(5.68 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11501, 146, 7018, CAST(3.36 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11502, 4499, 7699, CAST(16.30 AS Decimal(5, 2)))
@@ -11715,7 +11715,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11597, 1550, 6962, CAST(9.55 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11598, 3271, 5089, CAST(7.65 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11599, 2278, 3018, CAST(2.35 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11600, 1963, 10306, CAST(12.25 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11601, 3528, 5286, CAST(8.72 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11602, 3503, 2198, CAST(18.12 AS Decimal(5, 2)))
@@ -11816,7 +11816,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11697, 2844, 9658, CAST(6.76 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11698, 7275, 8064, CAST(6.89 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11699, 1161, 7038, CAST(11.09 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11700, 198, 5767, CAST(2.75 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11701, 6503, 2819, CAST(14.77 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11702, 2563, 2603, CAST(7.53 AS Decimal(5, 2)))
@@ -11917,7 +11917,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11797, 5063, 7705, CAST(18.53 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11798, 146, 5303, CAST(2.72 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11799, 2098, 4789, CAST(8.41 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11800, 474, 10910, CAST(16.38 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11801, 739, 8295, CAST(13.54 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11802, 5516, 5940, CAST(13.25 AS Decimal(5, 2)))
@@ -12018,7 +12018,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11897, 5890, 7293, CAST(9.97 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11898, 5262, 6955, CAST(19.22 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11899, 6745, 1032, CAST(4.70 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11900, 4073, 10641, CAST(11.80 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11901, 5178, 11021, CAST(12.49 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11902, 3296, 199, CAST(12.97 AS Decimal(5, 2)))
@@ -12119,7 +12119,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11997, 7254, 9369, CAST(15.47 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11998, 6445, 10496, CAST(15.82 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (11999, 5511, 5578, CAST(17.77 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12000, 4532, 7678, CAST(17.63 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12001, 4942, 2224, CAST(15.29 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12002, 4330, 633, CAST(5.83 AS Decimal(5, 2)))
@@ -12220,7 +12220,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12097, 2155, 28, CAST(2.00 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12098, 3408, 1727, CAST(12.99 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12099, 3366, 8972, CAST(19.85 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12100, 1364, 7358, CAST(15.67 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12101, 3637, 6375, CAST(12.74 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12102, 4016, 7826, CAST(6.94 AS Decimal(5, 2)))
@@ -12321,7 +12321,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12197, 1432, 4816, CAST(3.01 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12198, 6775, 10874, CAST(10.06 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12199, 5112, 7049, CAST(5.30 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12200, 4512, 3496, CAST(5.89 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12201, 4527, 8818, CAST(0.40 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12202, 2750, 349, CAST(0.01 AS Decimal(5, 2)))
@@ -12422,7 +12422,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12297, 4289, 10152, CAST(16.90 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12298, 1681, 7479, CAST(6.90 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12299, 2619, 10498, CAST(11.32 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12300, 2398, 10346, CAST(7.95 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12301, 3824, 4217, CAST(6.89 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12302, 3828, 3425, CAST(6.74 AS Decimal(5, 2)))
@@ -12523,7 +12523,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12397, 826, 4508, CAST(16.07 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12398, 6637, 2433, CAST(11.43 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12399, 4759, 1862, CAST(16.17 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12400, 904, 1800, CAST(10.59 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12401, 18, 10848, CAST(13.87 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12402, 2226, 11074, CAST(1.54 AS Decimal(5, 2)))
@@ -12624,7 +12624,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12497, 5107, 4317, CAST(14.05 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12498, 6940, 6390, CAST(9.08 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12499, 4079, 10622, CAST(3.55 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12500, 6455, 10664, CAST(9.92 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12501, 6912, 11002, CAST(9.89 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12502, 3650, 8645, CAST(1.00 AS Decimal(5, 2)))
@@ -12725,7 +12725,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12597, 6665, 8590, CAST(16.28 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12598, 3099, 5972, CAST(14.52 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12599, 5363, 4808, CAST(8.30 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12600, 6115, 2654, CAST(14.72 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12601, 2042, 9496, CAST(15.75 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12602, 5266, 11003, CAST(12.44 AS Decimal(5, 2)))
@@ -12826,7 +12826,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12697, 2496, 3411, CAST(9.56 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12698, 6512, 8674, CAST(16.83 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12699, 7177, 4470, CAST(0.74 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12700, 3743, 2354, CAST(18.04 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12701, 5981, 9541, CAST(12.05 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12702, 6229, 3575, CAST(12.96 AS Decimal(5, 2)))
@@ -12927,7 +12927,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12797, 4175, 882, CAST(6.95 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12798, 4911, 1731, CAST(15.78 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12799, 5010, 1722, CAST(1.00 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12800, 443, 2883, CAST(16.39 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12801, 5440, 3840, CAST(17.11 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12802, 4545, 3250, CAST(14.18 AS Decimal(5, 2)))
@@ -13028,7 +13028,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12897, 6286, 2641, CAST(8.53 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12898, 1383, 5365, CAST(9.56 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12899, 3450, 7002, CAST(12.81 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12900, 2379, 9334, CAST(19.14 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12901, 6486, 6690, CAST(14.12 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12902, 275, 10972, CAST(2.70 AS Decimal(5, 2)))
@@ -13129,7 +13129,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12997, 3164, 431, CAST(15.73 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12998, 389, 2089, CAST(16.11 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (12999, 5350, 1210, CAST(16.42 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13000, 5499, 7361, CAST(17.99 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13001, 3357, 1603, CAST(11.99 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13002, 2657, 8443, CAST(10.35 AS Decimal(5, 2)))
@@ -13230,7 +13230,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13097, 406, 5047, CAST(14.71 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13098, 6210, 5240, CAST(2.52 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13099, 2697, 1905, CAST(1.89 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13100, 665, 10533, CAST(17.68 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13101, 5427, 4372, CAST(2.70 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13102, 4345, 10436, CAST(12.36 AS Decimal(5, 2)))
@@ -13331,7 +13331,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13197, 6777, 6987, CAST(18.35 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13198, 1011, 7517, CAST(11.36 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13199, 4612, 1971, CAST(16.10 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13200, 4678, 8252, CAST(1.86 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13201, 2140, 5839, CAST(5.74 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13202, 5640, 4927, CAST(13.34 AS Decimal(5, 2)))
@@ -13432,7 +13432,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13297, 3816, 5383, CAST(15.76 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13298, 4757, 7209, CAST(5.49 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13299, 2557, 8428, CAST(6.31 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13300, 1146, 3906, CAST(0.80 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13301, 3927, 1226, CAST(5.59 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13302, 3458, 8553, CAST(0.27 AS Decimal(5, 2)))
@@ -13533,7 +13533,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13397, 6142, 3659, CAST(12.48 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13398, 3020, 7228, CAST(8.90 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13399, 4933, 3450, CAST(2.27 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13400, 1274, 2847, CAST(15.66 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13401, 3158, 6423, CAST(15.82 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13402, 264, 8638, CAST(2.90 AS Decimal(5, 2)))
@@ -13634,7 +13634,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13497, 6662, 9508, CAST(17.85 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13498, 3819, 883, CAST(13.59 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13499, 302, 709, CAST(14.85 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13500, 4336, 1165, CAST(15.61 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13501, 296, 1411, CAST(11.37 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13502, 7241, 2877, CAST(0.63 AS Decimal(5, 2)))
@@ -13735,7 +13735,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13597, 6312, 3903, CAST(6.48 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13598, 5175, 608, CAST(6.40 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13599, 5749, 1875, CAST(4.92 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13600, 552, 7958, CAST(18.28 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13601, 1491, 5412, CAST(9.05 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13602, 3056, 3249, CAST(0.06 AS Decimal(5, 2)))
@@ -13836,7 +13836,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13697, 3257, 4845, CAST(19.19 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13698, 3392, 9082, CAST(3.65 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13699, 5496, 8606, CAST(1.98 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13700, 3821, 2659, CAST(9.32 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13701, 1771, 2408, CAST(5.06 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13702, 115, 6482, CAST(4.41 AS Decimal(5, 2)))
@@ -13937,7 +13937,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13797, 6619, 5863, CAST(17.26 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13798, 4767, 4432, CAST(0.25 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13799, 5082, 9250, CAST(10.87 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13800, 5856, 10645, CAST(15.18 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13801, 3523, 4922, CAST(3.06 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13802, 6302, 1350, CAST(13.48 AS Decimal(5, 2)))
@@ -14038,7 +14038,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13897, 6722, 97, CAST(1.87 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13898, 4056, 7141, CAST(11.67 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13899, 2677, 625, CAST(7.47 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13900, 1681, 8307, CAST(10.68 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13901, 4955, 2368, CAST(4.99 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13902, 5805, 9408, CAST(19.21 AS Decimal(5, 2)))
@@ -14139,7 +14139,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13997, 6276, 3587, CAST(3.07 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13998, 6051, 2607, CAST(19.10 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (13999, 3292, 4304, CAST(8.71 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14000, 1109, 1899, CAST(11.84 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14001, 3214, 8347, CAST(15.62 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14002, 5475, 194, CAST(18.09 AS Decimal(5, 2)))
@@ -14240,7 +14240,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14097, 185, 9544, CAST(17.14 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14098, 1076, 2653, CAST(11.14 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14099, 5616, 4302, CAST(0.94 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14100, 6853, 8546, CAST(10.78 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14101, 2297, 7839, CAST(18.74 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14102, 7505, 6463, CAST(14.38 AS Decimal(5, 2)))
@@ -14341,7 +14341,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14197, 6017, 2492, CAST(12.07 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14198, 3293, 6435, CAST(12.16 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14199, 4008, 2093, CAST(8.60 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14200, 7129, 6826, CAST(9.76 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14201, 421, 3892, CAST(5.39 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14202, 2840, 5428, CAST(7.28 AS Decimal(5, 2)))
@@ -14442,7 +14442,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14297, 7143, 243, CAST(11.86 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14298, 4943, 7173, CAST(6.68 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14299, 6046, 9137, CAST(16.22 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14300, 283, 10579, CAST(6.16 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14301, 7116, 10632, CAST(11.40 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14302, 7360, 2256, CAST(0.20 AS Decimal(5, 2)))
@@ -14543,7 +14543,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14397, 360, 1367, CAST(13.87 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14398, 2244, 6136, CAST(5.29 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14399, 5023, 2497, CAST(0.94 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14400, 786, 4365, CAST(2.62 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14401, 2600, 1944, CAST(17.95 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14402, 740, 1110, CAST(16.91 AS Decimal(5, 2)))
@@ -14644,7 +14644,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14497, 3705, 6035, CAST(13.25 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14498, 2143, 9344, CAST(14.03 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14499, 6057, 2062, CAST(15.97 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14500, 5574, 945, CAST(5.87 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14501, 3949, 8667, CAST(14.13 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14502, 2432, 10622, CAST(13.66 AS Decimal(5, 2)))
@@ -14745,7 +14745,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14597, 3578, 5085, CAST(17.84 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14598, 5513, 9594, CAST(8.71 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14599, 2576, 9216, CAST(5.30 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14600, 6423, 4419, CAST(15.07 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14601, 496, 10831, CAST(10.67 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14602, 7227, 4903, CAST(8.19 AS Decimal(5, 2)))
@@ -14846,7 +14846,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14697, 3490, 8284, CAST(8.95 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14698, 1081, 2215, CAST(13.68 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14699, 894, 9077, CAST(0.28 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14700, 4193, 7710, CAST(5.21 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14701, 5317, 1423, CAST(14.93 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14702, 4360, 1174, CAST(12.68 AS Decimal(5, 2)))
@@ -14947,7 +14947,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14797, 1082, 7208, CAST(15.62 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14798, 1079, 9313, CAST(12.33 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14799, 4456, 6402, CAST(12.91 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14800, 5770, 10280, CAST(3.25 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14801, 2081, 6960, CAST(11.40 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14802, 4889, 5469, CAST(7.35 AS Decimal(5, 2)))
@@ -15048,7 +15048,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14897, 399, 9037, CAST(4.23 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14898, 2543, 10217, CAST(4.46 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14899, 4585, 1383, CAST(1.95 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14900, 544, 9961, CAST(8.76 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14901, 2387, 5087, CAST(11.03 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14902, 6507, 6165, CAST(7.72 AS Decimal(5, 2)))
@@ -15149,7 +15149,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14997, 4693, 6400, CAST(10.01 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14998, 153, 2967, CAST(2.56 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (14999, 5729, 10349, CAST(19.78 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (15000, 4565, 3650, CAST(14.06 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (15001, 3922, 1169, CAST(19.21 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (15002, 7163, 5796, CAST(8.20 AS Decimal(5, 2)))
@@ -15250,7 +15250,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (15
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (15097, 1185, 2313, CAST(18.52 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (15098, 3525, 7723, CAST(11.19 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (15099, 4385, 10380, CAST(0.76 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (15100, 4832, 6366, CAST(3.91 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (15101, 2910, 3229, CAST(13.31 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (15102, 7050, 735, CAST(15.36 AS Decimal(5, 2)))
@@ -15351,7 +15351,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (15
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (15197, 5609, 2502, CAST(2.62 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (15198, 4487, 8390, CAST(17.69 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (15199, 2625, 8740, CAST(3.23 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (15200, 5578, 1698, CAST(13.62 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (15201, 7541, 4541, CAST(15.39 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (15202, 4722, 7503, CAST(16.45 AS Decimal(5, 2)))
@@ -15452,7 +15452,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (15
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (15297, 4529, 10467, CAST(2.40 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (15298, 7026, 8791, CAST(7.62 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (15299, 2734, 9381, CAST(0.84 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (15300, 900, 4994, CAST(18.90 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (15301, 1097, 6903, CAST(8.61 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (15302, 1711, 6808, CAST(16.76 AS Decimal(5, 2)))
@@ -15553,8 +15553,7 @@ INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (15
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (15397, 1777, 1370, CAST(4.17 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (15398, 369, 5020, CAST(17.78 AS Decimal(5, 2)))
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (15399, 579, 7588, CAST(14.50 AS Decimal(5, 2)))
---GO
+GO
 INSERT [dbo].[order_line] ([line_id], [order_id], [book_id], [price]) VALUES (15400, 3663, 3150, CAST(15.54 AS Decimal(5, 2)))
 
 SET IDENTITY_INSERT [dbo].[order_line] OFF
-*/

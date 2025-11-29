@@ -1,4 +1,4 @@
-﻿/*GO
+﻿GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1, 2778)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2, 5049)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3, 4902)
@@ -99,7 +99,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (64, 79)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (65, 4620)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (66, 2149)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (67, 79)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (68, 79)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (69, 79)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (70, 1864)
@@ -200,7 +200,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (138, 8173)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (139, 3672)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (139, 5385)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (140, 696)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (141, 8581)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (142, 6414)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (143, 6913)
@@ -301,7 +301,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (214, 8857)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (215, 107)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (215, 3712)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (216, 748)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (216, 3304)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (216, 5749)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (217, 5851)
@@ -402,7 +402,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (281, 4955)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (282, 4955)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (284, 2827)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (285, 1192)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (285, 4226)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (286, 8066)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (287, 8066)
@@ -503,7 +503,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (359, 1386)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (360, 1386)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (361, 1386)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (362, 1386)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (363, 2669)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (365, 6816)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (366, 1010)
@@ -604,7 +604,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (433, 5087)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (434, 1403)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (434, 1762)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (434, 1903)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (434, 1949)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (434, 3375)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (434, 3982)
@@ -705,7 +705,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (492, 3987)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (492, 6416)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (493, 2828)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (493, 5083)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (494, 2828)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (494, 5083)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (495, 2828)
@@ -806,7 +806,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (551, 8915)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (552, 2798)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (552, 3113)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (552, 3584)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (553, 2308)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (553, 2731)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (553, 2798)
@@ -907,7 +907,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (620, 8528)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (621, 1953)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (621, 3549)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (621, 3859)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (621, 3922)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (621, 5583)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (621, 8759)
@@ -1008,7 +1008,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (695, 7388)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (699, 4603)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (700, 4325)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (701, 9186)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (702, 474)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (703, 7432)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (705, 1074)
@@ -1109,7 +1109,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (765, 5083)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (765, 7200)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (766, 5083)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (766, 7200)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (767, 5083)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (767, 7200)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (768, 2116)
@@ -1210,7 +1210,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (815, 8130)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (816, 2273)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (817, 507)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (818, 3455)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (818, 3591)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (818, 8528)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (820, 7319)
@@ -1311,7 +1311,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (897, 7980)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (898, 2968)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (899, 2968)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (900, 4571)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (901, 149)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (902, 7410)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (902, 9182)
@@ -1412,7 +1412,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (975, 3500)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (975, 4225)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (976, 6584)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (977, 6584)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (978, 2444)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (979, 5215)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (980, 8448)
@@ -1513,7 +1513,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1035, 7028)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1035, 7785)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1035, 7796)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1035, 9125)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1036, 5415)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1036, 5721)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1037, 7274)
@@ -1614,7 +1614,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1100, 3573)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1102, 6584)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1104, 7569)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1105, 7168)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1106, 3633)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1107, 113)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1108, 343)
@@ -1715,7 +1715,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1158, 6652)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1160, 522)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1160, 544)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1160, 1383)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1160, 2717)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1160, 5110)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1160, 6320)
@@ -1816,7 +1816,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1189, 4067)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1190, 8552)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1190, 8896)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1191, 569)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1191, 2175)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1191, 5238)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1191, 8070)
@@ -1917,7 +1917,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1226, 7859)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1227, 1934)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1227, 2974)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1227, 3235)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1227, 3503)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1228, 865)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1228, 8856)
@@ -2018,7 +2018,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1272, 8415)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1272, 8422)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1274, 1791)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1274, 2833)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1274, 3813)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1274, 4585)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1274, 6495)
@@ -2119,7 +2119,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1328, 1925)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1330, 2574)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1330, 4540)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1330, 8421)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1331, 737)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1331, 6341)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1331, 7180)
@@ -2220,7 +2220,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1388, 2637)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1388, 3734)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1388, 7032)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1389, 1032)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1389, 2054)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1389, 5612)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1389, 5913)
@@ -2321,7 +2321,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1443, 3440)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1444, 8317)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1445, 2823)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1446, 6365)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1446, 6366)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1447, 921)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1448, 7329)
@@ -2422,7 +2422,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1491, 6771)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1491, 8748)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1492, 774)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1493, 3990)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1494, 838)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1495, 6248)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1495, 9057)
@@ -2523,7 +2523,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1525, 8441)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1526, 925)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1527, 925)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1527, 3454)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1528, 925)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1528, 2835)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1529, 7903)
@@ -2624,7 +2624,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1570, 8914)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1570, 8919)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1570, 8989)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1570, 9033)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1570, 9141)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1571, 2823)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1572, 9182)
@@ -2725,7 +2725,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1619, 3104)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1620, 2235)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1620, 4433)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1621, 1375)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1621, 7171)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1622, 36)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1622, 623)
@@ -2826,7 +2826,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1687, 2177)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1688, 1020)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1689, 2765)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1689, 4454)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1689, 8895)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1690, 351)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1690, 8890)
@@ -2927,7 +2927,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1748, 304)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1749, 2938)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1749, 5288)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1750, 5940)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1751, 9056)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1752, 304)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1753, 2765)
@@ -3028,7 +3028,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1802, 5222)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1802, 6224)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1803, 2590)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1803, 3753)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1803, 7622)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1804, 1932)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1805, 512)
@@ -3129,7 +3129,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1850, 3560)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1850, 4838)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1851, 1149)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1852, 13)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1852, 511)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1852, 754)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1852, 981)
@@ -3230,7 +3230,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1893, 2391)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1893, 5022)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1893, 5843)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1894, 3728)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1894, 5235)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1895, 21)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1895, 2212)
@@ -3331,7 +3331,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1944, 2544)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1944, 4962)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1944, 5360)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1944, 5523)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1944, 7202)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1944, 7943)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1945, 4075)
@@ -3432,7 +3432,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1981, 2513)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1982, 2933)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1983, 7368)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1984, 692)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1984, 6529)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1985, 6529)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (1986, 475)
@@ -3533,7 +3533,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2050, 3493)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2051, 3635)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2051, 8317)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2052, 6287)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2053, 7769)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2053, 7777)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2054, 555)
@@ -3634,7 +3634,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2109, 7518)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2110, 3979)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2111, 6466)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2112, 2094)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2113, 1222)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2113, 5749)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2114, 4416)
@@ -3735,7 +3735,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2193, 6734)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2194, 636)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2195, 2442)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2195, 3848)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2196, 804)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2196, 5720)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2197, 719)
@@ -3836,7 +3836,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2247, 6530)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2248, 5469)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2249, 2118)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2249, 6781)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2250, 362)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2251, 79)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2251, 5875)
@@ -3937,7 +3937,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2317, 5007)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2317, 6952)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2317, 7171)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2317, 7333)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2317, 7410)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2317, 7485)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2317, 7932)
@@ -4038,7 +4038,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2386, 2878)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2387, 2878)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2388, 3785)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2389, 4959)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2390, 4959)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2391, 4959)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2392, 8513)
@@ -4139,7 +4139,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2476, 4587)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2477, 4686)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2478, 3760)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2478, 6124)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2479, 5888)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2480, 3234)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2480, 5888)
@@ -4240,7 +4240,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2564, 2381)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2565, 3197)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2566, 5675)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2567, 8947)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2568, 2248)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2569, 5373)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2570, 914)
@@ -4341,7 +4341,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2661, 107)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2662, 3161)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2663, 2235)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2664, 2235)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2665, 3161)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2665, 5257)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2666, 2235)
@@ -4442,7 +4442,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2740, 7652)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2741, 465)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2742, 3967)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2743, 4119)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2745, 8512)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2746, 465)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2747, 2550)
@@ -4543,7 +4543,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2810, 4341)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2811, 296)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2812, 4454)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2813, 1252)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2814, 3967)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2815, 8086)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2816, 8512)
@@ -4644,7 +4644,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2881, 2330)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2881, 4603)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2882, 1420)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2882, 9051)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2883, 1420)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2883, 9051)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2884, 467)
@@ -4745,7 +4745,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2971, 2968)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2972, 3905)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2973, 8532)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2974, 1997)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2975, 3994)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2976, 2398)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (2977, 4677)
@@ -4846,7 +4846,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3044, 494)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3045, 1384)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3045, 2626)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3046, 8223)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3048, 3067)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3048, 5604)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3049, 752)
@@ -4947,7 +4947,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3114, 8357)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3115, 7657)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3116, 474)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3117, 7144)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3118, 7000)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3121, 7123)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3122, 3232)
@@ -5048,7 +5048,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3195, 1014)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3195, 1542)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3195, 5536)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3195, 8497)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3196, 1014)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3196, 1542)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3196, 5536)
@@ -5149,7 +5149,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3266, 3137)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3267, 2916)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3267, 3137)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3268, 5333)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3270, 4491)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3270, 6107)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3271, 903)
@@ -5250,7 +5250,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3325, 4822)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3326, 6414)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3327, 8502)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3328, 1589)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3329, 1919)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3330, 4786)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3330, 5458)
@@ -5351,7 +5351,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3411, 3116)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3412, 1855)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3414, 1992)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3415, 1992)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3416, 249)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3417, 5242)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3418, 1992)
@@ -5452,7 +5452,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3506, 2545)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3507, 5760)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3509, 2653)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3509, 4158)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3510, 5994)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3510, 8528)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3511, 4158)
@@ -5553,7 +5553,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3573, 7968)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3574, 6412)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3575, 982)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3576, 6550)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3576, 6745)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3576, 8219)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3576, 8320)
@@ -5654,7 +5654,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3631, 8710)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3632, 9137)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3634, 7762)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3635, 963)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3636, 2041)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3637, 1406)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3638, 7842)
@@ -5755,7 +5755,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3694, 6530)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3695, 559)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3696, 2124)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3697, 5655)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3697, 6729)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3698, 4766)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3698, 5537)
@@ -5856,7 +5856,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3755, 5506)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3756, 4149)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3756, 6724)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3757, 7249)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3758, 1943)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3758, 9132)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3759, 1398)
@@ -5957,7 +5957,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3823, 2895)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3823, 4299)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3823, 4499)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3823, 5503)
-----GO
+--GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3823, 8487)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3824, 2516)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3824, 2726)
@@ -6058,7 +6058,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3889, 8292)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3889, 8692)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3890, 3966)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3890, 8292)
-----GO
+--GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3890, 8692)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3891, 8291)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3891, 8292)
@@ -6159,7 +6159,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3960, 7143)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3960, 8692)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3961, 2018)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3962, 6580)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3963, 2018)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3964, 2018)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (3965, 380)
@@ -6260,7 +6260,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4042, 8748)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4043, 3764)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4043, 4437)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4043, 7072)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4044, 1807)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4045, 2720)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4045, 4068)
@@ -6361,7 +6361,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4108, 7684)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4109, 1905)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4109, 4439)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4109, 5543)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4110, 1905)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4110, 5543)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4111, 3058)
@@ -6462,7 +6462,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4159, 5479)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4160, 3905)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4160, 3907)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4161, 4587)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4162, 7185)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4163, 4432)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4164, 3685)
@@ -6563,7 +6563,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4238, 6512)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4239, 1365)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4239, 3744)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4240, 93)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4240, 5989)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4240, 8344)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4241, 778)
@@ -6664,7 +6664,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4287, 7416)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4288, 2700)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4289, 6955)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4290, 2700)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4291, 6135)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4292, 7004)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4293, 107)
@@ -6765,7 +6765,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4369, 7959)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4370, 3760)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4371, 1715)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4372, 3760)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4373, 3760)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4374, 3760)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4374, 9213)
@@ -6866,7 +6866,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4436, 6135)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4437, 7531)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4437, 8318)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4438, 6448)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4439, 4476)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4439, 7944)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4440, 1831)
@@ -6967,7 +6967,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4501, 5474)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4502, 3658)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4503, 3658)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4503, 7574)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4504, 3658)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4505, 8861)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4506, 8861)
@@ -7068,7 +7068,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4596, 6308)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4597, 5274)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4598, 4888)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4599, 6588)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4600, 3926)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4601, 3499)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4602, 8222)
@@ -7169,7 +7169,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4667, 480)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4667, 545)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4667, 1786)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4667, 3470)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4667, 4442)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4667, 7011)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4667, 7194)
@@ -7270,7 +7270,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4725, 6161)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4726, 4603)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4727, 2206)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4728, 4243)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4728, 5860)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4729, 7245)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4729, 8222)
@@ -7371,7 +7371,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4806, 788)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4807, 7288)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4808, 6928)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4809, 3492)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4809, 6301)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4810, 7319)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4811, 4138)
@@ -7472,7 +7472,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4870, 9033)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4871, 1383)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4873, 5415)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4873, 8149)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4875, 1079)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4876, 842)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4876, 6636)
@@ -7573,7 +7573,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4935, 3382)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4935, 4698)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4935, 6418)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4936, 6491)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4937, 5385)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4938, 4458)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (4939, 1993)
@@ -7674,7 +7674,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5012, 5007)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5013, 6560)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5014, 4341)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5016, 2142)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5017, 4109)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5018, 1493)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5019, 8382)
@@ -7775,7 +7775,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5081, 5258)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5081, 5749)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5081, 6035)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5081, 8849)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5082, 6572)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5082, 6852)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5083, 272)
@@ -7876,7 +7876,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5150, 7780)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5152, 703)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5153, 7087)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5154, 1648)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5154, 3661)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5155, 2610)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5155, 3740)
@@ -7977,7 +7977,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5239, 8234)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5240, 2673)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5240, 3803)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5242, 3296)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5242, 7074)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5243, 1222)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5243, 5749)
@@ -8078,7 +8078,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5310, 399)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5311, 1792)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5312, 1609)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5314, 1620)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5315, 8209)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5316, 5951)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5317, 8727)
@@ -8179,7 +8179,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5378, 7875)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5379, 5583)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5379, 8759)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5380, 7882)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5381, 3501)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5382, 2673)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5382, 4800)
@@ -8280,7 +8280,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5468, 7875)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5469, 5292)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5470, 5196)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5470, 8209)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5471, 276)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5471, 8478)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5472, 1898)
@@ -8381,7 +8381,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5522, 6260)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5522, 8425)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5523, 6713)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5524, 7967)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5525, 8658)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5526, 8658)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5527, 7967)
@@ -8482,7 +8482,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5586, 1905)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5586, 4439)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5586, 5543)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5587, 3058)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5588, 3058)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5589, 2674)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5589, 7689)
@@ -8583,7 +8583,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5660, 387)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5661, 4290)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5662, 2206)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5662, 4290)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5663, 2206)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5663, 4290)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5664, 1398)
@@ -8684,7 +8684,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5714, 7718)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5715, 6610)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5715, 7359)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5715, 8307)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5716, 7459)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5717, 2109)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5718, 1815)
@@ -8785,7 +8785,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5766, 3583)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5767, 8520)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5768, 2789)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5768, 2928)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5768, 5412)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5769, 4279)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5770, 57)
@@ -8886,7 +8886,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5854, 8470)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5855, 7233)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5856, 8222)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5857, 8222)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5858, 3812)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5858, 5844)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5859, 3970)
@@ -8987,7 +8987,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5919, 1825)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5920, 8246)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5921, 417)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5922, 3218)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5923, 107)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5925, 1722)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5926, 1825)
@@ -9088,7 +9088,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5978, 1006)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5978, 8629)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5979, 537)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5979, 3705)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5980, 1006)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5980, 8629)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (5981, 2232)
@@ -9189,7 +9189,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6038, 7247)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6039, 6166)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6040, 5951)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6041, 1561)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6041, 5708)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6043, 4251)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6044, 9119)
@@ -9290,7 +9290,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6112, 1309)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6113, 3948)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6114, 4116)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6114, 8222)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6115, 6959)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6116, 682)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6117, 7876)
@@ -9391,7 +9391,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6193, 56)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6193, 7435)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6195, 2771)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6195, 6849)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6195, 8950)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6196, 7836)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6197, 222)
@@ -9492,7 +9492,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6254, 2672)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6255, 7525)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6256, 2555)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6256, 9089)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6257, 8920)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6258, 2360)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6259, 4571)
@@ -9593,7 +9593,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6327, 4949)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6328, 4939)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6329, 1078)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6329, 3767)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6330, 2336)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6331, 715)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6332, 4476)
@@ -9694,7 +9694,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6393, 4722)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6393, 6114)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6393, 7729)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6394, 5661)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6395, 3359)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6395, 8739)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6396, 5980)
@@ -9795,7 +9795,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6439, 133)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6439, 574)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6439, 1737)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6439, 3630)
-----GO
+--GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6440, 135)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6440, 920)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6441, 2901)
@@ -9896,7 +9896,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6511, 711)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6512, 711)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6514, 7004)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6515, 107)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6516, 107)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6517, 464)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6517, 465)
@@ -9997,7 +9997,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6587, 4183)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6587, 7434)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6588, 499)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6588, 834)
-----GO
+--GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6588, 6053)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6588, 8226)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6589, 5152)
@@ -10098,7 +10098,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6676, 5489)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6677, 1825)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6679, 5057)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6680, 2368)
-----GO
+--GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6681, 1404)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6683, 8945)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6684, 5844)
@@ -10199,7 +10199,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6755, 1067)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6756, 2673)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6757, 1452)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6758, 6758)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6759, 1088)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6759, 5844)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6760, 4005)
@@ -10300,7 +10300,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6832, 4431)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6833, 4431)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6834, 5844)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6835, 546)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6835, 4690)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6835, 6431)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6835, 8235)
@@ -10401,7 +10401,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6892, 881)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6893, 881)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6894, 2139)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6895, 1575)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6896, 881)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6897, 4617)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6897, 6075)
@@ -10502,7 +10502,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6998, 3743)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6999, 434)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (6999, 3810)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7000, 3191)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7001, 3191)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7002, 4587)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7003, 1655)
@@ -10603,7 +10603,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7068, 107)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7068, 940)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7068, 952)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7068, 1341)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7068, 1983)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7068, 2079)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7068, 2576)
@@ -10704,7 +10704,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7096, 4156)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7097, 1834)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7097, 7131)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7098, 8625)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7099, 8159)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7099, 8935)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7100, 2051)
@@ -10805,7 +10805,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7151, 5964)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7151, 6855)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7152, 2147)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7152, 2178)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7153, 2186)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7154, 5964)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7154, 6855)
@@ -10906,7 +10906,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7209, 8461)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7209, 8522)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7209, 8528)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7209, 8803)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7210, 7004)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7211, 6560)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7212, 7506)
@@ -11007,7 +11007,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7296, 5684)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7297, 134)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7297, 5847)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7298, 1618)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7298, 5154)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7302, 1338)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7302, 4659)
@@ -11108,7 +11108,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7355, 8651)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7356, 7601)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7357, 8651)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7358, 1948)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7358, 2421)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7359, 8651)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7360, 7354)
@@ -11209,7 +11209,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7390, 8134)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7391, 2091)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7392, 7615)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7393, 4266)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7393, 8248)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7393, 8594)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7394, 4266)
@@ -11310,7 +11310,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7451, 8738)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7452, 1451)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7453, 2315)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7453, 9155)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7454, 1204)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7454, 3501)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7455, 715)
@@ -11411,7 +11411,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7512, 4609)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7512, 7383)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7512, 8319)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7513, 1144)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7516, 8477)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7517, 48)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7517, 5583)
@@ -11512,7 +11512,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7574, 3196)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7575, 3196)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7575, 3208)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7576, 7633)
-----GO
+--GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7577, 397)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7578, 4485)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7578, 4497)
@@ -11613,7 +11613,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7640, 8050)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7641, 5415)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7641, 8724)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7642, 99)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7643, 3009)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7643, 5162)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7644, 8724)
@@ -11714,7 +11714,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7699, 2681)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7699, 8071)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7700, 2540)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7701, 2540)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7702, 715)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7703, 7039)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7704, 2437)
@@ -11815,7 +11815,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7761, 5908)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7761, 7319)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7761, 7433)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7762, 5908)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7762, 7319)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7762, 7433)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7763, 3176)
@@ -11916,7 +11916,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7821, 7268)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7822, 442)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7822, 2348)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7823, 2348)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7823, 2657)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7824, 1375)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7825, 342)
@@ -12017,7 +12017,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7878, 8071)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7878, 8822)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7879, 8071)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7879, 8822)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7880, 9112)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7881, 2626)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7881, 6537)
@@ -12118,7 +12118,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7921, 1541)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7921, 1763)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7921, 1959)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7921, 2231)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7921, 2642)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7921, 3161)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7921, 3296)
@@ -12219,7 +12219,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7970, 2499)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7970, 3108)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7971, 8711)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7971, 9073)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7972, 2384)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7972, 2934)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (7972, 3816)
@@ -12320,7 +12320,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8029, 8419)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8029, 8733)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8030, 8733)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8031, 2300)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8033, 1095)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8033, 2414)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8034, 2508)
@@ -12421,7 +12421,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8093, 3730)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8093, 8896)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8094, 1184)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8094, 1449)
-----GO
+--GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8094, 4571)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8095, 450)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8095, 1449)
@@ -12522,7 +12522,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8153, 5897)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8154, 2698)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8155, 5607)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8156, 7878)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8157, 2505)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8158, 2453)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8158, 6477)
@@ -12623,7 +12623,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8217, 860)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8217, 1488)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8217, 2324)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8217, 2599)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8218, 3076)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8219, 2148)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8220, 5453)
@@ -12724,7 +12724,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8282, 3999)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8282, 8499)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8282, 8500)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8282, 8501)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8283, 3977)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8284, 672)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8284, 8880)
@@ -12825,7 +12825,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8323, 358)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8323, 502)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8323, 740)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8323, 876)
-----GO
+--GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8323, 1004)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8323, 1013)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8323, 1547)
@@ -12926,7 +12926,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8351, 8240)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8352, 3394)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8353, 522)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8353, 3592)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8353, 7452)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8354, 8836)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8355, 5919)
@@ -13027,7 +13027,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8414, 197)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8414, 2059)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8415, 5849)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8415, 8456)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8416, 7157)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8417, 7597)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8418, 4387)
@@ -13128,7 +13128,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8449, 4999)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8449, 5139)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8449, 5279)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8449, 5583)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8449, 5674)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8449, 6209)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8449, 6374)
@@ -13229,7 +13229,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8498, 4581)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8499, 5123)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8500, 6560)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8501, 1824)
-----GO
+--GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8501, 6909)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8502, 612)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8502, 3577)
@@ -13330,7 +13330,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8560, 971)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8560, 9023)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8561, 37)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8561, 2046)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8562, 2588)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8562, 8763)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8563, 2588)
@@ -13431,7 +13431,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8619, 8341)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8620, 8341)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8621, 3641)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8622, 3641)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8623, 4700)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8623, 8991)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8624, 4978)
@@ -13532,7 +13532,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8670, 5994)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8671, 3196)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8673, 2357)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8673, 8809)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8674, 1935)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8674, 7875)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8675, 6592)
@@ -13633,7 +13633,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8750, 5783)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8752, 2984)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8752, 6888)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8753, 7101)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8754, 7431)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8755, 2814)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8755, 4661)
@@ -13734,7 +13734,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8834, 1170)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8835, 3844)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8836, 1662)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8837, 2798)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8838, 2219)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8838, 3283)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8839, 4933)
@@ -13835,7 +13835,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8875, 3491)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8875, 4041)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8875, 4182)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8875, 5689)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8875, 7508)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8875, 7766)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8876, 1670)
@@ -13936,7 +13936,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8898, 5716)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8898, 6944)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8898, 7254)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8898, 7949)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8898, 8143)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8899, 355)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8899, 821)
@@ -14037,7 +14037,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8952, 8190)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8952, 8265)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8952, 8403)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8953, 8520)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8954, 237)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8955, 237)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (8956, 7428)
@@ -14138,7 +14138,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9020, 5995)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9020, 6254)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9020, 7813)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9020, 7960)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9020, 8884)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9020, 8928)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9021, 6955)
@@ -14239,7 +14239,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9080, 7451)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9081, 5980)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9082, 3090)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9082, 5318)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9083, 7382)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9085, 1363)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9085, 2142)
@@ -14340,7 +14340,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9152, 5954)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9153, 8669)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9154, 8669)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9155, 8669)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9156, 8669)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9157, 192)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9157, 8465)
@@ -14441,7 +14441,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9223, 2149)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9224, 2149)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9225, 4218)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9225, 4303)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9226, 4558)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9228, 1038)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9228, 7907)
@@ -14542,7 +14542,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9284, 2551)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9284, 3308)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9285, 4978)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9285, 6551)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9286, 824)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9287, 4124)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9288, 4268)
@@ -14643,7 +14643,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9341, 8169)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9342, 5536)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9342, 8144)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9342, 8169)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9343, 1063)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9343, 3341)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9344, 8986)
@@ -14744,7 +14744,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9369, 5500)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9369, 6245)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9369, 6414)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9369, 7846)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9369, 8681)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9370, 1885)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9370, 3770)
@@ -14845,7 +14845,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9392, 8970)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9393, 3378)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9394, 821)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9394, 1332)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9394, 1504)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9394, 1842)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9394, 2528)
@@ -14946,7 +14946,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9432, 531)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9432, 2508)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9433, 559)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9433, 2170)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9433, 7286)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9434, 2425)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9434, 3394)
@@ -15047,7 +15047,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9479, 4874)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9479, 9043)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9481, 1284)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9481, 7886)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9482, 7886)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9483, 4874)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9484, 9021)
@@ -15148,7 +15148,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9522, 7803)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9522, 7975)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9522, 8664)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9522, 8697)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9523, 3439)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9524, 6190)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9524, 6414)
@@ -15249,7 +15249,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9581, 4819)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9582, 6461)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9583, 1637)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9584, 3196)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9586, 6461)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9587, 7115)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9587, 7236)
@@ -15350,7 +15350,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9655, 3972)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9655, 6379)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9656, 5044)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9656, 5780)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9656, 7576)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9657, 8508)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9658, 3483)
@@ -15451,7 +15451,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9707, 7510)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9707, 8746)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9708, 733)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9708, 8970)
-----GO
+--GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9709, 7790)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9710, 453)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9711, 6070)
@@ -15552,7 +15552,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9770, 6584)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9770, 8747)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9771, 6584)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9772, 6584)
-----GO
+--GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9773, 2167)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9774, 6584)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9775, 6584)
@@ -15653,7 +15653,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9831, 4706)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9831, 9215)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9832, 4706)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9832, 9215)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9833, 5287)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9833, 7826)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9834, 996)
@@ -15754,7 +15754,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9881, 4078)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9882, 7135)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9883, 8047)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9884, 5815)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9885, 1312)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9885, 8900)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9886, 4200)
@@ -15855,7 +15855,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9936, 4727)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9936, 5103)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9937, 3138)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9938, 2449)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9939, 2918)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9940, 6181)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9941, 2945)
@@ -15956,7 +15956,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9979, 6414)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9980, 1337)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9980, 1891)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9980, 8988)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9981, 6198)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9981, 7401)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (9982, 1311)
@@ -16057,7 +16057,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10069, 3285)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10069, 6014)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10070, 946)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10070, 1544)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10070, 2745)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10070, 4844)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10070, 7223)
@@ -16158,7 +16158,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10130, 3192)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10131, 4321)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10131, 7656)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10132, 2149)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10133, 7782)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10134, 344)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10136, 1673)
@@ -16259,7 +16259,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10194, 4492)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10195, 1054)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10196, 1297)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10196, 1674)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10196, 4644)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10197, 385)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10197, 6567)
@@ -16360,7 +16360,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10266, 1639)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10266, 7827)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10267, 1491)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10267, 8032)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10267, 8964)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10269, 4520)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10271, 562)
@@ -16461,7 +16461,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10325, 1657)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10326, 1469)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10326, 8706)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10326, 8758)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10336, 8512)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10337, 7506)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10339, 8512)
@@ -16562,7 +16562,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10391, 6506)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10391, 7885)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10392, 1717)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10392, 6506)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10393, 583)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10393, 1717)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10393, 6506)
@@ -16663,7 +16663,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10431, 8169)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10432, 1499)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10432, 1936)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10432, 2429)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10433, 2061)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10434, 136)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10435, 1716)
@@ -16764,7 +16764,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10479, 1327)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10480, 6484)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10481, 2467)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10481, 5420)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10482, 7187)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10483, 2470)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10483, 6458)
@@ -16865,7 +16865,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10539, 3793)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10539, 4094)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10539, 4122)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10539, 4454)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10539, 5136)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10539, 5216)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10539, 5623)
@@ -16966,7 +16966,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10564, 5606)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10564, 5633)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10564, 5752)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10564, 6238)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10564, 7982)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10564, 8185)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10564, 8397)
@@ -17067,7 +17067,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10612, 4502)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10613, 5798)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10613, 6414)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10614, 8084)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10615, 3827)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10616, 3720)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10617, 535)
@@ -17168,7 +17168,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10669, 8222)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10670, 3426)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10672, 6683)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10673, 2534)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10674, 5617)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10674, 8222)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10674, 9100)
@@ -17269,7 +17269,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10755, 2305)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10755, 6478)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10756, 8108)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10757, 4162)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10758, 3279)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10759, 3366)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10761, 6194)
@@ -17370,7 +17370,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10830, 7593)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10830, 8719)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10831, 6492)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10831, 8719)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10832, 7388)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10833, 3232)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10833, 6515)
@@ -17471,7 +17471,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10906, 7761)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10907, 7761)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10908, 7761)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10909, 7761)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10910, 7761)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10911, 7761)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10912, 8463)
@@ -17572,7 +17572,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10975, 5619)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10976, 1406)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10976, 3889)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10977, 1404)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10978, 6967)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10981, 707)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (10981, 4549)
@@ -17673,7 +17673,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (11042, 776)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (11042, 8222)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (11043, 7836)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (11045, 568)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (11045, 3891)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (11046, 2460)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (11047, 5749)
@@ -17774,7 +17774,7 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (11106, 301)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (11106, 1020)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (11107, 301)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (11107, 1020)
---GO
+GO
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (11107, 6777)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (11108, 489)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (11108, 8120)
@@ -17817,4 +17817,3 @@ INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (11125, 1406)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (11125, 3889)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (11126, 7153)
 INSERT [dbo].[book_author] ([book_id], [author_id]) VALUES (11127, 1020)
-*/

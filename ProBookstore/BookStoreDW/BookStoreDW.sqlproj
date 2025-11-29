@@ -76,10 +76,6 @@
     <Build Include="Schema\Programmability\Stored Procedures\GetLastPackageRowVersion.sql" />
     <Build Include="Schema\Programmability\Stored Procedures\UpdateLastPackageRowVersion.sql" />
     <Build Include="Schema\Security\schemas\staging.sql" />
-    <Build Include="Scripts\DimDate.data.sql" />
-    <Build Include="Scripts\PackageConfig.data.sql" />
-    <Build Include="Scripts\PatchDimDate.data.sql" />
-    <Build Include="Scripts\Script.PostDeployment.sql" />
     <Build Include="Schema\Tables\dbo\FactCustOrder.sql" />
     <Build Include="Schema\Tables\dbo\DimDate.sql" />
     <Build Include="Schema\Tables\staging\staging.address.sql" />
@@ -96,5 +92,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Schema\Programmability\Stored Procedures\DW_MergeDimCustomer.sql" />
+    <None Include="Scripts\DimDate.data.sql" />
+    <None Include="Scripts\PatchDimDate.data.sql" />
+    <None Include="Scripts\PackageConfig.data.sql" />
+    <None Include="Scripts\Script.PostDeployment.sql" />
   </ItemGroup>
 </Project>

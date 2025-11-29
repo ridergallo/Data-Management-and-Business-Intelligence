@@ -9,7 +9,7 @@ Plantilla de script posterior a la implementación
                SELECT * FROM [$(TableName)]					
 --------------------------------------------------------------------------------------
 */
-/*:r .\clean.sql
+:r .\clean.sql
 :r .\.author.sql
 :r .\.publisher.sql
 :r .\.book_language.sql
@@ -24,4 +24,4 @@ Plantilla de script posterior a la implementación
 :r .\.address_status.sql
 :r .\.customer_address.sql
 :r .\.order_status.sql
-:r .\.order_history.sql*/
+:r .\.order_history.sql

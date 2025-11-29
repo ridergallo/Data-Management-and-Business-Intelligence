@@ -1,4 +1,4 @@
-﻿/*GO
+﻿GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1, N'A. Bartlett Giamatti');
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2, N'A. Elizabeth Delany');
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3, N'A. Merritt')
@@ -99,7 +99,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (97, N'Al Switzler')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (98, N'Alafair Burke')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (99, N'Alain de Botton')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (100, N'Alain Defossé')
-----GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (101, N'Alain Korkos')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (102, N'Alak Zenkar')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (103, N'Alan Lee')
@@ -200,7 +200,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (197, N'Alfred Hitchco
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (198, N'Alfred Huang')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (199, N'Alfred J. Church')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (200, N'Alfred Siewers')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (201, N'Alfred Uhry')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (202, N'Alfredo Crespo')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (203, N'Algernon Blackwood')
@@ -301,7 +301,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (297, N'Amy Taubin')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (298, N'Amy Welborn')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (299, N'Ana Alcaina')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (300, N'Ana Alcaina Pérez')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (301, N'Ana Falcão Bastos')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (302, N'Ana Juan')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (303, N'Ana María de la Fuente')
@@ -402,7 +402,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (397, N'Ann Bausum')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (398, N'Ann Beattie')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (399, N'Ann Brashares')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (400, N'Ann Charters')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (401, N'Ann Druyan')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (402, N'Ann Dunnigan')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (403, N'Ann Finding')
@@ -503,7 +503,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (497, N'Anthony Grafto
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (498, N'Anthony H. Chambers')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (499, N'Anthony Heald')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (500, N'Anthony Hern')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (501, N'Anthony J. Cascardi')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (502, N'Anthony Kenny')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (503, N'Anthony Kerringan')
@@ -604,7 +604,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (597, N'Ashley Gardner
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (598, N'Ashley Shannon')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (599, N'Ashley Wood')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (600, N'Åsne Seierstad')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (601, N'Astre Mithrandir')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (602, N'Astrid Lindgren')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (603, N'Atul Gawande')
@@ -705,7 +705,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (697, N'Barry Z. Posne
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (698, N'Bart D. Ehrman')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (699, N'Bart G. Farkas')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (700, N'Bart King')
----GO
+-GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (701, N'Barthe DeClements')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (702, N'Bartholomew Gill')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (703, N'Barton Zwiebach')
@@ -806,7 +806,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (797, N'Bill Clinton')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (798, N'Bill Cosby')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (799, N'Bill Dodge')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (800, N'Bill Farrel')
-----GO
+--GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (801, N'Bill Fawcett')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (802, N'Bill Gardner')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (803, N'Bill Hurter')
@@ -907,7 +907,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (897, N'Brent Hoff')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (898, N'Brenton G. Yorgason')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (899, N'Breon Mitchell')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (900, N'Bret Easton Ellis')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (901, N'Bret Norris')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (902, N'Brett Booth')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (903, N'Brett Hartinge')
@@ -1008,7 +1008,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (997, N'C. Patrick Don
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (998, N'C. Thomas Wass')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (999, N'C. Vann Woodward')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1000, N'C.B. Cebulski')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1001, N'C.B. Mordan')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1002, N'C.D. Payne')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1003, N'C.D.B. Bryan')
@@ -1109,7 +1109,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1097, N'Carol Ryrie B
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1098, N'Carol Shields')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1099, N'Carol Stock Kranowitz')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1100, N'Carol T. Christ')
-----GO
+--GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1101, N'Carole Marsh')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1102, N'Carole Matthews')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1103, N'Carole Nelson Douglas')
@@ -1210,7 +1210,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1197, N'Charles de Li
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1198, N'Charles Dickens')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1199, N'Charles E. Wilbour')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1200, N'Charles F. Miller')
-----GO
+--GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1201, N'Charles Fanning')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1202, N'Charles Flowers')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1203, N'Charles Frazier')
@@ -1311,7 +1311,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1297, N'Chris Garratt
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1298, N'Chris Gray')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1299, N'Chris Horrocks')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1300, N'Chris Ingham')
-----GO
+--GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1301, N'Chris Kubica')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1302, N'Chris L. Demarest')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1303, N'Chris Malta')
@@ -1412,7 +1412,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1397, N'Christopher T
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1398, N'Christopher Tolkien')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1399, N'Christopher Wynne')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1400, N'Christropher Janaway')
-----GO
+--GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1401, N'Christy Cheung')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1402, N'Chuck Horner')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1403, N'Chuck Hustmyre')
@@ -1513,7 +1513,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1497, N'Cornelius Agr
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1498, N'Cornell Woolrich')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1499, N'Cortney Skinner')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1500, N'Cory Doctorow')
-----GO
+--GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1501, N'Courtney E. Martin')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1502, N'Craig Johnson')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1503, N'Craig Dirgo')
@@ -1614,7 +1614,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1597, N'Daniel Wallac
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1598, N'Daniel Abdal-Hayy Moore')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1599, N'Daniel Abraham')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1600, N'Daniel Axelrod')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1601, N'Daniel B. Wallace')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1602, N'Daniel C. Dennett')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1603, N'Daniel C. Snell')
@@ -1715,7 +1715,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1697, N'David A. Blac
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1698, N'David A. Nadler')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1699, N'David A. Powlison')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1700, N'David A. Stewart')
-----GO
+--GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1701, N'David A. Ufer')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1702, N'David Aers')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1703, N'David Alabort')
@@ -1816,7 +1816,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1797, N'David Kudler'
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1798, N'David L. Holmes')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1799, N'David L. Hull')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1800, N'David L. Robbins')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1801, N'David L. Stevenson')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1802, N'David Langford')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1803, N'David Lasky')
@@ -1917,7 +1917,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1897, N'Dean Haspiel'
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1898, N'Dean Koontz')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1899, N'Dean R. Koontz')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1900, N'Dean Wesley Smith')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1901, N'Deane B. Judd')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1902, N'Deann Allen')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1903, N'Deanne Stillman')
@@ -2018,7 +2018,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1997, N'Diana Palmer'
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1998, N'Diana Pavlac Glyer')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (1999, N'Diana Peterfreund')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2000, N'Diana Schutz')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2001, N'Diana Vreeland')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2002, N'Diana Wynne Jones')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2003, N'Diane Kennedy')
@@ -2119,7 +2119,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2097, N'Donald Tyson'
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2098, N'Donald Weise')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2099, N'Donald Zochert')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2100, N'Donaldo Macedo')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2101, N'Donna Dale Carnegie')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2102, N'Donna Diamond')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2103, N'Donna Freed')
@@ -2220,7 +2220,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2197, N'E.B. White')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2198, N'E.D.A. Morshead')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2199, N'E.E. Cummings')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2200, N'E.F. Bleiler')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2201, N'E.F. Watling')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2202, N'E.F.J. Payne')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2203, N'E.H. Knatchbull-Hugessen')
@@ -2321,7 +2321,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2297, N'Edward Shento
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2298, N'Edward Slingerland')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2299, N'Edward St. Aubyn')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2300, N'Edward Steers Jr.')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2301, N'Edward T. Haslam')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2302, N'Edward T. Welch')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2303, N'Edward W. Said')
@@ -2422,7 +2422,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2397, N'Elizabeth L. 
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2398, N'Elizabeth Lowell')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2399, N'Elizabeth M. Butler')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2400, N'Elizabeth Mann')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2401, N'Elizabeth Mayne')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2402, N'Elizabeth McCracken')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2403, N'Elizabeth Moon')
@@ -2523,7 +2523,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2497, N'Eric Bentley'
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2498, N'Eric Bischoff')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2499, N'Eric Bronson')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2500, N'Eric Brown')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2501, N'Eric Carle')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2502, N'Eric Chaisson')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2503, N'Eric Flint')
@@ -2624,7 +2624,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2597, N'Evelyn Cisner
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2598, N'Evelyn Mayerson')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2599, N'Evelyn Rogers')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2600, N'Evelyn Vaughn')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2601, N'Evelyn Waugh')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2602, N'Everyman''s Library')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2603, N'Evon Zerbetz')
@@ -2725,7 +2725,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2697, N'Frank E. Pere
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2698, N'Frank Furedi')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2699, N'Frank Gannon')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2700, N'Frank Herbert')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2701, N'Frank J. Moore')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2702, N'Frank Jonker')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2703, N'Frank Justus Miller')
@@ -2826,7 +2826,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2797, N'Gabriel Brown
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2798, N'Gabriel García Márquez')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2799, N'Gabriel Josipovici')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2800, N'Gabriel Marruzzo')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2801, N'Gabriel Rodríguez')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2802, N'Gabrielle Ann Euvino')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2803, N'Gabrielle de Cuir')
@@ -2927,7 +2927,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2897, N'Geoffrey Wall
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2898, N'Geoffrey Warnock')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2899, N'Georg Bühler')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2900, N'Georg Feuerstein')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2901, N'Georg Wilhelm Friedrich Hegel')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2902, N'George Young')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2903, N'George Adamson')
@@ -3028,7 +3028,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2997, N'Gilbert Murra
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2998, N'Gilbert Sale')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (2999, N'Gilbert Shelton')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3000, N'Giles Andreae')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3001, N'Giles Foden')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3002, N'Gill Harvey')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3003, N'Gill Tomblin')
@@ -3129,7 +3129,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3097, N'Greg Iles')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3098, N'Greg Keyes')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3099, N'Greg Lawrence')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3100, N'Greg Martin')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3101, N'Greg Ruggiero')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3102, N'Greg Simpson')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3103, N'Greg Tang')
@@ -3230,7 +3230,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3197, N'Harold C. Liv
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3198, N'Harold Clurman')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3199, N'Harold Courlander')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3200, N'Harold Coyle')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3201, N'Harold F. Brooks')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3202, N'Harold G. Moore')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3203, N'Harold Jenkins')
@@ -3331,7 +3331,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3297, N'Henry Jenkins
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3298, N'Henry Kuttner')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3299, N'Henry Louis Gates Jr.')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3300, N'Henry M. Sayre')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3301, N'Henry Miller')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3302, N'Henry Mintzberg')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3303, N'Henry N. Beard')
@@ -3432,7 +3432,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3397, N'Hugh Miller')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3398, N'Hugh Thomson')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3399, N'Hugh Bicheno')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3400, N'Hugh Bredin')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3401, N'Hugh Dickson')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3402, N'Hugh Fraser')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3403, N'Hugh Grant')
@@ -3533,7 +3533,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3497, N'Irving John')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3498, N'Irving Penn')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3499, N'Irving Stone')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3500, N'Irving Townsend')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3501, N'Isaac Asimov')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3502, N'Isaac Bashevis Singer')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3503, N'Isaac Kramnick')
@@ -3634,7 +3634,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3597, N'Jack Finney')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3598, N'Jack Frost')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3599, N'Jack Gilbert')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3600, N'Jack Higgins')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3601, N'Jack Hirschman')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3602, N'Jack Kerley')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3603, N'Jack Kerouac')
@@ -3735,7 +3735,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3697, N'James E. Ingr
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3698, N'James E. Irby')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3699, N'James Ellroy')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3700, N'James F. Calvert')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3701, N'James Farrer')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3702, N'James Fenimore Cooper')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3703, N'James Francis Cameron')
@@ -3836,7 +3836,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3797, N'Jamie Hewlett
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3798, N'Jamie Jensen')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3799, N'Jamie Lawrence')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3800, N'Jamie Lee Curtis')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3801, N'Jamie Oliver')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3802, N'Jamie Smith')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3803, N'Jamie Suzanne')
@@ -3937,7 +3937,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3897, N'Jay McInerney
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3898, N'Jay O. Sanders')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3899, N'Jay Parini')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3900, N'Jay Rubin')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3901, N'Jay Snyder')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3902, N'Jay Stephens')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3903, N'Jay Ungar')
@@ -4038,7 +4038,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3997, N'Jennifer Hend
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3998, N'Jennifer Michael Hecht')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (3999, N'Jennifer Morrish Tunberg')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4000, N'Jennifer O''Connell')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4001, N'Jennifer Quasha')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4002, N'Jennifer Roberson')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4003, N'Jennifer Tolbert Roberts')
@@ -4139,7 +4139,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4097, N'Jim C. Hines'
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4098, N'Jim Carroll')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4099, N'Jim Collins')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4100, N'Jim DeFelice')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4101, N'Jim Dutcher')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4102, N'Jim Fergus')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4103, N'Jim Fern')
@@ -4240,7 +4240,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4197, N'Joel Raphaels
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4198, N'Joel Salatin')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4199, N'Joel Smith')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4200, N'Joel Spolsky')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4201, N'Joel-Peter Witkin')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4202, N'Joely Richardson')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4203, N'Joey Hawthorne')
@@ -4341,7 +4341,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4297, N'John E. Upled
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4298, N'John E. Woods')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4299, N'John Earle Raven')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4300, N'John Edgar Wideman')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4301, N'John Ehle')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4302, N'John Eidinow')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4303, N'John Einarson')
@@ -4442,7 +4442,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4397, N'John N. Gray'
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4398, N'John Nadeau')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4399, N'John Nathan')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4400, N'John Newhouse')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4401, N'John Niemeyer Findlay')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4402, N'John Nyberg')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4403, N'John O''Donohue')
@@ -4543,7 +4543,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4497, N'Jonathan Alde
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4498, N'Jonathan Ames')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4499, N'Jonathan Barnes')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4500, N'Jonathan Carroll')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4501, N'Jonathan Cecil')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4502, N'Jonathan Clements')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4503, N'Jonathan Cott')
@@ -4644,7 +4644,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4597, N'Jostein Gaard
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4598, N'Joy Castro')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4599, N'Joy Harjo')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4600, N'Joy King')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4601, N'Joy Kogawa')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4602, N'Joy Marchand')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4603, N'Joyce Carol Oates')
@@ -4745,7 +4745,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4697, N'Julius Butwin
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4698, N'Jun''ichiro Tanizaki')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4699, N'June Casagrande')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4700, N'June Kim')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4701, N'June Shiver')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4702, N'June Whitfield')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4703, N'Jung Chang')
@@ -4846,7 +4846,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4797, N'Kate Summersc
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4798, N'Kate Walker')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4799, N'Kate Wheeler')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4800, N'Kate William')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4801, N'Katharine Holabird')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4802, N'Katharine McMahon')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4803, N'Katharine Washburn')
@@ -4947,7 +4947,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4897, N'Ken Steacy')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4898, N'Kenneth Branagh')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4899, N'Kenneth Burke')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4900, N'Kenneth C. Laudon')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4901, N'Kenneth Grahame')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4902, N'Kenneth H. Blanchard')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4903, N'Kenneth James Dover')
@@ -5048,7 +5048,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4997, N'Kristin Lund'
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4998, N'Kristin Schwengel')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (4999, N'Kristine Kathryn Rusch')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5000, N'Kristine Sandoe')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5001, N'Kuki Gallmann')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5002, N'Kurban Said')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5003, N'Kurt Busiek')
@@ -5149,7 +5149,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5097, N'Laurell K. Ha
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5098, N'Lauren Levin')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5099, N'Lauren Bacall')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5100, N'Lauren Blitzer')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5101, N'Lauren Haney')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5102, N'Lauren Henderson')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5103, N'Lauren Na')
@@ -5250,7 +5250,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5197, N'Leonard Musta
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5198, N'Leonard Peikoff')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5199, N'Leonard Richardson')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5200, N'Leonard S. Marcus')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5201, N'Leonard Schapiro')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5202, N'Leonard Stanton')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5203, N'Leonard Sweet')
@@ -5351,7 +5351,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5297, N'Lisa Lowe')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5298, N'Lisa Mason')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5299, N'Lisa McCourt')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5300, N'Lisa Pentreath')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5301, N'Lisa Romerein')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5302, N'Lisa S. French')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5303, N'Lisa See')
@@ -5452,7 +5452,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5397, N'Lovern Kindzi
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5398, N'Lowell Bair')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5399, N'Luann Walther')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5400, N'Luanne Rice')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5401, N'Luc Sante')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5402, N'Lucas Carlson')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5403, N'Luci Berkowitz')
@@ -5553,7 +5553,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5497, N'Malcolm Gladw
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5498, N'Malcolm Godwin')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5499, N'Malcolm Heath')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5500, N'Malcolm Jones III')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5501, N'Malcolm Lowry')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5502, N'Malcolm Margolin')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5503, N'Malcolm Schofield')
@@ -5654,7 +5654,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5597, N'Margot Paroni
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5598, N'Margot Patterson Doss')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5599, N'Margot Theis Raven')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5600, N'Marguerite Duras')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5601, N'Marguerite Henry')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5602, N'Marguerite Krause')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5603, N'Marguerite Van Cook')
@@ -5755,7 +5755,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5697, N'Mark Fainaru-
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5698, N'Mark Haddon')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5699, N'Mark Harlan')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5700, N'Mark Helprin')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5701, N'Mark Hertsgaard')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5702, N'Mark Honan')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5703, N'Mark Hoppus')
@@ -5856,7 +5856,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5797, N'Martin Luther
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5798, N'Martin Millar')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5799, N'Martin Ostwald')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5800, N'Martin Puchner')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5801, N'Martin S. Fridson')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5802, N'Martin Shaw')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5803, N'Martin Woodside')
@@ -5957,7 +5957,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5897, N'Matteo Mandar
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5898, N'Matthew Ward')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5899, N'Matthew Norman')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5900, N'Matthew Barber')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5901, N'Matthew Bortolin')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5902, N'Matthew Cheney')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5903, N'Matthew Clark')
@@ -6058,7 +6058,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5997, N'Meredith Ann 
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5998, N'Meredith Daneman')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (5999, N'Meredith Fletcher')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6000, N'Meredith Johnson')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6001, N'Merlin Donald')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6002, N'Merlin Holland')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6003, N'Merline Lovelace')
@@ -6159,7 +6159,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6097, N'Michael J. Br
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6098, N'Michael J. Broadway')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6099, N'Michael J. Davey')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6100, N'Michael J. DeLuca')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6101, N'Michael J. Gelb')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6102, N'Michael J. Karels')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6103, N'Michael J. Kiskis')
@@ -6260,7 +6260,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6197, N'Michel Foucau
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6198, N'Michel Lacombe')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6199, N'Michela Wrong')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6200, N'Michèle Barrett')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6201, N'Michele K. Spike')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6202, N'Michèle Roberts')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6203, N'Michele Wrightson')
@@ -6361,7 +6361,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6297, N'Molly E. Holz
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6298, N'Molly Hatchet')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6299, N'Molly Mason')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6300, N'Molly Mia Stewart')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6301, N'Molyn Leszcz')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6302, N'Mona Lisa Schulz')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6303, N'Mona Mulhair')
@@ -6462,7 +6462,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6397, N'Nathaniel Haw
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6398, N'Nathaniel Parker')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6399, N'Nathaniel Philbrick')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6400, N'National Commission on Terrorist Attacks Upon The United States')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6401, N'National Geographic Society')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6402, N'Natsuo Kirino')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6403, N'Nayantara Sahgal')
@@ -6563,7 +6563,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6497, N'Nina Bawden')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6498, N'Nina Baym')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6499, N'Nina Helms')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6500, N'Nina Kiriki Hoffman')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6501, N'Nina Malkin')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6502, N'Nir Hefez')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6503, N'Nisa Donnelly')
@@ -6664,7 +6664,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6597, N'Pádraic Pear
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6598, N'Page McBrier')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6599, N'Page Stegner')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6600, N'Paige Kimble')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6601, N'Paige Williams')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6602, N'Pam Farrel')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6603, N'Pam Johnson-Bennett')
@@ -6765,7 +6765,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6697, N'Paul A. Monge
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6698, N'Paul A. Sabatier')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6699, N'Paul Alexander')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6700, N'Paul Anthony Cartledge')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6701, N'Paul Auster')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6702, N'Paul B. Thompson')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6703, N'Paul Bachem')
@@ -6866,7 +6866,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6797, N'Penny Armstro
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6798, N'Penny Carter')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6799, N'Penny Gay')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6800, N'Penny Jordan')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6801, N'Penny Williams')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6802, N'Pericles Lewis')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6803, N'Pete Hautman')
@@ -6967,7 +6967,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6897, N'Peter Occhiog
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6898, N'Peter Olafson')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6899, N'Peter Petre')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6900, N'Peter Putnam')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6901, N'Peter R.L. Brown')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6902, N'Peter Reed')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6903, N'Peter Reinhart')
@@ -7068,7 +7068,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6997, N'Pierdomenico 
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6998, N'Pierre Boulle')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (6999, N'Pierre Furlan')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7000, N'Pierre Guglielmina')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7001, N'Pierre Hadot')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7002, N'Pierre Le Motteux')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7003, N'Pierre-Louis Rey')
@@ -7169,7 +7169,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7097, N'Rags Morales'
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7098, N'Raina Telgemeier')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7099, N'Rainer Funk')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7100, N'Rainer Maria Rilke')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7101, N'Rajiv Chandrasekaran')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7102, N'Ralph C. Wood')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7103, N'Ralph D. Sawyer')
@@ -7270,7 +7270,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7197, N'Rene Reid Yar
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7198, N'René Weis')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7199, N'Renee Baron')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7200, N'Renée Graef')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7201, N'Renée Mauborgne')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7202, N'Renee Randman')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7203, N'Retha M. Warnicke')
@@ -7371,7 +7371,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7297, N'Richard J. Fo
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7298, N'Richard Johnsonbaugh')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7299, N'Richard K. Morgan')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7300, N'Richard Kennedy')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7301, N'Richard Kern')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7302, N'Richard Klein')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7303, N'Richard L. Tierney')
@@ -7472,7 +7472,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7397, N'Rob Pepper')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7398, N'Rob Thomas')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7399, N'Rob Vaux')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7400, N'Rob White')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7401, N'Rob Williams')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7402, N'Robb Forman Dew')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7403, N'Robbie Stamp')
@@ -7573,7 +7573,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7497, N'Robert Hillye
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7498, N'Robert Hurley')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7499, N'Robert Hutchinson')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7500, N'Robert Irwin')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7501, N'Robert J. Ackerman')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7502, N'Robert J. Allison')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7503, N'Robert J. Milch')
@@ -7674,7 +7674,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7597, N'Roberts Liard
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7598, N'Robertson Davies')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7599, N'Robin Davis')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7600, N'Robin Buss')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7601, N'Robin Chapman Stacey')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7602, N'Robin Cook')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7603, N'Robin D.G. Kelley')
@@ -7775,7 +7775,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7697, N'Ronald Speirs
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7698, N'Ronald Takaki')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7699, N'Ronda Pattison')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7700, N'Ronda Thompson')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7701, N'Ronlyn Domingue')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7702, N'Ros Ballaster')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7703, N'Ros Schwartz')
@@ -7876,7 +7876,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7797, N'Ruth Ward')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7798, N'Ruth Westheimer')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7799, N'Ruud van der Rol')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7800, N'Ryan Benjamin')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7801, N'Ryan Sook')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7802, N'Ryan Stegman')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7803, N'Ryder Windham')
@@ -7977,7 +7977,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7897, N'Sarah Adams')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7898, N'Sarah Kay')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7899, N'Sarah Andrews')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7900, N'Sarah A. Hoyt')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7901, N'Sarah Ban Breathnach')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7902, N'Sarah Dening')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7903, N'Sarah Dessen')
@@ -8078,7 +8078,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7997, N'Seymour L. Gr
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7998, N'Shana Abe')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (7999, N'Shandra Marie')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8000, N'Shane Claiborne')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8001, N'Shane W. Evans')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8002, N'Shanna Swendson')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8003, N'Shannon Drake')
@@ -8179,7 +8179,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8097, N'Simon Goldhil
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8098, N'Simon Perchik')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8099, N'Simon Schama')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8100, N'Simon Singh')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8101, N'Simon Vance')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8102, N'Simon Wells')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8103, N'Simon Winchester')
@@ -8280,7 +8280,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8197, N'Stephen Dunn'
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8198, N'Stephen E. Ambrose')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8199, N'Stephen E. Lewis')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8200, N'Stephen Elliott')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8201, N'Stephen Eric Bronner')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8202, N'Stephen Everson')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8203, N'Stephen Fry')
@@ -8381,7 +8381,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8297, N'Steve Yeowell
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8298, N'Steven Baur')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8299, N'Steven Brust')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8300, N'Steven C. Hayes')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8301, N'Steven C. Rockefeller')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8302, N'Steven D. Levitt')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8303, N'Steven F. Hayward')
@@ -8482,7 +8482,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8397, N'Susan Sizemor
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8398, N'Susan Snyder')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8399, N'Susan Sontag')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8400, N'Susan Squires')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8401, N'Susan Swan')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8402, N'Susan Van Kirk')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8403, N'Susanna B. Hecht')
@@ -8583,7 +8583,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8497, N'Terence Kilma
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8498, N'Terence McKenna')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8499, N'Terence O. Tunberg')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8500, N'Terence Tunberg')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8501, N'Terentio Tunberg')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8502, N'Teresa Edgerton')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8503, N'Teresa Medeiros')
@@ -8684,7 +8684,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8597, N'Thomas Hardy'
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8598, N'Thomas Harlan')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8599, N'Thomas Hobbes')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8600, N'Thomas Hornbein')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8601, N'Thomas J. Harper')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8602, N'Thomas J. Stanley')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8603, N'Thomas J. Steele')
@@ -8785,7 +8785,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8697, N'Tom Fowler')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8698, N'Tom Gralish')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8699, N'Tom Griffith')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8700, N'Tom Hart')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8701, N'Tom Hiney')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8702, N'Tom Hodges')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8703, N'Tom Hodgkinson')
@@ -8886,7 +8886,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8797, N'Upasika Kee N
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8798, N'Upton Sinclair')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8799, N'Ursula Bentley')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8800, N'Ursula Ferrigno')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8801, N'Ursula Gräfe')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8802, N'Ursula Hegi')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8803, N'Ursula K. Le Guin')
@@ -8987,7 +8987,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8897, N'Vox Day')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8898, N'Vsevolod Garshin')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8899, N'W. Chan Kim')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8900, N'W. Frederick Zimmerman')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8901, N'W. Haden Blackman')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8902, N'W. Heath Robinson')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8903, N'W. Jason Gilmore')
@@ -9088,7 +9088,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8997, N'Wendy Shea')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8998, N'Wendy Wasserstein')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (8999, N'Wendy Watson')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (9000, N'Werner S. Pluhar')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (9001, N'Wes Nicholson')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (9002, N'Wesley Dennis')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (9003, N'Wesley Martin')
@@ -9189,7 +9189,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (9097, N'William O. St
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (9098, N'William O''Connor')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (9099, N'William O''Daly')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (9100, N'William Olivier Desmond')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (9101, N'William Peterson')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (9102, N'William Poundstone')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (9103, N'William R. Forstchen')
@@ -9290,7 +9290,7 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (9197, N'Zoltan Ab di-
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (9198, N'Zora Neale Hurston')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (9199, N'Zoran Jevtic')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (9200, N'??????a? ????a??d??')
---GO
+GO
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (9201, N'??a ???ts?p?????')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (9202, N'????? ?a?a???t?p?????')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (9203, N'???????? ????????')
@@ -9326,4 +9326,3 @@ INSERT [dbo].[author] ([author_id], [author_name]) VALUES (9232, N'?????')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (9233, N'????')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (9234, N'???')
 INSERT [dbo].[author] ([author_id], [author_name]) VALUES (9235, N'???')
-*/

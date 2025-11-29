@@ -1,4 +1,4 @@
-﻿/*GO
+﻿GO
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (1, N'57', N'Glacier Hill Avenue', N'Torbat-e Jam', 95)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (2, N'86', N'Dottie Junction', N'Beaumont', 37)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (3, N'292', N'Ramsey Avenue', N'Cayambe', 60)
@@ -99,7 +99,7 @@ INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [c
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (98, N'42', N'Westport Junction', N'Nowogard', 163)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (99, N'53851', N'Meadow Valley Drive', N'Zvezdara', 186)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (100, N'7', N'Goodland Terrace', N'Cunliji', 42)
---GO
+GO
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (101, N'63', N'Cambridge Junction', N'Jaraguá do Sul', 30)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (102, N'62', N'Comanche Alley', N'Weixin', 42)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (103, N'0', N'Artisan Way', N'Lysice', 55)
@@ -200,7 +200,7 @@ INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [c
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (198, N'428', N'Scofield Crossing', N'Vigia', 30)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (199, N'3', N'Larry Way', N'Skopin', 172)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (200, N'9312', N'Melrose Trail', N'Metz', 70)
---GO
+GO
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (201, N'98', N'Kennedy Hill', N'Tsaghkahovit', 10)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (202, N'9879', N'Debs Hill', N'Pampas', 158)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (203, N'1', N'Sheridan Drive', N'Ditang', 42)
@@ -301,7 +301,7 @@ INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [c
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (298, N'69', N'Banding Circle', N'Sumberbatas', 92)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (299, N'6070', N'Monica Hill', N'Oguma', 149)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (300, N'467', N'Lillian Hill', N'Saint Paul', 217)
---GO
+GO
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (301, N'6776', N'Comanche Place', N'A Yun Pa', 221)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (302, N'8173', N'Anhalt Crossing', N'Kaputian', 159)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (303, N'22', N'Haas Center', N'Xinsheng', 42)
@@ -402,7 +402,7 @@ INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [c
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (398, N'38', N'Erie Point', N'Batelov', 55)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (399, N'1', N'Blue Bill Park Park', N'Boevange-sur-Attert', 123)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (400, N'43', N'Dryden Trail', N'Shali', 172)
---GO
+GO
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (401, N'4', N'Blackbird Point', N'Västerås', 194)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (402, N'1664', N'Summit Street', N'Zhengdonglu', 42)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (403, N'9123', N'Katie Street', N'Besisahar', 147)
@@ -503,7 +503,7 @@ INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [c
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (498, N'35906', N'7th Alley', N'Heping', 42)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (499, N'1117', N'Maple Hill', N'Huangyang', 42)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (500, N'4192', N'Birchwood Park', N'Kranggan', 92)
---GO
+GO
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (501, N'81309', N'Marcy Street', N'Vetluzhskiy', 172)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (502, N'11', N'Summerview Park', N'Molde', 151)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (503, N'70870', N'Milwaukee Place', N'Szczecin', 163)
@@ -604,7 +604,7 @@ INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [c
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (598, N'11925', N'Messerschmidt Way', N'Villa Nueva', 84)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (599, N'7306', N'Goodland Avenue', N'Liangshan', 42)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (600, N'88146', N'Warrior Hill', N'Tharyarwady', 142)
---GO
+GO
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (601, N'5', N'Kipling Road', N'Palpalá', 9)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (602, N'5', N'Forest Run Terrace', N'Pengchang', 42)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (603, N'74930', N'Dixon Hill', N'Lille', 70)
@@ -705,7 +705,7 @@ INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [c
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (698, N'3867', N'Parkside Avenue', N'Trancas', 9)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (699, N'8', N'Sunnyside Court', N'Jagiella', 163)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (700, N'433', N'Mesta Circle', N'Oslo', 151)
---GO
+GO
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (701, N'3', N'American Pass', N'Lantian', 42)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (702, N'89457', N'Toban Road', N'Weitian', 42)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (703, N'287', N'Summit Alley', N'Chengkou', 42)
@@ -806,7 +806,7 @@ INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [c
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (798, N'582', N'Vermont Road', N'Blimbing', 92)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (799, N'565', N'Lakewood Circle', N'Kawaguchi', 105)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (800, N'4661', N'Coleman Street', N'Shuyuan', 42)
---GO
+GO
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (801, N'29761', N'Larry Plaza', N'Bayanbulag', 132)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (802, N'98', N'Arapahoe Road', N'Mairinque', 30)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (803, N'5', N'Loftsgordon Circle', N'Sabon Gari-Nangere', 149)
@@ -907,7 +907,7 @@ INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [c
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (898, N'160', N'Lakeland Crossing', N'Langchuan', 42)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (899, N'1', N'Homewood Pass', N'Th? Tr?n Yên Phú', 221)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (900, N'9', N'American Alley', N'Zbýšov', 55)
---GO
+GO
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (901, N'2849', N'Tomscot Avenue', N'Banquero', 159)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (902, N'1275', N'American Ash Way', N'Bojawa', 92)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (903, N'97', N'Gulseth Parkway', N'Quintã', 164)
@@ -1008,4 +1008,3 @@ INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [c
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (998, N'429', N'Autumn Leaf Parkway', N'Changxingbao', 42)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (999, N'2', N'Moose Crossing', N'Pasararba', 92)
 INSERT [dbo].[address] ([address_id], [street_number], [street_name], [city], [country_id]) VALUES (1000, N'503', N'Canary Crossing', N'Jiangfeng', 42)
-*/
