@@ -20,6 +20,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OLAP", "OLAP", "{DF7AF9C4-27ED-4923-B567-E65416B36FD1}"
 EndProject
 Project("{6870E480-7721-4708-BFB8-9AE898AA21B3}") = "BookStoreOLAP", "BookStoreROLAP\BookStoreOLAP.smproj", "{8CE414BB-95B2-4C99-9E03-51BA72086E22}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5F60EF91-4820-44CB-B8ED-FDAD1771D8D9} = {5F60EF91-4820-44CB-B8ED-FDAD1771D8D9}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

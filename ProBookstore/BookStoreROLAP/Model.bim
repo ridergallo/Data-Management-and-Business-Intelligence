@@ -18,17 +18,19 @@
     ],
     "tables": [
       {
-        "name": "DimAddress",
+        "name": "Address",
         "columns": [
           {
             "name": "address_sk",
             "dataType": "int64",
+            "isHidden": true,
             "sourceColumn": "address_sk",
             "sourceProviderType": "Integer"
           },
           {
             "name": "address_id",
             "dataType": "int64",
+            "isHidden": true,
             "sourceColumn": "address_id",
             "sourceProviderType": "Integer"
           },
@@ -84,17 +86,19 @@
         ]
       },
       {
-        "name": "DimBook",
+        "name": "Book",
         "columns": [
           {
             "name": "book_sk",
             "dataType": "int64",
+            "isHidden": true,
             "sourceColumn": "book_sk",
             "sourceProviderType": "Integer"
           },
           {
             "name": "book_id",
             "dataType": "int64",
+            "isHidden": true,
             "sourceColumn": "book_id",
             "sourceProviderType": "Integer"
           },
@@ -174,11 +178,12 @@
         ]
       },
       {
-        "name": "DimCustomer",
+        "name": "Customer",
         "columns": [
           {
             "name": "customer_sk",
             "dataType": "int64",
+            "isHidden": true,
             "sourceColumn": "customer_sk",
             "sourceProviderType": "Integer"
           },
@@ -209,12 +214,14 @@
           {
             "name": "street_number",
             "dataType": "string",
+            "isHidden": true,
             "sourceColumn": "street_number",
             "sourceProviderType": "Char"
           },
           {
             "name": "street_name",
             "dataType": "string",
+            "isHidden": true,
             "sourceColumn": "street_name",
             "sourceProviderType": "Char"
           },
@@ -233,6 +240,7 @@
           {
             "name": "address_status",
             "dataType": "string",
+            "isHidden": true,
             "sourceColumn": "address_status",
             "sourceProviderType": "Char"
           }
@@ -264,23 +272,26 @@
         ]
       },
       {
-        "name": "DimDate",
+        "name": "Date",
         "columns": [
           {
             "name": "DateKey",
             "dataType": "int64",
+            "isHidden": true,
             "sourceColumn": "DateKey",
             "sourceProviderType": "Integer"
           },
           {
             "name": "FullDate",
             "dataType": "string",
+            "isHidden": true,
             "sourceColumn": "FullDate",
             "sourceProviderType": "WChar"
           },
           {
             "name": "DayNumberOfWeek",
             "dataType": "int64",
+            "isHidden": true,
             "sourceColumn": "DayNumberOfWeek",
             "sourceProviderType": "UnsignedTinyInt"
           },
@@ -299,12 +310,14 @@
           {
             "name": "DayNumberOfYear",
             "dataType": "int64",
+            "isHidden": true,
             "sourceColumn": "DayNumberOfYear",
             "sourceProviderType": "SmallInt"
           },
           {
             "name": "WeekNumberOfYear",
             "dataType": "int64",
+            "isHidden": true,
             "sourceColumn": "WeekNumberOfYear",
             "sourceProviderType": "UnsignedTinyInt"
           },
@@ -323,6 +336,7 @@
           {
             "name": "CalendarQuarter",
             "dataType": "int64",
+            "isHidden": true,
             "sourceColumn": "CalendarQuarter",
             "sourceProviderType": "UnsignedTinyInt"
           },
@@ -366,17 +380,19 @@
         ]
       },
       {
-        "name": "DimShippingMethod",
+        "name": "Shipping Method",
         "columns": [
           {
             "name": "method_sk",
             "dataType": "int64",
+            "isHidden": true,
             "sourceColumn": "method_sk",
             "sourceProviderType": "Integer"
           },
           {
             "name": "method_id",
             "dataType": "int64",
+            "isHidden": true,
             "sourceColumn": "method_id",
             "sourceProviderType": "Integer"
           },
@@ -420,7 +436,7 @@
         ]
       },
       {
-        "name": "FactCustOrder",
+        "name": "Custumer Order",
         "columns": [
           {
             "name": "line_id",
@@ -482,6 +498,20 @@
             }
           }
         ],
+        "measures": [
+          {
+            "name": "TotalPrice",
+            "expression": " SUM('Custumer Order'[price])"
+          },
+          {
+            "name": "TotalBook",
+            "expression": "DISTINCTCOUNT(Book[book_id])"
+          },
+          {
+            "name": "TotalCustomer",
+            "expression": "DISTINCTCOUNT(Customer[customer_id])"
+          }
+        ],
         "annotations": [
           {
             "name": "_TM_ExtProp_QueryDefinition",
@@ -501,37 +531,37 @@
     "relationships": [
       {
         "name": "c28a5f85-f898-48d3-b413-cfbd07c466eb",
-        "fromTable": "FactCustOrder",
+        "fromTable": "Custumer Order",
         "fromColumn": "address_sk",
-        "toTable": "DimAddress",
+        "toTable": "Address",
         "toColumn": "address_sk"
       },
       {
         "name": "95c51c8f-ed5f-4b1f-82de-2fc26d83e003",
-        "fromTable": "FactCustOrder",
+        "fromTable": "Custumer Order",
         "fromColumn": "book_sk",
-        "toTable": "DimBook",
+        "toTable": "Book",
         "toColumn": "book_sk"
       },
       {
         "name": "1a3803d9-5ba0-4d96-a1e4-3e2e1c66a308",
-        "fromTable": "FactCustOrder",
+        "fromTable": "Custumer Order",
         "fromColumn": "customer_sk",
-        "toTable": "DimCustomer",
+        "toTable": "Customer",
         "toColumn": "customer_sk"
       },
       {
         "name": "c3d42057-cef9-4d02-84c8-7b07d110c0b9",
-        "fromTable": "FactCustOrder",
+        "fromTable": "Custumer Order",
         "fromColumn": "order_date_sk",
-        "toTable": "DimDate",
+        "toTable": "Date",
         "toColumn": "DateKey"
       },
       {
         "name": "d70b3a47-8251-4727-9d65-abcb30ea25b3",
-        "fromTable": "FactCustOrder",
+        "fromTable": "Custumer Order",
         "fromColumn": "shipping_method_sk",
-        "toTable": "DimShippingMethod",
+        "toTable": "Shipping Method",
         "toColumn": "method_sk"
       }
     ],

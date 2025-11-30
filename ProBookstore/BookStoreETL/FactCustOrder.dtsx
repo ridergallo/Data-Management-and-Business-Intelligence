@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="FactCustOrder"
   DTS:PackageType="5"
-  DTS:VersionBuild="96"
-  DTS:VersionGUID="{1A1AD84B-40EA-4648-AF4A-215E67D0802F}">
+  DTS:VersionBuild="100"
+  DTS:VersionGUID="{38AF7438-3A73-433F-8C96-E5A21FBF0344}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables>
